@@ -1,24 +1,24 @@
 - username: admin
   hashed_password: $2y$05$OxCB2xaWqDi.Lae/zfRsK.hKBIbV.p3N4/BQuAC/PmI8UoPN0YCxO
   api_key: "admin_api_key"
-  workspaces: []
-# - username: kalyan
-#   hashed_password: $2y$05$lidTepfiK94fpJNbAiB6M.DmB.1S/n6mTMcwegTBHhxcSl3u2u9V6
-#   api_key: "kalyan_api_key"
-#   workspaces: ["GST", "GST_dev"]
-# - username: stefan
-#   hashed_password: $2y$05$tpaPkqc7jijVH84POEH5p.wSkcTw0bDQATBrn3e.gSyFdM09IidxK
-#   api_key: "stefan_api_key"
-#   workspaces: ["GST", "GST_dev"]
-# - username: henry
-#   hashed_password: $2y$05$FqH/CAZKbTbX/pBLDqcVAeX8Rojsi7L.D7PcvMTldhkJb02Gn5jd2
-#   api_key: "henry_api_key"
-#   workspaces: ["GST", "GST_dev"]
-# - username: sarah
-#   hashed_password: $2y$05$ogv9KwnBMBzrWxiiBA8w4.omasGC9QYhAkZJNPFpByPI.NtWnxBPK
-#   api_key: "sarah_api_key"
-#   workspaces: ["GST"]
-# - username: marcus
-#   hashed_password: $2y$05$qJx7NuOq3qX3ZyChlYSZr.0kS.g.sUrThuOnGNEyF72z4B5taICFi
-#   api_key: "marcus_api_key"
-#   workspaces: ["GST"]
+  workspaces: [] # has access to all workspaces and datasets
+- username: kalyan
+  hashed_password: $2y$05$lidTepfiK94fpJNbAiB6M.DmB.1S/n6mTMcwegTBHhxcSl3u2u9V6
+  api_key: "kalyan_api_key"
+  workspaces: ["gst", "gst_dev"]
+- username: stefan
+  hashed_password: $2y$05$tpaPkqc7jijVH84POEH5p.wSkcTw0bDQATBrn3e.gSyFdM09IidxK
+  api_key: "stefan_api_key"
+  workspaces: ["gst", "gst_dev"]
+- username: henry
+  hashed_password: $2y$05$FqH/CAZKbTbX/pBLDqcVAeX8Rojsi7L.D7PcvMTldhkJb02Gn5jd2
+  api_key: "henry_api_key"
+  workspaces: ["gst", "gst_dev"]
+- username: sarah
+  hashed_password: $2y$05$ogv9KwnBMBzrWxiiBA8w4.omasGC9QYhAkZJNPFpByPI.NtWnxBPK
+  api_key: "sarah_api_key"
+  workspaces: ["gst"]
+- username: marcus
+  hashed_password: $2y$05$qJx7NuOq3qX3ZyChlYSZr.0kS.g.sUrThuOnGNEyF72z4B5taICFi
+  api_key: "marcus_api_key"
+  workspaces: ["gst"]
