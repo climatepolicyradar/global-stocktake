@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "gst-scraper"
+version = "0.1.0"
+description = "Scraper tooling for Global Stocktake files"
+authors = ["Henry Franks <henry@climatepolicyradar.net>"]
+license = "AGPL-3.0"
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Scrapy = "^2.8.0"
+numpy = "^1.24.2"
+pdfminer = "^20191125"
+python-dotenv = "^0.21.1"
+python-logging-loki = "^0.3.1"
+pre-commit = "^3.0.4"
+scrapy-user-agents = "^0.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 100
+target-version = ['py36', 'py37', 'py38']
+experimental_string_processing = true
+
+[tool.isort]
+profile = 'black'
+multi_line_output = 3
+
