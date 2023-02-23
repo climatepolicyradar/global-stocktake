@@ -8,9 +8,9 @@ install:
 	mkdir -p scraped/jsons
 run:
 	poetry run python src/main.py scrape_tables
-    poetry run python src/main.py parse_tables
-    poetry run python src/main.py scrape_pdfs
-    poetry run python src/main.py scrape_document_pages
-    poetry run python src/main.py parse_document_pages
-    poetry run python src/main.py create-csv
-    poetry run python src/main.py analysis-report
+	poetry run python src/main.py parse_tables
+	poetry run python src/main.py scrape_pdfs
+	poetry run python src/main.py scrape_document_pages
+	poetry run python src/main.py parse_document_pages
+	poetry run python src/main.py create-csv
+	poetry run python src/main.py analysis-report
