@@ -22,3 +22,7 @@
   hashed_password: $2y$05$qJx7NuOq3qX3ZyChlYSZr.0kS.g.sUrThuOnGNEyF72z4B5taICFi
   api_key: "marcus_api_key"
   workspaces: ["gst"]
+- username: michal
+  hashed_password: $2y$05$DeL0yJY50yCKcwQUq8gtueixcRTxUHxYPHd8avQbVCuBNSdXYGDdi
+  api_key: "michal_api_key"
+  workspaces: ["gst"]
