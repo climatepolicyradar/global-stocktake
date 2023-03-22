@@ -1,8 +1,7 @@
 """CLI to generate JSON inputs for the PDF parser based on the scraper output."""
 
 from pathlib import Path
-from typing import Optional
-from typing import Union
+from typing import Optional, Union, Generator
 
 import requests as requests
 from cloudpathlib import S3Path
@@ -24,19 +23,22 @@ class ParserInput(BaseModel):
 
 
 class PdfFileGenerator:
+    """
+    Yields objects of the ParserInput type for pdf documents in a s3/directory.
+
+    :param input_dir: directory of input PDF files
+    :param output_dir: directory of output JSON files (results)
+    """
+
     def __init__(self, input_dir: Union[Path, S3Path], output_dir: Union[Path, S3Path]):
-        """
-        Yields objects of the ParserInput type for pdf documents in a s3/directory.
-        :param input_dir: directory of input PDF files
-        :param output_dir: directory of output JSON files (results)
-        """
         self.input_dir = input_dir
         self.output_dir = output_dir
         self.files = self.input_dir.glob("*.pdf")
 
-    def get_pdfs(self) -> tuple[ParserInput, Union[Path, S3Path]]:
-        """Yield the ParserInput objects for each pdf in the input directory as well as the path to save the json
-        object to."""
+    def get_pdfs(
+        self,
+    ) -> Generator[tuple[ParserInput, Union[Path, S3Path]], None, None]:
+        """Yield the ParserInput objects for each pdf in the input directory as well as the path to save the json object to."""
         counter = 0
         for file in self.files:
             counter += 1
@@ -46,7 +48,7 @@ class PdfFileGenerator:
                 document_name=file.stem,
                 document_description="Document relating to the global stock take.",
                 document_source_url=None,
-                document_cdn_object=str(file.key),
+                document_cdn_object=str(file.key if isinstance(file, S3Path) else None),
                 document_content_type="application/pdf",
                 document_md5_sum=None,
                 document_slug=f"{file.stem}_slug",
