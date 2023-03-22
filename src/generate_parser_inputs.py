@@ -1,0 +1,93 @@
+"""CLI to generate JSON inputs for the PDF parser based on the scraper output."""
+
+from pathlib import Path
+from typing import Optional, Generator
+
+import requests as requests
+from cloudpathlib import S3Path
+from pydantic import BaseModel, AnyHttpUrl
+import pandas as pd
+from tqdm.auto import tqdm
+import click
+
+
+class ParserInput(BaseModel):
+    """Base class for input to a parser."""
+
+    document_id: str
+    document_metadata: dict
+    document_name: str
+    document_description: str
+    document_source_url: Optional[AnyHttpUrl]
+    document_cdn_object: Optional[str]
+    document_content_type: Optional[str]
+    document_md5_sum: Optional[str]
+    document_slug: str
+
+
+def scraper_csv_to_parser_inputs(
+    input_path: Path,
+) -> Generator[ParserInput, None, None]:
+    """Iterate through the GST scraper output CSV and yield ParserInput objects to be consumed by the PDF parser."""
+
+    scraper_output = pd.read_csv(input_path)
+    scraper_output["pdf_filename"] = scraper_output["pdf_link"].apply(
+        lambda i: i.split("/")[-1].replace("%", "")
+    )
+
+    for idx, row in tqdm(scraper_output.iterrows(), total=len(scraper_output)):
+        yield ParserInput(
+            document_id=f"CCLW.GST.{idx}.{idx}",
+            document_metadata={},
+            document_name=Path(row["pdf_filename"]).stem,
+            document_description="Document relating to the global stock take.",
+            document_source_url=row["pdf_link"],
+            document_cdn_object=f"global-stock-take/2023/{row['pdf_filename']}",
+            document_content_type="application/pdf",
+            document_md5_sum=row["md5sum"],
+            document_slug=f"{Path(row['pdf_filename']).stem}_slug",
+        )
+
+
+@click.command()
+@click.argument("scraper_csv_path", type=click.Path(exists=True, dir_okay=False))
+@click.option("--pdfs-dir", type=str)
+@click.option("--output-path", type=str)
+def main(scraper_csv_path: Path, pdfs_dir: str, output_path: str):
+    CDN_URL = "http://cdn.dev.climatepolicyradar.org"
+    missing_pdfs = []
+
+    if pdfs_dir.startswith("s3://"):
+        pdfs_dir_as_path = S3Path(pdfs_dir)
+    else:
+        pdfs_dir_as_path = Path(pdfs_dir)
+
+    if output_path.startswith("s3://"):
+        output_path_as_path = S3Path(output_path)
+    else:
+        output_path_as_path = Path(output_path)
+
+    for parser_input in scraper_csv_to_parser_inputs(scraper_csv_path):
+        parser_output_path = output_path_as_path / f"{parser_input.document_id}.json"
+
+        if not parser_output_path.exists():
+            parser_output_path.write_text(
+                parser_input.json(indent=4, ensure_ascii=False)
+            )
+
+            # Check that the PDF can be retrieved from the CDN
+            if isinstance(pdfs_dir_as_path, S3Path):
+                pdfs_dir = pdfs_dir.rstrip("/")
+                if (
+                    requests.get(
+                        f"{CDN_URL}/{parser_input.document_cdn_object}"
+                    ).status_code
+                    != 200
+                ):
+                    missing_pdfs.append(parser_input.document_cdn_object)
+
+    (output_path_as_path / "missing_pdfs.txt").write_text("\n".join(missing_pdfs))
+
+
+if __name__ == "__main__":
+    main()
