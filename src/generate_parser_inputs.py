@@ -32,17 +32,17 @@ def scraper_csv_to_parser_inputs(
 
     scraper_output = pd.read_csv(input_path)
     scraper_output["pdf_filename"] = scraper_output["pdf_link"].apply(
-        lambda i: i.split("/")[-1]
+        lambda i: i.split("/")[-1].replace("%", "")
     )
 
     for idx, row in tqdm(scraper_output.iterrows(), total=len(scraper_output)):
         yield ParserInput(
-            document_id=f"GST.{idx}",
+            document_id=f"CCLW.GST.{idx}.{idx}",
             document_metadata={},
             document_name=Path(row["pdf_filename"]).stem,
             document_description="Document relating to the global stock take.",
             document_source_url=row["pdf_link"],
-            document_cdn_object=f"{row['pdf_filename']}",
+            document_cdn_object=f"global-stock-take/2023/{row['pdf_filename']}",
             document_content_type="application/pdf",
             document_md5_sum=row["md5sum"],
             document_slug=f"{Path(row['pdf_filename']).stem}_slug",
@@ -54,6 +54,9 @@ def scraper_csv_to_parser_inputs(
 @click.option("--pdfs-dir", type=str)
 @click.option("--output-path", type=str)
 def main(scraper_csv_path: Path, pdfs_dir: str, output_path: str):
+    CDN_URL = "http://cdn.dev.climatepolicyradar.org"
+    missing_pdfs = []
+
     if pdfs_dir.startswith("s3://"):
         pdfs_dir_as_path = S3Path(pdfs_dir)
     else:
@@ -65,16 +68,25 @@ def main(scraper_csv_path: Path, pdfs_dir: str, output_path: str):
         output_path_as_path = Path(output_path)
 
     for parser_input in scraper_csv_to_parser_inputs(scraper_csv_path):
-        if not (output_path_as_path / f"{parser_input.document_id}.json").exists():
-            (output_path_as_path / f"{parser_input.document_id}.json").write_text(
+        parser_output_path = output_path_as_path / f"{parser_input.document_id}.json"
+
+        if not parser_output_path.exists():
+            parser_output_path.write_text(
                 parser_input.json(indent=4, ensure_ascii=False)
             )
 
             # Check that the PDF can be retrieved from the CDN
             if isinstance(pdfs_dir_as_path, S3Path):
-                _ = requests.get(
-                    f"{pdfs_dir_as_path}/{parser_input.document_cdn_object}"
-                )
+                pdfs_dir = pdfs_dir.rstrip("/")
+                if (
+                    requests.get(
+                        f"{CDN_URL}/{parser_input.document_cdn_object}"
+                    ).status_code
+                    != 200
+                ):
+                    missing_pdfs.append(parser_input.document_cdn_object)
+
+    (output_path_as_path / "missing_pdfs.txt").write_text("\n".join(missing_pdfs))
 
 
 if __name__ == "__main__":
