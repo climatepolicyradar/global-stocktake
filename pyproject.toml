@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "experiment_template"
+name = "global_stocktake"
 version = "0.1.0"
 description = ""
 authors = ["CPR-tech-team <tech@climatepolicyradar.org>"]
