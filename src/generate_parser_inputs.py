@@ -42,7 +42,7 @@ def scraper_csv_to_parser_inputs(
             document_name=Path(row["pdf_filename"]).stem,
             document_description="Document relating to the global stock take.",
             document_source_url=row["pdf_link"],
-            document_cdn_object=f"global-stock-take/2023/{row['pdf_filename']}",
+            document_cdn_object=f"2023/{row['pdf_filename']}",
             document_content_type="application/pdf",
             document_md5_sum=row["md5sum"],
             document_slug=f"{Path(row['pdf_filename']).stem}_slug",
