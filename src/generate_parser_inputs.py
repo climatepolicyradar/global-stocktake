@@ -54,7 +54,7 @@ def scraper_csv_to_parser_inputs(
 @click.option("--pdfs-dir", type=str)
 @click.option("--output-path", type=str)
 def main(scraper_csv_path: Path, pdfs_dir: str, output_path: str):
-    CDN_URL = "http://cdn.dev.climatepolicyradar.org"
+    CDN_URL = "http://cdn.dev.climatepolicyradar.org/global-stock-take"
     missing_pdfs = []
 
     if pdfs_dir.startswith("s3://"):
