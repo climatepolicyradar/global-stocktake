@@ -54,7 +54,7 @@ def scraper_csv_to_parser_inputs(
 @click.option("--pdfs-dir", type=str)
 @click.option("--output-path", type=str)
 def main(scraper_csv_path: Path, pdfs_dir: str, output_path: str):
-    CDN_URL = "http://cdn.dev.climatepolicyradar.org"
+    CDN_URL = "http://cdn.dev.climatepolicyradar.org/global-stock-take"
     missing_pdfs = []
 
     if pdfs_dir.startswith("s3://"):
@@ -68,23 +68,23 @@ def main(scraper_csv_path: Path, pdfs_dir: str, output_path: str):
         output_path_as_path = Path(output_path)
 
     for parser_input in scraper_csv_to_parser_inputs(scraper_csv_path):
+        # If the PDF can't be retrieved from the CDN, skip creating the parser input
+        if (
+            isinstance(pdfs_dir_as_path, S3Path)
+            and requests.get(
+                f"{CDN_URL}/{parser_input.document_cdn_object}"
+            ).status_code
+            != 200
+        ):
+            missing_pdfs.append(parser_input.document_cdn_object)
+            continue
+
         parser_output_path = output_path_as_path / f"{parser_input.document_id}.json"
 
         if not parser_output_path.exists():
             parser_output_path.write_text(
                 parser_input.json(indent=4, ensure_ascii=False)
             )
-
-            # Check that the PDF can be retrieved from the CDN
-            if isinstance(pdfs_dir_as_path, S3Path):
-                pdfs_dir = pdfs_dir.rstrip("/")
-                if (
-                    requests.get(
-                        f"{CDN_URL}/{parser_input.document_cdn_object}"
-                    ).status_code
-                    != 200
-                ):
-                    missing_pdfs.append(parser_input.document_cdn_object)
 
     (output_path_as_path / "missing_pdfs.txt").write_text("\n".join(missing_pdfs))
 
