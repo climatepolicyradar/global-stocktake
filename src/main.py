@@ -44,7 +44,7 @@ async def search(request: SearchRequest):
 
     if request.span_types:
         query_body["query"]["bool"].update(
-            {"filter": [{"terms": {"span_types.keyword": request.span_types}}]}  # type: ignore
+            {"filter": [{"terms": {"span_types": request.span_types}}]}  # type: ignore
         )
 
     return opns.search(index=request.index, body=query_body)

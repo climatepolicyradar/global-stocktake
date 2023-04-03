@@ -11,6 +11,7 @@ import click
 from dotenv import load_dotenv, find_dotenv
 
 from src.opensearch.client import get_opensearch_client
+from src.opensearch.index_settings import index_settings
 from src.data.add_metadata import base_document_to_gst_document
 from src.data.scraper import load_scraper_csv
 
@@ -132,6 +133,10 @@ def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
 
     """Load dataset and index into OpenSearch."""
     opns = get_opensearch_client()
+
+    LOGGER.info(f"Deleting and recreating index {index}")
+    opns.indices.delete(index=index, ignore=[400, 404])
+    opns.indices.create(index=index, body=index_settings)
 
     dataset = get_dataset_with_spans(
         parser_outputs_dir, scraper_csv_path, concepts_dir, limit
