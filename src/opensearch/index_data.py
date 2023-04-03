@@ -105,7 +105,7 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
             | block.dict(exclude={"text", "type"})
             | {
                 "type": block.type.value,
-                "text": block.to_string(),
+                "text": block.to_string().replace("\n", " ").replace("  ", " "),
                 "spans": [s.dict() for s in block._spans],
                 "span_types": list(set([s.type for s in block._spans])),
                 "span_ids": list(set([s.id for s in block._spans])),
