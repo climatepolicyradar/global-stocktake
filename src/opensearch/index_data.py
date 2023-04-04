@@ -104,10 +104,18 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
 
     opensearch_docs = []
 
-    for block in doc.text_blocks:
+    for idx, block in enumerate(doc.text_blocks):
         # For each block, add a generic "Concept – All" value to the span_types list for the UI filter
         block_concepts = list(
             set([s.type.split(" – ")[0] + " – All" for s in block._spans])
+        )
+
+        block_before_text = "" if idx == 0 else doc.text_blocks[idx - 1].to_string()
+
+        block_after_text = (
+            ""
+            if idx == len(doc.text_blocks) - 1
+            else doc.text_blocks[idx + 1].to_string()
         )
 
         opensearch_docs.append(
@@ -115,7 +123,9 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
             | block.dict(exclude={"text", "type"})
             | {
                 "type": block.type.value,
-                "text": block.to_string().replace("\n", " ").replace("  ", " "),
+                "text_before": block_before_text,
+                "text": block.to_string(),
+                "text_after": block_after_text,
                 "spans": [s.dict() for s in block._spans],
                 "span_types": list(set([s.type for s in block._spans]))
                 + block_concepts,
