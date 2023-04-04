@@ -75,7 +75,7 @@ def get_dataset_with_spans(
         concept_name = str(path).split("/")[-1]
 
         for span in concept_spans:
-            span.type = f"{concept_name.upper()}__{span.type}"
+            span.type = f"{concept_name.replace('-', ' ').title()} – {span.type.replace('_', ' ').title()}"
 
         spans.extend(concept_spans)
 
@@ -101,6 +101,11 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
     opensearch_docs = []
 
     for block in doc.text_blocks:
+        # For each block, add a generic "Concept – All" value to the span_types list for the UI filter
+        block_concepts = list(
+            set([s.type.split(" – ")[0] + " – All" for s in block._spans])
+        )
+
         opensearch_docs.append(
             doc.dict(exclude={"text_blocks", "page_metadata"})
             | block.dict(exclude={"text", "type"})
@@ -108,7 +113,8 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
                 "type": block.type.value,
                 "text": block.to_string().replace("\n", " ").replace("  ", " "),
                 "spans": [s.dict() for s in block._spans],
-                "span_types": list(set([s.type for s in block._spans])),
+                "span_types": list(set([s.type for s in block._spans]))
+                + block_concepts,
                 "span_ids": list(set([s.id for s in block._spans])),
             }
         )
