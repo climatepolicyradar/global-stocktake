@@ -1,4 +1,5 @@
 .PHONY: install test
+include .env
 
 install:
 	git init
@@ -14,6 +15,9 @@ build:
 
 up:
 	docker-compose up
+
+index_data:
+	poetry run python -m src.opensearch.index_data ${DOCS_DIR_GST} ${SCRAPER_CSV_PATH} ./concepts -i global-stocktake
 
 # needs explorer to be installed in the envirivonment this is run in
 fossil-fuels:
