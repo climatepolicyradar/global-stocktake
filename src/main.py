@@ -48,3 +48,9 @@ async def search(request: SearchRequest):
         )
 
     return opns.search(index=request.index, body=query_body)
+
+
+@app.get("/searchFilters")
+async def get_search_filters(index: str = "global-stocktake"):
+    """Get search filters."""
+    return opns.get(index=index + "-metadata", id="filters")["_source"]
