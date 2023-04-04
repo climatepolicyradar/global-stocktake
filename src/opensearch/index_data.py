@@ -30,20 +30,20 @@ def load_spans_csv(path: Path) -> list[Span]:
     return [Span.parse_obj(row) for row in df.to_dict(orient="records")]
 
 
-def get_dataset_with_spans(
+def get_dataset_and_filter_values(
     parser_outputs_dir: Path,
     scraper_csv_path: Path,
     concepts_dir: Path,
     limit: Optional[int] = None,
-) -> Dataset:
+) -> tuple[Dataset, dict[str, list[str]]]:
     """
-    Get a Dataset object containing spans loaded from the concepts directory.
+    Get a Dataset object containing spans loaded from the concepts directory, and a dictionary of values to power UI filters.
 
     :param Path parser_outputs_dir: path to directory containing parsed documents
     :param Path scraper_csv_path: path to scraper CSV file
     :param Path concepts_dir: path containing subdirectories for each concept, each containing a spans.csv file
     :param Optional[int] limit: limit number of documents loaded, defaults to None
-    :return Dataset: dataset object with added spans
+    :return tuple[Dataset, dict[str, list[str]]]: dataset object with added spans, dictionary of filter values
     """
     LOGGER.info("Loading scraper CSV")
     scraper_data = load_scraper_csv(scraper_csv_path)
@@ -57,6 +57,8 @@ def get_dataset_with_spans(
         for doc in tqdm(dataset.documents)
     ]
 
+    filter_values = dict()
+
     LOGGER.info("Adding spans")
     spans = []
 
@@ -69,15 +71,17 @@ def get_dataset_with_spans(
             continue
 
         concept_spans = load_spans_csv(path / "spans.csv")
-
-        # TODO: this is to account for the fact that span types have no knowledge of their overarching concept
-        # e.g. fossil fuels. Deal with this in a better way.
-        concept_name = str(path).split("/")[-1]
+        concept_name = str(path).split("/")[-1].replace("-", " ").title()
 
         for span in concept_spans:
-            span.type = f"{concept_name.replace('-', ' ').title()} – {span.type.replace('_', ' ').title()}"
+            span.type = f"{concept_name} – {span.type.replace('_', ' ').title()}"
 
         spans.extend(concept_spans)
+
+        # NOTE: the logic to add the "Concept – All" filter value is in the gst_document_to_opensearch_document function too.
+        filter_values[concept_name] = [f"{concept_name} – All"] + sorted(
+            list(set([span.type for span in concept_spans]))
+        )
 
     for span in spans:
         span.document_id = span.document_id.upper()
@@ -85,7 +89,7 @@ def get_dataset_with_spans(
     LOGGER.info("Adding spans to dataset")
     dataset.add_spans(spans, warn_on_error=False)
 
-    return dataset
+    return dataset, filter_values
 
 
 def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
@@ -144,7 +148,7 @@ def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
     opns.indices.delete(index=index, ignore=[400, 404])
     opns.indices.create(index=index, body=index_settings)
 
-    dataset = get_dataset_with_spans(
+    dataset, filter_values = get_dataset_and_filter_values(
         parser_outputs_dir, scraper_csv_path, concepts_dir, limit
     )
 
@@ -164,6 +168,9 @@ def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
         request_timeout=60,
     ):
         successes += ok
+
+    LOGGER.info(f"Indexing metadata to index {index+'-metadata'}")
+    opns.index(index=index + "-metadata", body=filter_values, id="filters")
 
 
 if __name__ == "__main__":
