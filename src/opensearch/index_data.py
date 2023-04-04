@@ -92,6 +92,22 @@ def get_dataset_and_filter_values(
     return dataset, filter_values
 
 
+def fix_text_block_string(block_str: str) -> str:
+    """
+    Perform some text cleanup on a text block string for the UI.
+
+    Eventually this should probably live in the data access library but modifying the TextBlock.to_string() method breaks hash checking with
+    already saved spans.
+    """
+
+    return (
+        block_str.replace("\n", " ")
+        .replace("\r", " ")
+        .replace("\t", " ")
+        .replace("  ", " ")
+    )
+
+
 def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
     """
     Convert a GSTDocument object to a list of documents to load into OpenSearch.
@@ -123,9 +139,9 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
             | block.dict(exclude={"text", "type"})
             | {
                 "type": block.type.value,
-                "text_before": block_before_text,
-                "text": block.to_string(),
-                "text_after": block_after_text,
+                "text_before": fix_text_block_string(block_before_text),
+                "text": fix_text_block_string(block.to_string()),
+                "text_after": fix_text_block_string(block_after_text),
                 "spans": [s.dict() for s in block._spans],
                 "span_types": list(set([s.type for s in block._spans]))
                 + block_concepts,
