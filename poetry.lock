@@ -622,8 +622,8 @@ tqdm = "^4.64.1"
 [package.source]
 type = "git"
 url = "https://github.com/climatepolicyradar/data-access.git"
-reference = "3d7164a26b2dfb1e9ec3d37f5cbd8dcc2226a5f7"
-resolved_reference = "3d7164a26b2dfb1e9ec3d37f5cbd8dcc2226a5f7"
+reference = "e93ba49598cba37c9b0c9ea1ce67fb99748a5e4b"
+resolved_reference = "e93ba49598cba37c9b0c9ea1ce67fb99748a5e4b"
 
 [[package]]
 name = "datasets"
@@ -3103,4 +3103,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "9311e89481e24e87c2f59f2a8195fc6572dfdf3662b3322c68ddf310dda3c4b3"
+content-hash = "cc3a69eaca1554633904d39dca9e0faca90e366d004680faa411e77938a30197"
