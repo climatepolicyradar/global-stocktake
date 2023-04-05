@@ -1,6 +1,6 @@
 from typing import Sequence
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Depends
 from pydantic import BaseModel
 from dotenv import load_dotenv, find_dotenv
 from src.opensearch.client import get_opensearch_client
@@ -8,7 +8,6 @@ from src.opensearch.client import get_opensearch_client
 app = FastAPI()
 
 load_dotenv(find_dotenv())
-opns = get_opensearch_client()
 
 
 @app.get("/health")
@@ -31,7 +30,7 @@ class SearchRequest(BaseModel):
 
 
 @app.post("/search")
-async def search(request: SearchRequest):
+async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     """Get search results."""
 
     query_body = {
@@ -51,6 +50,8 @@ async def search(request: SearchRequest):
 
 
 @app.get("/searchFilters")
-async def get_search_filters(index: str = "global-stocktake"):
+async def get_search_filters(
+    index: str = "global-stocktake", opns=Depends(get_opensearch_client)
+):
     """Get search filters."""
     return opns.get(index=index + "-metadata", id="filters")["_source"]
