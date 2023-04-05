@@ -121,6 +121,9 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
         return []
 
     opensearch_docs = []
+    doc_dict = doc.dict(
+        exclude={"text_blocks", "page_metadata", "_text_block_idx_hash_map"}
+    )
 
     for idx, block in enumerate(doc.text_blocks):
         # For each block, add a generic "Concept – All" value to the span_types list for the UI filter
@@ -137,10 +140,13 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
         )
 
         opensearch_docs.append(
-            doc.dict(
-                exclude={"text_blocks", "page_metadata", "_text_block_idx_hash_map"}
+            doc_dict
+            | block.dict(
+                exclude={
+                    "text",
+                    "type",
+                }
             )
-            | block.dict(exclude={"text", "type"})
             | {
                 "type": block.type.value,
                 "text_before": fix_text_block_string(block_before_text),
