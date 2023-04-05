@@ -25,4 +25,7 @@ technologies:
 greenhouse-gases:
 	explorer gst -i ./concepts/greenhouse-gases/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/greenhouse-gases
 
+cop28:
+	explorer gst -i "./concepts/5 COP28 GST asks/input.xlsx" -d ${DOCS_DIR_GST} -o ./concepts/greenhouse-gases
+
 concepts: fossil-fuels technologies greenhouse-gases
