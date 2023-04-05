@@ -20,7 +20,7 @@ def base_document_to_gst_document(
             f"No document exists in the scraper data with md5sum equal to the document's: {document.document_md5_sum}"
         )
 
-    doc_dict = document.dict(exclude={"document_metadata"})
+    doc_dict = document.dict(exclude={"document_metadata", "_text_block_idx_hash_map"})
     new_metadata_dict = scraper_data.loc[
         scraper_data["md5sum"] == document.document_md5_sum
     ].to_dict(orient="records")[0]

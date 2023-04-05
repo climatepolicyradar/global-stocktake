@@ -49,8 +49,10 @@ def get_dataset_and_filter_values(
     scraper_data = load_scraper_csv(scraper_csv_path)
 
     LOGGER.info("Loading dataset of parsed documents")
-    dataset = Dataset(BaseDocument).load_from_local(
-        str(parser_outputs_dir), limit=limit
+    dataset = (
+        Dataset(BaseDocument)
+        .load_from_local(str(parser_outputs_dir), limit=limit)
+        .filter_by_language("en")
     )
     dataset.documents = [
         base_document_to_gst_document(doc, scraper_data)
@@ -135,7 +137,9 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
         )
 
         opensearch_docs.append(
-            doc.dict(exclude={"text_blocks", "page_metadata"})
+            doc.dict(
+                exclude={"text_blocks", "page_metadata", "_text_block_idx_hash_map"}
+            )
             | block.dict(exclude={"text", "type"})
             | {
                 "type": block.type.value,
@@ -181,7 +185,7 @@ def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
 
     LOGGER.info("Converting documents to OpenSearch documents")
     opns_docs = []
-    for doc in dataset.documents:
+    for doc in tqdm(dataset.documents):
         opns_docs.extend(gst_document_to_opensearch_document(doc))  # type: ignore
 
     LOGGER.info("Indexing documents")
