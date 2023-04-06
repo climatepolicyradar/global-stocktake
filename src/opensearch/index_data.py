@@ -152,7 +152,7 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
                 "text_before": fix_text_block_string(block_before_text),
                 "text": fix_text_block_string(block.to_string()),
                 "text_after": fix_text_block_string(block_after_text),
-                "text_html": block.display(),
+                "text_html": block.display().replace("</br>", " "),
                 "spans": [s.dict() for s in block._spans],
                 "span_types": list(set([s.type for s in block._spans]))
                 + block_concepts,
