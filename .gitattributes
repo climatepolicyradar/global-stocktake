@@ -1,3 +1,5 @@
 concepts/fossil-fuels/output.xlsx filter=lfs diff=lfs merge=lfs -text
 concepts/greenhouse-gases/output.xlsx filter=lfs diff=lfs merge=lfs -text
 concepts/technologies/output.xlsx filter=lfs diff=lfs merge=lfs -text
+
+/concepts export-ignore
