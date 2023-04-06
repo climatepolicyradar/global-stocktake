@@ -622,8 +622,8 @@ tqdm = "^4.64.1"
 [package.source]
 type = "git"
 url = "https://github.com/climatepolicyradar/data-access.git"
-reference = "34d38ac7264ce6651bd8990277e3c3da3450e3d1"
-resolved_reference = "34d38ac7264ce6651bd8990277e3c3da3450e3d1"
+reference = "15b53f834dd47de1f92503fddbdf6ea55853c8c6"
+resolved_reference = "15b53f834dd47de1f92503fddbdf6ea55853c8c6"
 
 [[package]]
 name = "datasets"
@@ -1622,6 +1622,23 @@ files = [
 ]
 
 [[package]]
+name = "openmock"
+version = "2.2.0"
+description = "Python OpenSearch Mock for test purposes"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "openmock-2.2.0-py3-none-any.whl", hash = "sha256:52fb97216c013e50a736362c3c75b09c084f0834a23c6e37100d5f4243f871df"},
+    {file = "openmock-2.2.0.tar.gz", hash = "sha256:517ee436fa89b5f09706228df69422f322a5a57039a6c69bdc10ad15f59da123"},
+]
+
+[package.dependencies]
+opensearch-py = "*"
+python-dateutil = "*"
+python-ranges = "0.2.1"
+
+[[package]]
 name = "openpyxl"
 version = "3.1.1"
 description = "A Python library to read/write Excel 2010 xlsx/xlsm files"
@@ -1635,6 +1652,31 @@ files = [
 
 [package.dependencies]
 et-xmlfile = "*"
+
+[[package]]
+name = "opensearch-py"
+version = "2.2.0"
+description = "Python client for OpenSearch"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4"
+files = [
+    {file = "opensearch-py-2.2.0.tar.gz", hash = "sha256:109fe8d2e1e8f419a22358eb901025f51e6ad2f50014c8962e23796b2a23cb67"},
+    {file = "opensearch_py-2.2.0-py2.py3-none-any.whl", hash = "sha256:595dcebe42e21cdf945add0b5dbaecccace1a8a5ba65d60314813767b564263c"},
+]
+
+[package.dependencies]
+certifi = ">=2022.12.07"
+python-dateutil = "*"
+requests = ">=2.4.0,<3.0.0"
+six = "*"
+urllib3 = ">=1.21.1,<2"
+
+[package.extras]
+async = ["aiohttp (>=3,<4)"]
+develop = ["black", "botocore", "coverage (<7.0.0)", "jinja2", "mock", "myst-parser", "pytest (>=3.0.0)", "pytest-cov", "pytest-mock (<4.0.0)", "pytz", "pyyaml", "requests (>=2.0.0,<3.0.0)", "sphinx", "sphinx-copybutton", "sphinx-rtd-theme"]
+docs = ["myst-parser", "sphinx", "sphinx-copybutton", "sphinx-rtd-theme"]
+kerberos = ["requests-kerberos"]
 
 [[package]]
 name = "packaging"
@@ -2115,6 +2157,18 @@ files = [
 
 [package.extras]
 cli = ["click (>=5.0)"]
+
+[[package]]
+name = "python-ranges"
+version = "0.2.1"
+description = "Continuous Range, RangeSet, and RangeDict data structures"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "python-ranges-0.2.1.tar.gz", hash = "sha256:8e59e1d845bbf0c1970d649fc135436986df4b4623f54d9b7c2a01621ea00633"},
+    {file = "python_ranges-0.2.1-py3-none-any.whl", hash = "sha256:4f31cf905dbfd144c76494535f64ea7fd6544c752befe393dfdca03034a34852"},
+]
 
 [[package]]
 name = "pytz"
@@ -3078,4 +3132,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "cabea1766ee4e5170da18615ee7dd6697b103f0e318c68a902b1eda936c5d57e"
+content-hash = "cd36f69c8c74c16e48cbdacf4c070b3d83328af240e6ceaa4302f8dca7e8561c"
