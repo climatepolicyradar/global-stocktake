@@ -36,7 +36,9 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     query_body = {
         "query": {
             "bool": {
-                "must": [{"match": {"text_html": request.text}}],
+                "must": [
+                    {"match": {"text_html": {"query": request.text, "operator": "and"}}}
+                ],
             }
         },
         "highlight": {
