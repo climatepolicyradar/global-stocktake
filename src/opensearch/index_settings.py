@@ -1,4 +1,5 @@
 SEARCHABLE_FIELDS = {"text"}
+HTML_FIELDS = {"text_html"}
 KEYWORD_FIELDS = {
     "id",
     "type",
@@ -28,7 +29,12 @@ index_settings = {
                 "folding": {
                     "tokenizer": "standard",
                     "filter": ["lowercase", "ascii_folding_preserve_original"],
-                }
+                },
+                "ignore_html_tags": {
+                    "tokenizer": "standard",
+                    "filter": ["lowercase"],
+                    "char_filter": ["html_strip"],
+                },
             },
             # This normalizer does the same as the folding analyser, but is used for keyword fields.
             "normalizer": {
@@ -48,6 +54,10 @@ index_settings = {
         | {
             field: {"type": "keyword", "normalizer": "folding"}
             for field in KEYWORD_FIELDS
+        }
+        | {
+            field: {"type": "text", "analyzer": "ignore_html_tags"}
+            for field in HTML_FIELDS
         },
     },
 }

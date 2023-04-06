@@ -36,9 +36,20 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     query_body = {
         "query": {
             "bool": {
-                "must": [{"match": {"text": request.text}}],
+                "must": [{"match": {"text_html": request.text}}],
             }
-        }
+        },
+        "highlight": {
+            "number_of_fragments": 0,
+            "fields": {
+                "text_html": {
+                    "pre_tags": [
+                        '<mark class="entity" style="background: #fbec5d; padding: 0.45em 0.6em; margin: 0 0.25em; line-height: 1; border-radius: 0.35em;">'
+                    ],
+                    "post_tags": ["</mark>"],
+                },
+            },
+        },
     }
 
     if request.span_types:
