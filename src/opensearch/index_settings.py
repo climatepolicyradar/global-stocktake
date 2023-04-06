@@ -21,7 +21,8 @@ index_settings = {
                 "ascii_folding_preserve_original": {
                     "type": "asciifolding",
                     "preserve_original": True,
-                }
+                },
+                "filter_stemmer": {"type": "stemmer", "language": "english"},
             },
             # This analyser folds non-ASCII characters into ASCII equivalents, but preserves the original.
             # E.g. a search for "é" will return results for "e" and "é".
@@ -32,7 +33,11 @@ index_settings = {
                 },
                 "ignore_html_tags": {
                     "tokenizer": "standard",
-                    "filter": ["lowercase"],
+                    "filter": [
+                        "lowercase",
+                        "ascii_folding_preserve_original",
+                        "filter_stemmer",
+                    ],
                     "char_filter": ["html_strip"],
                 },
             },
