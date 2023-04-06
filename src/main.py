@@ -26,7 +26,8 @@ class SearchRequest(BaseModel):
     text: str
     span_types: Sequence[str] = []
     index: str = "global-stocktake"
-    limit: int = 100
+    limit: int = 10
+    offset: int = 0
 
 
 @app.post("/search")
@@ -34,6 +35,8 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     """Get search results."""
 
     query_body = {
+        "from": request.offset,
+        "size": request.limit,
         "query": {
             "bool": {
                 "must": [
