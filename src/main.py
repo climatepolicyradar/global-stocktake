@@ -69,7 +69,14 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
             {"filter": [{"terms": {"span_types": request.span_types}}]}  # type: ignore
         )
 
-    return opns.search(index=request.index, body=query_body)
+    opns_result = opns.search(index=request.index, body=query_body)
+
+    if not request.text:
+        for item in opns_result["hits"]["hits"]:
+            item["highlight"] = {}
+            item["highlight"]["text_html"] = [item["_source"]["text_html"]]
+
+    return opns_result
 
 
 @app.get("/searchFilters")
