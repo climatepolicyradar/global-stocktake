@@ -16,6 +16,7 @@ KEYWORD_FIELDS = {
 
 index_settings = {
     "settings": {
+        "index": {"number_of_shards": 1},
         "analysis": {
             "filter": {
                 "ascii_folding_preserve_original": {
