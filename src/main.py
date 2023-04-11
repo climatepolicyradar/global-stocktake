@@ -1,4 +1,5 @@
 from typing import Sequence
+import itertools
 
 from fastapi import FastAPI, Depends
 from pydantic import BaseModel
@@ -65,9 +66,20 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
         query_body["query"]["bool"]["must"].append({"match_all": {}})
 
     if request.span_types:
-        query_body["query"]["bool"].update(
-            {"filter": [{"terms": {"span_types": request.span_types}}]}  # type: ignore
+        # Create an OR filter for types within the same concept, and an AND filter between concepts.
+        # E.g. (Fossil fuels - Coal OR Fossil fuels - Oil) AND (Energy - Electricity)
+        types_with_concepts = sorted(
+            [(type.split("–")[0].strip(), type) for type in request.span_types]
         )
+        query_body["query"]["bool"].update({"filter": []})
+
+        for _, types_with_concepts_group in itertools.groupby(
+            types_with_concepts, lambda x: x[0]
+        ):
+            types = [type[1] for type in types_with_concepts_group]
+            query_body["query"]["bool"]["filter"].append(
+                {"terms": {"span_types": types}}
+            )
 
     opns_result = opns.search(index=request.index, body=query_body)
 
