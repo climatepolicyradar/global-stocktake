@@ -157,6 +157,7 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
                 "span_types": list(set([s.type for s in block._spans]))
                 + block_concepts,
                 "span_ids": list(set([s.id for s in block._spans])),
+                "is_party": doc.document_metadata.party is not None,
             }
         )
 

@@ -9,8 +9,8 @@ def load_scraper_csv(scraper_csv_path: Path) -> pd.DataFrame:
     scraper_data = pd.read_csv(scraper_csv_path)
 
     # Convert columns for pydantic validation
-    scraper_data[["data_error_type", "date", "topics"]] = (
-        scraper_data[["data_error_type", "date", "topics"]]
+    scraper_data[["data_error_type", "date", "topics", "party"]] = (
+        scraper_data[["data_error_type", "date", "topics", "party"]]
         .fillna(np.nan)
         .replace([np.nan], [None])
     )
