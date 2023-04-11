@@ -1,4 +1,4 @@
-from typing import Sequence
+from typing import Sequence, Optional
 import itertools
 
 from fastapi import FastAPI, Depends
@@ -26,6 +26,7 @@ class SearchRequest(BaseModel):
 
     text: str
     span_types: Sequence[str] = []
+    is_party: Optional[bool] = None
     index: str = "global-stocktake"
     limit: int = 10
     offset: int = 0
@@ -65,13 +66,15 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     else:
         query_body["query"]["bool"]["must"].append({"match_all": {}})
 
+    if request.span_types or request.is_party is not None:
+        query_body["query"]["bool"].update({"filter": []})
+
     if request.span_types:
         # Create an OR filter for types within the same concept, and an AND filter between concepts.
         # E.g. (Fossil fuels - Coal OR Fossil fuels - Oil) AND (Energy - Electricity)
         types_with_concepts = sorted(
             [(type.split("–")[0].strip(), type) for type in request.span_types]
         )
-        query_body["query"]["bool"].update({"filter": []})
 
         for _, types_with_concepts_group in itertools.groupby(
             types_with_concepts, lambda x: x[0]
@@ -80,6 +83,11 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
             query_body["query"]["bool"]["filter"].append(
                 {"terms": {"span_types": types}}
             )
+
+    if request.is_party is not None:
+        query_body["query"]["bool"]["filter"].append(
+            {"term": {"is_party": request.is_party}}
+        )
 
     opns_result = opns.search(index=request.index, body=query_body)
 
