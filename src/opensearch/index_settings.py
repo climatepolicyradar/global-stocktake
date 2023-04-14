@@ -13,9 +13,11 @@ KEYWORD_FIELDS = {
     "document_metadata.translation",
     "document_metadata.data_error_type",
 }
+BOOLEAN_FIELDS = {"is_party"}
 
 index_settings = {
     "settings": {
+        "index": {"number_of_shards": 1},
         "analysis": {
             "filter": {
                 "ascii_folding_preserve_original": {
@@ -63,6 +65,7 @@ index_settings = {
         | {
             field: {"type": "text", "analyzer": "ignore_html_tags"}
             for field in HTML_FIELDS
-        },
+        }
+        | {field: {"type": "boolean"} for field in BOOLEAN_FIELDS},
     },
 }
