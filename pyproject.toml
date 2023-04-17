@@ -21,6 +21,7 @@ pycountry = "^22.3.5"
 wbgapi = "^1.0.12"
 wordcloud = "^1.8.2.2"
 altair = "^4.2.2"
+nltk = "^3.8.1"
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.0.247"
