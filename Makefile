@@ -23,7 +23,7 @@ index_data:
 archive:
 	git archive -v -o ebs_archive.zip --add-file=.env --format=zip HEAD
 
-# needs explorer to be installed in the envirivonment this is run in
+# needs explorer to be installed in the environment this is run in
 fossil-fuels:
 	explorer gst -i ./concepts/fossil-fuels/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/fossil-fuels
 
@@ -36,4 +36,25 @@ greenhouse-gases:
 cop28:
 	explorer gst -i ./concepts/5-COP28-GST-asks/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/5-COP28-GST-asks
 
-concepts: fossil-fuels technologies greenhouse-gases
+best-practice:
+	explorer gst -i ./concepts/best-practice/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/best-practice
+
+climate-related-hazards:
+	explorer gst -i ./concepts/climate-related-hazards/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/climate-related-hazards
+
+deforestation:
+	explorer gst -i ./concepts/deforestation/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/deforestation
+
+equity-and-justice:
+	explorer gst -i ./concepts/equity-and-justice/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/equity-and-justice
+
+financial-flows:
+	explorer gst -i ./concepts/financial-flows/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/financial-flows
+
+renewables:
+	explorer gst -i ./concepts/renewables/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/renewables
+
+vulnerable-groups:
+	explorer gst -i ./concepts/vulnerable-groups/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/vulnerable-groups
+
+concepts: fossil-fuels technologies greenhouse-gases best-practice climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28
