@@ -1,3 +1,5 @@
 concepts/greenhouse-gases-v2/spans.csv filter=lfs diff=lfs merge=lfs -text
 concepts/greenhouse-gases-v2/output.xlsx filter=lfs diff=lfs merge=lfs -text
 concepts/greenhouse-gases-v2/output_with_metadata.xlsx filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
