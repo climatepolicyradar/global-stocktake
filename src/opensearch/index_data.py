@@ -73,8 +73,11 @@ def get_dataset_and_filter_values(
         if path.is_file():
             continue
 
-        if not (path / "spans.csv").exists():
-            LOGGER.info(f"failed to find spans.csv in concepts subdirectory {path}")
+        spans_files = list(path.glob("spans*.csv"))
+        if len(spans_files) == 0:
+            LOGGER.info(
+                f"failed to find any spans.csv files in concepts subdirectory {path}"
+            )
             continue
 
         if filter_concepts and path.name not in config.CONCEPTS_TO_INDEX:
@@ -83,7 +86,10 @@ def get_dataset_and_filter_values(
             )
             continue
 
-        concept_spans = load_spans_csv(path / "spans.csv")
+        concept_spans = []
+        for spans_file in spans_files:
+            concept_spans.extend(load_spans_csv(spans_file))
+
         concept_name = str(path).split("/")[-1].replace("-", " ").title()
 
         for span in concept_spans:

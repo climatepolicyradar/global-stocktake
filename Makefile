@@ -57,4 +57,9 @@ renewables:
 vulnerable-groups:
 	explorer gst -i ./concepts/vulnerable-groups/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/vulnerable-groups
 
-concepts: fossil-fuels technologies greenhouse-gases best-practice climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28
+
+# split spans csvs into smaller chunks that can be pushed to git
+split_spans_csvs:
+	python src/data/split_spans_csvs.py
+
+concepts: fossil-fuels technologies greenhouse-gases best-practice climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28 split_spans_csvs
