@@ -159,14 +159,14 @@ files = [
 
 [[package]]
 name = "argilla"
-version = "1.3.0"
+version = "1.6.0"
 description = "Open-source tool for exploring, labeling, and monitoring data for NLP projects."
 category = "main"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "argilla-1.3.0-py3-none-any.whl", hash = "sha256:3c66d2d3a8bf6f9eb9620e745d96515fe2b2cb4fff377916219f4ebc6a7cbe94"},
-    {file = "argilla-1.3.0.tar.gz", hash = "sha256:19caf0dd37a538ea935bbc61b8402f51f25974ba6eede238ba65b25122a3b70c"},
+    {file = "argilla-1.6.0-py3-none-any.whl", hash = "sha256:096325b15d2525519277f70904ea9d526347b4dcafec5257d5cfed617b99cdbd"},
+    {file = "argilla-1.6.0.tar.gz", hash = "sha256:4b7f9b56516130ab9d63b3106a244a226506b3109fdaaac0d4829f46d2225fb6"},
 ]
 
 [package.dependencies]
@@ -178,12 +178,14 @@ numpy = "<1.24.0"
 packaging = ">=20.0"
 pandas = ">=1.0.0,<2.0.0"
 pydantic = ">=1.7.1"
+rich = "<=13.0.1"
 tqdm = ">=4.27.0"
 wrapt = ">=1.13,<1.15"
 
 [package.extras]
 listeners = ["prodict (>=0.8.0,<0.9.0)", "schedule (>=1.1.0,<1.2.0)"]
-server = ["Deprecated (>=1.2.0,<1.3.0)", "PyYAML (>=5.4.1,<6.1.0)", "aiofiles (>=0.6,<22.2)", "brotli-asgi (>=1.1,<1.3)", "elasticsearch (>=7.11.0,<8.6.0)", "fastapi (>=0.75,<0.89)", "luqum (>=0.11,<0.13)", "opensearch-py (>=1.0,<2.1)", "passlib[bcrypt] (>=1.7.4,<1.8.0)", "psutil (>=5.8,<5.10)", "python-jose[cryptography] (>=3.2,<3.4)", "python-multipart (>=0.0.5,<0.1.0)", "scikit-learn (>=0.24.2)", "segment-analytics-python (==2.2.0)", "smart-open", "uvicorn[standard] (>=0.15.0,<0.21.0)"]
+postgresql = ["psycopg2 (>=2.9.5,<2.10.0)"]
+server = ["PyYAML (>=5.4.1,<6.1.0)", "SQLAlchemy (>=2.0.0,<2.1.0)", "aiofiles (>=0.6,<22.2)", "alembic (>=1.9.0,<1.10.0)", "brotli-asgi (>=1.1,<1.3)", "elasticsearch (>=7.11.0,<8.6.0)", "fastapi (>=0.75,<0.89)", "luqum (>=0.11,<0.13)", "opensearch-py (>=1.0,<2.1)", "passlib[bcrypt] (>=1.7.4,<1.8.0)", "psutil (>=5.8,<5.10)", "python-jose[cryptography] (>=3.2,<3.4)", "python-multipart (>=0.0.5,<0.1.0)", "scikit-learn (>=0.24.2)", "segment-analytics-python (==2.2.0)", "smart-open", "uvicorn[standard] (>=0.15.0,<0.21.0)"]
 
 [[package]]
 name = "asttokens"
@@ -600,6 +602,21 @@ traitlets = ">=5.3"
 
 [package.extras]
 test = ["pytest"]
+
+[[package]]
+name = "commonmark"
+version = "0.9.1"
+description = "Python parser for the CommonMark Markdown spec"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "commonmark-0.9.1-py2.py3-none-any.whl", hash = "sha256:da2f38c92590f83de410ba1a3cbceafbc74fee9def35f9251ba9a971d6d66fd9"},
+    {file = "commonmark-0.9.1.tar.gz", hash = "sha256:452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60"},
+]
+
+[package.extras]
+test = ["flake8 (==3.7.8)", "hypothesis (==3.55.3)"]
 
 [[package]]
 name = "cpr-data-access"
@@ -2021,7 +2038,7 @@ email = ["email-validator (>=1.0.3)"]
 name = "pygments"
 version = "2.14.0"
 description = "Pygments is a syntax highlighting package written in Python."
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=3.6"
 files = [
@@ -2404,6 +2421,25 @@ idna = {version = "*", optional = true, markers = "extra == \"idna2008\""}
 
 [package.extras]
 idna2008 = ["idna"]
+
+[[package]]
+name = "rich"
+version = "13.0.1"
+description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
+category = "main"
+optional = false
+python-versions = ">=3.7.0"
+files = [
+    {file = "rich-13.0.1-py3-none-any.whl", hash = "sha256:41fe1d05f433b0f4724cda8345219213d2bfa472ef56b2f64f415b5b94d51b04"},
+    {file = "rich-13.0.1.tar.gz", hash = "sha256:25f83363f636995627a99f6e4abc52ed0970ebbd544960cc63cbb43aaac3d6f0"},
+]
+
+[package.dependencies]
+commonmark = ">=0.9.0,<0.10.0"
+pygments = ">=2.6.0,<3.0.0"
+
+[package.extras]
+jupyter = ["ipywidgets (>=7.5.1,<8.0.0)"]
 
 [[package]]
 name = "ruff"
