@@ -14,6 +14,7 @@ KEYWORD_FIELDS = {
     "document_metadata.data_error_type",
 }
 BOOLEAN_FIELDS = {"is_party"}
+DATE_FIELDS = {"document_metadata.date"}
 
 index_settings = {
     "settings": {
@@ -66,6 +67,7 @@ index_settings = {
             field: {"type": "text", "analyzer": "ignore_html_tags"}
             for field in HTML_FIELDS
         }
-        | {field: {"type": "boolean"} for field in BOOLEAN_FIELDS},
+        | {field: {"type": "boolean"} for field in BOOLEAN_FIELDS}
+        | {field: {"type": "date"} for field in DATE_FIELDS},
     },
 }

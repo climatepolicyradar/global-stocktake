@@ -60,8 +60,11 @@ def get_dataset_and_filter_values(
         base_document_to_gst_document(doc, scraper_data)
         for doc in tqdm(dataset.documents)
     ]
+    dataset_metadata_df = dataset.metadata_df
 
     filter_values = dict()
+    filter_values["date_min"] = dataset_metadata_df["date"].min().strftime("%Y-%m-%d")
+    filter_values["date_max"] = dataset_metadata_df["date"].max().strftime("%Y-%m-%d")
 
     # Whether to filter concepts to only those specified in the CONCEPTS_TO_INDEX environment variable.
     filter_concepts = len(config.CONCEPTS_TO_INDEX) > 0
