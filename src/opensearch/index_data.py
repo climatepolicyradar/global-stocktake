@@ -193,6 +193,9 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
                 + block_concepts,
                 "span_ids": list(set([s.id for s in block._spans])),
                 "is_party": doc.document_metadata.party is not None,
+                "date_string": doc.document_metadata.date.strftime("%Y-%m-%d")
+                if doc.document_metadata.date
+                else None,
             }
         )
 
