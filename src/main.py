@@ -34,6 +34,7 @@ class SearchRequest(BaseModel):
     date_from: Optional[datetime.date] = None
     date_to: Optional[datetime.date] = None
     authors: Optional[Sequence[str]] = None
+    types: Optional[Sequence[str]] = None
 
 
 @app.post("/search")
@@ -110,6 +111,11 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     if request.authors:
         query_body["query"]["bool"]["filter"].append(
             {"terms": {"document_metadata.author": request.authors}}
+        )
+
+    if request.types:
+        query_body["query"]["bool"]["filter"].append(
+            {"terms": {"document_metadata.type": request.types}}
         )
 
     opns_result = opns.search(index=request.index, body=query_body)

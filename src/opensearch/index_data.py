@@ -72,6 +72,12 @@ def get_dataset_and_filter_values(
     )
 
     filter_values["authors"] = sorted(dataset_metadata_df["author"].unique().tolist())
+    filter_values["themes"] = sorted(
+        dataset_metadata_df["themes"].explode().unique().tolist()
+    )
+    filter_values["types"] = sorted(
+        dataset_metadata_df["types"].explode().unique().tolist()
+    )
 
     filter_values["concepts"] = dict()
 
