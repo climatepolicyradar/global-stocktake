@@ -12,6 +12,7 @@ KEYWORD_FIELDS = {
     "document_metadata.topics",
     "document_metadata.translation",
     "document_metadata.data_error_type",
+    "document_metadata.author",
 }
 BOOLEAN_FIELDS = {"is_party"}
 DATE_FIELDS = {"document_metadata.date"}

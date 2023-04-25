@@ -63,8 +63,17 @@ def get_dataset_and_filter_values(
     dataset_metadata_df = dataset.metadata_df
 
     filter_values = dict()
-    filter_values["date_min"] = dataset_metadata_df["date"].min().strftime("%Y-%m-%d")
-    filter_values["date_max"] = dataset_metadata_df["date"].max().strftime("%Y-%m-%d")
+    filter_values["dates"] = dict()
+    filter_values["dates"]["date_min"] = (
+        dataset_metadata_df["date"].min().strftime("%Y-%m-%d")
+    )
+    filter_values["dates"]["date_max"] = (
+        dataset_metadata_df["date"].max().strftime("%Y-%m-%d")
+    )
+
+    filter_values["authors"] = sorted(dataset_metadata_df["author"].unique().tolist())
+
+    filter_values["concepts"] = dict()
 
     # Whether to filter concepts to only those specified in the CONCEPTS_TO_INDEX environment variable.
     filter_concepts = len(config.CONCEPTS_TO_INDEX) > 0
@@ -101,7 +110,7 @@ def get_dataset_and_filter_values(
         spans.extend(concept_spans)
 
         # NOTE: the logic to add the "Concept – All" filter value is in the gst_document_to_opensearch_document function too.
-        filter_values[concept_name] = [f"{concept_name} – All"] + sorted(
+        filter_values["concepts"][concept_name] = [f"{concept_name} – All"] + sorted(
             list(set([span.type for span in concept_spans]))
         )
 

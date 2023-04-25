@@ -33,6 +33,7 @@ class SearchRequest(BaseModel):
     offset: int = 0
     date_from: Optional[datetime.date] = None
     date_to: Optional[datetime.date] = None
+    authors: Optional[Sequence[str]] = None
 
 
 @app.post("/search")
@@ -69,13 +70,7 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     else:
         query_body["query"]["bool"]["must"].append({"match_all": {}})
 
-    if (
-        request.span_types
-        or request.is_party is not None
-        or request.date_from
-        or request.date_to
-    ):
-        query_body["query"]["bool"].update({"filter": []})
+    query_body["query"]["bool"].update({"filter": []})
 
     if request.span_types:
         # Create an OR filter for types within the same concept, and an AND filter between concepts.
@@ -111,6 +106,11 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
             query_body["query"]["bool"]["filter"][-1]["range"][
                 "document_metadata.date"
             ]["lte"] = request.date_to.strftime("%Y-%m-%d")
+
+    if request.authors:
+        query_body["query"]["bool"]["filter"].append(
+            {"terms": {"document_metadata.author": request.authors}}
+        )
 
     opns_result = opns.search(index=request.index, body=query_body)
 
