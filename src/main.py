@@ -115,7 +115,7 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
 
     if request.types:
         query_body["query"]["bool"]["filter"].append(
-            {"terms": {"document_metadata.type": request.types}}
+            {"terms": {"document_metadata.types": request.types}}
         )
 
     opns_result = opns.search(index=request.index, body=query_body)
