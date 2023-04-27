@@ -24,6 +24,12 @@ def base_document_to_gst_document(
     new_metadata_dict = scraper_data.loc[
         scraper_data["md5sum"] == document.document_md5_sum
     ].to_dict(orient="records")[0]
+    new_metadata_dict["types"] = [
+        s.strip() for s in new_metadata_dict.pop("type").split(",")
+    ]
+    new_metadata_dict["themes"] = [
+        s.strip() for s in new_metadata_dict.pop("theme").split(",")
+    ]
     new_metadata = GSTDocumentMetadata.parse_obj(new_metadata_dict)
 
     return GSTDocument(**doc_dict, document_metadata=new_metadata)

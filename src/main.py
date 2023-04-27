@@ -1,5 +1,6 @@
 from typing import Sequence, Optional
 import itertools
+import datetime
 
 from fastapi import FastAPI, Depends
 from pydantic import BaseModel
@@ -30,6 +31,10 @@ class SearchRequest(BaseModel):
     index: str = "global-stocktake"
     limit: int = 10
     offset: int = 0
+    date_from: Optional[datetime.date] = None
+    date_to: Optional[datetime.date] = None
+    authors: Optional[Sequence[str]] = None
+    types: Optional[Sequence[str]] = None
 
 
 @app.post("/search")
@@ -66,8 +71,7 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     else:
         query_body["query"]["bool"]["must"].append({"match_all": {}})
 
-    if request.span_types or request.is_party is not None:
-        query_body["query"]["bool"].update({"filter": []})
+    query_body["query"]["bool"].update({"filter": []})
 
     if request.span_types:
         # Create an OR filter for types within the same concept, and an AND filter between concepts.
@@ -87,6 +91,31 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     if request.is_party is not None:
         query_body["query"]["bool"]["filter"].append(
             {"term": {"is_party": request.is_party}}
+        )
+
+    if request.date_from or request.date_to:
+        query_body["query"]["bool"]["filter"].append(
+            {"range": {"document_metadata.date": {}}}
+        )
+
+        if request.date_from:
+            query_body["query"]["bool"]["filter"][-1]["range"][
+                "document_metadata.date"
+            ]["gte"] = request.date_from.strftime("%Y-%m-%d")
+
+        if request.date_to:
+            query_body["query"]["bool"]["filter"][-1]["range"][
+                "document_metadata.date"
+            ]["lte"] = request.date_to.strftime("%Y-%m-%d")
+
+    if request.authors:
+        query_body["query"]["bool"]["filter"].append(
+            {"terms": {"document_metadata.author": request.authors}}
+        )
+
+    if request.types:
+        query_body["query"]["bool"]["filter"].append(
+            {"terms": {"document_metadata.types": request.types}}
         )
 
     opns_result = opns.search(index=request.index, body=query_body)

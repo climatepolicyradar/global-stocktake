@@ -26,36 +26,46 @@ archive:
 # needs explorer to be installed in the environment this is run in
 fossil-fuels:
 	explorer gst -i ./concepts/fossil-fuels/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/fossil-fuels
+	explorer_merge GST -e ./concepts/fossil-fuels/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 technologies:
 	explorer gst -i ./concepts/technologies/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/technologies
+	explorer_merge GST -e ./concepts/technologies/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 greenhouse-gases:
 	explorer gst -i ./concepts/greenhouse-gases/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/greenhouse-gases
+	explorer_merge GST -e ./concepts/greenhouse-gases/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 cop28:
 	explorer gst -i ./concepts/5-COP28-GST-asks/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/5-COP28-GST-asks
 
 best-practice:
 	explorer gst -i ./concepts/best-practice/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/best-practice
+	explorer_merge GST -e ./concepts/best-practice/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 climate-related-hazards:
 	explorer gst -i ./concepts/climate-related-hazards/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/climate-related-hazards
+	explorer_merge GST -e ./concepts/climate-related-hazards/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 deforestation:
 	explorer gst -i ./concepts/deforestation/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/deforestation
+	explorer_merge GST -e ./concepts/deforestation/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 equity-and-justice:
 	explorer gst -i ./concepts/equity-and-justice/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/equity-and-justice
+	explorer_merge GST -e ./concepts/equity-and-justice/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 financial-flows:
 	explorer gst -i ./concepts/financial-flows/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/financial-flows
+	explorer_merge GST -e ./concepts/financial-flows/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 renewables:
 	explorer gst -i ./concepts/renewables/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/renewables
+	explorer_merge GST -e ./concepts/renewables/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 vulnerable-groups:
 	explorer gst -i ./concepts/vulnerable-groups/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/vulnerable-groups
+	explorer_merge GST -e ./concepts/vulnerable-groups/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 
 # split spans csvs into smaller chunks that can be pushed to git
