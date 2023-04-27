@@ -1,4 +1,6 @@
 ebs_archive.zip
+concepts/*/output.xlsx
+concepts/*/output_with_metadata.xlsx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

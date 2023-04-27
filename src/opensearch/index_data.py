@@ -2,6 +2,7 @@ import logging
 from logging import getLogger
 from typing import Optional
 from pathlib import Path
+from collections import OrderedDict
 
 from cpr_data_access.models import Dataset, BaseDocument, Span, GSTDocument
 from tqdm.auto import tqdm
@@ -14,6 +15,7 @@ from src.opensearch.client import get_opensearch_client
 from src.opensearch.index_settings import index_settings
 from src.data.add_metadata import base_document_to_gst_document
 from src.data.scraper import load_scraper_csv
+from src import config
 
 logging.basicConfig(level=logging.INFO)
 LOGGER = getLogger(__name__)
@@ -61,6 +63,9 @@ def get_dataset_and_filter_values(
 
     filter_values = dict()
 
+    # Whether to filter concepts to only those specified in the CONCEPTS_TO_INDEX environment variable.
+    filter_concepts = len(config.CONCEPTS_TO_INDEX) > 0
+
     LOGGER.info("Adding spans")
     spans = []
 
@@ -68,11 +73,23 @@ def get_dataset_and_filter_values(
         if path.is_file():
             continue
 
-        if not (path / "spans.csv").exists():
-            print(f"failed to find spans.csv in concepts subdirectory {path}")
+        spans_files = list(path.glob("spans*.csv"))
+        if len(spans_files) == 0:
+            LOGGER.info(
+                f"failed to find any spans.csv files in concepts subdirectory {path}"
+            )
             continue
 
-        concept_spans = load_spans_csv(path / "spans.csv")
+        if filter_concepts and path.name not in config.CONCEPTS_TO_INDEX:
+            LOGGER.info(
+                f"Skipping concept {path.name} because it is not in CONCEPTS_TO_INDEX"
+            )
+            continue
+
+        concept_spans = []
+        for spans_file in spans_files:
+            concept_spans.extend(load_spans_csv(spans_file))
+
         concept_name = str(path).split("/")[-1].replace("-", " ").title()
 
         for span in concept_spans:
@@ -189,6 +206,7 @@ def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
     dataset, filter_values = get_dataset_and_filter_values(
         parser_outputs_dir, scraper_csv_path, concepts_dir, limit
     )
+    filter_values_sorted = OrderedDict(sorted(filter_values.items()))
 
     LOGGER.info("Converting documents to OpenSearch documents")
     opns_docs = []
@@ -204,11 +222,12 @@ def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
         index=index,
         actions=actions,
         request_timeout=60,
+        max_retries=5,
     ):
         successes += ok
 
     LOGGER.info(f"Indexing metadata to index {index+'-metadata'}")
-    opns.index(index=index + "-metadata", body=filter_values, id="filters")
+    opns.index(index=index + "-metadata", body=filter_values_sorted, id="filters")
 
 
 if __name__ == "__main__":
