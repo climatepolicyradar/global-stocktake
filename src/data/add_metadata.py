@@ -30,6 +30,9 @@ def base_document_to_gst_document(
     new_metadata_dict["themes"] = [
         s.strip() for s in new_metadata_dict.pop("theme").split(",")
     ]
+    new_metadata_dict["author"] = [
+        s.strip() for s in new_metadata_dict.pop("author").split(",")
+    ]
     new_metadata = GSTDocumentMetadata.parse_obj(new_metadata_dict)
 
     return GSTDocument(**doc_dict, document_metadata=new_metadata)

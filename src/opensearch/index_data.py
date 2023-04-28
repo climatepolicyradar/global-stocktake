@@ -71,7 +71,9 @@ def get_dataset_and_filter_values(
         dataset_metadata_df["date"].max().strftime("%Y-%m-%d")
     )
 
-    filter_values["authors"] = sorted(dataset_metadata_df["author"].unique().tolist())
+    filter_values["authors"] = sorted(
+        dataset_metadata_df["author"].explode().unique().tolist()
+    )
     filter_values["themes"] = sorted(
         dataset_metadata_df["themes"].explode().unique().tolist()
     )
