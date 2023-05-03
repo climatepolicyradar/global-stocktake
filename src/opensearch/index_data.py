@@ -125,6 +125,8 @@ def get_dataset_and_filter_values(
     for span in spans:
         span.document_id = span.document_id.upper()
 
+    filter_values["concepts"] = OrderedDict(sorted(filter_values["concepts"].items()))
+
     LOGGER.info("Adding spans to dataset")
     dataset.add_spans(spans, warn_on_error=False)
 
@@ -229,7 +231,6 @@ def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
     dataset, filter_values = get_dataset_and_filter_values(
         parser_outputs_dir, scraper_csv_path, concepts_dir, limit
     )
-    filter_values_sorted = OrderedDict(sorted(filter_values.items()))
 
     LOGGER.info("Converting documents to OpenSearch documents")
     opns_docs = []
@@ -250,7 +251,7 @@ def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
         successes += ok
 
     LOGGER.info(f"Indexing metadata to index {index+'-metadata'}")
-    opns.index(index=index + "-metadata", body=filter_values_sorted, id="filters")
+    opns.index(index=index + "-metadata", body=filter_values, id="filters")
 
 
 if __name__ == "__main__":
