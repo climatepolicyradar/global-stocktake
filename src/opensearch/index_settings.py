@@ -8,12 +8,15 @@ KEYWORD_FIELDS = {
     "span_types",
     "document_metadata.link",
     "document_metadata.party",
-    "document_metadata.theme",
+    "document_metadata.themes",
     "document_metadata.topics",
     "document_metadata.translation",
     "document_metadata.data_error_type",
+    "document_metadata.author",
+    "document_metadata.types",
 }
 BOOLEAN_FIELDS = {"is_party"}
+DATE_FIELDS = {"document_metadata.date"}
 
 index_settings = {
     "settings": {
@@ -66,6 +69,7 @@ index_settings = {
             field: {"type": "text", "analyzer": "ignore_html_tags"}
             for field in HTML_FIELDS
         }
-        | {field: {"type": "boolean"} for field in BOOLEAN_FIELDS},
+        | {field: {"type": "boolean"} for field in BOOLEAN_FIELDS}
+        | {field: {"type": "date"} for field in DATE_FIELDS},
     },
 }
