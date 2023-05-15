@@ -73,3 +73,6 @@ split_spans_csvs:
 	python src/data/split_spans_csvs.py
 
 concepts: fossil-fuels technologies greenhouse-gases challenges-and-opportunities climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28 split_spans_csvs
+
+sync_concepts_with_s3:
+	aws s3 sync ./concepts s3://cpr-dataset-gst-concepts
