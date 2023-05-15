@@ -39,9 +39,9 @@ greenhouse-gases:
 cop28:
 	explorer gst -i ./concepts/5-COP28-GST-asks/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/5-COP28-GST-asks
 
-best-practice:
-	explorer gst -i ./concepts/best-practice/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/best-practice
-	explorer_merge GST -e ./concepts/best-practice/output.xlsx -m ${SCRAPER_CSV_PATH}
+challenges-and-opportunities:
+	explorer gst -i ./concepts/challenges-and-opportunities/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/challenges-and-opportunities
+	explorer_merge GST -e ./concepts/challenges-and-opportunities/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 climate-related-hazards:
 	explorer gst -i ./concepts/climate-related-hazards/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/climate-related-hazards
@@ -72,4 +72,4 @@ vulnerable-groups:
 split_spans_csvs:
 	python src/data/split_spans_csvs.py
 
-concepts: fossil-fuels technologies greenhouse-gases best-practice climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28 split_spans_csvs
+concepts: fossil-fuels technologies greenhouse-gases challenges-and-opportunities climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28 split_spans_csvs
