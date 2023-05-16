@@ -56,7 +56,7 @@ equity-and-justice:
 	explorer_merge GST -e ./concepts/equity-and-justice/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 financial-flows:
-	explorer gst -i ./concepts/financial-flows/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/financial-flows
+	explorer gst -t -i ./concepts/financial-flows/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/financial-flows
 	explorer_merge GST -e ./concepts/financial-flows/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 renewables:
