@@ -67,12 +67,15 @@ vulnerable-groups:
 	explorer gst -i ./concepts/vulnerable-groups/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/vulnerable-groups
 	explorer_merge GST -e ./concepts/vulnerable-groups/output.xlsx -m ${SCRAPER_CSV_PATH}
 
+loss-and-damage:
+	explorer gst -i ./concepts/loss-and-damage/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/loss-and-damage
+	explorer_merge GST -e ./concepts/loss-and-damage/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 # split spans csvs into smaller chunks that can be pushed to git
 split_spans_csvs:
 	python src/data/split_spans_csvs.py
 
-concepts: fossil-fuels technologies greenhouse-gases challenges-and-opportunities climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28 split_spans_csvs
+concepts: fossil-fuels technologies greenhouse-gases challenges-and-opportunities climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28 loss-and-damage split_spans_csvs
 
 sync_concepts_with_s3:
 	aws s3 sync ./concepts s3://cpr-dataset-gst-concepts
