@@ -62,53 +62,21 @@ def cli(argilla_dataset_name, num_iterations: int =20, n_folds: int = 5, batch_s
     # X_train, y_train, X_test, y_test = iterative_train_test_split(X, y, test_size=0.3)
 
     all_metrics = defaultdict(list)
-    if n_folds > 2:
-        # split dataset into k-folds using iterative stratification and loop over folds
-        # to get metrics.
-        k_fold = IterativeStratification(n_splits=n_folds, order=1)
+    # split dataset into k-folds using iterative stratification and loop over folds
+    # to get metrics.
+    k_fold = IterativeStratification(n_splits=n_folds, order=1)
 
-        for ix, (train, test) in enumerate(k_fold.split(X, y)):
-            model = SetFitModel.from_pretrained(
-                "sentence-transformers/paraphrase-mpnet-base-v2",
-                multi_target_strategy="multi-output",  # one-vs-rest; multi-output; classifier-chain
-            )
-            X_train_1d = X[train].reshape(-1)
-            X_test_1d = X[test].reshape(-1)
-            y_train = y[train]
-            y_test = y[test]
-            train_dataset = Dataset.from_dict({"text": X_train_1d, "label": y_train})
-            test_dataset = Dataset.from_dict({"text": X_test_1d, "label": y_test})
-            trainer = SetFitTrainer(
-                model=model,
-                train_dataset=train_dataset,
-                eval_dataset=test_dataset,
-                metric=compute_metrics,
-                num_epochs=5,
-                num_iterations=num_iterations,
-                batch_size=batch_size,
-            )
-            trainer.train()
-            # Save the trained model and get precision, recall, f1 scores
-            metrics = trainer.evaluate()
-            all_metrics[ix] = metrics
-            wandb.log(metrics)
-
-            # clean up
-            del model
-            del trainer
-            torch.cuda.empty_cache() # Clear CUDA cache after each fold
-    else:
-        # No cross-validation
+    for ix, (train, test) in enumerate(k_fold.split(X, y)):
         model = SetFitModel.from_pretrained(
             "sentence-transformers/paraphrase-mpnet-base-v2",
             multi_target_strategy="multi-output",  # one-vs-rest; multi-output; classifier-chain
         )
-        X_train, y_train, X_test, y_test = iterative_train_test_split(X, y, test_size=0.3)
-
-        X_train_1d = X_train.reshape(-1)
-        X_test_1d = X_test.reshape(-1)
-        train_dataset = Dataset.from_dict({"text": X_train_1d, "label": y})
-        test_dataset = Dataset.from_dict({"text": X_test_1d, "label": y})
+        X_train_1d = X[train].reshape(-1)
+        X_test_1d = X[test].reshape(-1)
+        y_train = y[train]
+        y_test = y[test]
+        train_dataset = Dataset.from_dict({"text": X_train_1d, "label": y_train})
+        test_dataset = Dataset.from_dict({"text": X_test_1d, "label": y_test})
         trainer = SetFitTrainer(
             model=model,
             train_dataset=train_dataset,
@@ -121,12 +89,13 @@ def cli(argilla_dataset_name, num_iterations: int =20, n_folds: int = 5, batch_s
         trainer.train()
         # Save the trained model and get precision, recall, f1 scores
         metrics = trainer.evaluate()
+        all_metrics[ix] = metrics
         wandb.log(metrics)
 
         # clean up
         del model
         del trainer
-        torch.cuda.empty_cache()  # Clear CUDA cache after each fold
+        torch.cuda.empty_cache() # Clear CUDA cache after each fold
 
 
 

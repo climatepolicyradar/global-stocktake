@@ -1,0 +1,120 @@
+{
+    "os": "Linux-6.2.6-76060206-generic-x86_64-with-glibc2.35",
+    "python": "3.9.10",
+    "heartbeatAt": "2023-05-18T17:10:33.850560",
+    "startedAt": "2023-05-18T17:10:31.207742",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--argilla-dataset-name",
+        "sector-text-classifier"
+    ],
+    "state": "running",
+    "program": "/home/stefan/global-stocktake/classifiers/classifiers/sectors/trainer.py",
+    "codePath": "classifiers/classifiers/sectors/trainer.py",
+    "git": {
+        "remote": "git@github.com:climatepolicyradar/global-stocktake.git",
+        "commit": "e8492090cefd2464abb9c2e062c7a374fc729a6c"
+    },
+    "email": "stefl141193@gmail.com",
+    "root": "/home/stefan/global-stocktake",
+    "host": "pop-os",
+    "username": "stefan",
+    "executable": "/home/stefan/global-stocktake/.venv/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1290.7515625000003,
+        "min": 800.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2300.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1277.142,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2789.997,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1007.489,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1589.526,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 2725.042,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1032.27,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.593,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.393,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1470.419,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1503.089,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1073.909,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 941.678,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1263.6,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 1034.406,
+            "min": 800.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "total": 460.00634765625,
+        "used": 407.74629974365234
+    },
+    "memory": {
+        "total": 31.062423706054688
+    }
+}
