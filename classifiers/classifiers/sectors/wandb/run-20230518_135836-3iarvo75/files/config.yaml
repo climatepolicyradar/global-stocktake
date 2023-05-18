@@ -1,0 +1,48 @@
+wandb_version: 1
+
+dataset_name:
+  desc: null
+  value: null
+num_iterations:
+  desc: null
+  value: 20
+n_folds:
+  desc: null
+  value: 5
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.10
+    cli_version: 0.15.3
+    framework: huggingface
+    huggingface_version: 4.29.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1684414716.687939
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 75
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 51
+      - 53
+      - 55
+      - 75
+      3:
+      - 16
+      - 23
+      4: 3.9.10
+      5: 0.15.3
+      6: 4.29.2
+      8:
+      - 5

@@ -4,7 +4,7 @@ from collections import defaultdict
 import argilla as rg
 import click
 import numpy as np
-import wandb
+import torch
 from datasets import Dataset
 from dotenv import load_dotenv, find_dotenv
 from setfit import SetFitModel
@@ -13,6 +13,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from skmultilearn.model_selection import IterativeStratification
 from skmultilearn.model_selection import iterative_train_test_split
 
+import wandb
 from utils import compute_metrics
 
 
@@ -33,7 +34,8 @@ def model_init(params):
 @click.option('--argilla-dataset-name', help='Dataset name')
 @click.option('--num-iterations', default=20, help='Number of iterations')
 @click.option('--n-folds', default=5, help='Number of folds')
-def cli(argilla_dataset_name, num_iterations: int =20, n_folds: int = 5):
+@click.option('--batch-size', default=8, help='Batch size')
+def cli(argilla_dataset_name, num_iterations: int =20, n_folds: int = 5, batch_size: int = 8):
     wandb.init(project="sectors-classifier-gst", config={
         "dataset_name": argilla_dataset_name,
         "num_iterations": num_iterations,
@@ -81,12 +83,19 @@ def cli(argilla_dataset_name, num_iterations: int =20, n_folds: int = 5):
             eval_dataset=test_dataset,
             metric=compute_metrics,
             num_iterations=num_iterations,
+            batch_size=batch_size,
         )
         trainer.train()
         # Save the trained model and get precision, recall, f1 scores
         metrics = trainer.evaluate()
         all_metrics[ix] = metrics
         wandb.log(metrics)
+
+        # clean up
+        del model
+        del trainer
+        torch.cuda.empty_cache() # Clear CUDA cache after each fold
+
 
 
 if __name__ == '__main__':
