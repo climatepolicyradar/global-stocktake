@@ -103,11 +103,12 @@ def cli(argilla_dataset_name, num_iterations: int =20, n_folds: int = 5, batch_s
             "sentence-transformers/paraphrase-mpnet-base-v2",
             multi_target_strategy="multi-output",  # one-vs-rest; multi-output; classifier-chain
         )
+        X_train, y_train, X_test, y_test = iterative_train_test_split(X, y, test_size=0.3)
 
         X_train_1d = X_train.reshape(-1)
-        X_test_1d = X_train.reshape(-1)
-        train_dataset = Dataset.from_dict({"text": X_train_1d, "label": y_train})
-        test_dataset = Dataset.from_dict({"text": X_test_1d, "label": y_test})
+        X_test_1d = X_test.reshape(-1)
+        train_dataset = Dataset.from_dict({"text": X_train_1d, "label": y})
+        test_dataset = Dataset.from_dict({"text": X_test_1d, "label": y})
         trainer = SetFitTrainer(
             model=model,
             train_dataset=train_dataset,
