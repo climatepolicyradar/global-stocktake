@@ -59,7 +59,7 @@ def cli(argilla_dataset_name, num_iterations: int =20, n_folds: int = 5, batch_s
     X = dataset_df["text"].values.reshape(-1)
     X = np.reshape(X, (X.size, 1))
 
-    X_train, y_train, X_test, y_test = iterative_train_test_split(X, y, test_size=0.3)
+    # X_train, y_train, X_test, y_test = iterative_train_test_split(X, y, test_size=0.3)
 
     all_metrics = defaultdict(list)
     if n_folds > 2:
@@ -67,13 +67,13 @@ def cli(argilla_dataset_name, num_iterations: int =20, n_folds: int = 5, batch_s
         # to get metrics.
         k_fold = IterativeStratification(n_splits=n_folds, order=1)
 
-        for ix, (train, test) in enumerate(k_fold.split(X_train, y_train)):
+        for ix, (train, test) in enumerate(k_fold.split(X, y)):
             model = SetFitModel.from_pretrained(
                 "sentence-transformers/paraphrase-mpnet-base-v2",
                 multi_target_strategy="multi-output",  # one-vs-rest; multi-output; classifier-chain
             )
-            X_train_1d = X_train[train].reshape(-1)
-            X_test_1d = X_train[test].reshape(-1)
+            X_train_1d = X[train].reshape(-1)
+            X_test_1d = X[test].reshape(-1)
             y_train = y[train]
             y_test = y[test]
             train_dataset = Dataset.from_dict({"text": X_train_1d, "label": y_train})
