@@ -10,6 +10,7 @@ import pandas as pd
 from opensearchpy import helpers
 import click
 from dotenv import load_dotenv, find_dotenv
+import spacy
 
 from src.opensearch.client import get_opensearch_client
 from src.opensearch.index_settings import index_settings
@@ -19,6 +20,8 @@ from src import config
 
 logging.basicConfig(level=logging.INFO)
 LOGGER = getLogger(__name__)
+
+nlp = spacy.load("en_core_web_sm")
 
 
 def load_spans_csv(path: Path) -> list[Span]:
@@ -191,7 +194,7 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
                 "text_before": fix_text_block_string(block_before_text),
                 "text": fix_text_block_string(block.to_string()),
                 "text_after": fix_text_block_string(block_after_text),
-                "text_html": block.display().replace("</br>", " "),
+                "text_html": block.display(style="span", nlp=nlp).replace("</br>", " "),
                 "spans": [s.dict() for s in block._spans],
                 "span_types": list(set([s.type for s in block._spans]))
                 + block_concepts,
