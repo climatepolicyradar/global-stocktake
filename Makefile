@@ -1,4 +1,4 @@
-.PHONY: install test
+.PHONY: install test concepts mitigation adaptation loss-and-damage vulnerable-groups renewables financial-flows equity-and-justice deforestation climate-related-hazards challenges-and-opportunities greenhouse-gases technologies fossil-fuels cop28 split_spans_csvs sync_concepts_with_s3
 include .env
 
 install:
@@ -68,16 +68,16 @@ vulnerable-groups:
 	explorer_merge GST -e ./concepts/vulnerable-groups/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 loss-and-damage:
-	explorer gst -i ./concepts/loss-and-damage-(keyword)/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/loss-and-damage-(keyword)
-	explorer_merge GST -e ./concepts/loss-and-damage-(keyword)/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer_merge GST -e ./concepts/loss-and-damage/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer gst -i ./concepts/loss-and-damage/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/loss-and-damage
 
 mitigation:
-	explorer gst -i ./concepts/mitigation-(keyword)/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/mitigation-(keyword)
-	explorer_merge GST -e ./concepts/mitigation-(keyword)/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer_merge GST -e ./concepts/mitigation/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer gst -i ./concepts/mitigation/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/mitigation
 
 adaptation:
-	explorer gst -i ./concepts/adaptation-(keyword)/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/adaptation-(keyword)
-	explorer_merge GST -e ./concepts/adaptation-(keyword)/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer_merge GST -e ./concepts/adaptation/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer gst -i ./concepts/adaptation/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/adaptation
 
 # split spans csvs into smaller chunks that can be pushed to git
 split_spans_csvs:
