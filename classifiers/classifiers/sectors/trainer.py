@@ -61,16 +61,17 @@ def cli(argilla_dataset_name, num_iterations: int =20, n_folds: int = 5, batch_s
 
     X_train, y_train, X_test, y_test = iterative_train_test_split(X, y, test_size=0.3)
 
-    model = SetFitModel.from_pretrained(
-        "sentence-transformers/paraphrase-mpnet-base-v2",
-        multi_target_strategy="multi-output",  # one-vs-rest; multi-output; classifier-chain
-    )
 
     # split dataset into k-folds using iterative stratification and loop over folds
     # to get metrics.
     k_fold = IterativeStratification(n_splits=n_folds, order=1)
     all_metrics = defaultdict(list)
     for ix, (train, test) in enumerate(k_fold.split(X_train, y_train)):
+        model = SetFitModel.from_pretrained(
+            "sentence-transformers/paraphrase-mpnet-base-v2",
+            multi_target_strategy="multi-output",  # one-vs-rest; multi-output; classifier-chain
+        )
+
         X_train_1d = X_train[train].reshape(-1)
         X_test_1d = X_train[test].reshape(-1)
         y_train = y[train]
