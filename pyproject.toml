@@ -22,6 +22,7 @@ altair = "^4.2.2"
 nltk = "^3.8.1"
 geopandas = "^0.12.2"
 wandb = "^0.15.3"
+argilla = "^1.7.0"
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.0.247"
