@@ -51,8 +51,9 @@ def compute_metrics(y_pred, y_test):
 @click.command()
 @click.option('--dataset-name', default='sectors-sentence-or-text-block', help='Dataset name')
 @click.option('--num-iterations', default=[5, 10, 20], type=click.IntRange(1, 100, clamp=True), multiple=True, help='Number of iterations')
-def cli(dataset_name, num_iterations):
-    wandb.init(project="my_project", config={
+@click.option('--test-size', default=0.3, help='Fraction of the dataset to be used as test split.')
+def cli(dataset_name, num_iterations, test_size):
+    wandb.init(project="sectors-classifier-gst", config={
         "dataset_name": dataset_name,
         "num_iterations": num_iterations,
     })
@@ -73,7 +74,7 @@ def cli(dataset_name, num_iterations):
     X = dataset_df["text"].values.reshape(-1)
     X = np.reshape(X, (X.size, 1))
 
-    X_train, y_train, X_test, y_test = iterative_train_test_split(X, y, test_size=0.3)
+    X_train, y_train, X_test, y_test = iterative_train_test_split(X, y, test_size=test_size)
     X_train_1d = np.array([i[0] for i in X_train])
     X_test_1d = np.array([i[0] for i in X_test])
 

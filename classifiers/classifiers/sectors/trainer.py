@@ -30,12 +30,12 @@ def model_init(params):
     return SetFitModel.from_pretrained("sentence-transformers/paraphrase-mpnet-base-v2", **params)
 
 @click.command()
-@click.option('--dataset-name', default='sectors-sentence-or-text-block', help='Dataset name')
+@click.option('--argilla-dataset-name', help='Dataset name')
 @click.option('--num-iterations', default=20, help='Number of iterations')
 @click.option('--n-folds', default=5, help='Number of folds')
-def cli(dataset_name, num_iterations: int =20, n_folds: int = 5):
-    wandb.init(project="my_project", config={
-        "dataset_name": dataset_name,
+def cli(argilla_dataset_name, num_iterations: int =20, n_folds: int = 5):
+    wandb.init(project="sectors-classifier-gst", config={
+        "dataset_name": argilla_dataset_name,
         "num_iterations": num_iterations,
         "n_folds": n_folds
     })
@@ -48,7 +48,7 @@ def cli(dataset_name, num_iterations: int =20, n_folds: int = 5):
         api_key=os.environ["ARGILLA_API_KEY"],
     )
 
-    dataset = rg.load(dataset_name).to_datasets()
+    dataset = rg.load(argilla_dataset_name).to_datasets()
     dataset_df = dataset.to_pandas()
     dataset_df = dataset_df.dropna(subset=["annotation"])
 
@@ -64,7 +64,8 @@ def cli(dataset_name, num_iterations: int =20, n_folds: int = 5):
         multi_target_strategy="multi-output",  # one-vs-rest; multi-output; classifier-chain
     )
 
-    # split dataset into 3-fold cross validation using sk multilearn
+    # split dataset into k-folds using iterative stratification and loop over folds
+    # to get metrics.
     k_fold = IterativeStratification(n_splits=n_folds, order=1)
     all_metrics = defaultdict(list)
     for ix, (train, test) in enumerate(k_fold.split(X_train, y_train)):
