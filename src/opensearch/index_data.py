@@ -22,7 +22,7 @@ from src import config
 logging.basicConfig(level=logging.INFO)
 LOGGER = getLogger(__name__)
 
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.blank("en")  # pipeline with tokenizer only
 
 
 def load_spans_csv(path: Path) -> list[Span]:

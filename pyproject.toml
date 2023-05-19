@@ -23,7 +23,6 @@ nltk = "^3.8.1"
 geopandas = "^0.12.2"
 beautifulsoup4 = "^4.12.2"
 spacy = "^3.5.3"
-en-core-web-sm = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl"}
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.0.247"

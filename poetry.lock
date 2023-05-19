@@ -971,24 +971,6 @@ files = [
 ]
 
 [[package]]
-name = "en-core-web-sm"
-version = "3.5.0"
-description = "English pipeline optimized for CPU. Components: tok2vec, tagger, parser, senter, ner, attribute_ruler, lemmatizer."
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "en_core_web_sm-3.5.0-py3-none-any.whl", hash = "sha256:0964370218b7e1672a30ac50d72cdc6b16f7c867496f1d60925691188f4d2510"},
-]
-
-[package.dependencies]
-spacy = ">=3.5.0,<3.6.0"
-
-[package.source]
-type = "url"
-url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl"
-
-[[package]]
 name = "entrypoints"
 version = "0.4"
 description = "Discover and load entry points from installed packages."
@@ -4491,4 +4473,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "d7c752dd120862dc1f9a2304d1a435c3be72b8c2b8b3bd7277ed41595c18423e"
+content-hash = "fcdc5fac4c6fdee80196225c212dd5e2d2653829184c19ed20b3c888b0c3c2e2"
