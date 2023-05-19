@@ -21,6 +21,7 @@ wordcloud = "^1.8.2.2"
 altair = "^4.2.2"
 nltk = "^3.8.1"
 geopandas = "^0.12.2"
+beautifulsoup4 = "^4.12.2"
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.0.247"
