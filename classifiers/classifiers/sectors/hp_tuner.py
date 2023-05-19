@@ -41,7 +41,7 @@ def cli(dataset_name: str, num_iterations: list[int], test_size: float):
         test_size: Fraction of the dataset to be used as test split.
     """
     wandb.init(
-        project="sectors-classifier-gst",
+        project="sector-text-classifier",
         config={
             "dataset_name": dataset_name,
             "num_iterations": num_iterations,
