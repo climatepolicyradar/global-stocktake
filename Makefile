@@ -1,4 +1,4 @@
-.PHONY: install test
+.PHONY: install test concepts mitigation adaptation loss-and-damage vulnerable-groups renewables financial-flows equity-and-justice deforestation climate-related-hazards challenges-and-opportunities greenhouse-gases technologies fossil-fuels cop28 split_spans_csvs sync_concepts_with_s3
 include .env
 
 install:
@@ -39,9 +39,9 @@ greenhouse-gases:
 cop28:
 	explorer gst -i ./concepts/5-COP28-GST-asks/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/5-COP28-GST-asks
 
-best-practice:
-	explorer gst -i ./concepts/best-practice/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/best-practice
-	explorer_merge GST -e ./concepts/best-practice/output.xlsx -m ${SCRAPER_CSV_PATH}
+challenges-and-opportunities:
+	explorer gst -i ./concepts/challenges-and-opportunities/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/challenges-and-opportunities
+	explorer_merge GST -e ./concepts/challenges-and-opportunities/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 climate-related-hazards:
 	explorer gst -i ./concepts/climate-related-hazards/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/climate-related-hazards
@@ -56,7 +56,7 @@ equity-and-justice:
 	explorer_merge GST -e ./concepts/equity-and-justice/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 financial-flows:
-	explorer gst -i ./concepts/financial-flows/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/financial-flows
+	explorer gst -t -i ./concepts/financial-flows/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/financial-flows
 	explorer_merge GST -e ./concepts/financial-flows/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 renewables:
@@ -67,9 +67,23 @@ vulnerable-groups:
 	explorer gst -i ./concepts/vulnerable-groups/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/vulnerable-groups
 	explorer_merge GST -e ./concepts/vulnerable-groups/output.xlsx -m ${SCRAPER_CSV_PATH}
 
+loss-and-damage:
+	explorer_merge GST -e ./concepts/loss-and-damage/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer gst -i ./concepts/loss-and-damage/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/loss-and-damage
+
+mitigation:
+	explorer_merge GST -e ./concepts/mitigation/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer gst -i ./concepts/mitigation/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/mitigation
+
+adaptation:
+	explorer_merge GST -e ./concepts/adaptation/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer gst -i ./concepts/adaptation/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/adaptation
 
 # split spans csvs into smaller chunks that can be pushed to git
 split_spans_csvs:
 	python src/data/split_spans_csvs.py
 
-concepts: fossil-fuels technologies greenhouse-gases best-practice climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28 split_spans_csvs
+concepts: fossil-fuels technologies greenhouse-gases challenges-and-opportunities climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28 loss-and-damage mitigation adaptation split_spans_csvs
+
+sync_concepts_with_s3:
+	aws s3 sync ./concepts s3://cpr-dataset-gst-concepts
