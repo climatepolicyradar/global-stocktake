@@ -8,7 +8,7 @@ import numpy as np
 import torch
 from datasets import Dataset
 from dotenv import load_dotenv, find_dotenv
-from setfit import SetFitModel, SetFitTrainer
+from setfit import SetFitTrainer
 from sklearn.preprocessing import MultiLabelBinarizer
 from skmultilearn.model_selection import IterativeStratification
 

@@ -3,10 +3,9 @@ import logging
 import argilla as rg
 import click
 import numpy as np
-from typing import Optional, Dict
 from datasets import Dataset
 from dotenv import load_dotenv, find_dotenv
-from setfit import SetFitModel, SetFitTrainer
+from setfit import SetFitTrainer
 from sklearn.preprocessing import MultiLabelBinarizer
 from skmultilearn.model_selection import iterative_train_test_split
 

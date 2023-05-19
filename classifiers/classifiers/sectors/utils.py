@@ -1,31 +1,9 @@
-from typing import Dict
-import numpy as np
+from typing import Dict, Optional
+
 import evaluate
+import numpy as np
 from setfit import SetFitModel
 
-def model_init(params: Optional[Dict] = None) -> SetFitModel:
-    """
-    Initialize the model with given parameters or default parameters.
-
-    Args:
-        params: A dictionary of parameters.
-
-    Returns:
-        A SetFitModel instance.
-    """
-    params = params or {}
-    max_iter = params.get("max_iter", 10)
-    solver = params.get("solver", "liblinear")
-    params = {
-        "head_params": {
-            "max_iter": max_iter,
-            "solver": solver,
-        },
-        "multi_target_strategy": "multi-output",
-    }
-    return SetFitModel.from_pretrained(
-        "sentence-transformers/paraphrase-mpnet-base-v2", **params
-    )
 
 def compute_metrics(y_pred: np.ndarray, y_test: np.ndarray) -> Dict[str, float]:
     """
@@ -57,3 +35,28 @@ def compute_metrics(y_pred: np.ndarray, y_test: np.ndarray) -> Dict[str, float]:
             predictions=y_pred, references=y_test
         )["accuracy"],
     }
+
+
+def model_init(params: Optional[Dict] = None) -> SetFitModel:
+    """
+    Initialize the model with given parameters or default parameters.
+
+    Args:
+        params: A dictionary of parameters.
+
+    Returns:
+        A SetFitModel instance.
+    """
+    params = params or {}
+    max_iter = params.get("max_iter", 10)
+    solver = params.get("solver", "liblinear")
+    params = {
+        "head_params": {
+            "max_iter": max_iter,
+            "solver": solver,
+        },
+        "multi_target_strategy": "multi-output",
+    }
+    return SetFitModel.from_pretrained(
+        "sentence-transformers/paraphrase-mpnet-base-v2", **params
+    )
