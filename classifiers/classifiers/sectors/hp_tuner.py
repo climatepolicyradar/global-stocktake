@@ -19,7 +19,7 @@ logging.basicConfig(level=logging.INFO)
 
 @click.command()
 @click.option(
-    "--dataset-name", default="sectors-sentence-or-text-block", help="Dataset name"
+    "--dataset-name", help="Dataset name"
 )
 @click.option(
     "--num-iterations",
