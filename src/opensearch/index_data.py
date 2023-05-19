@@ -4,12 +4,14 @@ from typing import Optional
 from pathlib import Path
 from collections import OrderedDict
 
-from cpr_data_access.models import Dataset, BaseDocument, Span, GSTDocument
+from cpr_data_access.models import Dataset, BaseDocument, Span, GSTDocument, TextBlock
 from tqdm.auto import tqdm
 import pandas as pd
 from opensearchpy import helpers
 import click
 from dotenv import load_dotenv, find_dotenv
+import spacy
+from bs4 import BeautifulSoup, Tag
 
 from src.opensearch.client import get_opensearch_client
 from src.opensearch.index_settings import index_settings
@@ -19,6 +21,8 @@ from src import config
 
 logging.basicConfig(level=logging.INFO)
 LOGGER = getLogger(__name__)
+
+nlp = spacy.blank("en")  # pipeline with tokenizer only
 
 
 def load_spans_csv(path: Path) -> list[Span]:
@@ -149,6 +153,54 @@ def fix_text_block_string(block_str: str) -> str:
     )
 
 
+def text_block_to_html(block: TextBlock) -> str:
+    """
+    Convert a text block to HTML for the retool UI.
+
+    This uses displacy to generate the HTML, and then adds HTML classes and IDs to allow it to be styled.
+
+    :param TextBlock block: text block
+    :return str: html for display
+    """
+
+    block_html = block.display(style="span", nlp=nlp).replace("</br>", " ")
+    soup = BeautifulSoup(block_html, "html.parser")
+
+    def label_text_to_spans(text: str) -> tuple[Tag, Tag]:
+        """Convert label text e.g. 'Greenhouse Gases – Oil' to two HTML spans."""
+
+        concept, subconcept = [i.strip() for i in text.strip().split("–")]
+
+        concept_span = soup.new_tag("span")
+        concept_span.attrs["class"] = "concept-label"
+        concept_span.string = concept + " – "
+
+        subconcept_span = soup.new_tag("span")
+        subconcept_span.attrs["class"] = "subconcept-label"
+        subconcept_span.string = subconcept
+
+        return concept_span, subconcept_span
+
+    for span in soup.find_all("span", {"style": lambda x: "z-index: 10" in x}):
+        span.attrs["class"] = "span-label"
+        span.attrs["id"] = span.text.strip()
+
+        concept_span, subconcept_span = label_text_to_spans(span.text)
+        span.string.replace_with("")
+        span.append(concept_span)
+        span.append(subconcept_span)
+
+    for highlight_span in soup.find_all(
+        "span",
+        {
+            "style": "font-weight: bold; display: inline-block; position: relative; height: 60px;"
+        },
+    ):
+        highlight_span.attrs["class"] = "text-highlight"
+
+    return soup.prettify()
+
+
 def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
     """
     Convert a GSTDocument object to a list of documents to load into OpenSearch.
@@ -191,7 +243,7 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
                 "text_before": fix_text_block_string(block_before_text),
                 "text": fix_text_block_string(block.to_string()),
                 "text_after": fix_text_block_string(block_after_text),
-                "text_html": block.display().replace("</br>", " "),
+                "text_html": text_block_to_html(block),
                 "spans": [s.dict() for s in block._spans],
                 "span_types": list(set([s.type for s in block._spans]))
                 + block_concepts,
