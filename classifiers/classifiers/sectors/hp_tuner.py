@@ -15,6 +15,7 @@ from utils import compute_metrics
 
 logging.basicConfig(level=logging.INFO)
 
+
 def model_init(params: Optional[Dict] = None) -> SetFitModel:
     """
     Initialize the model with given parameters or default parameters.
@@ -33,15 +34,27 @@ def model_init(params: Optional[Dict] = None) -> SetFitModel:
             "max_iter": max_iter,
             "solver": solver,
         },
-        "multi_target_strategy": "multi-output"
+        "multi_target_strategy": "multi-output",
     }
-    return SetFitModel.from_pretrained("sentence-transformers/paraphrase-mpnet-base-v2", **params)
+    return SetFitModel.from_pretrained(
+        "sentence-transformers/paraphrase-mpnet-base-v2", **params
+    )
 
 
 @click.command()
-@click.option('--dataset-name', default='sectors-sentence-or-text-block', help='Dataset name')
-@click.option('--num-iterations', default=[5, 10, 20], type=click.IntRange(1, 100, clamp=True), multiple=True, help='Number of iterations')
-@click.option('--test-size', default=0.3, help='Fraction of the dataset to be used as test split.')
+@click.option(
+    "--dataset-name", default="sectors-sentence-or-text-block", help="Dataset name"
+)
+@click.option(
+    "--num-iterations",
+    default=[5, 10, 20],
+    type=click.IntRange(1, 100, clamp=True),
+    multiple=True,
+    help="Number of iterations",
+)
+@click.option(
+    "--test-size", default=0.3, help="Fraction of the dataset to be used as test split."
+)
 def cli(dataset_name: str, num_iterations: list[int], test_size: float):
     """
     Main CLI function for the script.
@@ -51,10 +64,13 @@ def cli(dataset_name: str, num_iterations: list[int], test_size: float):
         num_iterations: List of possible iteration numbers for the model.
         test_size: Fraction of the dataset to be used as test split.
     """
-    wandb.init(project="sectors-classifier-gst", config={
-        "dataset_name": dataset_name,
-        "num_iterations": num_iterations,
-    })
+    wandb.init(
+        project="sectors-classifier-gst",
+        config={
+            "dataset_name": dataset_name,
+            "num_iterations": num_iterations,
+        },
+    )
     load_dotenv(find_dotenv(), override=True)
 
     # User management is done at a workspace level
@@ -71,7 +87,9 @@ def cli(dataset_name: str, num_iterations: list[int], test_size: float):
     X = dataset_df["text"].values.reshape(-1)
     X = np.reshape(X, (X.size, 1))
 
-    X_train, y_train, X_test, y_test = iterative_train_test_split(X, y, test_size=test_size)
+    X_train, y_train, X_test, y_test = iterative_train_test_split(
+        X, y, test_size=test_size
+    )
     X_train_1d = np.array([i[0] for i in X_train])
     X_test_1d = np.array([i[0] for i in X_test])
 
@@ -87,11 +105,16 @@ def cli(dataset_name: str, num_iterations: list[int], test_size: float):
 
     def hp_space(trial):  # Training parameters
         return {
-            "num_iterations": trial.suggest_categorical("num_iterations", num_iterations),
+            "num_iterations": trial.suggest_categorical(
+                "num_iterations", num_iterations
+            ),
         }
 
-    best_run = trainer_hp.hyperparameter_search(direction="maximize", hp_space=hp_space, n_trials=3)
+    best_run = trainer_hp.hyperparameter_search(
+        direction="maximize", hp_space=hp_space, n_trials=3
+    )
     wandb.log(best_run)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     cli()
