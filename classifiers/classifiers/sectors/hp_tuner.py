@@ -41,7 +41,7 @@ def cli(dataset_name: str, num_iterations: list[int], test_size: float):
         config={
             "dataset_name": dataset_name,
             "num_iterations": num_iterations,
-            "job_type": "hyperparameter_searcg",
+            "job_type": "hyperparameter_search",
         },
     )
     load_dotenv(find_dotenv(), override=True)
