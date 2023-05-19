@@ -11,34 +11,10 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from skmultilearn.model_selection import iterative_train_test_split
 
 import wandb
-from utils import compute_metrics
+from utils import compute_metrics, model_init
 
 logging.basicConfig(level=logging.INFO)
 
-
-def model_init(params: Optional[Dict] = None) -> SetFitModel:
-    """
-    Initialize the model with given parameters or default parameters.
-
-    Args:
-        params: A dictionary of parameters.
-
-    Returns:
-        A SetFitModel instance.
-    """
-    params = params or {}
-    max_iter = params.get("max_iter", 10)
-    solver = params.get("solver", "liblinear")
-    params = {
-        "head_params": {
-            "max_iter": max_iter,
-            "solver": solver,
-        },
-        "multi_target_strategy": "multi-output",
-    }
-    return SetFitModel.from_pretrained(
-        "sentence-transformers/paraphrase-mpnet-base-v2", **params
-    )
 
 
 @click.command()
@@ -69,6 +45,7 @@ def cli(dataset_name: str, num_iterations: list[int], test_size: float):
         config={
             "dataset_name": dataset_name,
             "num_iterations": num_iterations,
+            "job_type": "hyperparameter_searcg"
         },
     )
     load_dotenv(find_dotenv(), override=True)

@@ -13,38 +13,13 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from skmultilearn.model_selection import IterativeStratification
 
 import wandb
-from utils import compute_metrics
+from utils import compute_metrics, model_init
 
 # Initialize logging
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO
 )
 logger = logging.getLogger(__name__)
-
-
-def model_init(params: dict = None) -> SetFitModel:
-    """
-    Initialize the SetFitModel.
-
-    params (dict): a dictionary containing parameters for the model.
-    Default is None.
-
-    Returns:
-    SetFitModel: a SetFitModel object with specified parameters.
-    """
-    params = params or {}
-    max_iter = params.get("max_iter", 10)
-    solver = params.get("solver", "liblinear")
-    params = {
-        "head_params": {
-            "max_iter": max_iter,
-            "solver": solver,
-        },
-        "multi_target_strategy": "multi-output",
-    }
-    return SetFitModel.from_pretrained(
-        "sentence-transformers/paraphrase-mpnet-base-v2", **params
-    )
 
 
 @click.command()
@@ -61,7 +36,7 @@ def cli(
     """Command Line Interface function for the script."""
     logger.info("Initiating Weights & Biases...")
     wandb.init(
-        project="sectors-classifier-gst",
+        project=argilla_dataset_name,
         config={
             "dataset_name": argilla_dataset_name,
             "num_iterations": num_iterations,
