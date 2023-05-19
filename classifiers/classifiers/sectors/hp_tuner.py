@@ -15,11 +15,8 @@ from utils import compute_metrics, model_init
 logging.basicConfig(level=logging.INFO)
 
 
-
 @click.command()
-@click.option(
-    "--dataset-name", help="Dataset name"
-)
+@click.option("--dataset-name", help="Dataset name")
 @click.option(
     "--num-iterations",
     default=[5, 10, 20],
@@ -44,7 +41,7 @@ def cli(dataset_name: str, num_iterations: list[int], test_size: float):
         config={
             "dataset_name": dataset_name,
             "num_iterations": num_iterations,
-            "job_type": "hyperparameter_searcg"
+            "job_type": "hyperparameter_searcg",
         },
     )
     load_dotenv(find_dotenv(), override=True)
