@@ -1,19 +1,30 @@
 import os
-
-import click
+import logging
 import argilla as rg
-import evaluate
+import click
 import numpy as np
-import wandb
+from typing import Optional, Dict
 from datasets import Dataset
 from dotenv import load_dotenv, find_dotenv
-from setfit import SetFitModel
-from setfit import SetFitTrainer
+from setfit import SetFitModel, SetFitTrainer
 from sklearn.preprocessing import MultiLabelBinarizer
 from skmultilearn.model_selection import iterative_train_test_split
 
+import wandb
+from utils import compute_metrics
 
-def model_init(params):
+logging.basicConfig(level=logging.INFO)
+
+def model_init(params: Optional[Dict] = None) -> SetFitModel:
+    """
+    Initialize the model with given parameters or default parameters.
+
+    Args:
+        params: A dictionary of parameters.
+
+    Returns:
+        A SetFitModel instance.
+    """
     params = params or {}
     max_iter = params.get("max_iter", 10)
     solver = params.get("solver", "liblinear")
@@ -26,39 +37,25 @@ def model_init(params):
     }
     return SetFitModel.from_pretrained("sentence-transformers/paraphrase-mpnet-base-v2", **params)
 
-def compute_metrics(y_pred, y_test):
-    multilabel_f1_metric = evaluate.load("f1", "multilabel")
-    multilabel_precision_metric = evaluate.load("precision", "multilabel")
-    multilabel_recall_metric = evaluate.load("recall", "multilabel")
-    multilabel_accuracy_metric = evaluate.load("accuracy", "multilabel")
-    return {
-        "f1": multilabel_f1_metric.compute(
-            predictions=y_pred, references=y_test, average="micro"
-        )["f1"],
-        "precision": multilabel_precision_metric.compute(
-            predictions=y_pred, references=y_test, average="micro"
-        )["precision"],
-        "recall": multilabel_recall_metric.compute(
-            predictions=y_pred, references=y_test, average="micro"
-        )["recall"],
-        "accuracy": multilabel_accuracy_metric.compute(
-            predictions=y_pred, references=y_test
-        )["accuracy"],
-    }
-
-
 
 @click.command()
 @click.option('--dataset-name', default='sectors-sentence-or-text-block', help='Dataset name')
 @click.option('--num-iterations', default=[5, 10, 20], type=click.IntRange(1, 100, clamp=True), multiple=True, help='Number of iterations')
 @click.option('--test-size', default=0.3, help='Fraction of the dataset to be used as test split.')
-def cli(dataset_name, num_iterations, test_size):
+def cli(dataset_name: str, num_iterations: list[int], test_size: float):
+    """
+    Main CLI function for the script.
+
+    Args:
+        dataset_name: Name of the dataset to be loaded.
+        num_iterations: List of possible iteration numbers for the model.
+        test_size: Fraction of the dataset to be used as test split.
+    """
     wandb.init(project="sectors-classifier-gst", config={
         "dataset_name": dataset_name,
         "num_iterations": num_iterations,
     })
     load_dotenv(find_dotenv(), override=True)
-
 
     # User management is done at a workspace level
     rg.init(
@@ -80,8 +77,6 @@ def cli(dataset_name, num_iterations, test_size):
 
     train_dataset = Dataset.from_dict({"text": X_train_1d, "label": y_train})
     test_dataset = Dataset.from_dict({"text": X_test_1d, "label": y_test})
-
-
 
     trainer_hp = SetFitTrainer(
         model_init=model_init,
