@@ -1,6 +1,8 @@
 import os
 import logging
 from collections import defaultdict
+from pathlib import Path
+from tempfile import TemporaryDirectory
 
 import argilla as rg
 import click
@@ -13,7 +15,12 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from skmultilearn.model_selection import IterativeStratification
 
 import wandb
-from utils import compute_metrics, model_init
+from utils import (
+    compute_metrics,
+    model_init,
+    load_text_block_sample,
+    predict_from_text_blocks,
+)
 
 # Initialize logging
 logging.basicConfig(
@@ -68,7 +75,7 @@ def cli(
     all_metrics = defaultdict(list)
     k_fold = IterativeStratification(n_splits=n_folds, order=1)
 
-    logger.info("Starting model training and evaluation...")
+    logger.info(f"Starting model evaluation using {n_folds}-fold cross-validation...")
     for ix, (train, test) in enumerate(k_fold.split(X, y)):
         model = model_init()  # Use our model_init function here
         X_train_1d = X[train].reshape(-1)
@@ -98,6 +105,56 @@ def cli(
         del model
         del trainer
         torch.cuda.empty_cache()  # Clear CUDA cache after each fold
+
+    logger.info("Training classifier on all data")
+    model = model_init()
+    X_1d = X.reshape(-1)
+    train_dataset = Dataset.from_dict({"text": X_1d, "label": y})
+    trainer = SetFitTrainer(
+        model=model,
+        train_dataset=train_dataset,
+        num_epochs=5,
+        num_iterations=num_iterations,
+        batch_size=batch_size,
+    )
+
+    logger.info("Starting training...")
+    trainer.train()
+
+    logger.info("Loading sample of text blocks and predicting labels...")
+    text_blocks_and_metadata = load_text_block_sample(
+        docs_dir=Path(os.environ["DOCS_DIR_GST"]),
+        num_docs=500,
+        text_blocks_per_doc=1,
+        random_state=42,
+    )
+    predictions_df = predict_from_text_blocks(
+        model=model,
+        text_blocks_and_doc_metadata=text_blocks_and_metadata,
+        class_names=list(mlb.classes_),
+    )
+
+    wandb.log({"predictions sample": wandb.Table(dataframe=predictions_df)})
+
+    logger.info("Saving model to weights and biases...")
+    tmpdir = TemporaryDirectory()
+    model._save_pretrained(tmpdir.name)
+    # zip model files
+    model_zip_path = tmpdir.name + ".zip"
+    os.system(f"zip -r {model_zip_path} {tmpdir.name}")
+    # upload model files to wandb
+    artifact = wandb.Artifact(
+        argilla_dataset_name,
+        type="model",
+        description=f"model trained on {argilla_dataset_name} data",
+    )
+    artifact.add_file(model_zip_path)
+    wandb.log_artifact(artifact)
+
+    # clean up
+    tmpdir.cleanup()
+    os.remove(model_zip_path)
+    logger.info("Model saved to weights and biases.")
 
     logger.info("Script execution completed.")
 

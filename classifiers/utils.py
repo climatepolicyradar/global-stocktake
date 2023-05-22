@@ -1,8 +1,14 @@
-from typing import Dict, Optional
+from typing import Dict, Optional, Sequence
+from pathlib import Path
+import random
 
 import evaluate
 import numpy as np
 from setfit import SetFitModel
+import pandas as pd
+from cpr_data_access.models import TextBlock, BaseDocument
+from cpr_data_access.models import Dataset as CPRDataset
+from tqdm.auto import tqdm
 
 
 def compute_metrics(y_pred: np.ndarray, y_test: np.ndarray) -> Dict[str, float]:
@@ -60,3 +66,79 @@ def model_init(params: Optional[Dict] = None) -> SetFitModel:
     return SetFitModel.from_pretrained(
         "sentence-transformers/paraphrase-mpnet-base-v2", **params
     )
+
+
+def load_text_block_sample(
+    docs_dir: Path, num_docs: int, text_blocks_per_doc: int, random_state: int
+) -> Sequence[tuple[TextBlock, dict]]:
+    """
+    Load a sample of English language text blocks and associated document metadata from the database.
+
+    Excludes GST-specific metadata (documents are loaded as BaseDocument objects).
+
+    :param num_docs: number of docs to sample from the dataset
+    :param text_blocks_per_doc: max number of text blocks to sample per document
+    :param random_state: random state, for reproducibility
+    :return Sequence[tuple[TextBlock, dict]]: tuples of text block objects and dictionaries providing any context
+    """
+
+    random.seed(random_state)
+
+    dataset = (
+        CPRDataset(BaseDocument)
+        .load_from_local(str(docs_dir), limit=num_docs)
+        .filter_by_language("en")
+    )
+
+    text_blocks_doc_metadata_sample = []
+
+    for document in tqdm(dataset.documents):
+        if document.text_blocks is None:
+            print(f"Skipping {document.document_id} as no text blocks")
+            continue
+
+        doc_metadata = document.dict(exclude={"text_blocks", "page_metadata"})
+
+        # Randomly sample a fixed number of text blocks per document
+        if len(document.text_blocks) <= text_blocks_per_doc:
+            blocks = document.text_blocks
+        else:
+            blocks = random.sample(document.text_blocks, text_blocks_per_doc)
+
+        text_blocks_doc_metadata_sample += zip(blocks, [doc_metadata] * len(blocks))
+
+    return text_blocks_doc_metadata_sample
+
+
+def predict_from_text_blocks(
+    model: SetFitModel,
+    text_blocks_and_doc_metadata: Sequence[tuple[TextBlock, dict]],
+    class_names: list[str],
+) -> pd.DataFrame:
+    """
+    Given a setfit model and a list of text blocks and dictionaries providing any context, return a dataframe with the predictions and associated metadata.
+
+    :param model: setfit model
+    :param Sequence[tuple[TextBlock, dict]] text_blocks_and_doc_metadata: tuples of text block objects and dictionaries providing any context
+    :param list[str] class_names: class names in order e.g. from the multilabel binarizer
+    :return pd.DataFrame: dataframe with one-hot encoded predictions and associated metadata
+    """
+
+    text = [
+        block.to_string().replace("\n", " ").replace("  ", " ")
+        for (block, _) in text_blocks_and_doc_metadata
+    ]
+    y_pred = model.predict(text, as_numpy=False)
+    y_pred_df = pd.DataFrame(y_pred, columns=class_names)  # type: ignore
+
+    metadata = [
+        {"text": text[idx]}
+        | block.dict(include={"language", "text_block_id", "type", "page_number"})
+        | metadata_dict
+        for idx, (block, metadata_dict) in enumerate(text_blocks_and_doc_metadata)
+    ]
+    metadata_df = pd.DataFrame.from_records(metadata)
+
+    predictions_df = pd.concat([metadata_df, y_pred_df], axis=1)
+
+    return predictions_df
