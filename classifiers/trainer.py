@@ -26,7 +26,7 @@ from utils import (
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-logger = logging.getLogger(__name__)
+LOGGER = logging.getLogger(__name__)
 
 
 @click.command()
@@ -41,7 +41,7 @@ def cli(
     batch_size: int = 12,
 ) -> None:
     """Command Line Interface function for the script."""
-    logger.info("Initiating Weights & Biases...")
+    LOGGER.info("Initiating Weights & Biases...")
     wandb.init(
         project=argilla_dataset_name,
         config={
@@ -51,22 +51,22 @@ def cli(
         },
     )
 
-    logger.info("Loading environment variables...")
+    LOGGER.info("Loading environment variables...")
     load_dotenv(find_dotenv(), override=True)
 
     # User management is done at a workspace level
-    logger.info("Initializing Argilla...")
+    LOGGER.info("Initializing Argilla...")
     rg.init(
         workspace="gst",
         api_key=os.environ["ARGILLA_API_KEY"],
     )
 
-    logger.info("Loading dataset...")
+    LOGGER.info("Loading dataset...")
     dataset = rg.load(argilla_dataset_name).to_datasets()
     dataset_df = dataset.to_pandas()
     dataset_df = dataset_df.dropna(subset=["annotation"])
 
-    logger.info("Preprocessing data...")
+    LOGGER.info("Preprocessing data...")
     mlb = MultiLabelBinarizer()
     y = mlb.fit_transform(dataset_df["annotation"].values)
     X = dataset_df["text"].values.reshape(-1)
@@ -75,7 +75,7 @@ def cli(
     all_metrics = defaultdict(list)
     k_fold = IterativeStratification(n_splits=n_folds, order=1)
 
-    logger.info(f"Starting model evaluation using {n_folds}-fold cross-validation...")
+    LOGGER.info(f"Starting model evaluation using {n_folds}-fold cross-validation...")
     for ix, (train, test) in enumerate(k_fold.split(X, y)):
         model = model_init()  # Use our model_init function here
         X_train_1d = X[train].reshape(-1)
@@ -93,20 +93,20 @@ def cli(
             num_iterations=num_iterations,
             batch_size=batch_size,
         )
-        logger.info(f"Starting training for fold {ix + 1}...")
+        LOGGER.info(f"Starting training for fold {ix + 1}...")
         trainer.train()
-        logger.info("Evaluating model...")
+        LOGGER.info("Evaluating model...")
         metrics = trainer.evaluate()
         all_metrics[ix] = metrics
         wandb.log(metrics)
 
         # clean up
-        logger.info("Cleaning up...")
+        LOGGER.info("Cleaning up...")
         del model
         del trainer
         torch.cuda.empty_cache()  # Clear CUDA cache after each fold
 
-    logger.info("Training classifier on all data")
+    LOGGER.info("Training classifier on all data")
     model = model_init()
     X_1d = X.reshape(-1)
     train_dataset = Dataset.from_dict({"text": X_1d, "label": y})
@@ -118,10 +118,10 @@ def cli(
         batch_size=batch_size,
     )
 
-    logger.info("Starting training...")
+    LOGGER.info("Starting training...")
     trainer.train()
 
-    logger.info("Loading sample of text blocks and predicting labels...")
+    LOGGER.info("Loading sample of text blocks and predicting labels...")
     text_blocks_and_metadata = load_text_block_sample(
         docs_dir=Path(os.environ["DOCS_DIR_GST"]),
         num_docs=500,
@@ -136,7 +136,7 @@ def cli(
 
     wandb.log({"predictions sample": wandb.Table(dataframe=predictions_df)})
 
-    logger.info("Saving model to weights and biases...")
+    LOGGER.info("Saving model to weights and biases...")
     tmpdir = TemporaryDirectory()
     model._save_pretrained(tmpdir.name)
     # zip model files
@@ -154,9 +154,9 @@ def cli(
     # clean up
     tmpdir.cleanup()
     os.remove(model_zip_path)
-    logger.info("Model saved to weights and biases.")
+    LOGGER.info("Model saved to weights and biases.")
 
-    logger.info("Script execution completed.")
+    LOGGER.info("Script execution completed.")
 
 
 if __name__ == "__main__":
