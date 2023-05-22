@@ -11,13 +11,16 @@ from cpr_data_access.models import Dataset as CPRDataset
 from tqdm.auto import tqdm
 
 
-def compute_metrics(y_pred: np.ndarray, y_test: np.ndarray) -> Dict[str, float]:
+def compute_metrics(
+    y_pred: np.ndarray, y_test: np.ndarray, class_names: list[str]
+) -> Dict[str, float]:
     """
-    Compute metrics for the model predictions.
+    Compute sample level and class level metrics for multilabel predictions.
 
     Args:
         y_pred: The predictions from the model.
         y_test: The actual labels.
+        class_names: The names of the classes.
 
     Returns:
         A dictionary of metrics including F1, Precision, Recall, and Accuracy.
@@ -27,20 +30,47 @@ def compute_metrics(y_pred: np.ndarray, y_test: np.ndarray) -> Dict[str, float]:
     multilabel_recall_metric = evaluate.load("recall", "multilabel")
     multilabel_accuracy_metric = evaluate.load("accuracy", "multilabel")
 
-    return {
+    sample_metrics = {
         "f1": multilabel_f1_metric.compute(
-            predictions=y_pred, references=y_test, average="micro"
+            predictions=y_pred, references=y_test, average="samples"
         )["f1"],
         "precision": multilabel_precision_metric.compute(
-            predictions=y_pred, references=y_test, average="micro"
+            predictions=y_pred, references=y_test, average="samples"
         )["precision"],
         "recall": multilabel_recall_metric.compute(
-            predictions=y_pred, references=y_test, average="micro"
+            predictions=y_pred, references=y_test, average="samples"
         )["recall"],
         "accuracy": multilabel_accuracy_metric.compute(
             predictions=y_pred, references=y_test
         )["accuracy"],
     }
+
+    per_class_metrics = (
+        multilabel_f1_metric.compute(
+            predictions=y_pred, references=y_test, average=None
+        )
+        | multilabel_precision_metric.compute(
+            predictions=y_pred, references=y_test, average=None
+        )
+        | multilabel_recall_metric.compute(
+            predictions=y_pred, references=y_test, average=None
+        )
+    )
+
+    per_class_metrics_by_class = dict()
+
+    for idx, class_name in enumerate(class_names):
+        f1_score = per_class_metrics["f1"][idx]
+        precision_score = per_class_metrics["precision"][idx]
+        recall_score = per_class_metrics["recall"][idx]
+
+        per_class_metrics_by_class[class_name] = {
+            "f1": f1_score,
+            "precision": precision_score,
+            "recall": recall_score,
+        }
+
+    return {"sample_avg": sample_metrics, "per_class": per_class_metrics_by_class}
 
 
 def model_init(params: Optional[Dict] = None) -> SetFitModel:

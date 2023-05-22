@@ -88,7 +88,7 @@ def cli(
             model=model,
             train_dataset=train_dataset,
             eval_dataset=test_dataset,
-            metric=compute_metrics,
+            metric=lambda y_pred, y_test: compute_metrics(y_pred, y_test, mlb.classes_),
             num_epochs=5,
             num_iterations=num_iterations,
             batch_size=batch_size,
