@@ -99,15 +99,18 @@ def model_init(params: Optional[Dict] = None) -> SetFitModel:
 
 
 def load_text_block_sample(
-    docs_dir: Path, num_docs: int, text_blocks_per_doc: int, random_state: int
+    docs_dir: Path,
+    num_docs: Optional[int] = None,
+    text_blocks_per_doc: Optional[int] = None,
+    random_state: int = 42,
 ) -> Sequence[tuple[TextBlock, dict]]:
     """
     Load a sample of English language text blocks and associated document metadata from the database.
 
     Excludes GST-specific metadata (documents are loaded as BaseDocument objects).
 
-    :param num_docs: number of docs to sample from the dataset
-    :param text_blocks_per_doc: max number of text blocks to sample per document
+    :param num_docs: number of docs to sample from the dataset. If None, sample all docs.
+    :param text_blocks_per_doc: max number of text blocks to sample per document. If None, sample all text blocks.
     :param random_state: random state, for reproducibility
     :return Sequence[tuple[TextBlock, dict]]: tuples of text block objects and dictionaries providing any context
     """
@@ -130,7 +133,9 @@ def load_text_block_sample(
         doc_metadata = document.dict(exclude={"text_blocks", "page_metadata"})
 
         # Randomly sample a fixed number of text blocks per document
-        if len(document.text_blocks) <= text_blocks_per_doc:
+        if (text_blocks_per_doc is None) or (
+            len(document.text_blocks) <= text_blocks_per_doc
+        ):
             blocks = document.text_blocks
         else:
             blocks = random.sample(document.text_blocks, text_blocks_per_doc)
@@ -162,7 +167,7 @@ def predict_from_text_blocks(
     y_pred_df = pd.DataFrame(y_pred, columns=class_names)  # type: ignore
 
     metadata = [
-        {"text": text[idx]}
+        {"text": text[idx], "text_hash": block.text_hash}
         | block.dict(include={"language", "text_block_id", "type", "page_number"})
         | metadata_dict
         for idx, (block, metadata_dict) in enumerate(text_blocks_and_doc_metadata)
@@ -170,5 +175,10 @@ def predict_from_text_blocks(
     metadata_df = pd.DataFrame.from_records(metadata)
 
     predictions_df = pd.concat([metadata_df, y_pred_df], axis=1)
+
+    # Add a column with list of predicted classes
+    predictions_df["predictions"] = predictions_df.apply(
+        lambda row: row[class_names].index[row[class_names] == 1].tolist(), axis=1
+    )
 
     return predictions_df

@@ -139,21 +139,15 @@ def cli(
     LOGGER.info("Saving model to weights and biases...")
     tmpdir = TemporaryDirectory()
     model._save_pretrained(tmpdir.name)
-    # zip model files
-    model_zip_path = tmpdir.name + ".zip"
-    os.system(f"zip -r {model_zip_path} {tmpdir.name}")
-    # upload model files to wandb
+    (Path(tmpdir.name) / "class_names.txt").write_text("\n".join(mlb.classes_))
     artifact = wandb.Artifact(
         argilla_dataset_name,
         type="model",
         description=f"model trained on {argilla_dataset_name} data",
     )
-    artifact.add_file(model_zip_path)
+    artifact.add_dir(tmpdir.name)
     wandb.log_artifact(artifact)
 
-    # clean up
-    tmpdir.cleanup()
-    os.remove(model_zip_path)
     LOGGER.info("Model saved to weights and biases.")
 
     LOGGER.info("Script execution completed.")
