@@ -142,7 +142,7 @@ def cli(
 
     LOGGER.info("Loading sample of text blocks and predicting labels...")
     text_blocks_and_metadata = load_text_block_sample(
-        docs_dir=Path(os.environ["DOCS_DIR_GST"]),
+        docs_dir=Path(os.environ["DOCS_DIR_GST"]).expanduser(),
         num_docs=500,
         text_blocks_per_doc=1,
         random_state=42,
