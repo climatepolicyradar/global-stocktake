@@ -66,7 +66,7 @@ def cli(
     dataset_df = dataset.to_pandas()
     dataset_df = dataset_df.dropna(subset=["annotation"])
 
-    wandb.log({"argilla-dataset": wandb.Table(dataframe=dataset_df)})
+    wandb.log({"argilla-dataset": dataset})
 
     LOGGER.info("Preprocessing data...")
     mlb = MultiLabelBinarizer()
