@@ -1,6 +1,5 @@
 import os
 import logging
-from collections import defaultdict
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
@@ -82,7 +81,6 @@ def cli(
     X = dataset_df["text"].values.reshape(-1)
     X = np.reshape(X, (X.size, 1))
 
-    all_metrics = defaultdict(list)
     k_fold = IterativeStratification(n_splits=n_folds, order=1)
 
     LOGGER.info(f"Starting model evaluation using {n_folds}-fold cross-validation...")
@@ -106,8 +104,8 @@ def cli(
         LOGGER.info(f"Starting training for fold {ix + 1}...")
         trainer.train()
         LOGGER.info("Evaluating model...")
-        metrics = trainer.evaluate()
-        all_metrics[ix] = metrics
+        metrics: dict = trainer.evaluate()
+        metrics["fold"] = ix + 1
         wandb.log(metrics)
 
         # clean up
