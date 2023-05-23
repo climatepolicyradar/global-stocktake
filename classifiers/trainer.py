@@ -66,7 +66,15 @@ def cli(
     dataset_df = dataset.to_pandas()
     dataset_df = dataset_df.dropna(subset=["annotation"])
 
-    wandb.log({"argilla-dataset": dataset})
+    with TemporaryDirectory() as tmpdir:
+        dataset_df.to_csv(Path(tmpdir) / "argilla-dataset.csv", index=False)
+        dataset = Path(tmpdir) / "argilla-dataset.csv"
+        artifact = wandb.Artifact(
+            "argilla-dataset",
+            type="dataset",
+            description=f"export from Argilla: {argilla_dataset_name} project",
+        )
+        artifact.add_file(str(dataset))
 
     LOGGER.info("Preprocessing data...")
     mlb = MultiLabelBinarizer()
