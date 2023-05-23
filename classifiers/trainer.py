@@ -45,6 +45,8 @@ def cli(
     LOGGER.info("Loading environment variables...")
     load_dotenv(find_dotenv(), override=True)
 
+    WANDB_GROUP_NAME = f"model training {TIMESTR}"
+
     # User management is done at a workspace level
     LOGGER.info("Initializing Argilla...")
     rg.init(
@@ -70,7 +72,7 @@ def cli(
         LOGGER.info("Initialising Weights & Biases...")
         wandb.init(
             project=argilla_dataset_name,
-            group=f"k-fold cross-validation: {TIMESTR}",
+            group=WANDB_GROUP_NAME,
             name=f"fold {ix + 1}",
             reinit=True,
             config={
@@ -115,7 +117,7 @@ def cli(
 
     wandb.init(
         project=argilla_dataset_name,
-        group=f"k-fold cross-validation: {TIMESTR}",
+        group=WANDB_GROUP_NAME,
         name="predictions and artifact logging",
         reinit=True,
         config={
