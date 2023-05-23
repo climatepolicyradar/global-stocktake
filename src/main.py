@@ -1,6 +1,7 @@
-from typing import Sequence, Optional
+from typing import Sequence, Optional, Literal
 import itertools
 import datetime
+import logging
 
 from fastapi import FastAPI, Depends
 from pydantic import BaseModel
@@ -10,6 +11,9 @@ from src.opensearch.client import get_opensearch_client
 app = FastAPI()
 
 load_dotenv(find_dotenv())
+logging.basicConfig(level=logging.INFO)
+
+LOGGER = logging.getLogger(__name__)
 
 
 @app.get("/health")
@@ -35,12 +39,15 @@ class SearchRequest(BaseModel):
     date_to: Optional[datetime.date] = None
     authors: Optional[Sequence[str]] = None
     types: Optional[Sequence[str]] = None
+    sort_field: Optional[Literal["date", "relevance"]] = None
+    sort_order: Optional[Literal["asc", "desc"]] = None
 
 
 @app.post("/search")
 async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     """Get search results."""
 
+    # Basic query body
     query_body = {
         "from": request.offset,
         "size": request.limit,
@@ -51,6 +58,7 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
         },
     }
 
+    # Text search
     if request.text:
         query_body["query"]["bool"]["must"].append(
             {"match": {"text_html": {"query": request.text, "operator": "and"}}}
@@ -71,6 +79,7 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
     else:
         query_body["query"]["bool"]["must"].append({"match_all": {}})
 
+    # Filters (span types, is_party, date, authors, types)
     query_body["query"]["bool"].update({"filter": []})
 
     if request.span_types:
@@ -118,8 +127,19 @@ async def search(request: SearchRequest, opns=Depends(get_opensearch_client)):
             {"terms": {"document_metadata.types": request.types}}
         )
 
+    # Sort
+    if request.sort_field == "relevance" and request.sort_order == "asc":
+        LOGGER.warning(
+            "Ascending relevance sort is not supported. Defaulting to descending."
+        )
+
+    if request.sort_field == "date":
+        # Default to descending if no sort order is provided
+        query_body["sort"] = [{"document_metadata.date": request.sort_order or "desc"}]
+
     opns_result = opns.search(index=request.index, body=query_body)
 
+    # Manually fill in highlight field if no text was provided in the request, as Opensearch doesn't populate it in that case.
     if not request.text:
         for item in opns_result["hits"]["hits"]:
             item["highlight"] = {}
