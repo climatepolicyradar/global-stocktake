@@ -2,6 +2,7 @@ import os
 import logging
 from pathlib import Path
 from tempfile import TemporaryDirectory
+import time
 
 import argilla as rg
 import click
@@ -26,6 +27,7 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO
 )
 LOGGER = logging.getLogger(__name__)
+TIMESTR = time.strftime("%Y%m%d-%H%M%S")
 
 
 @click.command()
@@ -40,16 +42,6 @@ def cli(
     batch_size: int = 12,
 ) -> None:
     """Command Line Interface function for the script."""
-    LOGGER.info("Initiating Weights & Biases...")
-    wandb.init(
-        project=argilla_dataset_name,
-        config={
-            "dataset_name": argilla_dataset_name,
-            "num_iterations": num_iterations,
-            "n_folds": n_folds,
-        },
-    )
-
     LOGGER.info("Loading environment variables...")
     load_dotenv(find_dotenv(), override=True)
 
@@ -65,16 +57,6 @@ def cli(
     dataset_df = dataset.to_pandas()
     dataset_df = dataset_df.dropna(subset=["annotation"])
 
-    with TemporaryDirectory() as tmpdir:
-        dataset_df.to_csv(Path(tmpdir) / "argilla-dataset.csv", index=False)
-        dataset = Path(tmpdir) / "argilla-dataset.csv"
-        artifact = wandb.Artifact(
-            "argilla-dataset",
-            type="dataset",
-            description=f"export from Argilla: {argilla_dataset_name} project",
-        )
-        artifact.add_file(str(dataset))
-
     LOGGER.info("Preprocessing data...")
     mlb = MultiLabelBinarizer()
     y = mlb.fit_transform(dataset_df["annotation"].values)
@@ -85,6 +67,23 @@ def cli(
 
     LOGGER.info(f"Starting model evaluation using {n_folds}-fold cross-validation...")
     for ix, (train, test) in enumerate(k_fold.split(X, y)):
+        LOGGER.info("Initialising Weights & Biases...")
+        wandb.init(
+            project=argilla_dataset_name,
+            group=f"k-fold cross-validation: {TIMESTR}",
+            name=f"fold {ix + 1}",
+            reinit=True,
+            config={
+                "dataset_name": argilla_dataset_name,
+                "num_iterations": num_iterations,
+                "n_folds": n_folds,
+            },
+        )
+        wandb.summary["fold"] = ix + 1
+        wandb.summary["num_iterations"] = num_iterations
+        wandb.summary["n_folds"] = n_folds
+        wandb.summary["batch_size"] = batch_size
+
         model = model_init()  # Use our model_init function here
         X_train_1d = X[train].reshape(-1)
         X_test_1d = X[test].reshape(-1)
@@ -105,14 +104,24 @@ def cli(
         trainer.train()
         LOGGER.info("Evaluating model...")
         metrics: dict = trainer.evaluate()
-        metrics["fold"] = ix + 1
         wandb.log(metrics)
 
         # clean up
+        wandb.finish()
         LOGGER.info("Cleaning up...")
         del model
         del trainer
         torch.cuda.empty_cache()  # Clear CUDA cache after each fold
+
+    wandb.init(
+        project=argilla_dataset_name,
+        group=f"k-fold cross-validation: {TIMESTR}",
+        name="predictions and artifact logging",
+        reinit=True,
+        config={
+            "dataset_name": argilla_dataset_name,
+        },
+    )
 
     LOGGER.info("Training classifier on all data")
     model = model_init()
@@ -143,6 +152,17 @@ def cli(
     )
 
     wandb.log({"predictions sample": wandb.Table(dataframe=predictions_df)})
+
+    LOGGER.info("Saving Argilla dataset to weights and biases...")
+    with TemporaryDirectory() as tmpdir:
+        dataset_df.to_csv(Path(tmpdir) / "argilla-dataset.csv", index=False)
+        dataset = Path(tmpdir) / "argilla-dataset.csv"
+        artifact = wandb.Artifact(
+            "argilla-dataset",
+            type="dataset",
+            description=f"export from Argilla: {argilla_dataset_name} project",
+        )
+        artifact.add_file(str(dataset))
 
     LOGGER.info("Saving model to weights and biases...")
     tmpdir = TemporaryDirectory()
