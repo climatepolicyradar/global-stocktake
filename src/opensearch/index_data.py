@@ -60,10 +60,20 @@ def get_dataset_and_filter_values(
         .load_from_local(str(parser_outputs_dir), limit=limit)
         .filter_by_language("en")
     )
-    dataset.documents = [
-        base_document_to_gst_document(doc, scraper_data)
-        for doc in tqdm(dataset.documents)
-    ]
+
+    new_docs = []
+
+    for doc in tqdm(dataset.documents):
+        try:
+            new_docs.append(base_document_to_gst_document(doc, scraper_data))
+        except Exception as e:
+            LOGGER.warning(f"Could not process document {doc.document_id}: {e}")
+
+    LOGGER.info(
+        f"Loaded {len(new_docs)} documents. {len(dataset.documents) - len(new_docs)} documents failed to load."
+    )
+
+    dataset.documents = new_docs
     dataset_metadata_df = dataset.metadata_df
 
     filter_values = dict()
@@ -248,7 +258,7 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
                 "span_types": list(set([s.type for s in block._spans]))
                 + block_concepts,
                 "span_ids": list(set([s.id for s in block._spans])),
-                "is_party": doc.document_metadata.party is not None,
+                "is_party": doc.document_metadata.author_is_party,
                 "date_string": doc.document_metadata.date.strftime("%Y-%m-%d")
                 if doc.document_metadata.date
                 else None,
