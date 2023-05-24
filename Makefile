@@ -79,11 +79,24 @@ adaptation:
 	explorer_merge GST -e ./concepts/adaptation/output.xlsx -m ${SCRAPER_CSV_PATH}
 	explorer gst -i ./concepts/adaptation/input.xlsx -d ${DOCS_DIR_GST} -o ./concepts/adaptation
 
+train_sector_classifier:
+	poetry run python classifiers/trainer.py --argilla-dataset-name sector-text-classifier
+
+train_instruments_classifier:
+	poetry run python classifiers/trainer.py --argilla-dataset-name policy-instrument-text-classifier
+
+# NOTE: these should be run against the *best* model artifact, not the latest
+run_sector_classifier:
+	poetry run python classifiers/run_on_full_dataset.py --wandb-artifact-name climatepolicyradar/sector-text-classifier/sector-text-classifier:latest --output-dir ./concepts/sectors
+
+run_instruments_classifier:
+	poetry run python classifiers/run_on_full_dataset.py --wandb-artifact-name climatepolicyradar/policy-instrument-text-classifier/policy-instrument-text-classifier:latest --output-dir ./concepts/policy-instruments
+
 # split spans csvs into smaller chunks that can be pushed to git
 split_spans_csvs:
 	python src/data/split_spans_csvs.py
 
-concepts: fossil-fuels technologies greenhouse-gases challenges-and-opportunities climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28 loss-and-damage mitigation adaptation split_spans_csvs
+concepts: fossil-fuels technologies greenhouse-gases challenges-and-opportunities climate-related-hazards deforestation equity-and-justice financial-flows renewables vulnerable-groups cop28 loss-and-damage mitigation adaptation run_sector_classifier run_instruments_classifier split_spans_csvs
 
 sync_concepts_with_s3:
 	aws s3 sync ./concepts s3://cpr-dataset-gst-concepts
