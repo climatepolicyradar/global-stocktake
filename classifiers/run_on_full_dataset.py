@@ -80,6 +80,10 @@ def cli(wandb_artifact_name: str, output_dir: Path) -> None:
     spans_df = pd.DataFrame.from_records([s.dict() for s in spans])
 
     spans_output_path = output_dir / "spans.csv"
+
+    if not spans_output_path.parent.exists():
+        spans_output_path.parent.mkdir(parents=True)
+
     spans_output_path.write_text(spans_df.to_csv(index=False))
     LOGGER.info(f"Spans written to {spans_output_path}")
 
