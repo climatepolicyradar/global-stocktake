@@ -8,7 +8,7 @@ import pandas as pd
 LOGGER = logging.getLogger(__name__)
 LOGGER.setLevel(logging.INFO)
 
-MAX_SPANS_PER_FILE = 100000
+MAX_SPANS_PER_FILE = 50000
 
 if __name__ == "__main__":
     for concept_dir in (Path(__file__).parent.parent.parent / "concepts").iterdir():
