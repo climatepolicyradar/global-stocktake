@@ -47,7 +47,7 @@ def cli(wandb_artifact_name: str, output_dir: Path) -> None:
 
     LOGGER.info("Loading text blocks for all documents...")
     text_blocks_and_metadata = load_text_block_sample(
-        docs_dir=Path(os.environ["DOCS_DIR_GST"]),
+        docs_dir=Path(os.environ["DOCS_DIR_GST"]).expanduser(),
         num_docs=None,
         text_blocks_per_doc=None,
     )
