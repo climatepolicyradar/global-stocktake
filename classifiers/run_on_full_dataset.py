@@ -8,6 +8,7 @@ import wandb
 from setfit import SetFitModel
 import click
 from cpr_data_access.models import Span
+from dotenv import load_dotenv, find_dotenv
 
 from utils import load_text_block_sample, predict_from_text_blocks
 
@@ -33,6 +34,8 @@ def cli(wandb_artifact_name: str, output_dir: Path) -> None:
 
     :param str wandb_artifact_name: should start with climatepolicyradar/. E.g. climatepolicyradar/sector-text-classifier/sector-text-classifier:v0
     """
+
+    load_dotenv(find_dotenv(), override=True)
 
     api = wandb.Api()
     artifact = api.artifact(wandb_artifact_name, type="model")
