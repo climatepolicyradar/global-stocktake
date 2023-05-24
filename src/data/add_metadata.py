@@ -44,4 +44,8 @@ def base_document_to_gst_document(
 
     new_metadata = GSTDocumentMetadata.parse_obj(new_metadata_dict)
 
+    # TODO: changing the document title manually should only need to be done because we're using old parser outputs.
+    # Eventually the clean title should come from the new parser outputs.
+    doc_dict["document_name"] = new_metadata_dict["Document Title"]
+
     return GSTDocument(**doc_dict, document_metadata=new_metadata)
