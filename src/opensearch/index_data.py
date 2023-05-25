@@ -3,6 +3,7 @@ from logging import getLogger
 from typing import Optional
 from pathlib import Path
 from collections import OrderedDict
+from datetime import datetime
 
 from cpr_data_access.models import Dataset, BaseDocument, Span, GSTDocument, TextBlock
 from tqdm.auto import tqdm
@@ -278,17 +279,19 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
 @click.argument(
     "concepts_dir", type=click.Path(exists=True, file_okay=False, path_type=Path)
 )
-@click.option("--index", "-i", type=str, default="global-stocktake")
+@click.option("--index-prefix", "-i", type=str, default="global-stocktake")
 @click.option("--limit", "-l", type=int, default=None)
-def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
+def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index_prefix, limit):
     load_dotenv(find_dotenv())
+
+    timestr = datetime.now().strftime("%Y%m%d-%H%M%S")
+    index_name = f"{index_prefix}-{timestr}"
 
     """Load dataset and index into OpenSearch."""
     opns = get_opensearch_client()
 
-    LOGGER.info(f"Deleting and recreating index {index}")
-    opns.indices.delete(index=index, ignore=[400, 404])
-    opns.indices.create(index=index, body=index_settings)
+    LOGGER.info(f"Creating index {index_name}")
+    opns.indices.create(index=index_name, body=index_settings)
 
     dataset, filter_values = get_dataset_and_filter_values(
         parser_outputs_dir, scraper_csv_path, concepts_dir, limit
@@ -305,15 +308,17 @@ def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
 
     for ok, _ in helpers.streaming_bulk(
         client=opns,
-        index=index,
+        index=index_name,
         actions=actions,
         request_timeout=60,
         max_retries=5,
     ):
         successes += ok
 
-    LOGGER.info(f"Indexing metadata to index {index+'-metadata'}")
-    opns.index(index=index + "-metadata", body=filter_values, id="filters")
+    LOGGER.info(f"Indexing metadata to index {index_name+'-metadata'}")
+    opns.index(index=index_name + "-metadata", body=filter_values, id="filters")
+
+    LOGGER.info(f"New index names: {index_name}, {index_name+'-metadata'}")
 
 
 if __name__ == "__main__":
