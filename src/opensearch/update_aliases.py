@@ -39,7 +39,7 @@ def update_aliases(new_index_prefix: str):
             {
                 "add": {
                     "index": f"{new_index_prefix}-metadata",
-                    "alias": "global-stocktake-docs",
+                    "alias": "global-stocktake-docs-metadata",
                 }
             },
         ]
