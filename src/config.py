@@ -19,4 +19,9 @@ CONCEPTS_TO_INDEX: set[str] = {
     "sectors",
     "policy-instruments",
 }
-FULL_SPAN_CONCEPTS: set[str] = {"sectors", "policy-instruments"}
+FULL_PASSAGE_CONCEPTS: set[str] = {
+    "sectors",
+    "policy-instruments",
+}  # Concepts which annoatate each full passage rather than a span within it
+PARTIAL_PASSAGE_CONCEPTS_TO_INDEX: set[str] = CONCEPTS_TO_INDEX - FULL_PASSAGE_CONCEPTS
+FULL_PASSAGE_CONCEPTS_TO_INDEX: set[str] = CONCEPTS_TO_INDEX & FULL_PASSAGE_CONCEPTS

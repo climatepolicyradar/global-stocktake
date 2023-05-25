@@ -98,9 +98,6 @@ def get_dataset_and_filter_values(
 
     filter_values["concepts"] = dict()
 
-    # Whether to filter concepts to only those specified in the CONCEPTS_TO_INDEX environment variable.
-    filter_concepts = len(config.CONCEPTS_TO_INDEX) > 0
-
     LOGGER.info("Adding spans")
     spans = []
 
@@ -115,9 +112,9 @@ def get_dataset_and_filter_values(
             )
             continue
 
-        if filter_concepts and path.name not in config.CONCEPTS_TO_INDEX:
+        if path.name not in config.CONCEPTS_TO_INDEX:
             LOGGER.info(
-                f"Skipping concept {path.name} because it is not in CONCEPTS_TO_INDEX"
+                f"Skipping concept {path.name} because it is not in config CONCEPTS_TO_INDEX"
             )
             continue
 
@@ -136,6 +133,18 @@ def get_dataset_and_filter_values(
         filter_values["concepts"][concept_name] = [f"{concept_name} – All"] + sorted(
             list(set([span.type for span in concept_spans]))
         )
+
+        # Use 'annotator' property of spans to store whether the concept is a full-passage concept or not
+        if path.name in config.FULL_PASSAGE_CONCEPTS:
+            for span in concept_spans:
+                span.annotator = "full_passage"
+        elif path.name in config.PARTIAL_PASSAGE_CONCEPTS_TO_INDEX:
+            for span in concept_spans:
+                span.annotator = "partial_passage"
+        else:
+            raise ValueError(
+                f"Concept {path.name} not found in config. This means there's likely a bug in the indexing code."
+            )
 
     for span in spans:
         span.document_id = span.document_id.upper()
@@ -228,17 +237,23 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
     )
 
     for idx, block in enumerate(doc.text_blocks):
-        # For each block, add a generic "Concept – All" value to the span_types list for the UI filter
-        block_concepts = list(
-            set([s.type.split(" – ")[0] + " – All" for s in block._spans])
-        )
-
         block_before_text = "" if idx == 0 else doc.text_blocks[idx - 1].to_string()
 
         block_after_text = (
             ""
             if idx == len(doc.text_blocks) - 1
             else doc.text_blocks[idx + 1].to_string()
+        )
+
+        span_types = list(set([s.type for s in block._spans]))
+        span_types_full_passage = list(
+            set([s.type for s in block._spans if s.annotator == "full_passage"])
+        )
+
+        # For each all span types that the block contains, add a generic "Concept – All" value
+        span_types.extend(list(set([s.split(" – ")[0] + " – All" for s in span_types])))
+        span_types_full_passage.extend(
+            list(set([s.split(" – ")[0] + " – All" for s in span_types_full_passage]))
         )
 
         opensearch_docs.append(
@@ -256,8 +271,8 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
                 "text_after": fix_text_block_string(block_after_text),
                 "text_html": text_block_to_html(block),
                 "spans": [s.dict() for s in block._spans],
-                "span_types": list(set([s.type for s in block._spans]))
-                + block_concepts,
+                "span_types": span_types,
+                "span_types_full_passage": span_types_full_passage,
                 "span_ids": list(set([s.id for s in block._spans])),
                 "is_party": doc.document_metadata.author_is_party,
                 "date_string": doc.document_metadata.date.strftime("%Y-%m-%d")
