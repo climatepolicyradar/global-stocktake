@@ -8,6 +8,7 @@ import wandb
 from setfit import SetFitModel
 import click
 from cpr_data_access.models import Span
+from dotenv import load_dotenv, find_dotenv
 
 from utils import load_text_block_sample, predict_from_text_blocks
 
@@ -34,6 +35,8 @@ def cli(wandb_artifact_name: str, output_dir: Path) -> None:
     :param str wandb_artifact_name: should start with climatepolicyradar/. E.g. climatepolicyradar/sector-text-classifier/sector-text-classifier:v0
     """
 
+    load_dotenv(find_dotenv(), override=True)
+
     api = wandb.Api()
     artifact = api.artifact(wandb_artifact_name, type="model")
 
@@ -44,7 +47,7 @@ def cli(wandb_artifact_name: str, output_dir: Path) -> None:
 
     LOGGER.info("Loading text blocks for all documents...")
     text_blocks_and_metadata = load_text_block_sample(
-        docs_dir=Path(os.environ["DOCS_DIR_GST"]),
+        docs_dir=Path(os.environ["DOCS_DIR_GST"]).expanduser(),
         num_docs=None,
         text_blocks_per_doc=None,
     )
@@ -77,6 +80,10 @@ def cli(wandb_artifact_name: str, output_dir: Path) -> None:
     spans_df = pd.DataFrame.from_records([s.dict() for s in spans])
 
     spans_output_path = output_dir / "spans.csv"
+
+    if not spans_output_path.parent.exists():
+        spans_output_path.parent.mkdir(parents=True)
+
     spans_output_path.write_text(spans_df.to_csv(index=False))
     LOGGER.info(f"Spans written to {spans_output_path}")
 
