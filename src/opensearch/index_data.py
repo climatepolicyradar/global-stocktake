@@ -3,6 +3,7 @@ from logging import getLogger
 from typing import Optional
 from pathlib import Path
 from collections import OrderedDict
+from datetime import datetime
 
 from cpr_data_access.models import Dataset, BaseDocument, Span, GSTDocument, TextBlock
 from tqdm.auto import tqdm
@@ -60,10 +61,20 @@ def get_dataset_and_filter_values(
         .load_from_local(str(parser_outputs_dir), limit=limit)
         .filter_by_language("en")
     )
-    dataset.documents = [
-        base_document_to_gst_document(doc, scraper_data)
-        for doc in tqdm(dataset.documents)
-    ]
+
+    new_docs = []
+
+    for doc in tqdm(dataset.documents):
+        try:
+            new_docs.append(base_document_to_gst_document(doc, scraper_data))
+        except Exception as e:
+            LOGGER.warning(f"Could not process document {doc.document_id}: {e}")
+
+    LOGGER.info(
+        f"Loaded {len(new_docs)} documents. {len(dataset.documents) - len(new_docs)} documents failed to load."
+    )
+
+    dataset.documents = new_docs
     dataset_metadata_df = dataset.metadata_df
 
     filter_values = dict()
@@ -248,7 +259,7 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
                 "span_types": list(set([s.type for s in block._spans]))
                 + block_concepts,
                 "span_ids": list(set([s.id for s in block._spans])),
-                "is_party": doc.document_metadata.party is not None,
+                "is_party": doc.document_metadata.author_is_party,
                 "date_string": doc.document_metadata.date.strftime("%Y-%m-%d")
                 if doc.document_metadata.date
                 else None,
@@ -268,17 +279,19 @@ def gst_document_to_opensearch_document(doc: GSTDocument) -> list[dict]:
 @click.argument(
     "concepts_dir", type=click.Path(exists=True, file_okay=False, path_type=Path)
 )
-@click.option("--index", "-i", type=str, default="global-stocktake")
+@click.option("--index-prefix", "-i", type=str, default="global-stocktake")
 @click.option("--limit", "-l", type=int, default=None)
-def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
+def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index_prefix, limit):
     load_dotenv(find_dotenv())
+
+    timestr = datetime.now().strftime("%Y%m%d-%H%M%S")
+    index_name = f"{index_prefix}-{timestr}"
 
     """Load dataset and index into OpenSearch."""
     opns = get_opensearch_client()
 
-    LOGGER.info(f"Deleting and recreating index {index}")
-    opns.indices.delete(index=index, ignore=[400, 404])
-    opns.indices.create(index=index, body=index_settings)
+    LOGGER.info(f"Creating index {index_name}")
+    opns.indices.create(index=index_name, body=index_settings)
 
     dataset, filter_values = get_dataset_and_filter_values(
         parser_outputs_dir, scraper_csv_path, concepts_dir, limit
@@ -295,15 +308,17 @@ def main(parser_outputs_dir, scraper_csv_path, concepts_dir, index, limit):
 
     for ok, _ in helpers.streaming_bulk(
         client=opns,
-        index=index,
+        index=index_name,
         actions=actions,
         request_timeout=60,
         max_retries=5,
     ):
         successes += ok
 
-    LOGGER.info(f"Indexing metadata to index {index+'-metadata'}")
-    opns.index(index=index + "-metadata", body=filter_values, id="filters")
+    LOGGER.info(f"Indexing metadata to index {index_name+'-metadata'}")
+    opns.index(index=index_name + "-metadata", body=filter_values, id="filters")
+
+    LOGGER.info(f"New index names: {index_name}, {index_name+'-metadata'}")
 
 
 if __name__ == "__main__":
