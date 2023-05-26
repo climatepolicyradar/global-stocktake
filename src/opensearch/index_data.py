@@ -122,7 +122,10 @@ def get_dataset_and_filter_values(
         for spans_file in spans_files:
             concept_spans.extend(load_spans_csv(spans_file))
 
-        concept_name = str(path).split("/")[-1].replace("-", " ").title()
+        # Brackets can't be used in the Makefile so "br-" and "-br" are used to represent them
+        concept_name = (
+            path.name.replace("br-", "(").replace("-br", ")").replace("-", " ").title()
+        )
 
         for span in concept_spans:
             span.type = f"{concept_name} – {span.type.replace('_', ' ').title()}"
