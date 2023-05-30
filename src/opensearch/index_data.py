@@ -209,19 +209,14 @@ def text_block_to_html(block: TextBlock) -> str:
     for span in soup.find_all("span", {"style": lambda x: "z-index: 10" in x}):
         span.attrs["class"] = "span-label"
         span.attrs["id"] = span.text.strip()
+        span.parent.parent.attrs["class"] = (
+            "text-highlight" + " " + span.text.strip().replace(" ", "-")
+        )
 
         concept_span, subconcept_span = label_text_to_spans(span.text)
         span.string.replace_with("")
         span.append(concept_span)
         span.append(subconcept_span)
-
-    for highlight_span in soup.find_all(
-        "span",
-        {
-            "style": "font-weight: bold; display: inline-block; position: relative; height: 60px;"
-        },
-    ):
-        highlight_span.attrs["class"] = "text-highlight"
 
     return soup.prettify()
 
