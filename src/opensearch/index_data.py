@@ -98,7 +98,7 @@ def get_dataset_and_filter_values(
 
     filter_values["concepts"] = dict()
 
-    LOGGER.info("Adding spans")
+    LOGGER.info("Loading spans from concepts directory")
     spans = []
 
     for path in concepts_dir.iterdir():
@@ -149,9 +149,6 @@ def get_dataset_and_filter_values(
                 f"Concept {path.name} not found in config. This means there's likely a bug in the indexing code."
             )
 
-    for span in spans:
-        span.document_id = span.document_id.upper()
-
     filter_values["concepts"] = OrderedDict(sorted(filter_values["concepts"].items()))
 
     LOGGER.info("Adding spans to dataset")
@@ -186,7 +183,12 @@ def text_block_to_html(block: TextBlock) -> str:
     :return str: html for display
     """
 
-    block_html = block.display(style="span", nlp=nlp).replace("</br>", " ")
+    block_for_display = block.copy()
+    block_for_display._spans = [
+        span for span in block._spans if span.annotator != "full_passage"
+    ]
+
+    block_html = block_for_display.display(style="span", nlp=nlp).replace("</br>", " ")
     soup = BeautifulSoup(block_html, "html.parser")
 
     def label_text_to_spans(text: str) -> tuple[Tag, Tag]:
