@@ -1,8 +1,10 @@
-# Climate Policy Radar Global Stocktake methodology
+# Climate Policy Radar Global Stocktake Explorer methodology
+
+> **Note**
+> We are continuing to update and refine our methodology as we develop our tool and its capabilities. This is the methodology for our approach to detecting concepts in the text of documents. See also our [taxonomy explainers](./taxonomy-explainers/).
 
 ## 1. Overview
 
-**Note: we are continuing to update and refine our methodology as we develop our tool and its capabilities.**
 
 The text labels and filter tools in our Global Stocktake search tool are based on data collected using Explorer, an internal text analysis tools developed by Climate Policy Radar. Explorer enables search for references to a number of concepts simultaneously across a large number of documents, using keywords. This section documents how Explorer works, and the methodology we follow to develop keyword lists to identify references to concepts within documents related to the Global Stocktake.
 
