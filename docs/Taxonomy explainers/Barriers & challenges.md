@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to barriers and challenges were identified based on English-language dictionary definitions in combination with semantically-related terms and phrases commonly identified in the literature. For more information about our approach, please see our methodology.
+References to barriers and challenges were identified based on English-language dictionary definitions in combination with semantically-related terms and phrases commonly identified in the literature. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
 
 ## Methodology
 

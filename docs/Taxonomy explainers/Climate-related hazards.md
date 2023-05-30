@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to climate-related hazards were identified based on the UN Office for Disaster Risk Reduction’s Hazard Definition and Classification Review. For more information about our approach, please see our methodology.
+References to climate-related hazards were identified based on the UN Office for Disaster Risk Reduction’s Hazard Definition and Classification Review. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
 
 ## Methodology
 

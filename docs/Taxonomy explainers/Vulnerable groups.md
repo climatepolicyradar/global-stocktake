@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to impacted and vulnerable groups were identified based on the Paris Agreement. For more information about our approach, please see our methodology.
+References to impacted and vulnerable groups were identified based on the Paris Agreement. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
 
 ## Methodology
 

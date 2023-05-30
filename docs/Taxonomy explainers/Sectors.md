@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to sectors were identified based on sources published by the Intergovernmental Panel on Climate Change (IPCC). For more information about our approach, please see our methodology.
+References to sectors were identified based on sources published by the Intergovernmental Panel on Climate Change (IPCC). For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
 
 ## Methodology
 

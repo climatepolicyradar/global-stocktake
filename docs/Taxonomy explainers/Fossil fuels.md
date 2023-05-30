@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to fossil fuels were identified based on the Eurostat glossary definition of fossil fuels and related products. For more information about our approach, please see our methodology.
+References to fossil fuels were identified based on the Eurostat glossary definition of fossil fuels and related products. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
 
 ## Methodology
 

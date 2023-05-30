@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to greenhouse gases were identified based on sources published by the World Meteorological Organization and the Center for Climate and Energy Solutions. For more information about our approach, please see our methodology.
+References to greenhouse gases were identified based on sources published by the World Meteorological Organization and the Center for Climate and Energy Solutions. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
 
 ## Methodology
 

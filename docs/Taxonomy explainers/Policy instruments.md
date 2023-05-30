@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to policy instruments were identified based on taxonomies created by the NewClimate Institute and the Grantham Research Institute at the London School of Economics and Political Science. For more information about our approach, please see our methodology.
+References to policy instruments were identified based on taxonomies created by the NewClimate Institute and the Grantham Research Institute at the London School of Economics and Political Science. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
 
 ## Methodology
 
