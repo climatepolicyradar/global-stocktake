@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to sectors were identified based on sources published by the Intergovernmental Panel on Climate Change (IPCC). For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
+References to sectors were identified based on sources published by the Intergovernmental Panel on Climate Change (IPCC). For more information about our approach, please see our [methodology](../README.md)..
 
 ## Methodology
 
@@ -10,4 +10,4 @@ The taxonomy of sectors is based on sources published by the Intergovernmental P
 
 In the IPCC’s AR6 Synthesis Report, major sectors include Energy, Industry, Agriculture, Forestry and Other Land Use, Transport and Buildings. These represent key areas of economic activity with significant contribution to global GHG emissions. The report also mentions additional sectors which are “climate-exposed” including Fishery and Tourism. In Chapter 10 of the AR5 Climate Change 2014 report, the IPCC mentions additional sectors including Water Services, Recreation and Tourism, Fisheries and Aquaculture, Insurance and Financial Services and Health Services. 
 
-Where available, IPCC sub-sectors have been used. In the absence of IPCC sector disaggregation, other internationally-recognised, sector-specific sources have been used in its place including the International Energy Agency (IEA), Food and Agriculture Organisation of the United Nations (FAO) and the International Labour Organization (ILO). [Learn more about our taxonomy methodology](../METHODOLOGY.md).
+Where available, IPCC sub-sectors have been used. In the absence of IPCC sector disaggregation, other internationally-recognised, sector-specific sources have been used in its place including the International Energy Agency (IEA), Food and Agriculture Organisation of the United Nations (FAO) and the International Labour Organization (ILO). [Learn more about our taxonomy methodology](../README.md).

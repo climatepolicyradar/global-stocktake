@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to equity and the just transition were identified based the Paris Agreement and on sources published by the Just Transition Centre and the Just Transition and Equitable Climate Action Resource Center. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
+References to equity and the just transition were identified based the Paris Agreement and on sources published by the Just Transition Centre and the Just Transition and Equitable Climate Action Resource Center. For more information about our approach, please see our [methodology](../README.md)..
 
 ## Methodology
 
@@ -10,7 +10,7 @@ The taxonomy of equity and the just transition was compiled based on the Paris A
 
 The taxonomy was compiled by identifying key and common terminology used across sources from these authorities relating to equity and the just transition, and supplemented with semantically-related terms (e.g. decent work, green job, well-paid job) to improve recall accuracy.
 
-The taxonomy was also adapted to match the 3 hierarchies required for the tool and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy. [Learn more about our taxonomy methodology](../METHODOLOGY.md).
+The taxonomy was also adapted to match the 3 hierarchies required for the tool and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy. [Learn more about our taxonomy methodology](../README.md).
 
 ## Changelog
 

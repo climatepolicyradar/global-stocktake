@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to renewables were identified based on the taxonomy developed by the International Renewable Energy Agency (IRENA). For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
+References to renewables were identified based on the taxonomy developed by the International Renewable Energy Agency (IRENA). For more information about our approach, please see our [methodology](../README.md)..
 
 ## Methodology
 
@@ -12,7 +12,7 @@ The taxonomy of renewables is defined using the International Renewable Energy A
 - ‘Other renewable energy’ was deleted.
 - ‘Multiple renewables’ was deleted.
 
-The taxonomy was adapted to match the 3 hierarchies required for the tool and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy. [Learn more about our taxonomy methodology](../METHODOLOGY.md).
+The taxonomy was adapted to match the 3 hierarchies required for the tool and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy. [Learn more about our taxonomy methodology](../README.md).
 
 ## Changelog
 

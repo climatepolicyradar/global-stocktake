@@ -2,13 +2,13 @@
 
 ## Summary
 
-References to barriers and challenges were identified based on English-language dictionary definitions in combination with semantically-related terms and phrases commonly identified in the literature. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
+References to barriers and challenges were identified based on English-language dictionary definitions in combination with semantically-related terms and phrases commonly identified in the literature. For more information about our approach, please see our [methodology](../README.md)..
 
 ## Methodology
 
 The taxonomy of barriers and challenges was compiled based on English-language dictionary synonyms and semantically-related terms relevant to the concepts of barriers, challenges and lessons learned. Semantic searches were conducted on the existing corpus of documents to identify relevant terms to include within the filter (e.g. *obstacle*, *barriers*, *inadequate* and *lessons learned*). This taxonomy was compiled focusing on the language chosen to describe and evaluate activities and policies within the text, and does not reflect any external evaluation or judgment of their success or efficacy. 
 
-The taxonomy was adapted to match the 3 hierarchies required for the tool and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy. [Learn more about our taxonomy methodology](../METHODOLOGY.md).
+The taxonomy was adapted to match the 3 hierarchies required for the tool and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy. [Learn more about our taxonomy methodology](../README.md).
 
 ## Changelog
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to financial flows were identified based on English-language dictionary definitions in combination with related terms and phrases commonly identified in the literature. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
+References to financial flows were identified based on English-language dictionary definitions in combination with related terms and phrases commonly identified in the literature. For more information about our approach, please see our [methodology](../README.md)..
 
 ## Methodology
 
@@ -12,7 +12,7 @@ These sources were chosen because they are likely to represent the widest and mo
 
 The taxonomy was designed with 3 hierarchies as required for this tool, and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy.
 
-[Learn more about our taxonomy methodology](../METHODOLOGY.md).
+[Learn more about our taxonomy methodology](../README.md).
 
 ## Changelog
 

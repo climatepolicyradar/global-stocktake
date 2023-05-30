@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to deforestation were identified based on sources published by the Global Canopy Programme, Global Forest Watch, and WWF. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
+References to deforestation were identified based on sources published by the Global Canopy Programme, Global Forest Watch, and WWF. For more information about our approach, please see our [methodology](../README.md)..
 
 ## Methodology
 
@@ -10,7 +10,7 @@ The taxonomy of deforestation was compiled based on on sources published by the 
 
 Forest-risk commodities were identified using the definitions provided by the Global Canopy Program and Global Forest Watch. ‘Paper’ as a single term returns false positives, so that entry was amended using ‘paper industry/manufacturing’ and ‘make/manufacture paper’ to avoid false positives.
 
-The taxonomy was adapted to match the 3 hierarchies required for the tool and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy. [Learn more about our taxonomy methodology](../METHODOLOGY.md).
+The taxonomy was adapted to match the 3 hierarchies required for the tool and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy. [Learn more about our taxonomy methodology](../README.md).
 
 ## Changelog
 

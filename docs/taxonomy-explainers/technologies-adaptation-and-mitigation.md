@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to technologies were identified based on the taxonomy developed by the UN Climate Technology Centre and Network. For more information about our approach, please see our [methodology](../METHODOLOGY.md)..
+References to technologies were identified based on the taxonomy developed by the UN Climate Technology Centre and Network. For more information about our approach, please see our [methodology](../README.md)..
 
 ## Methodology
 
@@ -11,7 +11,7 @@ The taxonomy of technologies is based on UN Climate Technology Centre and Networ
 We divided the CTCN taxonomy into two distinct taxonomies for Adaptation Technologies and Mitigation Technologies, based on the distinction included in the CTCN taxonomy. Some technology categories sit across both adaptation and mitigation. For example, the category ‘Buildings and homes technologies’ includes heat pumps, which relate to mitigation, and disaster-resilient buildings, which relates to adaptation.
 
 Some of the technologies included in the CTCN taxonomy were excluded. This was done either because the technologies were evaluated as not being sufficiently climate-specific, or because they represented overlap with another taxonomy (for example, policy instruments). For example, we consider *Building standards and codes* as a policy instrument and not a technology, and this was therefore not included in our final taxonomies.
-*The taxonomies were also adapted to match the 3 hierarchies required for the tool and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy. [Learn more about our taxonomy methodology](../METHODOLOGY.md).
+*The taxonomies were also adapted to match the 3 hierarchies required for the tool and additions were made to capture acronyms, synonyms, and other grammatical expressions of the concepts within the taxonomy. [Learn more about our taxonomy methodology](../README.md).
 
 ## Changelog
 
