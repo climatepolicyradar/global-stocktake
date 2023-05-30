@@ -1,4 +1,4 @@
-<a href="https://climatepolicyradar.org"><img src="	https://gst.climatepolicyradar.org/logo.png" width="60" height="32" align="right" /></a>
+<a href="https://climatepolicyradar.org"><img src="cpr-logo-primary.svg#gh-light-mode-only" align="right" /></a>
 
 # Climate Policy Radar's Global Stocktake Explorer
 
