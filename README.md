@@ -1,3 +1,5 @@
+<a href="https://climatepolicyradar.org"><img src="	https://gst.climatepolicyradar.org/logo.png" width="60" height="32" align="right" /></a>
+
 # Climate Policy Radar's Global Stocktake Explorer
 
 This is the repository for the Global Stocktake Explorer, a tool for exploring the documents submitted as part of the UNFCCC Global Stocktake. [Access the tool at gst.climatepolicyradar.org](https://gst.climatepolicyradar.org).
