@@ -126,5 +126,8 @@ concepts_classifiers: run_sector_classifier run_instruments_classifier split_spa
 
 concepts: concepts_non_ml concepts_with_ml concepts_classifiers
 
-sync_concepts_with_s3:
+sync_concepts_to_s3:
 	aws s3 sync ./concepts s3://cpr-dataset-gst-concepts
+
+sync_concepts_from_s3:
+	aws s3 sync s3://cpr-dataset-gst-concepts ./concepts
