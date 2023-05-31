@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Loss & damage
+# Concept Methodology: Loss & damage
 
 ## Summary
 

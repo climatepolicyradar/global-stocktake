@@ -1,4 +1,4 @@
-# Taxonomy explainer: Adaptation
+# Concept Methodology: Adaptation
 
 ## Summary
 

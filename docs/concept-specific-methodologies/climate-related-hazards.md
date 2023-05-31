@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Climate-related hazards
+# Concept Methodology: Climate-related hazards
 
 ## Summary
 

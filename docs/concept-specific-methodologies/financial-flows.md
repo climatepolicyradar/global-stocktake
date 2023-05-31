@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Financial Flows
+# Concept Methodology: Financial Flows
 
 ## Summary
 

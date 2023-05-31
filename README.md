@@ -11,7 +11,7 @@ This repository contains code and documentation. **We will be publishing machine
 This repository contains the following documentation:
 
 - [Main documentation](./docs/README.md)
-- [Methodology for each of the taxonomies used](./docs/taxonomy-explainers/)
+- [Methodologies and metrics for each concept](./docs/concept-specific-methodologies/)
 
 ## About Climate Policy Radar
 

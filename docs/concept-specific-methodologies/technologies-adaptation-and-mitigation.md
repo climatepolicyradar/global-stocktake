@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Adaptation & Mitigation Technologies
+# Concept Methodology: Adaptation & Mitigation Technologies
 
 ## Summary
 

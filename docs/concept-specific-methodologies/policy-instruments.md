@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Policy instruments
+# Concept Methodology: Policy instruments
 
 ## Summary
 

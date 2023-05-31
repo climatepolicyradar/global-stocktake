@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Vulnerable Groups
+# Concept Methodology: Vulnerable Groups
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Good Practices & Opportunities
+# Concept Methodology: Good Practices & Opportunities
 
 ## Summary
 

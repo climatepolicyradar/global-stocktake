@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Capacity-Building
+# Concept Methodology: Capacity-Building
 
 ## Summary
 

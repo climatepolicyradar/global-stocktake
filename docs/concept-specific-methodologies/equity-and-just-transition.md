@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Equity & Just Transition
+# Concept Methodology: Equity & Just Transition
 
 ## Summary
 

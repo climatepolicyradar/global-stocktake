@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Greenhouse Gases
+# Concept Methodology: Greenhouse Gases
 
 ## Summary
 

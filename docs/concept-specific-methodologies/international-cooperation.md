@@ -1,4 +1,4 @@
-# Taxonomy Explainer: International Cooperation
+# Concept Methodology: International Cooperation
 
 ## Summary
 

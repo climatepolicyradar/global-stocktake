@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Sectors
+# Concept Methodology: Sectors
 
 ## Summary
 

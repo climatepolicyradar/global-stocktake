@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Fossil Fuels
+# Concept Methodology: Fossil Fuels
 
 ## Summary
 

@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Renewables
+# Concept Methodology: Renewables
 
 ## Summary
 

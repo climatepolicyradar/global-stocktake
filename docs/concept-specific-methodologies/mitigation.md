@@ -1,4 +1,4 @@
-# Taxonomy explainer: Mitigation
+# Concept Methodology: Mitigation
 
 ## Summary
 

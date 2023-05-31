@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Response Measures
+# Concept Methodology: Response Measures
 
 ## Summary
 

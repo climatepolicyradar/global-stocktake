@@ -1,4 +1,4 @@
-# Taxonomy Explainer: Deforestation
+# Concept Methodology: Deforestation
 
 ## Summary
 
