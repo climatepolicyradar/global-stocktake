@@ -1,7 +1,7 @@
 # Climate Policy Radar Global Stocktake Explorer methodology
 
 > **Note**
-> We are continuing to update and refine our methodology as we develop our tool and its capabilities. This is the methodology for our approach to detecting concepts in the text of documents. See also our [concept-specific methodologies](./concept-specific-methodologies/).
+> We are continuing to update and refine our methodology as we develop our tool and its capabilities. This is the methodology for our approach to detecting concepts in the text of documents. For information about the research methods and taxonomies used to identify references to specific concepts, please refer to our [concept-specific methodologies](./concept-specific-methodologies/).
 
 ## 1. Overview
 
