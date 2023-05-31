@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to technologies were identified based on the taxonomy developed by the UN Climate Technology Centre and Network. For more information about our approach, please see our [methodology](../README.md)..
+References to technologies were identified based on the taxonomy developed by the UN Climate Technology Centre and Network. For more information about our approach, please see our [methodology](../README.md).
 
 ## Methodology
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to renewables were identified based on the taxonomy developed by the International Renewable Energy Agency (IRENA). For more information about our approach, please see our [methodology](../README.md)..
+References to renewables were identified based on the taxonomy developed by the International Renewable Energy Agency (IRENA). For more information about our approach, please see our [methodology](../README.md).
 
 ## Methodology
 

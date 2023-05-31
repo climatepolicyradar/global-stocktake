@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to deforestation were identified based on sources published by the Global Canopy Programme, Global Forest Watch, and WWF. For more information about our approach, please see our [methodology](../README.md)..
+References to deforestation were identified based on sources published by the Global Canopy Programme, Global Forest Watch, and WWF. For more information about our approach, please see our [methodology](../README.md).
 
 ## Methodology
 

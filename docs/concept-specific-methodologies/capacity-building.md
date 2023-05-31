@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to capacity-building were identified using a keyword search. For more information about our approach, please see our [methodology](../README.md)..
+References to capacity-building were identified using a keyword search. For more information about our approach, please see our [methodology](../README.md).
 
 ## Methodology
 

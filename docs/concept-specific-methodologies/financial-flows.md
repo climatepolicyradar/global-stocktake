@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to financial flows were identified based on English-language dictionary definitions in combination with related terms and phrases commonly identified in the literature. For more information about our approach, please see our [methodology](../README.md)..
+References to financial flows were identified based on English-language dictionary definitions in combination with related terms and phrases commonly identified in the literature. For more information about our approach, please see our [methodology](../README.md).
 
 ## Methodology
 

@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to equity and the just transition were identified based the Paris Agreement and on sources published by the Just Transition Centre and the Just Transition and Equitable Climate Action Resource Center. For more information about our approach, please see our [methodology](../README.md)..
+References to equity and the just transition were identified based the Paris Agreement and on sources published by the Just Transition Centre and the Just Transition and Equitable Climate Action Resource Center. For more information about our approach, please see our [methodology](../README.md).
 
 ## Methodology
 

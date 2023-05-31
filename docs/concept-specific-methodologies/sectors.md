@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to sectors were identified based on sources published by the Intergovernmental Panel on Climate Change (IPCC). A machine learning classifier was used to assign each paragraph to zero or more sectors. For more information about our approach, please see our [methodology](../README.md)..
+References to sectors were identified based on sources published by the Intergovernmental Panel on Climate Change (IPCC). A machine learning classifier was used to assign each paragraph to zero or more sectors. For more information about our approach, please see our [methodology](../README.md).
 
 ## Methodology
 

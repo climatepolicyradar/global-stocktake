@@ -2,7 +2,7 @@
 
 ## Summary
 
-References to Loss & Damage were identified using a keyword search. For more information about our approach, please see our [methodology](../README.md)..
+References to Loss & Damage were identified using a keyword search. For more information about our approach, please see our [methodology](../README.md).
 
 ## Methodology
 
