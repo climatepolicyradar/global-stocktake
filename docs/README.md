@@ -21,6 +21,8 @@ To search a set of documents for references to a concept using Explorer, we crea
 
 In our input files, we indicate where a certain keyword may have multiple synonyms or different linguistic expressions, such a present/past tense and singular/plural. These variations are then searched for automatically. This enables us to perform a precise and comprehensive search for each concept without exhaustively listing all its possible variations or linguistic expressions.
 
+There are two concepts for which our method is different: sectors and policy instruments. For these, as a mention of each doesn't necessary correspond to a mention of a single keyword or phrase within a paragraph, we train machine learning models to classify paragraphs as referring to zero or more sectors and/or policy instruments (see [Section 4](#4.-concept-assignment-using-machine-learning-classifiers)).
+
 ## 3. How we develop keyword lists
 
 ### 3.1 Using existing resources
@@ -41,8 +43,18 @@ To do this, we review literature from sources such as Wikidata, as well as acade
 
 We then create keyword lists following the process described in Section 2 above.
 
-## 4. How this work is reflected in the search tool
+## 4. Concept assignment using machine learning classifiers
 
-When you search using the filters on the left side of the page, phrases in the text of a document that represent or express a concept will be tagged and labelled.
+For two concepts – sectors and policy instruments – we use machine learning classifiers to assign concepts to paragraphs. This is because a mention of each doesn't necessary correspond to a mention of a single keyword or phrase within a paragraph.
+
+Each of these classifiers is trained on examples of paragraphs that are assigned to each concept. Similarly to the process for developing keyword lists, we label these examples according to existing taxonomies, details of which can be found in the concept-specific methodologies.
+
+The machine learning approach we use, [SetFit](https://github.com/huggingface/setfit), achieves high accuracy with little labelled data. We test the performance of our classifiers and publish performance statistics in each of the concept-specific methodologies that use a classifier.
+
+We are looking to open source our data, including the labelled examples used to train our classifiers, in the near future. Until then, please contact us for access to this data.
+
+## 5. How this work is reflected in the search tool
+
+When you search using the filters on the left side of the page, phrases in the text of a document that represent or express a concept will be tagged and labelled. When a machine learning classifier has been used, the tags appear below each paragraph instead.
 
 Use these labels to find instances of your chosen concept, and read the surrounding text to understand its context in the document.
