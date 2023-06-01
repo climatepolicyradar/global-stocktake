@@ -102,8 +102,8 @@ merge_metadata:
 	explorer_merge GST -e ./concepts/loss-and-damage/output.xlsx -m ${SCRAPER_CSV_PATH}
 	explorer_merge GST -e ./concepts/mitigation/output.xlsx -m ${SCRAPER_CSV_PATH}
 	explorer_merge GST -e ./concepts/renewables/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/technologies-be-adaptation-br/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/technologies-be-mitigation-br/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer_merge GST -e ./concepts/technologies-br-adaptation-br/output.xlsx -m ${SCRAPER_CSV_PATH}
+	explorer_merge GST -e ./concepts/technologies-br-mitigation-br/output.xlsx -m ${SCRAPER_CSV_PATH}
 	explorer_merge GST -e ./concepts/vulnerable-groups/output.xlsx -m ${SCRAPER_CSV_PATH}
 
 # NOTE: these should be run against the *best* model artifact, not the latest
@@ -126,5 +126,8 @@ concepts_classifiers: run_sector_classifier run_instruments_classifier split_spa
 
 concepts: concepts_non_ml concepts_with_ml concepts_classifiers
 
-sync_concepts_with_s3:
+sync_concepts_to_s3:
 	aws s3 sync ./concepts s3://cpr-dataset-gst-concepts
+
+sync_concepts_from_s3:
+	aws s3 sync s3://cpr-dataset-gst-concepts ./concepts
