@@ -111,8 +111,8 @@ def preprocess_concept_df(df_concepts, df_worldbank, df_eco):
     end_col = df_concepts.columns.get_loc(end_col_name)
     indicator_columns = df_concepts.columns[start_col + 1: end_col]
     # Melt the DataFrame and specify the columns to keep as id_vars
-    df_concepts = df_concepts.rename(columns={"party": "Party"})
-    df_concepts["category"] = np.where(df_concepts["Party"].notna(), "Party", "Non-Party")
+    df_concepts = df_concepts.rename(columns={"Author Type": "category"})
+    # df_concepts["category"] = np.where(df_concepts["Party"].notna(), "Party", "Non-Party")
     df_concepts_melted = df_concepts.melt(
         id_vars=[col for col in df_concepts.columns if col not in indicator_columns],
         var_name="Concept",
@@ -120,41 +120,41 @@ def preprocess_concept_df(df_concepts, df_worldbank, df_eco):
     )
     # filter where indicators are 1
     df_concepts_melted = df_concepts_melted[df_concepts_melted["value"] == 1]
-    # Create a new column 'country' with the found country names
-    df_concepts_melted["document_name_x_reformatted"] = df_concepts_melted[
-        "document_name_x"
-    ].str.replace(r"[_20]+", " ", regex=True)
-    df_concepts_melted["document_name_y_reformatted"] = df_concepts_melted[
-        "document_name_y"
-    ].str.replace(r"[_20]+", " ", regex=True)
-    df_concepts_melted["country_x"] = df_concepts_melted[
-        "document_name_x_reformatted"
-    ].apply(find_country)
-    df_concepts_melted["country_y"] = df_concepts_melted[
-        "document_name_y_reformatted"
-    ].apply(find_country)
-    df_concepts_melted["country"] = df_concepts_melted["country_x"].combine_first(
-        df_concepts_melted["country_y"]
-    )
-    # create 3 letter country code
-    df_concepts_melted["country_code"] = df_concepts_melted["country"].apply(
-        get_country_code
-    )
-    # create 3 letter country code
-    df_concepts_melted["country_code"] = df_concepts_melted["country"].apply(
-        get_country_code
-    )
+    # # Create a new column 'country' with the found country names
+    # df_concepts_melted["document_name_x_reformatted"] = df_concepts_melted[
+    #     "document_name_x"
+    # ].str.replace(r"[_20]+", " ", regex=True)
+    # df_concepts_melted["document_name_y_reformatted"] = df_concepts_melted[
+    #     "document_name_y"
+    # ].str.replace(r"[_20]+", " ", regex=True)
+    # df_concepts_melted["country_x"] = df_concepts_melted[
+    #     "document_name_x_reformatted"
+    # ].apply(find_country)
+    # df_concepts_melted["country_y"] = df_concepts_melted[
+    #     "document_name_y_reformatted"
+    # ].apply(find_country)
+    # df_concepts_melted["country"] = df_concepts_melted["country_x"].combine_first(
+    #     df_concepts_melted["country_y"]
+    # )
+    # # create 3 letter country code
+    # df_concepts_melted["country_code"] = df_concepts_melted["country"].apply(
+    #     get_country_code
+    # )
+    # # create 3 letter country code
+    # df_concepts_melted["country_code"] = df_concepts_melted["country"].apply(
+    #     get_country_code
+    # )
     df_eco = pd.DataFrame(economy.list())
     # Assuming the 3-letter country code column in df_concepts_melted is named 'country_code'
     df_concepts_melted = pd.merge(
         df_concepts_melted,
         df_eco[["id", "region"]],
-        left_on="country_code",
+        left_on="Geography ISO",
         right_on="id",
         how="left",
     )
 
-    df_concepts_merged = df_concepts_melted.merge(df_worldbank, how='left', left_on='country_code', right_on='iso_a3')
+    df_concepts_merged = df_concepts_melted.merge(df_worldbank, how='left', left_on='Geography ISO', right_on='iso_a3')
     df_concepts_merged = df_concepts_merged.drop(columns='name')
     return df_concepts_merged
 
