@@ -17,14 +17,14 @@ def base_document_to_gst_document(
     :raises Exception: if no document exists in the scraper data with md5sum equal to the document's
     :return GSTDocument: document with added metadata
     """
-    if document.document_source_url not in scraper_data["Documents"].tolist():
+    if document.document_id not in scraper_data["CPR Document ID"].tolist():
         raise Exception(
-            f"No document exists in the scraper data with source URL equal to the document's: {document.document_source_url}"
+            f"No document exists in the scraper data with ID equal to the document's: {document.document_id}"
         )
 
     doc_dict = document.dict(exclude={"document_metadata", "_text_block_idx_hash_map"})
     new_metadata_dict = scraper_data.loc[
-        scraper_data["Documents"] == document.document_source_url
+        scraper_data["CPR Document ID"] == document.document_id
     ].to_dict(orient="records")[0]
 
     new_metadata_dict["source"] = "GST-related documents"

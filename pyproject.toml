@@ -8,7 +8,7 @@ authors = ["CPR-tech-team <tech@climatepolicyradar.org>"]
 python = "^3.9"
 uvicorn = {extras = ["standard"], version = "^0.20.0"}
 fastapi = "^0.92.0"
-cpr-data-access = {git = "https://github.com/climatepolicyradar/data-access.git", rev = "b5b07cb66f90c095e5ec3bc30a6704ec9c11fbeb"}
+cpr-data-access = {git = "https://github.com/climatepolicyradar/data-access.git", rev = "a733663acf5bcdc73615dca5c78c09acdf7e55bd"}
 openpyxl = "^3.1.1"
 cloudpathlib = {version = "^0.13.0", extras = ["s3"]}
 requests = "^2.28.2"
