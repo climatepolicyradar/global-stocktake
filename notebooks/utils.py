@@ -61,6 +61,23 @@ def find_country(text: str) -> str:
 
     return None
 
+def create_geodataframe_disaggregated(df_concepts_processed, df_worldbank):
+    df_concepts_geoplot = df_concepts_processed.groupby(['iso_a3','Concept']).agg(
+        **{'Number of mentions': ("value", "sum")},
+        geometry=('geometry', 'first'),
+        pop_est=('pop_est', 'first'),
+        gdp_md_est=('gdp_md_est', 'first'),
+        continent=('continent', 'first'),
+        country=('Geography', 'first'),
+    ).reset_index()
+
+
+    df_concepts_geoplot = add_zero_mentions(df_concepts_geoplot, df_worldbank)
+    df_concepts_geoplot.rename(columns={"name": "Geography"})
+    # Remove Antarctica and convert to geodataframe
+    df_concepts_geoplot = df_concepts_geoplot[df_concepts_geoplot["country"] != "Antarctica"]
+    df_concepts_geoplot = gpd.GeoDataFrame(df_concepts_geoplot)
+    return df_concepts_geoplot
 
 def get_country_code(x: str) -> str:
     """
