@@ -1,0 +1,114 @@
+{
+    "Fossil fuel": [
+        [
+            "fossil",
+            "fuel"
+        ],
+        [
+            "fossil",
+            "fuels"
+        ]
+    ],
+    "LNG": [
+        [
+            "liquified",
+            "natural",
+            "gas"
+        ],
+        [
+            "LNG"
+        ]
+    ],
+    "LPG": [
+        [
+            "liquified",
+            "petroleum",
+            "gas"
+        ],
+        [
+            "LPG"
+        ],
+        [
+            "GLP"
+        ]
+    ],
+    "aviation fuel": [
+        [
+            "jet",
+            "fuel"
+        ],
+        [
+            "aviation",
+            "fuel"
+        ]
+    ],
+    "coal": [
+        [
+            "coal"
+        ],
+        [
+            "anthracite"
+        ],
+        [
+            "bituminous"
+        ],
+        [
+            "sub",
+            "-",
+            "bituminous"
+        ],
+        [
+            "lignite"
+        ]
+    ],
+    "flaring": [
+        [
+            "flaring"
+        ],
+        [
+            "flared"
+        ]
+    ],
+    "fracking": [
+        [
+            "fracking"
+        ],
+        [
+            "hydraulic",
+            "fracturing"
+        ],
+        [
+            "hydrofracturing"
+        ],
+        [
+            "hydrofracking"
+        ]
+    ],
+    "gasoline": [
+        [
+            "gasoline"
+        ],
+        [
+            "petrol"
+        ]
+    ],
+    "offshore rig": [
+        [
+            "offshore",
+            "rig"
+        ],
+        [
+            "offshore",
+            "platform"
+        ]
+    ],
+    "oil": [
+        [
+            "oil"
+        ],
+        [
+            "petroleum",
+            "oil"
+        ]
+    ]
+}

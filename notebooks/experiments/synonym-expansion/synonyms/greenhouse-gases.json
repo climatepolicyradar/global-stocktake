@@ -1,0 +1,103 @@
+{
+    "CFCs": [
+        [
+            "CFC"
+        ],
+        [
+            "CFCs"
+        ]
+    ],
+    "Emissions": [
+        [
+            "emissions"
+        ],
+        [
+            "emission"
+        ]
+    ],
+    "Greenhouse gases": [
+        [
+            "gas"
+        ],
+        [
+            "ghg"
+        ],
+        [
+            "gases"
+        ],
+        [
+            "ghgs"
+        ]
+    ],
+    "HCFCs": [
+        [
+            "HCFC"
+        ],
+        [
+            "HCFCs"
+        ]
+    ],
+    "HFCs": [
+        [
+            "HFC"
+        ],
+        [
+            "HFCs"
+        ]
+    ],
+    "N2O": [
+        [
+            "n2o"
+        ],
+        [
+            "n20"
+        ]
+    ],
+    "Nitrogen trifluoride": [
+        [
+            "trifluoride"
+        ],
+        [
+            "NF"
+        ],
+        [
+            "NF3"
+        ],
+        [
+            "NFs"
+        ]
+    ],
+    "Ozone-Depleting Substances": [
+        [
+            "ozone",
+            "-",
+            "depleting",
+            "substance"
+        ],
+        [
+            "ODS"
+        ]
+    ],
+    "PFCs": [
+        [
+            "PFC"
+        ],
+        [
+            "PFCs"
+        ]
+    ],
+    "Sulphur hexafluoride": [
+        [
+            "hexafluoride"
+        ],
+        [
+            "SF"
+        ],
+        [
+            "SF6"
+        ],
+        [
+            "SFs"
+        ]
+    ]
+}
