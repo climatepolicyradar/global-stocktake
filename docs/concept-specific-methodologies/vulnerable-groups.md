@@ -36,3 +36,13 @@ Additions were made to capture semantically-related terms such as ‘girls’ an
 - Created the term *young people* for the category *children*
 - Created the term *ethnic groups* for the category *Vulnerable groups*
 - Created the term *minority groups* for the category *Vulnerable groups*
+
+## Performance Metrics
+
+We measured the performance of this concept by manually labelling a test set and comparing the labels to annotations made by this method. We will continue to update this section as we improve our approach for detecting this concept.
+
+Over time we will use these statistics to evaluate which concepts are better to detect using machine learning models vs linguistic rules.
+
+|   Precision |   Recall |   F1 |   Support |
+|------------:|---------:|-----:|----------:|
+|        0.79 |      0.4 | 0.54 |        20 |

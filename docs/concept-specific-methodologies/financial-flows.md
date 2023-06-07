@@ -20,3 +20,13 @@ The taxonomy was designed with 3 hierarchies as required for this tool, and addi
 - Created the term *repay* for the category *Financial flow*
 - Upgraded the machine learning model that predicts instances of money ("$1 million") to a larger, more accurate version
 - Created the term *investments* for the category *Financial flow*
+
+## Performance Metrics
+
+We measured the performance of this concept by manually labelling a test set and comparing the labels to annotations made by this method. We will continue to update this section as we improve our approach for detecting this concept.
+
+Over time we will use these statistics to evaluate which concepts are better to detect using machine learning models vs linguistic rules.
+
+|   Precision |   Recall |   F1 |   Support |
+|------------:|---------:|-----:|----------:|
+|        0.28 |     0.46 | 0.35 |        43 |

@@ -42,3 +42,13 @@ The taxonomy was also adapted to match the 3 hierarchies required for the tool a
 - Created the term ***************social inclusion*************** in the category ******Just Transition******
 - Created the term ********************economic dislocation******************** in the category ******Just Transition******
 - Created the term ********job loss******** in the category ******Just Transition******
+
+## Performance Metrics
+
+We measured the performance of this concept by manually labelling a test set and comparing the labels to annotations made by this method. We will continue to update this section as we improve our approach for detecting this concept.
+
+Over time we will use these statistics to evaluate which concepts are better to detect using machine learning models vs linguistic rules.
+
+|   Precision |   Recall |   F1 |   Support |
+|------------:|---------:|-----:|----------:|
+|        0.64 |     0.34 | 0.45 |        21 |

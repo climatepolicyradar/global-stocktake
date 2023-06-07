@@ -29,3 +29,13 @@ The taxonomy was adapted to match the 3 hierarchies required for the tool and ad
 - Created the term *woodlands* in the category *Woodlands*
 - Created the term *REDD* and *REDD+* in the category *Deforestation*
 - Created the term *forestry* in the category *Forests*
+
+## Performance Metrics
+
+We measured the performance of this concept by manually labelling a test set and comparing the labels to annotations made by this method. We will continue to update this section as we improve our approach for detecting this concept.
+
+Over time we will use these statistics to evaluate which concepts are better to detect using machine learning models vs linguistic rules.
+
+|   Precision |   Recall |   F1 |   Support |
+|------------:|---------:|-----:|----------:|
+|        0.63 |     0.61 | 0.62 |        39 |
