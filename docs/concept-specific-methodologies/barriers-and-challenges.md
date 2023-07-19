@@ -12,6 +12,8 @@ The taxonomy was adapted to match the 3 hierarchies required for the tool and ad
 
 ## Changelog
 
+### v1.0
+
 - Created the category *Challenges*
 - Created the term *challenges* for the category *Challenges*
 - Created the term *barriers* for the category *Challenges*
@@ -43,6 +45,10 @@ The taxonomy was adapted to match the 3 hierarchies required for the tool and ad
 - Created the term *lack of capacity* for the category *Challenges*
 - Created the term *lack of access* for the category *Challenges*
 - Created the term *lack of data* for the category *Challenges*
+
+### v1.1
+
+- Added *lesson learnt* to the category *Lessons Learned*
 
 ## Performance Metrics
 

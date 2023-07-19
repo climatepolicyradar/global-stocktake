@@ -11,6 +11,8 @@ The taxonomy was also adapted to match the 3 hierarchies required for the tool a
 
 ## Changelog
 
+### v1.0
+
 - Added the following terms to the category *Environmental degradation*:
   - *land erosion*
   - *extinction of species*
@@ -27,3 +29,7 @@ The taxonomy was also adapted to match the 3 hierarchies required for the tool a
   - *network problem*
 - Added the following terms to the category *Health hazards*:
   - *spread of disease*
+
+### v1.1
+
+- Bug fix for rule in *Terrestrial Hazards*
