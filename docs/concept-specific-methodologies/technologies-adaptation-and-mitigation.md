@@ -15,6 +15,8 @@ Some of the technologies included in the CTCN taxonomy were excluded. This was d
 
 ## Changelog
 
+### v1.0
+
 - Removed the term *carbon transport* for the category *Carbon capture and storage*
 - Removed the term *carbon transportation* for the category *Carbon capture and storage*
 - Removed the term *CO2 transport* for the category *Carbon capture and storage*
@@ -66,3 +68,7 @@ Some of the technologies included in the CTCN taxonomy were excluded. This was d
   - *electric steel*
 - Added the following term to the category *Hazard mapping technologies*:
   - GPS
+
+### v1.1
+
+- fixed bug in rule for *Technologies (Mitigation)*
