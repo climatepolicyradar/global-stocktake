@@ -115,7 +115,7 @@ run_instruments_classifier:
 
 # split spans csvs into smaller chunks that can be pushed to git
 split_spans_csvs:
-	python src/data/split_spans_csvs.py
+	python src/data/split_spans_csvs.py ${SPANS_CSV_FILENAME}
 
 # TODO: split_spans_csvs doesn't work as results are in subdirectories
 concepts_non_ml: adaptation barriers-and-challenges capacity-building climate-related-hazards deforestation equity-and-just-transition fossil-fuels good-practice-and-opportunities greenhouse-gases international-cooperation loss-and-damage mitigation renewables response-measures technologies-adaptation technologies-mitigation vulnerable-groups
