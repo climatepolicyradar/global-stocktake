@@ -1,0 +1,2424 @@
+document_id,text_block_text_hash,type,id,text,start_idx,end_idx,sentence,pred_probability,annotator
+UNFCCC.non-party.1740.0,35c062f0ce3b6eafcc4d60a2115cddd9__cc5f760c4814986af0887733e850967fcce0434b7fc2983f8c8e42bac0f0c20c,EQUITY_AND_JUSTICE,EQUITY,equity,178,184,"to achieve a balance between anthropogenic [i.e. human-caused] emissions by sources and removals by sinks of greenhouse gases in the second half of this century, on the basis of equity, and in the context of sustainable development and efforts to eradicate poverty.",1.0,explorer
+UNFCCC.non-party.1740.0,895b19e2b268d34d10c1c42cfa4152f1__1ae2a52d15cd68a4e8259825d5c3e0128d8b857e0b5974db8ab332f127763079,JUST_TRANSITION,LIVELIHOOD,livelihoods,3350,3361,"Increased productivity of fisheries, improved
+biodiversity, soil carbon and nutrient cycling
+Enhanced employment and local livelihoods, variety of
+products, improved soll quality, more resilient systems.
+",1.0,explorer
+UNFCCC.non-party.1740.0,895b19e2b268d34d10c1c42cfa4152f1__1ae2a52d15cd68a4e8259825d5c3e0128d8b857e0b5974db8ab332f127763079,JUST_TRANSITION,LIVELIHOOD,livelihoods,3632,3643,"Improved productivity, enhanced employment and local
+livelihoods; can enhance biodiversity.",1.0,explorer
+UNFCCC.non-party.1740.0,895b19e2b268d34d10c1c42cfa4152f1__1ae2a52d15cd68a4e8259825d5c3e0128d8b857e0b5974db8ab332f127763079,JUST_TRANSITION,LIVELIHOOD,livelihoods,2925,2936,"Enhanced employment and local livelihoods, improved
+biodiversity, improved renewable wood products
+provision, soil carbon and nutrient cycling.",1.0,explorer
+UNFCCC.non-party.1740.0,d424e9af973e8dc105c06f21372e9051__e6b6e7d59f2e81ca0119daec12be796abfe92fc3816c79bfbadfdf668144b5c9,EQUITY_AND_JUSTICE,EQUITY,equity,893,899,"There is a need within the scientific community to give more attention to issues around policy, governance and equity.",1.0,explorer
+UNFCCC.non-party.1740.0,467c819616f76a40979a7121ecb6ce02__ff05999bed56b660b483f719cfe05d053e7f675912bdc02effc3eadba7cfcece,EQUITY_AND_JUSTICE,EQUITY,equity,241,247,"The social sciences and humanities are crucial for discussions on implementation, equity and governance of CDR, but scientific discussion in the English-language peer-reviewed literature is not yet fully developed in these areas²⁹.",1.0,explorer
+UNFCCC.non-party.1740.0,7aca408c7212a62c2730f442cc791206__c8e7ba415e0b720678ce3275fe37ecb66d15bd5a3ee9b912d0ce31a656a530da,EQUITY_AND_JUSTICE,EQUITY,equity,397,403,"An additional data source, Climate Tech VC, estimates that the level of CDR equity investments in 2021 was $170 million, and in 2022 $830 million, totalling about $1 billion.",1.0,explorer
+UNFCCC.non-party.1740.0,7aca408c7212a62c2730f442cc791206__c8e7ba415e0b720678ce3275fe37ecb66d15bd5a3ee9b912d0ce31a656a530da,EQUITY_AND_JUSTICE,EQUITY,equity,232,238,That means the size of equity investments in CDR is similar to amounts of pre-purchases and offtake agreements.,1.0,explorer
+UNFCCC.non-party.1740.0,d0617b4853debaf305b965390bb56a47__96d3c3d1fed9763bbaa224dbac9a5ad8634e4959851608b9f595ac458ae36502,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,505,517,"The policy context will also need to attend to other environmental and social goals, because support for CDR may be lower if it creates the same harms that it tries to avoid, for instance by damaging biodiversity or widening inequalities (see Table 1.1 in Chapter 1 - Introduction for potential hazards associated with different methods).",1.0,explorer
+UNFCCC.non-party.1740.0,ed6fe06fbd31f7b864fdf9be64b02289__2b5a3eb9fd63bed35507faf7c98e2be60c95c7297dc6a4e4d3b0c77d33bbe804,EQUITY_AND_JUSTICE,JUSTICE,justice,2255,2262,"McLaren, D., Parkhill, K. A., Corner, A., Vaughan, N. E. & Pidgeon, N. F. Public conceptions of justice in climate engineering: Evi-
+dence from secondary analysis of public deliberation.",1.0,explorer
+UNFCCC.party.1736.0,221ee1a198fc931556ba7ad614728888__1c81d3f1fa7bd5fea59ee41e8fd1678cdc303b73844791a488c3b86e0d5c1a20,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,444,459,"The GRO Training Programs provide support to climate change adaptation and mitigation in LDCS, gender mainstreaming, capacity building through the four programs: GRÓ Geothermal Training Program, the GRO Fisheries Training Program, the GRÓ Land Restoration Training Program, and the GRÓ Gender Equality Studies and Training Program.",1.0,explorer
+UNFCCC.party.1736.0,0628ac906ae657132e54155071cb91c8__4ae779089c24f1549ef3245882a5d8689bd5f6c20509666d9fc5f447611a33a5,EQUITY_AND_JUSTICE,JUSTICE,justice,462,469,"Sustainability includes respect for the environment, sense of responsibility, health, democratic working methods, and justice, not only at present time but also for future generations.",1.0,explorer
+UNFCCC.party.1736.0,5b6a311c9e6eadfabf878d87fa9ec675__985e6426bada39a2c5727a10f0240f7e1b4e774623f8508ddb96f5754f9c6338,JUST_TRANSITION,LIVELIHOOD,livelihoods,282,293,"The Icelandic government has increased these efforts with the aim to restore ecosystems to conserve and enhance biological diversity, increase ecosystem resilience against natural disasters and increase the potential of rural societies, relying on these ecosystems to sustain their livelihoods.",1.0,explorer
+UNFCCC.party.1736.0,deca594a181383fbb3f089d610645c94__bdd71adc806b9839dd56cad7b8b97c28ba97572753ea1ecc00a0a36e9d2c04dd,EQUITY_AND_JUSTICE,JUSTICE,Justice,1335,1342,"The measure is split between Ministries, because the Iceland Coast Guard falls under the Ministry of Justice and the Marine and Freshwater Research Institute falls under the Ministry of Food, Agriculture, and Fisheries.",1.0,explorer
+UNFCCC.party.1736.0,4416ae200be1a16ceb9b7e7d80267385__2ffe874b627bd56069c1eaa4805f09f3fed0b67918775bc77c4ceeb8030d8e84,INEQUALITY_&_HUMAN_RIGHTS,HUMAN_RIGHTS,human rights,174,186,"quality education material, which touches on the science behind climate change and the impacts of a
+changing climate on the environment, communities, democracy, equality and human rights, exists.",1.0,explorer
+UNFCCC.party.1736.0,c9766281eb9f39e5ca01787e533f4895__9cdba3b6e93d642040e95af1142c5b1ad4014f3c907984c2baeffaea460c1dbd,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,217,232,"The climate impact of legislative bills will be estimated, in addition to the impacts on the economy, financial impacts on municipalities, impacts on NGO's, organisations and different population segments, as well as gender equality, Law nr. 123/2015 on public finances has been updated in order for it to be mandatory for Ministries to assess the climate impacts of any bill they wish to propose to Parliament"".",1.0,explorer
+UNFCCC.party.1736.0,da27bc7adbc11771e00c759bd4eadb2b__2000c60840c96a5cf112ca94ba8aa29be67fe9ca3a757ec36464db18dd31fbbf,JUST_TRANSITION,GOOD_JOB,decent work,778,789,e) Sustainable economic growth and decent work opportunities for all (pursuant to SDG no. 8).,1.0,explorer
+UNFCCC.party.1736.0,f8f1f6b871e5344087db0e406578dfdd__e4390b1ce837803f3bff667fec1432b5f135a1171b3d971c1cab65b911a97d23,JUST_TRANSITION,LIVELIHOOD,Livelihood,140,150,"Cross cutting
+GRÓ training programs
+GRỎ Gender Equality Studies and Training Program
+Gender and climate change
+Kebribeyah Climate Resilient Livelihood Project II
+Community Resilience Project in Malawi
+",1.0,explorer
+UNFCCC.party.1736.0,f8f1f6b871e5344087db0e406578dfdd__e4390b1ce837803f3bff667fec1432b5f135a1171b3d971c1cab65b911a97d23,JUST_TRANSITION,LIVELIHOOD,Livelihood,271,281,"The Red Cross-Community Resilience Program II
+Kebribeyjah Sustainable Livelihood Project, Ethiopia
+Support for the participation of the National Rescue Representative in the
+international consultation with UNDAC/INSARAG
+The Icelandic Red Cross and the International Federation of National Red
+Cross and Red Crescent Societies
+Total Cross-cutting funds
+2019
+120.049.999
+30.400.000
+27.157.334
+2.748.257
+180.355.590
+2020
+137.993.563
+18.120.000
+15.160.000
+35.710.000
+13.578.667
+940.755
+10.717.721
+232.220.706",1.0,explorer
+UNFCCC.party.1736.0,f8f1f6b871e5344087db0e406578dfdd__e4390b1ce837803f3bff667fec1432b5f135a1171b3d971c1cab65b911a97d23,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,40,55,"Cross cutting
+GRÓ training programs
+GRỎ Gender Equality Studies and Training Program
+Gender and climate change
+Kebribeyah Climate Resilient Livelihood Project II
+Community Resilience Project in Malawi
+",1.0,explorer
+UNFCCC.party.1736.0,10ba8c049e168afaeacc2a5ae5fbf665__19971353fae20df72e8d490769b17fc03d63a569cde5e2eddc55fa7cada28cdc,JUST_TRANSITION,LIVELIHOOD,livelihoods,475,486,"In collaboration with UNICEF, Iceland also supported a new initiative in Liberia and Sierra Leone on improving access to climate resilient WASH services in fishing communities to improve livelihoods and conditions, with around 270 million ISK over the reporting period.",1.0,explorer
+UNFCCC.party.1736.0,46b0be1bd319b191bdd237225fa7da76__a5905cf51b0150012dea3965341f8f23950dbb1ad18aba5bea8421718a41db91,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,444,459,"The GRO Training Programs provide support to climate change adaptation and mitigation in LDCS, gender mainstreaming, capacity building through the four programs: GRÓ Geothermal Training Program, the GRÓ Fisheries Training Program, the GRÓ Land Restoration Training Program, and the GRÓ Gender Equality Studies and Training Program.",1.0,explorer
+UNFCCC.party.1736.0,9a20efd6a2c06b47612728ae5897c7ad__65bf5ea2e156231249346165bc5a85d42139d0335a50bad5de3ec838e8f4a717,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,397,412,"The Gender Equality Studies and Training Program also gives particular attention to climate change, with a special module on environment and climate change.",1.0,explorer
+UNFCCC.party.1736.0,44810d8067e77fa6f7658cf55247e5cd__43e100c56988e0d7c86ff4b9fdc079fa7f0d3fe8e2ab8d0c1e8d601d068c8b28,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,458,473,"The GRÓ Geothermal Training Program since 1979, the GRÓ Fisheries Training Program, since 1997, the GRÓ Land Restoration Training Program, since 2007, and the GRÓ Gender Equality Studies and Training Program, since 2009.",1.0,explorer
+UNFCCC.party.1736.0,d6c9e744f5c8c6af95e02911ae1791e9__7ade7724be52ab81ad7521f73a8ed8fc3f6c393e8b1620f0538d46eae5da4b72,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,854,869,"Through the GRO training programs, Iceland has helped enhance the capacity of participating countries to adapt to and mitigate climate change through training of officials in the fields of geothermal energy, fisheries and sustainable land management sectors, as well as in gender equality.",1.0,explorer
+UNFCCC.party.1736.0,8aae3f961729eedaa7079bb8191002f2__8929bd3991cce8c1d52541487bba6dbd773974459e82efa6d5502dd958a2efd9,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,371,386,"It is therefore important to include gender aspects in all discussion about climate change and programming, Iceland has actively promoted the important role of gender in the international climate negotiations, as well as supported several climate projects with the emphasis on women empowerment and gender equality, e.g., through organizations such as UN Women and the Women's Environment and Development Organization (WEDO).",1.0,explorer
+UNFCCC.party.1736.0,8aae3f961729eedaa7079bb8191002f2__8929bd3991cce8c1d52541487bba6dbd773974459e82efa6d5502dd958a2efd9,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,557,572,"In this context a training course was developed by the GRÓ Gender Equality and Studies Program in close collaboration with Ugandan partners, and training and capacity building was provided for a selected number of experts and policy makers at the district level.",1.0,explorer
+UNFCCC.party.1736.0,2b0e1eb464173610aff106e7ea9c024b__d55c286e68689b5eeed3b36603ab40d8df85c15e22067db448bb9bb49e014a54,EQUITY_AND_JUSTICE,JUSTICE,justice,667,674,"Sustainability includes respect for the environment, sense of responsibility, health, democratic working methods, and justice, not only at present time but also for future generations.",1.0,explorer
+UNFCCC.party.1736.0,cb57abf89cce5fab779c439686d217e6__efa6e3ce5b8e60d29d953d1bfea226b1c61ac81b5b1e25185a954f3d1b1ab574,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,435,455,"Those policies contain sections and stipulations on actions regarding education, public participation, awareness raising, media and the role of civil society in general.",1.0,explorer
+UNFCCC.party.1736.0,17ff689ab501ea02797e76badbc36b1e__cde82c5fceb690acfec5d0be1984fe8617e8853b1f5fcfad4bff5a6200f1954a,EQUITY_AND_JUSTICE,JUSTICE,justice,160,167,"The objective of the GRÓ Gender Equality Studies and Training (GRÓ GESTY Programme is to use a multidisciplinary approach to promote gender equality and social justice in low to middle income, conflict and post-conflict countries through education and training.",1.0,explorer
+UNFCCC.party.1736.0,17ff689ab501ea02797e76badbc36b1e__cde82c5fceb690acfec5d0be1984fe8617e8853b1f5fcfad4bff5a6200f1954a,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,25,40,"The objective of the GRÓ Gender Equality Studies and Training (GRÓ GESTY Programme is to use a multidisciplinary approach to promote gender equality and social justice in low to middle income, conflict and post-conflict countries through education and training.",1.0,explorer
+UNFCCC.party.1736.0,17ff689ab501ea02797e76badbc36b1e__cde82c5fceb690acfec5d0be1984fe8617e8853b1f5fcfad4bff5a6200f1954a,JUST_TRANSITION,SOCIAL_JUSTICE,social justice,153,167,"The objective of the GRÓ Gender Equality Studies and Training (GRÓ GESTY Programme is to use a multidisciplinary approach to promote gender equality and social justice in low to middle income, conflict and post-conflict countries through education and training.",1.0,explorer
+UNFCCC.party.1736.0,17ff689ab501ea02797e76badbc36b1e__cde82c5fceb690acfec5d0be1984fe8617e8853b1f5fcfad4bff5a6200f1954a,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,133,148,"The objective of the GRÓ Gender Equality Studies and Training (GRÓ GESTY Programme is to use a multidisciplinary approach to promote gender equality and social justice in low to middle income, conflict and post-conflict countries through education and training.",1.0,explorer
+UNFCCC.party.1736.0,6e4fed25be82cd8061b32ede1c272dd0__b8c680e58c16bc113eb9ad57b40eb72feaa2a50a06a5ed0497d5139d3e84ab5d,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,1043,1058,"Community Based Integrated Resiliency Program, Sierra
+Leone (BRIDGE)
+Technical Assistance Program in Fisheries - Vietnam
+Icelandic Consultancy work on seaweed aquaculture in
+the Philippines
+Icelandic consultancy work on aquaculture in Indonesia
+Expert advice to World Bank fisheries program for
+Albania
+Operation of projects in regional cooperation - West
+Africa
+GRO training programs
+GRÓ Fisheries Training Program
+Total adaptation funds
+Cross cutting
+GRÓ training programs
+GRO Gender Equality Studies and Training Program
+2.839.400
+1.642.066
+2.800.000
+26.086.396
+8.116.703
+3.973.403
+4.133.470
+26.583.073
+1.000.000
+2019
+",1.0,explorer
+UNFCCC.party.1736.0,f9598c4e6a28e2927c879f1f358592ea__74ff6a3b2305be9135b7533ddccd7cbada079a66c0f68b4e1a2c0d72d97d2081,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,40,55,"Cross cutting
+GRO training programs
+GRO Gender Equality Studies and Training Program
+Gender and climate change
+Kebribeyah Climate Resilient Livelihood Project II
+Community Resilience Project in Malawi
+The Red Cross-Community Resilience Program II
+Kebribeyjah Sustainable Livelihood Project, Ethiopia
+Support for the participation of the National Rescue
+Representative in the international consultation with
+UNDAC/INSARAG
+",1.0,explorer
+UNFCCC.party.1736.0,f9598c4e6a28e2927c879f1f358592ea__74ff6a3b2305be9135b7533ddccd7cbada079a66c0f68b4e1a2c0d72d97d2081,JUST_TRANSITION,LIVELIHOOD,Livelihood,140,150,"Cross cutting
+GRO training programs
+GRO Gender Equality Studies and Training Program
+Gender and climate change
+Kebribeyah Climate Resilient Livelihood Project II
+Community Resilience Project in Malawi
+The Red Cross-Community Resilience Program II
+Kebribeyjah Sustainable Livelihood Project, Ethiopia
+Support for the participation of the National Rescue
+Representative in the international consultation with
+UNDAC/INSARAG
+",1.0,explorer
+UNFCCC.party.1736.0,f9598c4e6a28e2927c879f1f358592ea__74ff6a3b2305be9135b7533ddccd7cbada079a66c0f68b4e1a2c0d72d97d2081,JUST_TRANSITION,LIVELIHOOD,Livelihood,271,281,"Cross cutting
+GRO training programs
+GRO Gender Equality Studies and Training Program
+Gender and climate change
+Kebribeyah Climate Resilient Livelihood Project II
+Community Resilience Project in Malawi
+The Red Cross-Community Resilience Program II
+Kebribeyjah Sustainable Livelihood Project, Ethiopia
+Support for the participation of the National Rescue
+Representative in the international consultation with
+UNDAC/INSARAG
+",1.0,explorer
+UNFCCC.party.1728.0,be4072631591f62796f57335c15171b1__bd9c08aaad74b9c37015b882ad956a682a1fd22b7aa5b8630e2b0de9425af874,EQUITY_AND_JUSTICE,FAIRNESS,fairness,21,29,"4. Planning process, fairness and ambition:",1.0,explorer
+UNFCCC.party.1734.0,fe20a292fa3765ec094bbb72aab90b16__daee6c377df243ffff2d53bf86369a6f6649b5ef2c5b9e653bf1bc49b05ca933,JUST_TRANSITION,LIVELIHOOD,livelihoods,36,47,"limited and often climate-dependent livelihoods, such as",1.0,explorer
+UNFCCC.party.1734.0,1838826c980efca1572dfad2233a4d74__9567d44aa461c3edac5a8a4948aba8c0f3f3354548a95250a56a53422f944469,JUST_TRANSITION,LIVELIHOOD,livelihoods,42,53,tive agricultural production for food and livelihoods.,1.0,explorer
+UNFCCC.party.1734.0,d4cd4b925b5e2ede8a9bca836e8f415a__e6e96ec79d6c8daca9ed0a4b9f871764c783940cb30b0c1e8461e6b777f3fe9c,JUST_TRANSITION,LIVELIHOOD,livelihoods,8,19,"pendent livelihoods, such as subsistence",1.0,explorer
+UNFCCC.party.1734.0,a85fb9756ccbf0de88e8390ce7476ebb__ae73567f13099601938c7e42d0c56c31f1c4e0067f91b2a2cdacbf601f6fbe6e,JUST_TRANSITION,WORKFORCE,workforce,0,9,"workforce works in the agricultural sector (PEDSA, 2011).",1.0,explorer
+UNFCCC.party.1734.0,3a985f77dcebd6bddc33cb35b50b7365__89c48ea626d046ad1ada5fa21d241eafb241d7e7a66ef5470a943588b4f39ba5,JUST_TRANSITION,WORKFORCE,workforce,16,25,"70% of the male workforce, that is, 80% of the Mozambican",1.0,explorer
+UNFCCC.party.1734.0,d8705f2da6a0c6803e3fe4730c08667a__f1124b9b012e8e2029167c4540c11445260a28c5e2c390e12d9ca44f0495706b,JUST_TRANSITION,WORKFORCE,workforce,42,51,The sector employs 90% of the female workforce and,1.0,explorer
+UNFCCC.party.1734.0,b948ac93b761ee62ae38e095719c8a87__035b86befcf1b41fbb0eba24af850f88335fcf86f889e4a2b9d90c89afda5126,JUST_TRANSITION,LIVELIHOOD,livelihoods,38,49,"through loss of personal property and livelihoods, de-",1.0,explorer
+UNFCCC.party.1734.0,b8f75b605b5140bf3fbc958a14cbe73b__bc8962577533271ea4e8da6d5645c87f83b4a2ed9544d720ce93ce986e04932e,JUST_TRANSITION,LIVELIHOOD,livelihoods,11,22,"1. loss of livelihoods, built-up areas and coastal infrastruc-",1.0,explorer
+UNFCCC.party.1734.0,a8aa41688885f358875290ed9bb822de__a403eb8cb54e5c60758ded427cdd04d30f8a753f48581877e23ccbe39a6f2cf0,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,7,19,Gender inequalities remain a challenge in ensuring the,1.0,explorer
+UNFCCC.party.1734.0,ed40510fd18096bbd260c57184028db6__932b67eef6546158e72b656ef0c2eb7f7a1d5174cd8d067e8d5ca8b7ac489653,JUST_TRANSITION,LIVELIHOOD,livelihood,27,37,duction for their food and livelihood.,1.0,explorer
+UNFCCC.party.1734.0,02facfdebdd8014b3e5ae13dcc9bb541__cf86bb367d3b55f8f3b910086cc33e42cf7f203f6b92f52696f9f5d8a0ee19c5,INEQUALITY_&_HUMAN_RIGHTS,HUMAN_RIGHTS,human rights,14,26,observance of human rights and promoting inclusive and,1.0,explorer
+UNFCCC.party.1734.0,c1fd82b7d86046d839fbedf15efbb226__e21438b0a46c5dcca21507c02ddf2559eb2e0427fc5f985aeb834dc9d3d36c4a,JUST_TRANSITION,LIVELIHOOD,livelihood,36,46,"plays an essential role for women's livelihood, as 90% of the",1.0,explorer
+UNFCCC.party.1734.0,bd112862f86a4721fb4e10ef1b5f82ed__0d42adf56be130f4e2251efbad47577e66e104e2fb1da0bba675d653b49cf2a1,JUST_TRANSITION,LIVELIHOOD,livelihoods,17,28,"diversifying the livelihoods of peasants, it is a source of",1.0,explorer
+UNFCCC.party.1734.0,4b018ee2d7da751f8666824e2969305e__4aa2a5673ba916db98496aa2f2632ba305a485c785e4d2bafd14b183e8f35a1f,JUST_TRANSITION,LIVELIHOOD,livelihoods,38,49,of agricultural crops and the loss of livelihoods lead people,1.0,explorer
+UNFCCC.party.1734.0,3506517852fc7179301ab84b0e2ca427__7af3374159b4a8e772a272bc1ef73af554dd8e25bd8da2a126083e906240c1c6,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,29,49,"awareness, dissemination and public participation in",1.0,explorer
+UNFCCC.party.1734.0,d6ca5725e3da4359e3d6a38eafc72982__3e94c360e8de5c04b2ad81bc63a9d578c25ae89db8bf2e68ad33df00485ea306,EQUITY_AND_JUSTICE,EQUITY,equity,10,16,Social equity recognition and respect for human,1.0,explorer
+UNFCCC.party.1734.0,ee3b0eb154a17a8ba91f19aa4bd148d8__6a294d8a8d1e3de8ce033e787af891d481adf570459939a37b30e8b1f6c93134,JUST_TRANSITION,LIVELIHOOD,livelihoods,36,47,"and losses from disasters in lives, livelihoods and health",1.0,explorer
+UNFCCC.party.1734.0,d4262225a1884d9ce8bdc7210add6165__d4c6e156a6029316e75e53d0574b77b483be2b28245f37f8b1db6a6dae67c3cd,EQUITY_AND_JUSTICE,EQUITY,equity,3194,3200,"To ensure gender equity in the decision-making process, training and
+environmental capacity building
+3.",1.0,explorer
+UNFCCC.party.1734.0,d4262225a1884d9ce8bdc7210add6165__d4c6e156a6029316e75e53d0574b77b483be2b28245f37f8b1db6a6dae67c3cd,JUST_TRANSITION,LIVELIHOOD,livelihoods,1074,1085,"Strategic actions include several directly
+related to CC, with emphasis on (i) Improving the management of water resources
+(...) for agriculture and other uses and to reduce the risks arising from climate
+change; (ii) to develop and implement policies and strategies to reduce the impact
+of CC on natural resources and, ultimately, on food security and rural livelihoods;
+(iii) to develop and implement a strategy to reduce the risks associated with
+natural disasters and CC and adapt production systems.
+",1.0,explorer
+UNFCCC.party.1734.0,d4262225a1884d9ce8bdc7210add6165__d4c6e156a6029316e75e53d0574b77b483be2b28245f37f8b1db6a6dae67c3cd,EQUITY_AND_JUSTICE,EQUITY,equity,3571,3577,"To ensure that staff and technicians from all sectors of environmental
+transversality have an understanding of gender equity and are able to contribute V
+to the purposes of this strategy",1.0,explorer
+UNFCCC.party.1734.0,d4262225a1884d9ce8bdc7210add6165__d4c6e156a6029316e75e53d0574b77b483be2b28245f37f8b1db6a6dae67c3cd,EQUITY_AND_JUSTICE,EQUITY,equity,3361,3367,"To ensure that plans, policies, programs, strategies and budgets promote
+gender equity, access to natural resources and measures to mitigate and adapt to
+climate change
+4.",1.0,explorer
+UNFCCC.party.1734.0,da618fc4f2048c66a62fff5f76d0a54f__5797570ce9e4c82361eec574e64f92162d86edeb55f6a4d6939021c5a8e71dfe,EQUITY_AND_JUSTICE,EQUITY,equity,267,273,"To contribute to MICOA being an institution that actively practices and
+promotes gender equity in environmental management
+6.",1.0,explorer
+UNFCCC.party.1734.0,89769ae872a798b28ecb4b1c6e34fcc0__315652ca0547be63d10c502af108ab34582c397beaaa272b2f1cd2300aee0a4b,JUST_TRANSITION,SOCIAL_PROTECTION,social protection,23,40,Reinforcement of basic social protection measures with regard to climate change so that it contributes to the resilience of vulnerable populations Strengthening the orientation and targeting capacity of the Productive Social Action Program to increase the resilience of vulnerable groups,1.0,explorer
+UNFCCC.party.1734.0,9d494407e1659480c8a046520cffc664__83f4a81d7e392d04df25973b3ebe48b0255bef3d98b5bd41b5ec0bd5bf33aa1d,JUST_TRANSITION,WORKERS,workers,10,17,and train workers on disaster prevention standards.,1.0,explorer
+UNFCCC.party.1734.0,ca05387dfe5682dc8008d2d247f8a8a9__041da73820a69f449fe51e8ac3732a8c862824f261a729d460b903e508479d0c,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,47,59,"2), quality health (objective 3), reduction of inequalities (ob-",1.0,explorer
+UNFCCC.party.1734.0,c0172a743f402f6fb2968fa8d63159da__21caa4faed53fa7510b136791da5a2ead372796d7cff8a175c1cc91a81a09879,JUST_TRANSITION,SOCIAL_PROTECTION,social protection,23,40,Reinforcement of basic social protection measures with,1.0,explorer
+UNFCCC.party.1734.0,80043c3974763613048d15ffd7633a71__48ca3c2756e205ce0f2c14a291c843cb8e98220ee21fff153e5967afd66c0e43,INEQUALITY_&_HUMAN_RIGHTS,UNEQUAL,unequal,24,31,It should be noted that unequal gender power relations,1.0,explorer
+UNFCCC.party.1734.0,ecdc9852d77a209f91d7044c0ef04c1b__6bf91bb730f6cd954ab0744e425d2c593ef54d4be55e715f283a55882b995ead,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,31,43,"equality, thus reducing gender inequalities in the access",1.0,explorer
+UNFCCC.party.1734.0,f9295a25010f42c7d630256b76a1586a__38c2813c1b71bd4b913baabefebfa2ee9a44775452a50c44b517d224517ecc72,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,7,19,gender inequalities.,1.0,explorer
+UNFCCC.party.1734.0,05733afb5da9f83b255b990645288cc5__86a292437f50f2c29317f0203beef7b8ec480dfe0cce8f9cb150fb0a6241a076,JUST_TRANSITION,SOCIAL_PROTECTION,social protection,22,39,"(i) Reinforcing basic social protection measures that may
+increase populations resilience and response;",1.0,explorer
+UNFCCC.party.1734.0,b09ad9766219ba59d4687e5eab41538d__ef23b9451054c771fda6cdb278efc9bdbb0c47457572d3692b144d53705cc346,JUST_TRANSITION,JOB_LOSS,job losses,36,46,"often leads to consequences such as job losses, increased",1.0,explorer
+UNFCCC.party.1734.0,dac13bdc7caf0edde45f5e33ae6f8db5__9ec77503c4336fcc82917ff82d1e68f6350b9f314b4db9b8c79ab4d30804b4d6,JUST_TRANSITION,WORKFORCE,workforce,0,9,"workforce in agriculture, their lack of control over assets,",1.0,explorer
+UNFCCC.party.1734.0,c74e2e2f63e145be67aafbebd6304488__4f53bac4b7bf572aed71a50b767373aa907e3053b789923ca6c4453f538aa377,JUST_TRANSITION,LIVELIHOOD,livelihood,19,29,Agriculture is the livelihood of the majority of Mozam-,1.0,explorer
+UNFCCC.party.1734.0,66e1dfdab0fc1e2fe83491c5e8b29c97__90ad883b61fef17c43466b4c9995907d365658420804d8c07424624820421e20,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,0,12,inequalities in the agricultural sector.,1.0,explorer
+UNFCCC.party.1734.0,c299ecb85c55b1f5c8e6b9bef412d54a__0fc7a82e3a63422a14a22ea7fc735b500d4adeee64632b91d27a91d20585d03d,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,16,28,"fant mortality, inequalities in human development, school",1.0,explorer
+UNFCCC.party.1734.0,4cc1b0080e6dee90eaa4a10c956d6f0c__8990d39cfc0325596a8e631cba11e2fe9d1c897fc4587fef7bbf865983f797f7,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequality,26,36,"begging, early mortality, inequality and exploitation of",1.0,explorer
+UNFCCC.party.1734.0,acd06ff45149908d5df19fe168ad3482__4188e5692e9bf0e78cc64731a2e0a76b6dabb08379dd8eaacc4b90735fd93f55,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,15,27,(iv) Combating inequalities in the access to nutritious,1.0,explorer
+UNFCCC.party.1734.0,4da5b16461cddc81940dac1f8e1121ba__6bf803ef5bf9ae054862256efb45220fb9c52aadabf4cfd6c00265f93ba7ff9f,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,39,51,"eradicating hunger, SDG 10 on reducing inequalities and",1.0,explorer
+UNFCCC.party.1734.0,09dd7994ff99ccb0ef2332b778b9da33__53bcc7a5cbcbfe968e1742a4c19b3aec67db376f4294273a350b9723bc167fe3,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,14,26,"socioeconomic inequalities between people, communities",1.0,explorer
+UNFCCC.party.1734.0,7f72094b0560f1711ea52594e386e47c__dd37c0325fb1c47431767167f6051cb1b3294c61b8d5031e24ad724300a19fa7,INEQUALITY_&_HUMAN_RIGHTS,HUMAN_RIGHTS,human right,0,11,human right for people to live a life of dignity;,1.0,explorer
+UNFCCC.party.1734.0,0c5baab83fb644484ddbbf5762754ac8__e5f754f40134d895de352109ea1a88f1da22eb8f067b687476afa82adf371487,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequality,9,19,increase inequality between sites and communities across,1.0,explorer
+UNFCCC.party.1734.0,da0e06f24d7f2e5a09cce24fc9a722b5__6d0b82efeea35fbc1bdb9e6c5ff4273a9572b48ff857e143367ff58e5ad2702a,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,46,58,"tion of infant mortality and the reduction of inequalities,",1.0,explorer
+UNFCCC.party.1734.0,5e71d906ea042e73a57e1b21562af138__aa0056bcaa833fac4a37cab9bcfe62e57cb2697ec8e6ff6d245e26885b18fba3,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,19,31,and reduces social inequalities and environmental degra-,1.0,explorer
+UNFCCC.party.1734.0,22ead0ad08fd967f0e5aebc7094d94cb__2298ab0ee2013baa670f40ced1e6df966e763af66120b8dc16cbc70851c53c1e,JUST_TRANSITION,LIVELIHOOD,livelihoods,889,900,"This sustainable water man-
+gement will ensure better distribution and use of water,
+elp build climate resilience and alleviate poverty through
+proved human well-being, livelihoods, food production,
+Cosystems industries and growing cities",1.0,explorer
+UNFCCC.party.1734.0,962e305377aeebf7768893f4b1bcdd37__a74c7e86e13127315f83d0a4db9d6ddf956f4aa35df90a3e97d9c13050a7108d,INEQUALITY_&_HUMAN_RIGHTS,INEQUALITY,inequalities,0,12,inequalities.,1.0,explorer
+UNFCCC.party.1734.0,ce5d1b1c69903e6ee0c68874198b2656__1064f8326855d02af23c0cb9c28b43072a994de614feca085f94d8bef4b3f08c,JUST_TRANSITION,WORKERS,workers,29,36,necessary to mobilize health workers to support preven-,1.0,explorer
+UNFCCC.party.1734.0,fd64ae8c7f1910a6234053a24756d2a1__07470d0c07954e1736a7476390f60b00c89fba101fb418578c45b47be337f996,JUST_TRANSITION,LIVELIHOOD,livelihood,6,16,human livelihood.,1.0,explorer
+UNFCCC.party.1745.0,34fbf1c6366160432cedffaf6f4a8e25__40c37c9afaca3712d1db922222b837483508bc9780c9a7b20da16e6b7805ec14,JUST_TRANSITION,SOCIAL_INCLUSION,Social Inclusion,20,36,"Ensuring Gender and Social Inclusion in the
+Net-Zero and Climate-Resilient Pathways",1.0,explorer
+UNFCCC.party.1745.0,6b48fff3b629a94e13ce0cd880c21d2c__4fa03f422003db1ac631eae2b9ee30ce99df707fb7c48337ac004fc5f2d8b3ce,JUST_TRANSITION,GREEN_JOB,green jobs,890,900,"65
+.71
+Total number of green jobs and green jobs
+by category..
+.6
+Table 8.1.",1.0,explorer
+UNFCCC.party.1745.0,6b48fff3b629a94e13ce0cd880c21d2c__4fa03f422003db1ac631eae2b9ee30ce99df707fb7c48337ac004fc5f2d8b3ce,JUST_TRANSITION,GREEN_JOB,green jobs,875,885,"65
+.71
+Total number of green jobs and green jobs
+by category..
+.6
+Table 8.1.",1.0,explorer
+UNFCCC.party.1745.0,6b48fff3b629a94e13ce0cd880c21d2c__4fa03f422003db1ac631eae2b9ee30ce99df707fb7c48337ac004fc5f2d8b3ce,JUST_TRANSITION,GREEN_JOB,green jobs,807,817,"Share of green jobs in total
+employment...
+Table 8.4.
+",1.0,explorer
+UNFCCC.party.1745.0,0a33d54ce46dd912432f21400e35877c__52b2a44c8c80099b0e8995c6b824eae2562f61305341b956cfcc446b4c7fa336,JUST_TRANSITION,GREEN_JOB,green jobs,152,162,"Total green jobs and additional
+green jobs
+Figure 5.2.",1.0,explorer
+UNFCCC.party.1745.0,0a33d54ce46dd912432f21400e35877c__52b2a44c8c80099b0e8995c6b824eae2562f61305341b956cfcc446b4c7fa336,JUST_TRANSITION,GREEN_JOB,green jobs,178,188,"Total green jobs and additional
+green jobs
+Figure 5.2.",1.0,explorer
+UNFCCC.party.1745.0,af02cec4741a5cf4bb0838e7f2ef784f__e9ae0cbd33e4a0742577e8e157fdfa95399e52b442c24d5a5f699aab2ad32ca5,JUST_TRANSITION,JUST_TRANSITION,just transition,464,479,"The LT-LEDS acknowledges the principles of just transition to a decarbonized, resilient economy and proposes measures to ensure a more inclusive labor market through establishing a Women and Youth in Green Jobs Program that addresses barriers to accessing economic opportunities.",1.0,explorer
+UNFCCC.party.1745.0,af02cec4741a5cf4bb0838e7f2ef784f__e9ae0cbd33e4a0742577e8e157fdfa95399e52b442c24d5a5f699aab2ad32ca5,JUST_TRANSITION,WORKERS,workers,746,753,The program will also address the challenges workers face in vulnerable employment and enterprises in informal sectors.,1.0,explorer
+UNFCCC.party.1745.0,af02cec4741a5cf4bb0838e7f2ef784f__e9ae0cbd33e4a0742577e8e157fdfa95399e52b442c24d5a5f699aab2ad32ca5,JUST_TRANSITION,GREEN_JOB,green jobs,365,375,The LT-LEDS proposes an economic transformation that leads to the creation of economic opportunities and green jobs though paid employment and entrepreneurship.,1.0,explorer
+UNFCCC.party.1745.0,af02cec4741a5cf4bb0838e7f2ef784f__e9ae0cbd33e4a0742577e8e157fdfa95399e52b442c24d5a5f699aab2ad32ca5,JUST_TRANSITION,SOCIAL_INCLUSION,social inclusion,233,249,"The LT-LEDS recognizes the role that women, youth, and vulnerable communities play in climate action, and in alignment with national sustainable development policies, LT-LEDS implementation will maximize opportunities for gender and social inclusion outcomes.",1.0,explorer
+UNFCCC.party.1745.0,2c7a3df90d88cf6a410e1b01dd9faeef__639fd98ff2d5bb1746d5e9edc2a97e194d200c91d29924c124d67ff83c373c72,JUST_TRANSITION,SOCIAL_INCLUSION,social inclusion,20,36,"Ensuring gender and social inclusion outcomes in LT-LEDS
+implementation",1.0,explorer
+UNFCCC.party.1745.0,af08a75ae7bfcd2761954e2082b261ee__e7cf7d985123641dd2a9cf55943c15dba52ea622d8a074767646b4dfd8076075,JUST_TRANSITION,JUST_TRANSITION,just transition,357,372,"climate proofing, and modernizing key Ethiopian economic sectors while ensuring a just transition and the creation of economic and decent job opportunities.",1.0,explorer
+UNFCCC.party.1745.0,c48a07198c3f7348bc9ee6f3196c89ed__e2a4cd3910a9c59d2e9f039d199e32c0730ee6cd2e30cc383dc0b6d34eaa788f,JUST_TRANSITION,LIVELIHOOD,livelihoods,643,654,"Lastly, frequent extreme weather events, alongside longterm impacts of climate change, undermine agriculture and pastoral livelihoods and food security.",1.0,explorer
+UNFCCC.party.1745.0,c48a07198c3f7348bc9ee6f3196c89ed__e2a4cd3910a9c59d2e9f039d199e32c0730ee6cd2e30cc383dc0b6d34eaa788f,JUST_TRANSITION,WORKFORCE,workforce,301,310,"Further, the country's young and growing workforce (at around 2 million per year) presents an opportunity but also strains the absorption capacity of the labor market, necessitating the creation of sufficient new and decent jobs to capitalize on its potential.",1.0,explorer
+UNFCCC.party.1745.0,d8ef5acd231ea5a631a6286030f661b3__60b15d70a52a42716aed3f3f92ba1487498ac96b2087d9ab4eeede86cd54a8f8,JUST_TRANSITION,LIVELIHOOD,livelihoods,205,216,"The incidence of conflict has increased, particularly in the north since November 2020, leading to substantial impacts on lives, livelihoods,",1.0,explorer
+UNFCCC.party.1745.0,00492f044f7b11f349b1a28af1e04752__77976ffad2a01f0cc07728ef4d8ab70ae66acdb296729b6ff15eecbc312edc9b,JUST_TRANSITION,LIVELIHOOD,livelihoods,679,690,"Ethiopia has frequently experienced extreme events, like droughts and floods, in addition to rainfall variability and increasing temperatures, which contribute to adverse impacts on livelihoods.",1.0,explorer
+UNFCCC.party.1745.0,42b6f142f8dde0b5acf59918540f898c__225825e9649ebf7312144206999ebf2751517dc17ac3d3d0ad05fac185fe9e6c,INEQUALITY_&_HUMAN_RIGHTS,HUMAN_RIGHTS,human rights,128,140,Building strong and inclusive institutions to ensure a peaceful society and access to justice and to uphold the rule of law and human rights.,1.0,explorer
+UNFCCC.party.1745.0,42b6f142f8dde0b5acf59918540f898c__225825e9649ebf7312144206999ebf2751517dc17ac3d3d0ad05fac185fe9e6c,EQUITY_AND_JUSTICE,JUSTICE,justice,86,93,Building strong and inclusive institutions to ensure a peaceful society and access to justice and to uphold the rule of law and human rights.,1.0,explorer
+UNFCCC.party.1745.0,6b6befe87ebb46c17236b038980bc22f__e69618a1fde5167da5cb6c1264e04b5e8bd5b501344830e56aea769febfe2035,JUST_TRANSITION,LIVELIHOOD,Livelihood,505,515,"Mt
+co,e
+(-75%)
+-277.7 Mt
+co,e
+(-69%)
+Actions
+Sustainable agricultural land management practices
+Reduction in preharvest losses
+Carbon sequestration in grasslands
+Lowlands Livelihood Resilience Project
+Fuel switch and biomass efficiency (improved cookstoves)
+Reforestation
+Landscape restoration
+Enhancement of livestock productivity
+Agricultural mechanization
+Increase in the share of poultry
+Oilseed feeding to reduce emissions from enteric
+fermentation
+Energy efficiency
+Transport electrification
+Public transport expansion
+Industry fuel switch
+Use of organic fertilizer and crop residues
+Clinker substitution in cement
+Reduction of waste per capita
+Waste separation and composting
+Wastewater management",1.0,explorer
+UNFCCC.party.1745.0,e45c5b18dc734cd92285152776f5ba7c__f10adda1e377071cdaab1d777d475805877a59d4b6a2c94198e67396aaa670b0,JUST_TRANSITION,GOOD_JOB,decent work,280,291,"8 (decent work and economic growth), and 13 (climate action).",1.0,explorer
+UNFCCC.party.1745.0,e45c5b18dc734cd92285152776f5ba7c__f10adda1e377071cdaab1d777d475805877a59d4b6a2c94198e67396aaa670b0,JUST_TRANSITION,GREEN_JOB,green jobs,434,444,"Furthermore, land-based interventions are highly needed as they create a significant number of green jobs, thus contributing to enhanced reforestation and carbon sinks, an increased provision of ecosystem services, and the achievement of SDGs 8, 13, and 15 (life on land).",1.0,explorer
+UNFCCC.party.1745.0,26e6d4a39df0ff3003cfcd3a678447dc__826efaad47139bfa22e48249b4de6310706b050b7ba96d32074d5315bec0b24d,JUST_TRANSITION,WORKFORCE,workforce,122,131,accounting for more than 80% of exports and employing about 70% of the workforce.,1.0,explorer
+UNFCCC.party.1745.0,26e6d4a39df0ff3003cfcd3a678447dc__826efaad47139bfa22e48249b4de6310706b050b7ba96d32074d5315bec0b24d,JUST_TRANSITION,LIVELIHOOD,livelihoods,434,445,"Ethiopia has the largest livestock population in Africa, and millions of farmers and pastoralists depend on livestock for their livelihoods.",1.0,explorer
+UNFCCC.party.1745.0,fffecf995afaf8f2dd98e23d046ef793__581495aff9627cdbf836116eca689c2cdc7fe947c7360090c1e3f5339b8e0c3c,JUST_TRANSITION,LIVELIHOOD,livelihoods,221,232,"According to the Agricultural Development Led Industrialization strategy, agriculture is a driver of national economic growth and has enabled the country to achieve rapid growth in agricultural production and improve the livelihoods of rural households.",1.0,explorer
+UNFCCC.party.1745.0,a8e7922e9bf835d1977f79d05c37c024__498cd2eaa28ad75c4b10aed32893daeb0684112438063b98ecd2d19249cc8401,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,14,29,"Meanwhile the Gender Equality Strategy for Ethiopia's Agriculture Sector was developed in 2017 to accelerate
+development of the sector through added focus on women's empowerment in the sector.",1.0,explorer
+UNFCCC.party.1745.0,549a53fb7edfcf8526b9ad2b3329d0a9__85d6c89f5e93ca765c7ad7b2a57e2ce909b631a3722910be82ebcdf646234e0d,JUST_TRANSITION,LIVELIHOOD,livelihoods,452,463,"crop diversification promotion, improvement of the livelihoods of pastoral communities and their resilience,
+and poverty reduction by improving rural-urban linkages, developing rural nonfarm enterprises, and prioritizing
+agricultural investment.",1.0,explorer
+UNFCCC.party.1745.0,5b104b102952e46eecbc30baed2dd782__a05bff49315a44d5eeb3b00a862c4a0a01e1c29c2033ed8a8d49b9ae18387ae2,JUST_TRANSITION,LIVELIHOOD,livelihoods,159,170,The livelihoods of agro-pastoralists and pastoralists that live in the degraded rangelands are also threatened.,1.0,explorer
+UNFCCC.party.1745.0,abe6767b45f20523cb4321308511cc25__9bdb9bd991bf4b8bee5197ec03ac419e66f775ec05366b1084141866a52a965a,JUST_TRANSITION,LIVELIHOOD,livelihoods,1605,1616,"Mitigation action
+Manure management
+Feed management (oil seed
+feeding)
+Improved livestock
+productivity
+Substitution of poultry for
+cattle
+Agricultural mechanization
+Production of fruits and
+other perennial crops
+Integrated soil fertility
+management
+Improved grassland/
+rangeland management
+Adaptation co-benefits
+>
+Combined use of manure and
+mineral fertilizers leads to
+greater yield responses
+The application of manure
+from livestock waste serves
+to improve soil fertility and
+soil organic matter
+Improved animal performance >
+Improved resilience
+Reduced feed requirement
+during drought
+Improved resilience; reduced
+feed requirement during
+drought
+Improved resilience
+Improved resilience
+Improved resilience
+Improved soil moisture
+Flood risk protection
+Improved soil fertility
+Reduced soil erosion
+Enhanced soil carbon storage
+Improved resilience
+Improved soil moisture
+Flood risk protection
+Improved soil fertility
+Reduced soil erosion
+Adaptation trade-offs
+Enhance soil carbon storage
+Some secondary compounds can inhibit
+optimal performance, such as high fat
+content that can lead to milk fat depression
+> Proper processing and management of feed
+can mitigate these anti-nutritive components
+Increased productivity of livestock systems
+gener increases overall food production
+and absolute GHG emissions, albeit at lower
+emissions per unit of food
+> Not applicable in the context of scattered
+and fragmented landholdings, undulating and
+steep slopes, or terraced and nonuniform
+shape of crop fields
+Agricultural intensification that improves
+crop productivity can increase incomes but
+undermine local livelihoods and well-being
+",1.0,explorer
+UNFCCC.party.1745.0,e4932e4caa8cb676b076cc2a6948229e__88739ead56a4e11405737dcee367f824d359187dfd4123525ed8748712b2dc74,JUST_TRANSITION,LIVELIHOOD,livelihoods,102,113,"Forests regulate ecosystems, protect biodiversity, play an integral part in the carbon cycle, support livelihoods, and supply goods and services that can drive sustainable growth.",1.0,explorer
+UNFCCC.party.1745.0,d8628191f075a0d63667f2856727e677__d3fbf435e8bdebc9a4394f6b49965c8cf2d681d2a92dadf2c937604eb882e3d6,JUST_TRANSITION,WORKERS,workers,515,522,"These can be addressed by enhancing the supply of seedlings, fostering adoption of improved crop varieties among farmers, and improving farmers and extension workers' skills by providing customized capacity building and raising awareness.",1.0,explorer
+UNFCCC.party.1745.0,d8628191f075a0d63667f2856727e677__d3fbf435e8bdebc9a4394f6b49965c8cf2d681d2a92dadf2c937604eb882e3d6,JUST_TRANSITION,WORKERS,workers,270,277,"At a much smaller sectoral level, limitations preventing these synergies from being fully utilized include limited farmers' skills in operating mechanized equipment; limited access to irrigation water in dry areas; and limited technical skills of agricultural extension workers in diversified crop production, disease management, and post-harvest handling.",1.0,explorer
+UNFCCC.party.1745.0,62cf1c41b4070ba7d4874911a151635b__39307688e8dd5ecf2dd2ffcce93c3678dd35771527424503fb7c5294e47a929b,JUST_TRANSITION,GREEN_JOB,green jobs,310,320,"Creation of green jobs
+>
+",1.0,explorer
+UNFCCC.party.1745.0,005da9cfe4aa90e2ba4b43cf42836eba__dda6d1e5a36dc4e5529639f5efba8774415ad54f02508a2ef9023bffefb7c123,JUST_TRANSITION,SOCIAL_INCLUSION,social inclusion,155,171,"The draft
+policy document focuses on environmental and social inclusion and sustainable industrialization, in which
+environmentally friendly production processes that secure social health and comply with national and
+international environmental standards play a great role in sectoral growth.",1.0,explorer
+UNFCCC.party.1745.0,54c90764bb230fa9569c5f18332f6cfe__5a03a66abf1de12ba016986463f3e932f05c31831a643cdbf0d35942aa31dc0b,JUST_TRANSITION,GREEN_JOB,green jobs,41,51,"In the net-zero scenarios, the number of green jobs varies according to the timing at which ambitions are implemented.",1.0,explorer
+UNFCCC.party.1745.0,54c90764bb230fa9569c5f18332f6cfe__5a03a66abf1de12ba016986463f3e932f05c31831a643cdbf0d35942aa31dc0b,JUST_TRANSITION,GREEN_JOB,green jobs,335,345,"On average, for 2020-2050, the number of green jobs in the late action scenario is 1.32 million per year, which is 936,000 jobs more (on average) compared to the BAU scenario.",1.0,explorer
+UNFCCC.party.1745.0,997571b9c529b90b964aac40b2d473c0__f9c312d80bff4ebdf2ee21d270197e0d58f3003f5d4bda1f9f6662c52afc6fb4,JUST_TRANSITION,GREEN_JOB,green jobs,76,86,The decarbonization ambitions are projected to increase the total number of green jobs in the Ethiopian economy and create additional green jobs relative to the BAU scenario.,1.0,explorer
+UNFCCC.party.1745.0,997571b9c529b90b964aac40b2d473c0__f9c312d80bff4ebdf2ee21d270197e0d58f3003f5d4bda1f9f6662c52afc6fb4,JUST_TRANSITION,GREEN_JOB,green jobs,134,144,The decarbonization ambitions are projected to increase the total number of green jobs in the Ethiopian economy and create additional green jobs relative to the BAU scenario.,1.0,explorer
+UNFCCC.party.1745.0,997571b9c529b90b964aac40b2d473c0__f9c312d80bff4ebdf2ee21d270197e0d58f3003f5d4bda1f9f6662c52afc6fb4,JUST_TRANSITION,GREEN_JOB,green jobs,229,239,The number of green jobs and the number of additional green jobs are presented in Figure 5.1.,1.0,explorer
+UNFCCC.party.1745.0,997571b9c529b90b964aac40b2d473c0__f9c312d80bff4ebdf2ee21d270197e0d58f3003f5d4bda1f9f6662c52afc6fb4,JUST_TRANSITION,GREEN_JOB,green jobs,304,314,"In the BAU scenario, the number of green jobs increases from around 240,200 jobs in 2020 to 540,000 jobs in 2050.",1.0,explorer
+UNFCCC.party.1745.0,997571b9c529b90b964aac40b2d473c0__f9c312d80bff4ebdf2ee21d270197e0d58f3003f5d4bda1f9f6662c52afc6fb4,JUST_TRANSITION,GREEN_JOB,green jobs,189,199,The number of green jobs and the number of additional green jobs are presented in Figure 5.1.,1.0,explorer
+UNFCCC.party.1745.0,997571b9c529b90b964aac40b2d473c0__f9c312d80bff4ebdf2ee21d270197e0d58f3003f5d4bda1f9f6662c52afc6fb4,JUST_TRANSITION,GREEN_JOB,green jobs,397,407,"The number of green jobs in the BAU scenario averages 387,100 per year between 2020 and 2050.",1.0,explorer
+UNFCCC.party.1745.0,f9613d22d3ad5b8cad5426b8906f04a2__f078420c2a86c2dfd4424d489d6265538c4f858c8e6ee74d0ca39b8da8804e38,JUST_TRANSITION,GREEN_JOB,green jobs,167,177,"NDC-aligned scenario falls between the late action and maximum ambition scenarios, regarding the number of green jobs in 2050, but provides a slightly lower number of green jobs on average for 2020-2050 compared with the two alternative scenarios.",1.0,explorer
+UNFCCC.party.1745.0,f9613d22d3ad5b8cad5426b8906f04a2__f078420c2a86c2dfd4424d489d6265538c4f858c8e6ee74d0ca39b8da8804e38,JUST_TRANSITION,GREEN_JOB,green jobs,269,279,"The annual number of green jobs in the NDC-aligned scenario averages 1.25 million per year for 2020-2050, which is 865,400",1.0,explorer
+UNFCCC.party.1745.0,f9613d22d3ad5b8cad5426b8906f04a2__f078420c2a86c2dfd4424d489d6265538c4f858c8e6ee74d0ca39b8da8804e38,JUST_TRANSITION,GREEN_JOB,green jobs,107,117,"NDC-aligned scenario falls between the late action and maximum ambition scenarios, regarding the number of green jobs in 2050, but provides a slightly lower number of green jobs on average for 2020-2050 compared with the two alternative scenarios.",1.0,explorer
+UNFCCC.party.1745.0,026cf4a48c612bbcab4edba2ecf48b8f__66c52ef21ac7750acbfd9d013a7176e1b2c08d7bc1879ac81442b87048fc5e85,JUST_TRANSITION,GREEN_JOB,green jobs,104,114,"Finally, in the maximum ambition scenario, the annual number of green jobs for 2020-2050 averages 1.35 million, which is 966,700 additional jobs per year compared to the BAU (on average) and the highest number of green jobs of the three net-zero scenarios simulated.",1.0,explorer
+UNFCCC.party.1745.0,026cf4a48c612bbcab4edba2ecf48b8f__66c52ef21ac7750acbfd9d013a7176e1b2c08d7bc1879ac81442b87048fc5e85,JUST_TRANSITION,GREEN_JOB,green jobs,253,263,"Finally, in the maximum ambition scenario, the annual number of green jobs for 2020-2050 averages 1.35 million, which is 966,700 additional jobs per year compared to the BAU (on average) and the highest number of green jobs of the three net-zero scenarios simulated.",1.0,explorer
+UNFCCC.party.1745.0,360ee206ae8c30988e45a35cc227d42a__dd99dc3d2dbf88022223a6ac724a89eda5f817d48b5a7abba56ac6fc4ba8d1f0,JUST_TRANSITION,GREEN_JOB,green jobs,13,23,The share of green jobs in total employment for the selected periods is summarized in Table 5.1.,1.0,explorer
+UNFCCC.party.1745.0,360ee206ae8c30988e45a35cc227d42a__dd99dc3d2dbf88022223a6ac724a89eda5f817d48b5a7abba56ac6fc4ba8d1f0,JUST_TRANSITION,GREEN_JOB,green jobs,122,132,"On average, the share of green jobs in total employment for 2020-2050 is 0.56% in the BAU scenario, 1.76 % in the late action",1.0,explorer
+UNFCCC.party.1745.0,520204bf0e0064ca294e616c2fdbe52e__cbbb5e417b5e2b1a12de54cc6c46194ebe33fcfc8acc933dacc0f74449a44cd9,JUST_TRANSITION,GREEN_JOB,green jobs,181,191,"This highlights that the earlier ambitions are implemented, the higher the average share of green jobs in total employment.",1.0,explorer
+UNFCCC.party.1745.0,8c04c804356c07da276b93626465551d__4b8c0322e2f0180d028493d767d8ca834a9bc1d7352cdbeb3c6fb719a0074e07,JUST_TRANSITION,GREEN_JOB,green jobs,9,19,"Share of green jobs in
+total employment
+Late action
+NDC aligned
+Maximum ambition
+BAU
+2020-2030
+0.94%
+1.63%
+2.34%
+0.49%
+2030-2040
+1.31%
+1.66%
+1.76%
+0.56%
+2040-2050
+2.93%
+2.02%
+1.80%
+0.62%
+2020-2050
+1.76%
+1.78%
+1.99%
+0.56%",1.0,explorer
+UNFCCC.party.1745.0,672e972626f4e21fca49167be3763a15__544fb178ac7102785b534d67086b15c0b051d343b02c1865efe5d526557afdf5,JUST_TRANSITION,GREEN_JOB,green jobs,9,19,Share of green jobs in total employment,1.0,explorer
+UNFCCC.party.1745.0,c270e97935ced36a2464eb2093e927a0__9a5ce107676c7e0cb43ebf45583c86d10e0977f8d4fbc97922e3c7c4dd9bc9a7,JUST_TRANSITION,GREEN_JOB,green jobs,32,42,Total green jobs and additional green jobs,1.0,explorer
+UNFCCC.party.1745.0,c270e97935ced36a2464eb2093e927a0__9a5ce107676c7e0cb43ebf45583c86d10e0977f8d4fbc97922e3c7c4dd9bc9a7,JUST_TRANSITION,GREEN_JOB,green jobs,6,16,Total green jobs and additional green jobs,1.0,explorer
+UNFCCC.party.1745.0,7ec25cf212536fb5b489bae4856906c5__69c1cc2a09cbbed9b65c80fe0cf36508352a8513873be8cf26397eaba496cdd8,JUST_TRANSITION,GREEN_JOB,Green jobs,461,471,"BAU
+Late action
+NDC aligned
+Maximum ambition
+BAU
+Late action
+NDC aligned
+Maximum ambition
+BAU
+Unit
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+Jobs
+2020
+259,592
+363,222
+707,976
+240,165
+Green jobs by category
+Vehicle electrification
+1,494
+1,989
+2,972
+0
+Energy efficiency
+-27
+-23
+-14
+0
+2030
+659,248
+932,560
+1,000,668
+311,524
+14,438
+117,563
+461,313
+Land-based interventions
+0
+Waste management
+7,348
+9,303
+16,736
+214,302
+214,302
+214,302
+211,725
+Renewable energy
+29,386
+29,392
+29,404
+28,440
+0
+1,297
+1,062
+1,307
+0
+180,727
+435,818
+497,529
+0
+325,178
+325,205
+325,221
+267,875
+144,699
+161,171
+159,875
+43,649
+2040
+1,149,797
+1,422,595
+1,317,742
+431,970
+18,814
+30,315
+24,662
+0
+2,244
+2,480
+2,458
+0
+394,867
+664,282
+567,895
+0
+385,833
+385,857
+385,873
+322,852
+348,039
+339,661
+336,855
+109,118
+2050
+3,900,835
+1,774,906
+1,518,207
+539,988
+37,922
+26,279
+20,284
+0
+3,053
+3,102
+3,150
+0
+3,037,500
+926,447
+675,750
+0
+435,039
+435,073
+435,098
+375,520
+387,321
+384,004
+383,925
+164,468",1.0,explorer
+UNFCCC.party.1745.0,7ec25cf212536fb5b489bae4856906c5__69c1cc2a09cbbed9b65c80fe0cf36508352a8513873be8cf26397eaba496cdd8,JUST_TRANSITION,GREEN_JOB,green jobs,16,26,"Total number of green jobs
+Late action
+NDC aligned
+Maximum ambition
+BAU
+Late action
+NDC aligned
+Maximum ambition
+BAU
+Late action
+NDC aligned
+Maximum ambition
+BAU
+Late action.
+",1.0,explorer
+UNFCCC.party.1745.0,4d75083e5ae66eeaac370b13d1f33dcb__fb87943fdb85612eb2801e7b151633943622da1d16bace714ac58e89c374085a,JUST_TRANSITION,GREEN_JOB,green jobs,79,89,Table 5.2 depicts the total number of green jobs by scenario and the number of green jobs by category for selected years.,1.0,explorer
+UNFCCC.party.1745.0,4d75083e5ae66eeaac370b13d1f33dcb__fb87943fdb85612eb2801e7b151633943622da1d16bace714ac58e89c374085a,JUST_TRANSITION,GREEN_JOB,green jobs,38,48,Table 5.2 depicts the total number of green jobs by scenario and the number of green jobs by category for selected years.,1.0,explorer
+UNFCCC.party.1745.0,4d75083e5ae66eeaac370b13d1f33dcb__fb87943fdb85612eb2801e7b151633943622da1d16bace714ac58e89c374085a,JUST_TRANSITION,GREEN_JOB,green jobs,177,187,"The results show that the highest number of additional green jobs is created by land-based interventions (restoration and reforestation), followed by renewable energy and waste management.",1.0,explorer
+UNFCCC.party.1745.0,d7bf25d014e06561a80a9ab2c5307873__c662f4b1e4d2f1546bc5ac9c30117155fdaad3d986b8e91e486b0cb0695d83c3,JUST_TRANSITION,FAIR_TRANSITION,fair transition,123,138,sink required to reach net-zero ambitions as well as the role that electrification and renewable energy play in creating a fair transition.,1.0,explorer
+UNFCCC.party.1745.0,691530d10b8b8573d680876d8fa8be4b__c32d994da7c01622f443109b16fa8c73811cfc7f0996b7faf6cf9167c64766f7,JUST_TRANSITION,GREEN_JOB,green jobs,16,26,Total number of green jobs and green jobs by category,1.0,explorer
+UNFCCC.party.1745.0,691530d10b8b8573d680876d8fa8be4b__c32d994da7c01622f443109b16fa8c73811cfc7f0996b7faf6cf9167c64766f7,JUST_TRANSITION,GREEN_JOB,green jobs,31,41,Total number of green jobs and green jobs by category,1.0,explorer
+UNFCCC.party.1745.0,0668c189c70fab7f291964d375c073b1__2cd2fb1c2e83ddbcc0300681ceaeaace979e713dcfd91c9d99825ea62a554c42,JUST_TRANSITION,SOCIAL_INCLUSION,social inclusion,195,211,"The framework consists of four green growth dimensions: efficient and sustainable resource use, natural capital protection, green economic opportunities and social inclusion.",1.0,explorer
+UNFCCC.party.1745.0,86813f4618ef465654da5bdc6fdbb4db__76ccd1fbd648aa6b7598158333be31d74488cd65fc9bd074551c0a8456a71d0a,JUST_TRANSITION,WORKFORCE,workforce,251,260,"Women form 14% of the workforce in transport, storage, and communication, which constitutes a small minority of the total female workforce.",1.0,explorer
+UNFCCC.party.1745.0,86813f4618ef465654da5bdc6fdbb4db__76ccd1fbd648aa6b7598158333be31d74488cd65fc9bd074551c0a8456a71d0a,JUST_TRANSITION,WORKFORCE,workforce,358,367,"Women form 14% of the workforce in transport, storage, and communication, which constitutes a small minority of the total female workforce.",1.0,explorer
+UNFCCC.party.1745.0,916b59a87711ad2d1a4f48527228974c__94029621afbd937065edd216dc01be92a496e012ede69d7e15d277676da7d89d,JUST_TRANSITION,GREEN_JOB,green jobs,233,243,This forecasted increase in green jobs offers opportunities for an inclusive labor market in key sectors to drive growth in Ethiopia's economy.,1.0,explorer
+UNFCCC.party.1745.0,916b59a87711ad2d1a4f48527228974c__94029621afbd937065edd216dc01be92a496e012ede69d7e15d277676da7d89d,JUST_TRANSITION,GREEN_JOB,green jobs,162,172,"Presented earlier, the NDC-aligned scenario, through additional capital accumulation and job creation in green sectors, will create around 0.932 and 1.77 million green jobs in 2030 and 2050, respectively.",1.0,explorer
+UNFCCC.party.1745.0,0335f239d49fbe9996cd609089c17e33__68346f251757097d559b5fe4f62ae0459bda8347d0cd3da491a06cacecb895a8,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,667,682,"Addressing gender and social inclusion considerations during the implementation of the measures envisaged under the LT-LEDS will be critical to maximize co-benefits of the strategy and ensure that the strategy contributes to the country's national and international commitments on gender equality, including the achievement of the SDGs (SDG 1 on poverty eradication and SDG 5 on gender equality) and the empowerment of youth and women.",1.0,explorer
+UNFCCC.party.1745.0,0335f239d49fbe9996cd609089c17e33__68346f251757097d559b5fe4f62ae0459bda8347d0cd3da491a06cacecb895a8,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,569,584,"Addressing gender and social inclusion considerations during the implementation of the measures envisaged under the LT-LEDS will be critical to maximize co-benefits of the strategy and ensure that the strategy contributes to the country's national and international commitments on gender equality, including the achievement of the SDGs (SDG 1 on poverty eradication and SDG 5 on gender equality) and the empowerment of youth and women.",1.0,explorer
+UNFCCC.party.1745.0,0335f239d49fbe9996cd609089c17e33__68346f251757097d559b5fe4f62ae0459bda8347d0cd3da491a06cacecb895a8,JUST_TRANSITION,SOCIAL_INCLUSION,social inclusion,310,326,"Addressing gender and social inclusion considerations during the implementation of the measures envisaged under the LT-LEDS will be critical to maximize co-benefits of the strategy and ensure that the strategy contributes to the country's national and international commitments on gender equality, including the achievement of the SDGs (SDG 1 on poverty eradication and SDG 5 on gender equality) and the empowerment of youth and women.",1.0,explorer
+UNFCCC.party.1745.0,a9dba416a2cd2fb26e896b8bea4b7b07__48f23dab8f8e41e358507763571f8b457e11bb40777e8e86ed6f7010e774cb82,JUST_TRANSITION,GREEN_JOB,green jobs,109,119,"The LT-LEDS proposes an economic transformation that will lead to the creation of economic opportunities and green jobs, through paid employment and entrepreneurship and in formal and informal sectors.",1.0,explorer
+UNFCCC.party.1745.0,915068d4ab638d62ea8a42f98dc29207__355b083a0725a61c9b7a51fe728a67da99883e8010f207b19b23a1e4bd0faeb8,JUST_TRANSITION,WORKERS,workers,317,324,"Central to the concept of ""just transitions"" is the preparation of the workforce for the demands of the future green labor market to ensure equal opportunities for women, men, youth, and workers currently engaged in informal and vulnerable jobs.",1.0,explorer
+UNFCCC.party.1745.0,915068d4ab638d62ea8a42f98dc29207__355b083a0725a61c9b7a51fe728a67da99883e8010f207b19b23a1e4bd0faeb8,JUST_TRANSITION,WORKFORCE,workforce,201,210,"Central to the concept of ""just transitions"" is the preparation of the workforce for the demands of the future green labor market to ensure equal opportunities for women, men, youth, and workers currently engaged in informal and vulnerable jobs.",1.0,explorer
+UNFCCC.party.1745.0,915068d4ab638d62ea8a42f98dc29207__355b083a0725a61c9b7a51fe728a67da99883e8010f207b19b23a1e4bd0faeb8,JUST_TRANSITION,LIVELIHOOD,livelihoods,37,48,Access to green jobs and sustainable livelihoods is key to the equal distribution of co-benefits from the LT-LEDS implementation.,1.0,explorer
+UNFCCC.party.1745.0,915068d4ab638d62ea8a42f98dc29207__355b083a0725a61c9b7a51fe728a67da99883e8010f207b19b23a1e4bd0faeb8,JUST_TRANSITION,GREEN_JOB,green jobs,10,20,Access to green jobs and sustainable livelihoods is key to the equal distribution of co-benefits from the LT-LEDS implementation.,1.0,explorer
+UNFCCC.party.1745.0,74aa90bfdd2cd57246588e16fa2c5439__8d68fb8836f03b3d85cf589a207f051fe184af6f07b6cc45ef0b242979a21875,JUST_TRANSITION,GREEN_JOB,green jobs,231,241,"To maximize benefits associated with the LT-LEDS, the strategy recommends the development of a Women and Youth in Green Jobs Program, which will put forward strategic actions to overcome the barriers women and youth face to access green jobs while promoting the inclusive formalization of informal sectors.",1.0,explorer
+UNFCCC.party.1745.0,62fbcbf7419c63e365fc2a5a8b055a16__056ac96a6fc1b615e9c0841dc47b39ff87c2ebdd61abc58adf5e6aff29266e47,JUST_TRANSITION,SOCIAL_INCLUSION,social inclusion,368,384,"This includes alignment with the overarching national priorities for gender, women's empowerment, and social inclusion.",1.0,explorer
+UNFCCC.party.1745.0,564b38829f1c8360b649f132443fe194__5796d2ef3b146519c688ed88c53c6d0119641f9f26def02dfc8d2abd866fb35a,JUST_TRANSITION,GREEN_JOB,green jobs,502,512,"The Ministry of Finance's gender-responsive budgeting will support target setting and achievement of inclusive outcomes from the LT-LEDS implementation, including the proposed Women and Youth in Green Jobs Program to maximize gender and youth co-benefits by promoting access to green jobs.",1.0,explorer
+UNFCCC.party.1745.0,564b38829f1c8360b649f132443fe194__5796d2ef3b146519c688ed88c53c6d0119641f9f26def02dfc8d2abd866fb35a,JUST_TRANSITION,SOCIAL_INCLUSION,social inclusion,24,40,"Expertise on gender and social inclusion can be secured through the technical committee, who is responsible for developing policy brief guidelines and tools for LT-LEDS implementation, which also guide relevant IEs and EEs.",1.0,explorer
+UNFCCC.party.1730.0,e6c79db2a7cfd08cf2b0a792b8e50d1a__38dbcf45f0805f3a70c3065eb579b06f5a606fa11aa1e858b259e1b826933a36,EQUITY_AND_JUSTICE,FAIRNESS,Fairness,2178,2186,"6. Fairness and ambitiousness of the nationally determined contribution
+6.1 Fairness and
+Kazakhstan's NDC implementation faces the following barriers that
+complicate the achievement of the target and demand serious considerations:
+1.",1.0,explorer
+UNFCCC.party.1730.0,e6c79db2a7cfd08cf2b0a792b8e50d1a__38dbcf45f0805f3a70c3065eb579b06f5a606fa11aa1e858b259e1b826933a36,EQUITY_AND_JUSTICE,FAIRNESS,Fairness,2251,2259,"6. Fairness and ambitiousness of the nationally determined contribution
+6.1 Fairness and
+Kazakhstan's NDC implementation faces the following barriers that
+complicate the achievement of the target and demand serious considerations:
+1.",1.0,explorer
+UNFCCC.party.1730.0,bca315c8533e296b078055f2712de4f9__3822aaa94048851a19032e17d2443d7246312176a42578695dc3ad6ca416dac9,EQUITY_AND_JUSTICE,EQUITY,equity,277,283,"The Republic of Kazakhstan aims to achieve carbon neutrality by 2060, which contributes to the accelerated achievement of the global peak of greenhouse gas emissions in the first half of the 21st century and also takes into account the constraints imposed by the principles of equity, sustainable development and poverty eradication.",1.0,explorer
+UNFCCC.non-party.1737.0,dc0b6ca6ce27ee688f1d97eaf5fcdfd1__c08db4ab33ec7f8929c825053b7245f66f439288bbf2bc91f310b55224d6b8c7,EQUITY_AND_JUSTICE,EQUITY,equity,249,255,"The rationale for the urgent mainstreaming of children's rights across climate action, including relevant data, metrics and recommendations with respect to the concrete measures and targets required to uphold children's rights and intergenerational equity across mitigation, adaptation, finance, and loss and damage, is set out and substantiated in a separate submission on the ""approach to the consideration of the outputs component of the first global stocktake"".",1.0,explorer
+UNFCCC.non-party.1737.0,dc0b6ca6ce27ee688f1d97eaf5fcdfd1__c08db4ab33ec7f8929c825053b7245f66f439288bbf2bc91f310b55224d6b8c7,EQUITY_AND_JUSTICE,INTERGENERATIONAL_EQUITY,intergenerational equity,231,255,"The rationale for the urgent mainstreaming of children's rights across climate action, including relevant data, metrics and recommendations with respect to the concrete measures and targets required to uphold children's rights and intergenerational equity across mitigation, adaptation, finance, and loss and damage, is set out and substantiated in a separate submission on the ""approach to the consideration of the outputs component of the first global stocktake"".",1.0,explorer
+UNFCCC.non-party.1737.0,1385543f05a95b8033261ec849d1206b__2d0ef44efc5dcd0057d685d69ca0ae8976d7fae26594e58df1350c5d54a0116d,EQUITY_AND_JUSTICE,EQUITY,equity,251,257,"Through the Paris Agreement, Parties agreed that States should, when taking climate action, respect, promote and consider, inter alia, the rights of children, as well as the principle of intergenerational equity.",1.0,explorer
+UNFCCC.non-party.1737.0,1385543f05a95b8033261ec849d1206b__2d0ef44efc5dcd0057d685d69ca0ae8976d7fae26594e58df1350c5d54a0116d,EQUITY_AND_JUSTICE,INTERGENERATIONAL_EQUITY,intergenerational equity,233,257,"Through the Paris Agreement, Parties agreed that States should, when taking climate action, respect, promote and consider, inter alia, the rights of children, as well as the principle of intergenerational equity.",1.0,explorer
+UNFCCC.non-party.1737.0,fa753d561979672a2c9151243e6f719f__58097ff7895c590c4d49cf0435f6963976972c3cf2bec13bf457aee3f31982e4,EQUITY_AND_JUSTICE,INTERGENERATIONAL_EQUITY,intergenerational equity,206,230,"• The GST output must be strongly informed by the UN Convention on the Rights of the Child (UNCRC), as well as the universal human right to a clean, healthy and sustainable environment and the principle of intergenerational equity.",1.0,explorer
+UNFCCC.non-party.1737.0,fa753d561979672a2c9151243e6f719f__58097ff7895c590c4d49cf0435f6963976972c3cf2bec13bf457aee3f31982e4,INEQUALITY_&_HUMAN_RIGHTS,HUMAN_RIGHTS,human right,125,136,"• The GST output must be strongly informed by the UN Convention on the Rights of the Child (UNCRC), as well as the universal human right to a clean, healthy and sustainable environment and the principle of intergenerational equity.",1.0,explorer
+UNFCCC.non-party.1737.0,fa753d561979672a2c9151243e6f719f__58097ff7895c590c4d49cf0435f6963976972c3cf2bec13bf457aee3f31982e4,EQUITY_AND_JUSTICE,EQUITY,equity,224,230,"• The GST output must be strongly informed by the UN Convention on the Rights of the Child (UNCRC), as well as the universal human right to a clean, healthy and sustainable environment and the principle of intergenerational equity.",1.0,explorer
+UNFCCC.non-party.1737.0,26975160cbc6043ff453a89ac3845d2d__d8e220c31163b9554bc9c05deff303350deffabe776b6063c7b85239026a5681,INEQUALITY_&_HUMAN_RIGHTS,HUMAN_RIGHTS,human rights,61,73,"• The GST output should result in a work plan to implement a human rights-based and intersectional approach to climate action, including cross-cutting, concrete and dedicated targets that provide collective, global pathways towards protecting children's specific rights in all climate action.",1.0,explorer
+UNFCCC.non-party.1746.0,65460ed4b2f1e383b7802cf9e7ded475__ab4e32a3fc87101229d159bff66badb5466dc77ec4d47acc6be7973f4727486e,INEQUALITY_&_HUMAN_RIGHTS,HUMAN_RIGHTS,human rights,133,145,"The six aspects of Action for Climate Empowerment (article 12 of the Paris Agreement and 6 of the UNFCCC) relate to well-established human rights: the three access rights from the Rio Declaration, rooted in turn in the rights to education, to information and freedom of expression, to take part in public affairs, to participate in cultural life, to decent working conditions, to an international order, and the right to development.",1.0,explorer
+UNFCCC.non-party.1746.0,65460ed4b2f1e383b7802cf9e7ded475__ab4e32a3fc87101229d159bff66badb5466dc77ec4d47acc6be7973f4727486e,INEQUALITY_&_HUMAN_RIGHTS,HUMAN_RIGHTS,human rights,665,677,"Ensuring that climate action is rights-respecting and rights-based has to acknowledge, firstly, that people have a range of human rights affected by climate change, and that climate action also relates to many rights.",1.0,explorer
+UNFCCC.non-party.1746.0,3cfb6a42a0b789e15876d57427500bd6__7de2a4b34334355c39bbe96d1825502319c597588a02a2808301f9334595115d,INEQUALITY_&_HUMAN_RIGHTS,HUMAN_RIGHTS,human rights,99,111,"How is climate action respecting, promoting and considering Parties' respective
+obligations on human rights...?
+21.",1.0,explorer
+UNFCCC.non-party.1746.0,d6e9d6adb99eb6cd579a2f2481591a02__d4de03a3c23228006d0ae42e642b492c3c4921a6585b9aebea4ad6e69b2f8ad1,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,118,138,"The six Action for Climate Empowerment elements (education, training, public awareness, public access to information, public participation and international co-operation on climate change matters) provide a robust framework for rights-respecting and rights-based climate action.",1.0,explorer
+UNFCCC.non-party.1746.0,9a7defd824aa899c31928676870c9cd8__ca8a22c12b29ffe7c750d790ee1739d32cb55d01fae2909e842ffe7817cf7a16,JUST_TRANSITION,JUST_TRANSITION,just transition,290,305,"• Action for Climate Empowerment should also be a cross-cutting activity, so that it is mainstreamed into the processes of e.g. the WIM, capacity-building, Enhanced Transparency Mechanism, into Nationally Determined Contributions, National Communications and National Adaptation Plans, and just transition discussions and planning.",1.0,explorer
+UNFCCC.party.1732.0,b171278f27b859d5914c28fc0cce370c__22aacbabd5464b1ab04d44059a1252843b9307cb4f358fd5f807f922cb064b4b,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,444,459,"The GRO Training Programs provide support to climate change adaptation and mitigation in LDCS, gender mainstreaming, capacity building through the four programs: GRÓ Geothermal Training Program, the GRO Fisheries Training Program, the GRO Land Restoration Training Program, and the GRO Gender Equality Studies and Training Program.",1.0,explorer
+UNFCCC.party.1732.0,2b0e1eb464173610aff106e7ea9c024b__d55c286e68689b5eeed3b36603ab40d8df85c15e22067db448bb9bb49e014a54,EQUITY_AND_JUSTICE,JUSTICE,justice,667,674,"Sustainability includes respect for the environment, sense of responsibility, health, democratic working methods, and justice, not only at present time but also for future generations.",1.0,explorer
+UNFCCC.party.1732.0,da27bc7adbc11771e00c759bd4eadb2b__2000c60840c96a5cf112ca94ba8aa29be67fe9ca3a757ec36464db18dd31fbbf,JUST_TRANSITION,GOOD_JOB,decent work,778,789,e) Sustainable economic growth and decent work opportunities for all (pursuant to SDG no. 8).,1.0,explorer
+UNFCCC.party.1732.0,b88c978a396732987fc850d5c0027411__aa65dcdd030e3bc9db522b145d5421a80c5a712fe3d5b55b072f5f70e9818414,JUST_TRANSITION,LIVELIHOOD,Livelihood,140,150,"Cross cutting
+GRÓ training programs
+GRÓ Gender Equality Studies and Training Program
+Gender and climate change
+Kebribeyah Climate Resilient Livelihood Project II
+Community Resilience Project in Malawi
+",1.0,explorer
+UNFCCC.party.1732.0,b88c978a396732987fc850d5c0027411__aa65dcdd030e3bc9db522b145d5421a80c5a712fe3d5b55b072f5f70e9818414,JUST_TRANSITION,LIVELIHOOD,Livelihood,271,281,"The Red Cross-Community Resilience Program II
+Kebribeyjah Sustainable Livelihood Project, Ethiopia
+Support for the participation of the National Rescue Representative in the
+international consultation with UNDAC/INSARAG
+The Icelandic Red Cross and the International Federation of National Red
+Cross and Red Crescent Societies
+Total Cros
+2019
+120.049.999
+30.400.000
+27.157.334
+2.748.257
+180 255 590
+2020
+137.993.563
+18.120.000
+15.160.000
+35.710.000
+13.578.667
+940.755
+10.717.721
+232 220 706",1.0,explorer
+UNFCCC.party.1732.0,b88c978a396732987fc850d5c0027411__aa65dcdd030e3bc9db522b145d5421a80c5a712fe3d5b55b072f5f70e9818414,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,40,55,"Cross cutting
+GRÓ training programs
+GRÓ Gender Equality Studies and Training Program
+Gender and climate change
+Kebribeyah Climate Resilient Livelihood Project II
+Community Resilience Project in Malawi
+",1.0,explorer
+UNFCCC.party.1732.0,45451a36299aa67a97c4a7f52fb69acb__a9db9b9ce35e4c267e4b444ff949d5ae14205a45b9e48ccf3662966b00e45f72,JUST_TRANSITION,LIVELIHOOD,livelihoods,690,701,"In collaboration with UNICEF, Iceland also supported a new initiative in Liberia and Sierra Leone on improving access to climate resilient WASH services in fishing communities to improve livelihoods and conditions, with around 270 million ISK over the reporting period.",1.0,explorer
+UNFCCC.party.1732.0,46b0be1bd319b191bdd237225fa7da76__a5905cf51b0150012dea3965341f8f23950dbb1ad18aba5bea8421718a41db91,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,444,459,"The GRO Training Programs provide support to climate change adaptation and mitigation in LDCS, gender mainstreaming, capacity building through the four programs: GRÓ Geothermal Training Program, the GRÓ Fisheries Training Program, the GRÓ Land Restoration Training Program, and the GRÓ Gender Equality Studies and Training Program.",1.0,explorer
+UNFCCC.party.1732.0,44810d8067e77fa6f7658cf55247e5cd__43e100c56988e0d7c86ff4b9fdc079fa7f0d3fe8e2ab8d0c1e8d601d068c8b28,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,458,473,"The GRÓ Geothermal Training Program since 1979, the GRÓ Fisheries Training Program, since 1997, the GRÓ Land Restoration Training Program, since 2007, and the GRÓ Gender Equality Studies and Training Program, since 2009.",1.0,explorer
+UNFCCC.party.1732.0,f6ce4c82967cbc01550cd5bc7a246c1f__262d3c51aa6e39f15f9c2b54a8af23925bbc3a22a8fed56f493961fb517f2692,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,397,412,"The Gender Equality Studies and Training Program also gives particular attention to climate change, with a special module on environment and climate change.",1.0,explorer
+UNFCCC.party.1732.0,b3735a7dceb77d87476d4f7835908ce2__78f47c0567f92a72aac669cd07ffdd9f74c10d59d3563ce92e4b0e6f97aea6d8,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,1070,1085,"Through the GRO training programs, Iceland has helped enhance the capacity of participating countries to adapt to and mitigate climate change through training of officials in the fields of geothermal energy, fisheries and sustainable land management sectors, as well as in gender equality.",1.0,explorer
+UNFCCC.party.1732.0,8aae3f961729eedaa7079bb8191002f2__8929bd3991cce8c1d52541487bba6dbd773974459e82efa6d5502dd958a2efd9,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,371,386,"It is therefore important to include gender aspects in all discussion about climate change and programming, Iceland has actively promoted the important role of gender in the international climate negotiations, as well as supported several climate projects with the emphasis on women empowerment and gender equality, e.g., through organizations such as UN Women and the Women's Environment and Development Organization (WEDO).",1.0,explorer
+UNFCCC.party.1732.0,8aae3f961729eedaa7079bb8191002f2__8929bd3991cce8c1d52541487bba6dbd773974459e82efa6d5502dd958a2efd9,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,557,572,"In this context a training course was developed by the GRÓ Gender Equality and Studies Program in close collaboration with Ugandan partners, and training and capacity building was provided for a selected number of experts and policy makers at the district level.",1.0,explorer
+UNFCCC.party.1732.0,2b0e1eb464173610aff106e7ea9c024b__d55c286e68689b5eeed3b36603ab40d8df85c15e22067db448bb9bb49e014a54,EQUITY_AND_JUSTICE,JUSTICE,justice,667,674,"Sustainability includes respect for the environment, sense of responsibility, health, democratic working methods, and justice, not only at present time but also for future generations.",1.0,explorer
+UNFCCC.party.1732.0,cb57abf89cce5fab779c439686d217e6__efa6e3ce5b8e60d29d953d1bfea226b1c61ac81b5b1e25185a954f3d1b1ab574,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,435,455,"Those policies contain sections and stipulations on actions regarding education, public participation, awareness raising, media and the role of civil society in general.",1.0,explorer
+UNFCCC.party.1732.0,f591a772a407edd58d62432962b6a9a7__47eb23096b7c2d3d2c411b679b5335be1e703b3b1e963219add624612a6828a7,EQUITY_AND_JUSTICE,JUSTICE,justice,160,167,"Programme is to use a multidisciplinary approach to promote gender equality and social justice in low to middle income, conflict and post-conflict countries through education and training, GRÓ GEST is currently involved in a project on gender and climate change in Uganda.",1.0,explorer
+UNFCCC.party.1732.0,f591a772a407edd58d62432962b6a9a7__47eb23096b7c2d3d2c411b679b5335be1e703b3b1e963219add624612a6828a7,JUST_TRANSITION,SOCIAL_JUSTICE,social justice,153,167,"Programme is to use a multidisciplinary approach to promote gender equality and social justice in low to middle income, conflict and post-conflict countries through education and training, GRÓ GEST is currently involved in a project on gender and climate change in Uganda.",1.0,explorer
+UNFCCC.party.1732.0,f591a772a407edd58d62432962b6a9a7__47eb23096b7c2d3d2c411b679b5335be1e703b3b1e963219add624612a6828a7,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,133,148,"Programme is to use a multidisciplinary approach to promote gender equality and social justice in low to middle income, conflict and post-conflict countries through education and training, GRÓ GEST is currently involved in a project on gender and climate change in Uganda.",1.0,explorer
+UNFCCC.party.1732.0,f591a772a407edd58d62432962b6a9a7__47eb23096b7c2d3d2c411b679b5335be1e703b3b1e963219add624612a6828a7,GENDER_EQUALITY,GENDER_EQUALITY,Gender Equality,25,40,The objective of the GRÓ Gender Equality Studies and Training (GRO GEST),1.0,explorer
+UNFCCC.party.1743.0,c0badd5b0d92e5079459827592cecaa2__20126ce8731fb92eb8a83db2c8da6dc661d7aa436acb9f39c6fdcef66bffec6e,JUST_TRANSITION,WORKERS,workers,294,301,"Satisfying green consumers
+Decoupling energy and
+industry, bringing more
+macro-economic stability
+Improved air quality, public
+health and quality of life
+(residents and workers).
+",1.0,explorer
+UNFCCC.party.1743.0,36a4a646fbdda4378f75574c7506240f__86519320a2d99e60e5b1a168488b394757c42f995d3e3a9c8317470137fa2698,JUST_TRANSITION,PUBLIC_PARTICIPATION,Public participation,791,811,"Convenience to family
+life (EE appliances)
+Better indoor room
+temperatures/living
+conditions (wall/roof
+insulation)
+Improved employee
+productivity
+(automation; better
+conditions)
+Positive impact on
+safety issues and
+prevention of
+accidents (LEDs
+compared to halogen
+bulbs: automation)
+Improved public health
+Public participation
+from installations in
+public buildings/
+provision of grants or
+subsidy schemes
+Contribution to SDG 11
+- sustainable cities and
+communities
+Economic
+• Improved business
+competitiveness and
+household purchasing
+power
+Increased sales for EE
+equipment/services
+Lower maintenance/
+replacement costs
+Negative impacts
+Social
+Exclusion of
+vulnerable
+individuals/
+households who
+cannot afford
+higher spend -
+government to
+provide support
+• OHS concerns for
+installation of
+external condenser
+unit on roofs
+Disruption to family
+life/ business
+operations during
+installations
+• Aesthetical value of
+installations close-
+by heritage sites
+(roof insulation)
+",1.0,explorer
+UNFCCC.party.1743.0,36a4a646fbdda4378f75574c7506240f__86519320a2d99e60e5b1a168488b394757c42f995d3e3a9c8317470137fa2698,JUST_TRANSITION,EMPLOYEES,employee,608,616,"Convenience to family
+life (EE appliances)
+Better indoor room
+temperatures/living
+conditions (wall/roof
+insulation)
+Improved employee
+productivity
+(automation; better
+conditions)
+Positive impact on
+safety issues and
+prevention of
+accidents (LEDs
+compared to halogen
+bulbs: automation)
+Improved public health
+Public participation
+from installations in
+public buildings/
+provision of grants or
+subsidy schemes
+Contribution to SDG 11
+- sustainable cities and
+communities
+Economic
+• Improved business
+competitiveness and
+household purchasing
+power
+Increased sales for EE
+equipment/services
+Lower maintenance/
+replacement costs
+Negative impacts
+Social
+Exclusion of
+vulnerable
+individuals/
+households who
+cannot afford
+higher spend -
+government to
+provide support
+• OHS concerns for
+installation of
+external condenser
+unit on roofs
+Disruption to family
+life/ business
+operations during
+installations
+• Aesthetical value of
+installations close-
+by heritage sites
+(roof insulation)
+",1.0,explorer
+UNFCCC.party.1743.0,8bd8b15d54ab3a0c882b2057c635cb89__7b4f757e61aa0a61c235e36a7a7798d9c0196e074d802a6facc91e67e3fb4517,JUST_TRANSITION,WORKFORCE,workforce,28,37,"Furthermore, upskilling the workforce and collaborations/ partnerships with educational
+institutions and automotive companies are being looked into to push further this
+electrification transition in our local markets (e.g. readiness to repair and maintain EVS).",1.0,explorer
+UNFCCC.party.1743.0,ceded424a9df4a3ecc16efda13e4f793__0ca68f0f7f6e3232a7779de9fb03caffd5df364f4a4e72e0b6b18e35d60dfe00,JUST_TRANSITION,EMPLOYERS,employers,875,884,Studies covering foreign countries show an enormous appetite for remote working from the part of both employers and employees.,1.0,explorer
+UNFCCC.party.1743.0,ceded424a9df4a3ecc16efda13e4f793__0ca68f0f7f6e3232a7779de9fb03caffd5df364f4a4e72e0b6b18e35d60dfe00,JUST_TRANSITION,EMPLOYERS,employers,411,420,"One of the few positive outcomes of the COVID-19 pandemic is that it forced employers, including government, to implement infrastructure that supports teleworking/remote working, thus decoupling the need to commute from the ability to produce.",1.0,explorer
+UNFCCC.party.1743.0,ceded424a9df4a3ecc16efda13e4f793__0ca68f0f7f6e3232a7779de9fb03caffd5df364f4a4e72e0b6b18e35d60dfe00,JUST_TRANSITION,WORKFORCE,workforce,641,650,"During COVID-19, it is estimated that around 33% of the local workforce worked remotely, and it is expected that post-COVID-19, half of the time worked will continue be carried out in this way.",1.0,explorer
+UNFCCC.party.1743.0,ceded424a9df4a3ecc16efda13e4f793__0ca68f0f7f6e3232a7779de9fb03caffd5df364f4a4e72e0b6b18e35d60dfe00,JUST_TRANSITION,EMPLOYEES,employees,889,898,Studies covering foreign countries show an enormous appetite for remote working from the part of both employers and employees.,1.0,explorer
+UNFCCC.party.1743.0,894d0d7f82904131e916fdaf49898140__0b01e50a92503f291fac8694370f4614a01e5c1136f6ff61e5af7a748d5e3242,JUST_TRANSITION,WORKFORCE,workforce,66,75,"i.
+promoting and incentivising further remote working amongst the workforce,
+including through remote workspaces for public officials across Malta and Gozo; and",1.0,explorer
+UNFCCC.party.1743.0,6e7107fb29cc4b75e0e04215e13e7b36__fa39e09825743cc67a415a921f29f1d225a78c98d2817770ca89eb3275a224c3,JUST_TRANSITION,EMPLOYEES,employees,253,262,"Measures
+Electrification measures
+Public Transport measure
+Active Transport measures
+Positive Impacts
+Social
+Health benefits from
+reduced air and noise
+pollution, potentially
+lower traffic accidents
+and more regular
+exercising
+Increased flexibility for
+employees
+• Travel time reductions
+for individuals and
+businesses
+• Improved travel for
+non-vehicle owners,
+enabling social and
+economic
+participation.
+",1.0,explorer
+UNFCCC.party.1743.0,2708afb9a6c5592fbbf1050b65bf2be8__427ac4d731bbc77e5268441f8b266f1bb4f64cc4df696908d49d6bc88f173b01,JUST_TRANSITION,WORKFORCE,workforce,426,435,"In order to support this further, government will be looking into promoting and incentivising further remote working amongst the workforce and the enhancement, improved provision of online service.",1.0,explorer
+UNFCCC.party.1743.0,089c33b843679885d8a7e1a7707b6c29__93775f4521c483cbac090420877f642a8114cb97e4551edf57f6cd701fabea87,JUST_TRANSITION,EMPLOYEES,employees,676,685,"Economic
+Higher costs for
+employees, and
+potential increased
+digital divide.
+.
+",1.0,explorer
+UNFCCC.party.1743.0,be3eaed0e080b65e49512b54512c0896__5af50b233bf74d9fd1b30ec056c49156cc5538cd5d5b4dd095de31da31f3a55b,JUST_TRANSITION,GREEN_JOB,green jobs,186,196,"Positive Impacts
+Measures
+Sorting of Residual Waste atSocial
+Incinerators
+80% Capture of Municipal
+Biowaste
+and Biogas
+Upgrade
+Household waste prevention
+measures
+Creation of additional
+green jobs
+Increased public
+awareness on waste
+management issues and
+facilitated responsible
+participation.",1.0,explorer
+UNFCCC.party.1743.0,35f912cc6a098e25f7af8ee76869a66a__de7472908fd3387e2614b4708418400262a963b1f50eaa4a3cd4d51286ffa300,JUST_TRANSITION,WORKERS,workers,188,195,"Measures
+Positive Impacts
+awareness in homes
+enables food cost
+savings
+Improved public health
+Improved security for
+incinerator workers &
+neighborhoods
+Better job conditions for
+EfW plant workers
+Lower nuisance effects
+on individuals residing
+near the EfW facility
+Economic
+Cost savings for
+commercial businesses
+and more customer
+profile insights for tailored
+offerings
+Potential reduction in
+costs, capacity issues
+and adverse externalities
+experienced in the
+sector
+Economic efficiency and
+resiliency gains from a
+more circular economy
+Creation of additional
+raw material input into
+secondary economic
+markets
+R&I in connection with
+change in biogas use
+and development of
+efficient waste sorting
+management processes
+Indirect contribution to
+lowering food insecurity
+and malnutrition goals
+Positive impacts on
+reaching national
+Negative impacts
+recyclable waste at
+source (from semi-mixed
+waste separation
+measure
+Economic
+Higher administrative
+burden on Local
+Councils
+Higher cost of collection
+Administrative burden on
+entities such as
+WasteServ and ERA
+Change in demand for
+printing houses
+Macroeconomic impacts
+from household behavior
+changes (e.g. purchases,
+saving)",1.0,explorer
+UNFCCC.party.1743.0,35f912cc6a098e25f7af8ee76869a66a__de7472908fd3387e2614b4708418400262a963b1f50eaa4a3cd4d51286ffa300,JUST_TRANSITION,WORKERS,workers,128,135,"Measures
+Positive Impacts
+awareness in homes
+enables food cost
+savings
+Improved public health
+Improved security for
+incinerator workers &
+neighborhoods
+Better job conditions for
+EfW plant workers
+Lower nuisance effects
+on individuals residing
+near the EfW facility
+Economic
+Cost savings for
+commercial businesses
+and more customer
+profile insights for tailored
+offerings
+Potential reduction in
+costs, capacity issues
+and adverse externalities
+experienced in the
+sector
+Economic efficiency and
+resiliency gains from a
+more circular economy
+Creation of additional
+raw material input into
+secondary economic
+markets
+R&I in connection with
+change in biogas use
+and development of
+efficient waste sorting
+management processes
+Indirect contribution to
+lowering food insecurity
+and malnutrition goals
+Positive impacts on
+reaching national
+Negative impacts
+recyclable waste at
+source (from semi-mixed
+waste separation
+measure
+Economic
+Higher administrative
+burden on Local
+Councils
+Higher cost of collection
+Administrative burden on
+entities such as
+WasteServ and ERA
+Change in demand for
+printing houses
+Macroeconomic impacts
+from household behavior
+changes (e.g. purchases,
+saving)",1.0,explorer
+UNFCCC.party.1743.0,19258574b1552144e41b76a139a54d0a__71becf1b891c0705c5ccd6b877e340a94b3f6e677c45803d5711ccbc02db090b,EQUITY_AND_JUSTICE,FAIRNESS,fairness,93,101,"The internal distribution of effort among the EU Member States is based on the principles of fairness and solidarity, meaning that all Member States are expected to contribute effectively and tangibly, within the parameters of cost-effectiveness, but also with a spirit of solidarity between the States.",1.0,explorer
+UNFCCC.party.1743.0,1a14830027c2a92fb8bc87f5b6dd1df0__6968b83d6b9098e67417d8668e25bca2e401e2a9e61b04357ce5efb34695f17b,EQUITY_AND_JUSTICE,EQUITY,Equity,893,899,"Core/
+general
+0.00
+0.00
+20,000.0
+0
+European - EUR
+Mitigation
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Climate-specific
+Adaptatio
+n
+0.00
+0.00
+0.00
+0.00
+Cross-
+cutting
+0.00
+0.00
+0.00
+0.00
+9,265.20 60,000.00
+9,265.20 150,000.0
+Year 2017
+Other
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Core/
+general
+Total climate specific by funding source
+(EUR)
+ODA
+OOF
+Other
+69,265.20
+0.00
+90,000.00
+National currency
+Climate-specific
+Mitigation Adaptation
+Cross-
+cutting
+Grant
+Concessional loan
+Non-concessional loan
+Equity
+Other
+Other
+Total climate specific by financial
+instrument (EUR)
+159,265.20
+0
+0",1.0,explorer
+UNFCCC.party.1743.0,e0e13a3c04709e6effe9d8cea932a33d__28605b29f9e7bcb4d0ca153b3d3c595545394f64e2c8141d7eba72520506eca8,EQUITY_AND_JUSTICE,EQUITY,Equity,917,923,"Core/
+general
+0.00
+0.00
+20,000.0
+0
+European - EUR
+Mitigation
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Climate-specific
+Adaptatio
+n
+0.00
+0.00
+0.00
+0.00
+0.00
+Cross-
+cutting
+100,000
+0.00
+0.00
+0.00
+0.00
+0.00 100,000
+Year 2018
+ODA
+OOF
+Other
+Other
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Core/
+general
+Total climate specific by funding source
+(EUR)
+100,000
+National currency
+Climate-specific
+Mitigation Adaptation
+Grant
+Concessional loan
+Non-concessional loan
+Cross-
+cutting
+Total climate specific by financial
+instrument (EUR)
+Equity
+Other
+Other
+100,000
+0
+0",1.0,explorer
+UNFCCC.party.1743.0,0de4a088e36491ee1dbe93188e69104c__31ec68bd64996ee5c0683e5d20faed51a2a872e66b442730487fc6e75cff493e,EQUITY_AND_JUSTICE,EQUITY,Equity,917,923,"Core/
+general
+0.00
+0.00
+20,000.0
+0
+European - EUR
+Mitigation
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Climate-specific
+Adaptatio
+n
+0.00
+0.00
+0.00
+0.00
+0.00
+Cross-
+cutting
+100,000
+0.00
+0.00
+0.00
+0.00
+0.00 100,000
+Year 2019
+ODA
+OOF
+Other
+Other
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Core/
+general
+Total climate specific by funding source
+(EUR)
+100,000
+National currency
+Climate-specific
+Mitigation Adaptation
+Grant
+Concessional loan
+Non-concessional loan
+Cross-
+cutting
+Total climate specific by financial
+instrument (EUR)
+Equity
+Other
+Other
+100,000
+0
+0",1.0,explorer
+UNFCCC.party.1743.0,709f672aaa1fa1ef04d99b1a7c8fdd72__de15f88fef3073ddf0f31c2402dee10deea9b207409306c45d80ac980ae5509b,EQUITY_AND_JUSTICE,EQUITY,Equity,917,923,"Core/
+general
+0.00
+0.00
+20,000.0
+0
+European - EUR
+Mitigation
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Climate-specific
+Adaptatio
+n
+0.00
+0.00
+0.00
+0.00
+0.00
+Cross-
+cutting
+100,000
+0.00
+0.00
+0.00
+0.00
+0.00 100,000
+Year 2020
+ODA
+OOF
+Other
+Other
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Core/
+general
+Total climate specific by funding source
+(EUR)
+100,000
+National currency
+Climate-specific
+Mitigation Adaptation
+Grant
+Concessional loan
+Non-concessional loan
+Cross-
+cutting
+Total climate specific by financial
+instrument (EUR)
+Equity
+Other
+Other
+100,000
+0
+0",1.0,explorer
+UNFCCC.party.1743.0,3f9ffad41bc4a47b552ccc1c021e0075__5c3bf9249b80064671acb503f0ce889ebb3938190d2f30a79290826031671d12,EQUITY_AND_JUSTICE,EQUITY,equity,737,743,"loan, equity,
+others
+Disbursed Other Grant
+Sectord 7
+Channel Parent
+Category 4700
+and Chennel ID
+Crosscutting 41317 (DAC-CRS)",1.0,explorer
+UNFCCC.party.1743.0,74b0a1d27c1630c078966b1ab17ffe2d__9e91916e7950c3b13ab474ca40c6985d6fe1a77e2c2fecf19dbe4c7b97682f70,EQUITY_AND_JUSTICE,EQUITY,equity,810,816,"other.6
+loan, equity,
+others
+Grant
+Sectord.",1.0,explorer
+UNFCCC.party.1743.0,74b0a1d27c1630c078966b1ab17ffe2d__9e91916e7950c3b13ab474ca40c6985d6fe1a77e2c2fecf19dbe4c7b97682f70,EQUITY_AND_JUSTICE,EQUITY,equity,810,816,"other.6
+loan, equity,
+others
+Grant
+Sectord.",1.0,explorer
+UNFCCC.party.1743.0,74b0a1d27c1630c078966b1ab17ffe2d__9e91916e7950c3b13ab474ca40c6985d6fe1a77e2c2fecf19dbe4c7b97682f70,EQUITY_AND_JUSTICE,EQUITY,equity,810,816,"other.6
+loan, equity,
+others
+Grant
+Sectord.",1.0,explorer
+UNFCCC.party.1743.0,dc65324293f41a6a32c053b34da4b35f__ac444ff743452c985eb404e95429281dc71a57598f07423e7f36d0f649686fe8,EQUITY_AND_JUSTICE,EQUITY,equity,449,455,"OOF,
+Other
+Other
+Financial
+instrument:
+grant,
+concessional
+loan, non-
+Type of
+support:
+Mitigation,
+adaptation,
+concessional crosscutting.
+loan, equity.
+",1.0,explorer
+UNFCCC.party.1743.0,09727acd43188aaa1f2ad102796bdd68__20838bbfe96d0f561679246a67ced7ed0f47fb0e794ce03d37dc79fd68cc3ced,EQUITY_AND_JUSTICE,EQUITY,equity,383,389,"Recipient country/
+region/project/programme
+Total contributions through bilateral,
+regional and other channels
+Total amount
+Climate-specific
+European euro - EUR
+0.00
+national
+currency
+euro - EUR
+Status:
+disbursed,
+committed
+Funding
+source:
+ODA,
+OOF,
+Other
+Financial
+instrument:
+grant,
+concessional
+Type of
+support:
+Mitigation,
+loan, non- adaptation,
+concessional crosscutting.
+loan, equity.
+",1.0,explorer
+UNFCCC.party.1743.0,8b77dc2c74e46ce9579b86c5e4e9e862__15381b3601d1c087a890914ff53a118bb3ce4826a41c55c5ad491005f3537b46,EQUITY_AND_JUSTICE,EQUITY,equity,389,395,"Recipient country/region/project/programme
+Total contributions through bilateral, regional
+and other channels
+Total amount
+Climate-specific
+European
+euro -
+EUR
+0.00
+national
+currency
+euro -
+EUR
+Status:
+disbursed,
+committed'
+Financial
+instrument:
+grant,
+Funding
+source: concessional
+ODA,
+OOF,
+Other
+Type of
+support:
+Mitigation,
+adaptation,
+loan, non-
+concessional crosscutting.
+other
+loan, equity,
+others
+Sector.7
+Additional
+information",1.0,explorer
+UNFCCC.party.1743.0,4aa397be893d228dcb423ac3929c3eb9__27b1db80612656b5a9953a456d112412036350646097469c2b010fe959a7cf2d,EQUITY_AND_JUSTICE,EQUITY,equity,359,365,"loan, equity.
+",1.0,explorer
+UNFCCC.party.1743.0,213a96554ddb8a7b1e5fc9ab088bd4ce__4272ad1dcdfd74acb74a3a05af3aa51b2ef0c1ca47336434ca31722d76970f9b,JUST_TRANSITION,WORKFORCE,workforce,28,37,"Furthermore, upskilling the workforce and collaborations/ partnerships with educational institutions and automotive companies are being looked into to push further this electrification transition in our local markets (e.g. readiness to repair and maintain EVS).",1.0,explorer
+UNFCCC.party.1743.0,973369a07d43f2306a1c42750a704c91__b3af487358e1c9edd57cd4f3a83d601d7f6da24c081cda22a2734767d45626e5,JUST_TRANSITION,WORKFORCE,workforce,641,650,"During COVID-19, it is estimated that around 33% of the local workforce worked remotely, and it is expected that post-COVID-19, half of the time worked will continue be carried out in this way.",1.0,explorer
+UNFCCC.party.1743.0,973369a07d43f2306a1c42750a704c91__b3af487358e1c9edd57cd4f3a83d601d7f6da24c081cda22a2734767d45626e5,JUST_TRANSITION,EMPLOYERS,employers,875,884,Studies covering foreign countries show an enormous appetite for remote working from the part of both employers and employees.,1.0,explorer
+UNFCCC.party.1743.0,973369a07d43f2306a1c42750a704c91__b3af487358e1c9edd57cd4f3a83d601d7f6da24c081cda22a2734767d45626e5,JUST_TRANSITION,EMPLOYEES,employees,889,898,Studies covering foreign countries show an enormous appetite for remote working from the part of both employers and employees.,1.0,explorer
+UNFCCC.party.1743.0,973369a07d43f2306a1c42750a704c91__b3af487358e1c9edd57cd4f3a83d601d7f6da24c081cda22a2734767d45626e5,JUST_TRANSITION,EMPLOYERS,employers,411,420,"One of the few positive outcomes of the COVID-19 pandemic is that it forced employers, including government, to implement infrastructure that supports teleworking/remote working, thus decoupling the need to commute from the ability to produce.",1.0,explorer
+UNFCCC.non-party.1744.0,bcacc772cf49be8059c1f6fa842bb372__450f50dc2ffcee94599735c86db306c094ec5831cbbf6e254165489195ac9360,JUST_TRANSITION,LIVELIHOOD,livelihoods,117,128,"We reiterate the call in the Sendai Framework for the substantial reduction of disaster risk and losses in lives, livelihoods and health and in the economic, physical, social, cultural and environmental assets of persons, businesses, communities and",1.0,explorer
+UNFCCC.non-party.1744.0,2d613c06cdd44ee953f50a0722af337c__77b64ea8e6da6a2f7b90cdf6ba66abf9f19a066bdce29085544ad918e3070bab,JUST_TRANSITION,SOCIAL_PROTECTION,social protection,118,135,"We recognize that, while investments have increased globally in some areas of disaster-related financing, such as social protection, forecast-based financing and risk transfer mechanisms including insurance, we are concerned that investments in disaster risk reduction and efforts to de-risk investments remain inadequate and recognize further that disaster risk reduction-related official development assistance has barely increased.",1.0,explorer
+UNFCCC.non-party.1744.0,5b4560425cf235c0b349f053720f5417__e1ca5bec4a92608c556267c67a2dc30be0ada87ac525ecd7253725b037bfa66f,JUST_TRANSITION,LIVELIHOOD,livelihoods,391,402,"(g) Promoting nature-based solutions, ecosystem-based approaches, among other approaches, for disaster risk reduction at all levels and across all phases of disaster risk reduction and management to restore, maintain and enhance ecosystem functions and services for protection from natural hazards, and to contribute towards increasing the resilience of biodiversity, supporting sustainable livelihoods and building community resilience;",1.0,explorer
+UNFCCC.non-party.1744.0,00f31af7a577adfd9e3a24663f3f5811__38fcc9485853bbf060c662114fe779493ac67782bd169729747f57eae770cd6f,JUST_TRANSITION,LIVELIHOOD,livelihoods,57,68,"the reduction of disaster risk, the protection of lives, livelihoods and assets, resilience-building and the realization of sustainable development and poverty eradication, particularly in the least developed countries, small island developing States, landlocked developing countries and African countries, as well as middleincome countries facing specific challenges.",1.0,explorer
+UNFCCC.party.1729.0,f5e55dd53442caefbb18953703bcdc9b__609bffd88e88ca18ed985d48a24833c2c1b4f527bf04aafefd06f1123f015c46,EQUITY_AND_JUSTICE,EQUITY,equity,179,185,▪ Egypt ratified the United Nations Framework Convention on Climate Change (UNFCCC) in 1994 to be among the first countries to respond to the threats of climate change as per the equity principle of common but differentiated responsibilities in accordance with the respective national capabilities.,1.0,explorer
+UNFCCC.party.1729.0,23f9b83860dc931a809a31b0f8568ada__ef38ebafaa25b8e2213a85adbe2807fe09601b4690cea52e086b30766d6b6a22,JUST_TRANSITION,LIVELIHOOD,livelihoods,176,187,"▪ As to socio-economic impacts, the decreased water allocated for agriculture purposes, that consumes about 80% from the total water budget, will have a negative impact on the livelihoods of more than 25% of the labor force in Egypt working in agriculture activities.",1.0,explorer
+UNFCCC.party.1729.0,ed7ed26157db80cda6695f9be1b05d00__5fa7fab2ab45eac7564d41a9c15931308ca8d948ab298dd527f1918c72387114,EQUITY_AND_JUSTICE,JUSTICE,justice,124,131,"▪ Egypt's vision by 2030 is to achieve a competitive, balanced, diversified, and knowledge-
+based economy, characterized by justice, social integration and participation, with a
+balanced and diversified ecosystem, benefiting from its strategic location and human capital
+to achieve sustainable development for a better life of all Egyptians.",1.0,explorer
+UNFCCC.party.1729.0,1a8652092da46d4db9820af92c95cea0__aaabbd084245c91d5492dde669c022cdc1b5a51ef2018457a55f18595f6edb67,JUST_TRANSITION,EMPLOYEES,employees,424,433,"In addition, the project provided capacity building trainings to over 900 of sector employees in the domain of energy efficiency.",1.0,explorer
+UNFCCC.party.1729.0,28c3c6090aced1277778e2c19d0acd0a__6e4791ba40dfbd9173541094997a884380138f7574b85b2292e137b61d339185,EQUITY_AND_JUSTICE,EQUITY,equity,163,169,Energy subsidy reform for growth and equity in Egypt: The approach matters.,1.0,explorer
+UNFCCC.party.1729.0,24637adee8a5e4acfbed5a7cac2426f4__c5025ab9b906515578be19ef369af1a382e53e09741bd8e2456b2e75ad271fc0,JUST_TRANSITION,EMPLOYEES,employees,427,436,The relevant ministries should establish climate change unit and/or assign employees to be responsible for climate data collection.,1.0,explorer
+UNFCCC.party.1729.0,985e3474df2bf38d464d2d43ce2f8c57__1ca61e86362f1c6f9d5bdf4ccdaf2426db5b1ec25480f0dd935fb4b2bfceac27,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,941,961,"In addition
+to sectoral strategies, such as: Integrated
+Sustainable Energy Strategy 2035, National
+Energy Efficiency Action Plan, Integrated
+Solid Waste Management Strategy, and
+Sustainable Agricultural Development
+Strategy towards 2030.
+institutional Refer to Section VI (Means of Implementation
+> Policy Mechanisms and Institutional
+Arrangements) above
+arrangements, public participation
+and engagement with local
+communities and indigenous
+peoples, in a gender-responsive
+manner;
+The National Climate Change Council (NCCC)
+was founded in 2015 through the Prime
+Minister Decree No.1912 (later amended by
+the Prime Minister Decree No. 1129/2019)
+as the national authority in Egypt concerned
+with climate change.",1.0,explorer
+UNFCCC.party.1729.0,4de723d242b2629014cfeeb9bb06185b__a1543774fedbfe2c3fc9eb827589984bcf0b0d08d8af77f0d0db220898041a74,EQUITY_AND_JUSTICE,FAIRNESS,Fairness,140,148,"6
+How the Party considers that its nationally determined contribution is fair and
+ambitious in the light of its national circumstances:
+(b) Fairness considerations, including Refer to 6(a)
+reflecting on equity;
+(c) How the Party has addressed Refer to Section II (Revision Highlights)
+Article 4, paragraph 3, of the Paris above
+Agreement;
+(d) How the Party has addressed Not applicable
+Article 4, paragraph 4, of the Paris
+Agreement;
+(e) How the Party has addressed Not applicable
+Article 4, paragraph 6, of the Paris
+Agreement.
+",1.0,explorer
+UNFCCC.party.1729.0,4de723d242b2629014cfeeb9bb06185b__a1543774fedbfe2c3fc9eb827589984bcf0b0d08d8af77f0d0db220898041a74,EQUITY_AND_JUSTICE,EQUITY,equity,203,209,"6
+How the Party considers that its nationally determined contribution is fair and
+ambitious in the light of its national circumstances:
+(b) Fairness considerations, including Refer to 6(a)
+reflecting on equity;
+(c) How the Party has addressed Refer to Section II (Revision Highlights)
+Article 4, paragraph 3, of the Paris above
+Agreement;
+(d) How the Party has addressed Not applicable
+Article 4, paragraph 4, of the Paris
+Agreement;
+(e) How the Party has addressed Not applicable
+Article 4, paragraph 6, of the Paris
+Agreement.
+",1.0,explorer
+UNFCCC.party.1735.0,5608d9e63539824e700b1a4c712c13c9__1f43c73ac42ec43610964d657a5ae10ea3e4ce7944bb029be0a285713857babd,JUST_TRANSITION,PUBLIC_PARTICIPATION,PUBLIC PARTICIPATION,765,785,"PUBLIC PARTICIPATION IN THE PREPARATION AND DOMESTIC REVIEW OF NATIONAL
+……....
+275
+......275
+...... 276
+......276
+..277
+.277
+278
+279
+......279
+279
+...... 281
+.281
+..282
+.......283
+......283
+......285
+.285
+286
+......290
+......290",1.0,explorer
+UNFCCC.party.1735.0,514561f4d8182ab878501fb8bbf27d89__f9047d0b88dc3abb4092a0892184ab7992e431136d87024476e4f6d06a6bdeee,JUST_TRANSITION,PUBLIC_PARTICIPATION,PUBLIC PARTICIPATION,749,769,"9.9 PUBLIC PARTICIPATION IN THE PREPARATION AND DOMESTIC REVIEW OF NATIONAL
+COMMUNICATION.
+",1.0,explorer
+UNFCCC.party.1735.0,70bc70af245882fc1b915e79e071586e__9c77925c862e9a32adc59057ee4ccad4ae99a74fa200c819dee4342d9066ac33,EQUITY_AND_JUSTICE,JUSTICE,Justice,14,21,"* Ministry of Justice, Ministry of Foreign Affairs, Ministry of the Interior, Ministry of National Defense, Ministry of Treasury and Finance (Former Ministry of Finance), Ministry of Energy and Natural Resources, Ministry of Industry and Technology (former Ministry of Science, Industry and Technology), Ministry of Trade (former Ministry of Customs and Trade and former Ministry of Economy), Ministry of Environment, Urbanization and Climate Change (former Ministry of Environment and Urbanization), Ministry of National Education, Ministry of Health, Ministry of Transport and Infrastructure (former Ministry of Transport, Maritime Affairs and Communication), Ministry of Culture and Tourism, Ministry of Labor and Social Security (former Ministry of Family, Labor and Social Services, Ministry of Family and Social Services, Ministry of Agriculture and Forestry (former Ministry of Food, Agriculture and Livestock and Ministry of Forestry and Water Affairs), Ministry of Youth and Sports.",1.0,explorer
+UNFCCC.party.1735.0,b74f64b62e003baff65e5f0315aa7e84__4712341e829dd62bcd0c9df67af03208e1b32f55c35fd8896d2f87e2e43b47b0,EQUITY_AND_JUSTICE,EQUITY,equity,846,852,"The decision further underlined the need for all parties to protect the climate system for present and future generations, on the basis of equity and in accordance with their common but differentiated responsibilities and respective capabilities.",1.0,explorer
+UNFCCC.party.1735.0,b74f64b62e003baff65e5f0315aa7e84__4712341e829dd62bcd0c9df67af03208e1b32f55c35fd8896d2f87e2e43b47b0,EQUITY_AND_JUSTICE,EQUITY,equity,1041,1047,"Türkiye's position regarding its ""special circumstances"" is based on the principles of equity, common but differentiated responsibilities and respective capabilities, and the right to promote sustainable development in accordance with article 3 of the Convention.",1.0,explorer
+UNFCCC.party.1735.0,057bb1e0751ffbfd439f17d2ee34118f__052a2958bb1b4f9d2d2240db9c16f1c24d2b3324df157dedfd70bf51b2131416,EQUITY_AND_JUSTICE,EQUITY,equity,448,454,"Türkiye's access to financial support available to other upper middle-income developing Parties to the Convention fulfills the principles of equity, common",1.0,explorer
+UNFCCC.party.1735.0,578da910ff39eadd933d8181697ff33a__c58c167fec900fbe671dcdbc6df6dbf936cdf1f33b66a5df47b96d1c7baf6389,EQUITY_AND_JUSTICE,EQUITY,equity,703,709,"The Republic of Türkiye declared its statement, on the basis of ""equity, common but differentiated responsibilities and respective capabilities"" as clearly and accurately recognized under the United Nations Framework Convention on Climate Change of 9 May 1992 and the Paris Agreement, and by recalling decisions 26/CP.7, 1/CP.16, 2/CP.17, 1/CP.18 and 21/CP.20 adopted by Conference of the Parties to the Convention, declares that it will implement the Paris Agreement as a developing country and within the scope of its nationally determined contribution statements, provided that the Agreement and its mechanisms do not prejudice its right to economic and social development.",1.0,explorer
+UNFCCC.party.1735.0,226934b8353397cb36856c2a10a30815__45d0c18b9ad5dc971d992092b2a9faa9a171573be200196ee5b47ff89da82406,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,90,105,Seven decisions were formed at the intersection of climate change and gender equality and aimed at women's leadership and empowerment in fighting climate change.,1.0,explorer
+UNFCCC.party.1735.0,7b1dea048d37b9f848cd5ced0e5d1a36__06fdf15d129f9c387a13a93115a297d324ba5f8324c526d50e26114919aae272,JUST_TRANSITION,EMPLOYERS,employer,106,114,"Within the grant incentives such as value added tax exemption ¹70, customs duty exemption, tax reduction, employer's insurance premium support, interest support and investment location allocation are given to investments of manufacturing industry plants that save 15% energy compared to the current situation.",1.0,explorer
+UNFCCC.party.1735.0,ae0dea72cea41982007baae26825b30f__bf132ddd32dfc95864847669bb8e0cb9884bd28713a144d9409319c2e2218a0b,JUST_TRANSITION,SOCIAL_JUSTICE,social justice,8,22,account social justice.,1.0,explorer
+UNFCCC.party.1735.0,ae0dea72cea41982007baae26825b30f__bf132ddd32dfc95864847669bb8e0cb9884bd28713a144d9409319c2e2218a0b,EQUITY_AND_JUSTICE,JUSTICE,justice,15,22,account social justice.,1.0,explorer
+UNFCCC.party.1735.0,c8d2212c2703441a3e9c98c5533af071__5c48d77bf42ad0832ec30a9d9af792fdb39b629107e3251a601f9b5babe5c10f,JUST_TRANSITION,JOB_LOSS,job losses,661,671,"In addition, it is estimated that climate change may cause changes in heating and cooling energy demand and energy supply as a result of changes in average temperatures, as well as short-term job losses",1.0,explorer
+UNFCCC.party.1735.0,c25b56accebfff7046256d580f5ad28a__9e894773a17ab300e5d4cdd99d0b648418489021febe68857fa7e5f4b022d77e,JUST_TRANSITION,WORKERS,workers,211,218,"Following the analyses conducted, the heavy precipitation hazard in the industry sector during the current period is particularly high in Organized Industrial Zones and locations with a large number of industry workers.",1.0,explorer
+UNFCCC.party.1735.0,957ea7aa983079b935c837af024cec81__5bab684a0baba688189e171f9b6067e43796074b818f77008afc167a8487f993,JUST_TRANSITION,EMPLOYEES,employee,716,724,"There are also master and doctorate programs, including courses such as ""climate change and modeling"", ""sustainable development"", environmental economy"", ""energy policies and finance"", ""ground system sciences"", and ""plant-climate models"" to raise awareness about the adaptation and campaign processes related to global climate change, which is one of the most critical problems of today and meet the need of the country for educated employee/academician.",1.0,explorer
+UNFCCC.party.1735.0,8a0850324e16e23a1ea1b52acbbf0509__54520f027bc93e71966e5dcf9aaaf0805bdfe04f3027254c906a31881c711dcf,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,361,381,"These letters provided an opportunity for stakeholders to submit their views on the issues discussed in the report, as well as to provide feedback on the overall process of public participation.",1.0,explorer
+UNFCCC.party.1735.0,ada3b0ff4cdd4772f60143243f6a5b03__40fbe2385ee36cf27f12b20270a3d0d4cb1dedd136584e55bb83035a554b946f,JUST_TRANSITION,PUBLIC_PARTICIPATION,PUBLIC PARTICIPATION,4,24,"9.9 PUBLIC PARTICIPATION IN THE PREPARATION AND DOMESTIC REVIEW OF
+NATIONAL COMMUNICATION",1.0,explorer
+UNFCCC.party.1735.0,0b895a9242a0a0a99c233d9d3673e6dd__efdc108f252e2e6e6474b853011d300ce892baa3a28623159a82cb1d982be439,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,22,42,"To further facilitate public participation, zoom meetings were organized with several participants.",1.0,explorer
+UNFCCC.party.1735.0,0b895a9242a0a0a99c233d9d3673e6dd__efdc108f252e2e6e6474b853011d300ce892baa3a28623159a82cb1d982be439,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,338,358,"Throughout the public participation process, the focus was on ensuring that all stakeholders had an equal opportunity to participate and that their views were considered.",1.0,explorer
+UNFCCC.party.1735.0,80ecc8f38691ea6cc7834b06dfd3f840__4b5d7fbc93d7f0da47d8e0347562a07348d20e3303c300d9170b438130117f52,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,27,47,"The principal approach for public participation was the organization of focus groups and bilateral
+meetings.",1.0,explorer
+UNFCCC.party.1735.0,e633ce5924184fcbc0181b8cc0588c6c__e3f8c74fef88b7c26285a6942e00c0654039769556b829d14ca9c0e311329ac3,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,39,59,"Overall, the expert group designed the public participation process to be inclusive, transparent, and collaborative, focusing on gathering input from various stakeholders.",1.0,explorer
+UNFCCC.non-party.1747.0,ad9372d7adee90fe5d6440d277846963__0a8b359dd692a87c609148607d11e029353f402ac34e6f1c7f7b3cb4c1528e4a,JUST_TRANSITION,LIVELIHOOD,livelihoods,729,740,"These impacts constitute a threat for all sectors, but especially for agrifood systems and the livelihoods of those who depend on them.",1.0,explorer
+UNFCCC.non-party.1747.0,ad9372d7adee90fe5d6440d277846963__0a8b359dd692a87c609148607d11e029353f402ac34e6f1c7f7b3cb4c1528e4a,JUST_TRANSITION,LIVELIHOOD,livelihoods,851,862,Five hundred million small farms that depend on functioning ecosystems for their livelihoods produce over 80 percent of the food consumed in a large part of the developing world.,1.0,explorer
+UNFCCC.non-party.1747.0,4d9a6fa1c65767151a18600e3b8d027c__e7545e86ee5868e02ea6a8a0ae48b73fe5cd487c38c4278bf4f08e9c0b0ce6e9,EQUITY_AND_JUSTICE,EQUITY,equity,110,116,"What is the collective progress made towards achieving Article 2.1(b) of the Paris Agreement, in the light of equity and the best available science?",1.0,explorer
+UNFCCC.non-party.1747.0,e90e365395c1d9d1a3b5850ce874f064__1044267638468edd811fa0da4293d144487b1d14a366926ee6fbf1c279338142,JUST_TRANSITION,LIVELIHOOD,livelihoods,148,159,"What actions have been taken to increase the ability to adapt to the adverse impacts of climate change and foster the climate resilience of people, livelihoods, and ecosystem?",1.0,explorer
+UNFCCC.non-party.1747.0,7aea1029bf9a0ebdf43a6abb83a2bf3a__70d7570e68e1b13a3d6ede1c90d553b3faf53be5b661761e5782c11375b8a314,JUST_TRANSITION,LIVELIHOOD,livelihoods,113,124,"Lastly, FAO also recognizes the role of migration as an adaptation solution in the context of rural agricultural
+livelihoods affected by adverse impacts of climate change.",1.0,explorer
+UNFCCC.non-party.1747.0,7aea1029bf9a0ebdf43a6abb83a2bf3a__70d7570e68e1b13a3d6ede1c90d553b3faf53be5b661761e5782c11375b8a314,JUST_TRANSITION,LIVELIHOOD,livelihood,1004,1014,"While some progress has been made towards
+integrating migration and mobility considerations into NAPs and, to a lesser extent, NDCS, FAO advocates for
+the specific consideration of migration from a rural livelihood perspective.",1.0,explorer
+UNFCCC.non-party.1747.0,7aea1029bf9a0ebdf43a6abb83a2bf3a__70d7570e68e1b13a3d6ede1c90d553b3faf53be5b661761e5782c11375b8a314,JUST_TRANSITION,LIVELIHOOD,livelihoods,674,685,"Well managed, safe and orderly migration in the
+context of rural agricultural livelihoods has the potential to contribute to meeting global targets on
+adaptation and mitigation under the Paris Agreement.",1.0,explorer
+UNFCCC.non-party.1747.0,63395243f7f4557571022b2db5147cae__b122f0dc8d305623268af7444c9c9ad3085cdbd725d3dc8bf02ac96caafc663a,EQUITY_AND_JUSTICE,EQUITY,equity,231,237,"What is the state of current global climate finance flow and the overall progress made towards making
+the financial flows consistent with the pathways towards low GHG emissions and climate-resilient
+development, in the light of equity and the best available science (Article 2.1(c)",1.0,explorer
+UNFCCC.non-party.1747.0,926e18d24e1d05071c8da5a0876727cf__4f095d6bad1bfc2199cfde4ed699815bf2488d76cbbd966b194cb4c048cc8d65,INEQUALITY_&_HUMAN_RIGHTS,HUMAN_RIGHTS,human rights,416,428,"The innovative interventions are key to ensure inclusive are inclusive human rights-based approach that benefit all, leaving no one behind.",1.0,explorer
+UNFCCC.non-party.1747.0,3d667bc47ecaa3e85c5c37beb5966cfb__dbad4308c1f4f04e77304b70aeeef92b4cf57397e455f101f68c612a78ceeb01,EQUITY_AND_JUSTICE,EQUITY,equity,315,321,"Pursuant to Article 8 of the Paris Agreement and Decision 19/CMA.1 paragraph 6(b)(ii), what is the collective progress of efforts made to enhance understanding, action and support towards averting, minimizing and addressing loss and damage associated with the adverse effects of climate change, in the light of equity and the best available science?",1.0,explorer
+UNFCCC.party.1731.0,49c3b44c298a2a74a1eaa2dd25fb2685__ace405b97fcab7dbaf0025a39f2a527f7dadc765d3982febcb541fa98268e691,EQUITY_AND_JUSTICE,FAIRNESS,Fairness,712,720,"Considerations of Fairness and Ambition
+4.3.6
+4.3.7
+6.2.1
+6.2.2
+Power and Water Generation
+5
+6
+Adaptation...
+6.1 Introduction...
+6.2 Sectoral Adaptation.
+",1.0,explorer
+UNFCCC.party.1731.0,df57be2ca32b28dfb49de5bb80f07d64__e4f83736f57c8f122231fc8e232f619544e120250e49087cb97a09427f13d878,JUST_TRANSITION,WORKFORCE,workforce,840,849,The rapid growth in development of the economy necessitated a need for an expatriate workforce which in turn increased the demand for construction and infrastructure.,1.0,explorer
+UNFCCC.party.1731.0,02e83584b55ba049cc2dae521b1a6997__dc25207d7ace634e10da32fbc95e6824f03efe9139c011826e895aa8785ab60f,EQUITY_AND_JUSTICE,EQUITY,equity,781,787,These will be financed through $7 billion in cash equity from the private sector that will further catalyse $13 billion through US debt financing and other instruments.,1.0,explorer
+UNFCCC.party.1731.0,266ed2ed0b8406d1ff5260c46b9a06a8__0ca1afd522b2eeb1f804e6462ff9d4b3b613ad3734bc7e910841ef6c01b59a6e,EQUITY_AND_JUSTICE,FAIRNESS,Fairness,20,28,5 Considerations of Fairness and,1.0,explorer
+UNFCCC.party.1731.0,aa2be91e748081709aeeadc07cd87163__7955f7495fabcdbcdfd458f5f4e792c6d29c5e083b94d056d651ec8e496e7357,JUST_TRANSITION,WORKERS,workers,1023,1030,"A set of additional policies is under consideration, such as the use of advanced technologies to protect outdoor workers from the heat, and enhanced surveillance on heat-related illnesses 1⁹6",1.0,explorer
+UNFCCC.party.1731.0,aa2be91e748081709aeeadc07cd87163__7955f7495fabcdbcdfd458f5f4e792c6d29c5e083b94d056d651ec8e496e7357,JUST_TRANSITION,WORKERS,workers,527,534,"The UAE has implemented measures to facilitate collaboration between public health and climate authorities, as well as to equip healthcare workers with the necessary skills to manage the health risks associated with climate change, especially for vulnerable populations such as the elderly, pregnant women, and those at high risk.",1.0,explorer
+UNFCCC.party.1731.0,c5bcbb2a599e961636adabc2c76cb86c__a5986ea81c2cf8b5b5526ca4196a8ebcae8ee6229bbe931aa631cd4d37c02cd7,JUST_TRANSITION,WORKERS,workers,278,285,These risks are of particular relevance to the UAE given its desert climate and the high number of outdoor and construction workers who can develop,1.0,explorer
+UNFCCC.party.1731.0,c5bcbb2a599e961636adabc2c76cb86c__a5986ea81c2cf8b5b5526ca4196a8ebcae8ee6229bbe931aa631cd4d37c02cd7,JUST_TRANSITION,WORKERS,workers,61,68,"The UAE faces a high risk of reduced productivity of outdoor workers due to heat stress, as well as morbidity and/or mortality caused by heat stroke.",1.0,explorer
+UNFCCC.party.1731.0,695f8c57fe051dc4c899e31a48edf90d__a665bf45c2b3c09404815b1f9016a81d761b914bc930458c1b802bf421d8664d,JUST_TRANSITION,WORKERS,workers,177,184,"The UAE is already taking preventative actions to address these climate-related health challenges and has issued a ministerial decree that requires employers to provide outdoor workers with a break during the peak summer to avoid heat-related illnesses, 133",1.0,explorer
+UNFCCC.party.1731.0,695f8c57fe051dc4c899e31a48edf90d__a665bf45c2b3c09404815b1f9016a81d761b914bc930458c1b802bf421d8664d,JUST_TRANSITION,EMPLOYERS,employers,148,157,"The UAE is already taking preventative actions to address these climate-related health challenges and has issued a ministerial decree that requires employers to provide outdoor workers with a break during the peak summer to avoid heat-related illnesses, 133",1.0,explorer
+UNFCCC.party.1731.0,716cab9f883ca29dbcb9ee72b9be05ff__ebbceef9ec5ec6ed542d2cb327c3eb902d731bda7f05bbdcc47cfcae50ccd9cf,JUST_TRANSITION,WORKFORCE,workforce,52,61,Educators play a crucial role in shaping the future workforce and prepare them to face the challenges of a rapidly changing economy.,1.0,explorer
+UNFCCC.party.1731.0,73549b47984121a526aaf1000177fda5__73667641b322caeb9a7df6a2bd667ffe648b25f7cb44eedfa82f984dc9c34523,JUST_TRANSITION,WORKFORCE,workforce,70,79,"The implementation of the plan includes preparing the UAE's workforce to leverage the opportunities arising from the new green economy, mobilising relevant stakeholders in climate action, building their capacity, and raising awareness about climate change.",1.0,explorer
+UNFCCC.party.1731.0,1618b48c07da60beeb06a29c2ab9fe6d__b44ca96de10e2f2caa0ee7177771ffd3f51342baa98b9deac2b4ffdf5547d999,JUST_TRANSITION,EMPLOYEES,employees,106,115,"Launched in 2022, the Jahiz initiative aims to address the capability building requirements of government employees by means of an upskilling programme for state workers.",1.0,explorer
+UNFCCC.party.1731.0,1618b48c07da60beeb06a29c2ab9fe6d__b44ca96de10e2f2caa0ee7177771ffd3f51342baa98b9deac2b4ffdf5547d999,JUST_TRANSITION,WORKERS,workers,162,169,"Launched in 2022, the Jahiz initiative aims to address the capability building requirements of government employees by means of an upskilling programme for state workers.",1.0,explorer
+UNFCCC.party.1731.0,1618b48c07da60beeb06a29c2ab9fe6d__b44ca96de10e2f2caa0ee7177771ffd3f51342baa98b9deac2b4ffdf5547d999,JUST_TRANSITION,EMPLOYEES,employees,437,446,The Jahiz digital platform will provide government employees with opportunities for training and improve the competitiveness and future readiness of the UAE government.,1.0,explorer
+UNFCCC.party.1731.0,b05c491346ee73fc9e96bb51437b6535__1c1bf0e2274bed33b96882076698ba0a3ab8fa5cb10ff92557a21233237d3bd2,JUST_TRANSITION,EMPLOYEES,employees,464,473,"The EN-WWF's Leaders of Change mission is also helping corporations and government employees upskill themselves to support sustainable development, the",1.0,explorer
+UNFCCC.party.1731.0,085532cc5e13a642268910704c75dfaa__15b05d90b27e8b6b9dce083275ba6046368873fb6a25cec959cf4970ed5b0d03,JUST_TRANSITION,EMPLOYEES,employees,416,425,"The ACE is an invitation for countries to develop educational and public awareness programmes, train scientific, technical, and managerial employees, facilitate public access to information, and encourage public involvement and international cooperation in tackling climate change and its effects.",1.0,explorer
+UNFCCC.party.1731.0,b0bf95d428cdc7aebedc586f55a97a0b__bbb3d1f9cb1629f8d215ea1e7befc4a17eeddb696055b6860015e6eb6c12b89d,JUST_TRANSITION,EMPLOYEES,employees,644,653,"The results coming from this study were used to plan a new national campaign on conservation consisting of awareness and educational activities and programs tailored to the needs of different segments of society, namely students, families, employees, workers, and tourists.",1.0,explorer
+UNFCCC.party.1731.0,b0bf95d428cdc7aebedc586f55a97a0b__bbb3d1f9cb1629f8d215ea1e7befc4a17eeddb696055b6860015e6eb6c12b89d,JUST_TRANSITION,WORKERS,workers,655,662,"The results coming from this study were used to plan a new national campaign on conservation consisting of awareness and educational activities and programs tailored to the needs of different segments of society, namely students, families, employees, workers, and tourists.",1.0,explorer
+UNFCCC.party.1731.0,9388a31d44dd7ad6d23ee6b535c5f5ee__ba0f3bfbf234e70884923f9366bde4668892088732fc14ca0e52d716f65a8457,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,514,529,"The 2026 UAE Gender Balance Strategy represents the country's federal gender equality strategy and includes commitments to policy and legislative reform, programmes, partnerships (with the private sector and international organizations), and international engagement on key areas - including sustainability and climate - particularly in the leadup to COP28.181 The UAE government is also considering additional policy levers, such as gender impact analysis for climate policies, gender responsive climate finance, sex-disaggregation of climate-related data, and quotas for UNFCCC delegations.",1.0,explorer
+UNFCCC.party.1731.0,9388a31d44dd7ad6d23ee6b535c5f5ee__ba0f3bfbf234e70884923f9366bde4668892088732fc14ca0e52d716f65a8457,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,51,66,The UAE recognises the crucial need to incorporate gender equality deeply into its efforts to tackle climate change.,1.0,explorer
+UNFCCC.party.1731.0,f2a25fff82d16aab9126ff41148ac6ae__9f829989b51c4105069b9d831b67e537f0ea674aef0608a137c7359cc39c83ab,JUST_TRANSITION,PUBLIC_PARTICIPATION,public participation,123,143,"on the Party's implementation plans including, as appropriate:
+ali)
+alii)
+aliija
+alib
+Domestic institutional arrangements,
+public participation and engagement.
+with local communities and indigenous
+peoples, in a gender-responsive
+manner,
+Refer to Chapter 3 'Stakeholder Engagement in NDC Planning and
+Preparation Process and Chapter 7.4 'Inclusivity for Climate Action:
+Youth, Women and People of Determination'
+Contextual matters, including, inter alia, Refer to 4 aliija, 4a(ii)b and 4a(ii)c
+as appropriate:
+a. National circumstances, such as
+geography, climate, economy,
+sustainable development and poverty
+eradication;
+Refer to Chapter 2 'UAE National Circumstances
+Best practices and experience related to UAE's NDC preparation demonstrate the following best practices:
+the preparation of the nationally
+determined contribution;
+To develop the UAE Net Zero Strategy (including the 2030 targets
+outlined in the NDC) the UAE involved government entities, in a
+whole-of-society approach led by the Ministry of Climate Change
+and Environment.",1.0,explorer
+UNFCCC.party.1731.0,d2ade62e8634840faf6d03745e77fbf1__38302c0c2cb2dbff16d75fa6f540b6ae1b93df88f8a2a0d7c108b013f83825b8,EQUITY_AND_JUSTICE,JUSTICE,justice,928,935,"NDC development considers multiple co-benefits such as job
+creation (outlined in Chapter 7 Implementation and Enablers'),
+environmental benefits (described in Chapter 6 'Adaptation'), social
+justice (e.g., ensuring livable condition for the younger generation
+who will be particularly impacted climate change).
+",1.0,explorer
+UNFCCC.party.1731.0,07d5cebb3b78dea29d827791ceb503af__b8e7236c831244c851ec4f18e26a002c967d96b38288738105aba45b04129fa9,JUST_TRANSITION,JUST_ENERGY_TRANSITION,just energy transition,1338,1360,"The UAE also pursues a just energy transition ensuring that no one
+is left behind.",1.0,explorer
+UNFCCC.party.1731.0,36004fd71066d9b2a38f062b075dbca2__c66df3379d1ab5e31afa2f2ea017c440e5a74178562bff2f9dc71e9936e7ce94,EQUITY_AND_JUSTICE,FAIRNESS,Fairness,271,279,"How the Party considers that its nationally determined contribution is fair and ambitious in the light of its national
+circumstances:
+How the Party considers that its
+nationally determined contribution is fair
+and ambitious in the light of its national
+circumstances;
+Fairness considerations, including
+reflecting on equity;
+How the Party has addressed Article 4,
+paragraph 3, of the Paris Agreement;
+How the Party has addressed Article 4,
+paragraph 4, of the Paris Agreement;
+How the Party has addressed Article 4,
+paragraph 6, of the Paris Agreement.
+",1.0,explorer
+UNFCCC.party.1731.0,36004fd71066d9b2a38f062b075dbca2__c66df3379d1ab5e31afa2f2ea017c440e5a74178562bff2f9dc71e9936e7ce94,EQUITY_AND_JUSTICE,FAIRNESS,fairness,593,601,"Refer to Chapter 5 Considerations of fairness and ambition
+Refer to Chapter 5 Considerations of fairness and ambition'
+UAE's NDC is compliant to of Article 4, paragraph 3 of Paris
+Agreement
+Chapter 4.1 National target discusses how UAE's topline GHG target
+is enhanced compared to the last submission.
+",1.0,explorer
+UNFCCC.party.1731.0,36004fd71066d9b2a38f062b075dbca2__c66df3379d1ab5e31afa2f2ea017c440e5a74178562bff2f9dc71e9936e7ce94,EQUITY_AND_JUSTICE,EQUITY,equity,320,326,"How the Party considers that its nationally determined contribution is fair and ambitious in the light of its national
+circumstances:
+How the Party considers that its
+nationally determined contribution is fair
+and ambitious in the light of its national
+circumstances;
+Fairness considerations, including
+reflecting on equity;
+How the Party has addressed Article 4,
+paragraph 3, of the Paris Agreement;
+How the Party has addressed Article 4,
+paragraph 4, of the Paris Agreement;
+How the Party has addressed Article 4,
+paragraph 6, of the Paris Agreement.
+",1.0,explorer
+UNFCCC.party.1731.0,36004fd71066d9b2a38f062b075dbca2__c66df3379d1ab5e31afa2f2ea017c440e5a74178562bff2f9dc71e9936e7ce94,EQUITY_AND_JUSTICE,FAIRNESS,fairness,652,660,"Refer to Chapter 5 Considerations of fairness and ambition
+Refer to Chapter 5 Considerations of fairness and ambition'
+UAE's NDC is compliant to of Article 4, paragraph 3 of Paris
+Agreement
+Chapter 4.1 National target discusses how UAE's topline GHG target
+is enhanced compared to the last submission.
+",1.0,explorer
+UNFCCC.non-party.1738.0,3cb4e457b6a939238c3a576152f99699__358a1e1fd880dcccc6a2117a7e90fcbe9076c80e5321e8cf11a53a954871cff6,JUST_TRANSITION,LIVELIHOOD,livelihoods,256,267,"The loss of ecosystems and their services has cascading and longterm impacts on people globally, especially on the livelihoods of indigenous peoples and local communities.",1.0,explorer
+UNFCCC.non-party.1738.0,3cb4e457b6a939238c3a576152f99699__358a1e1fd880dcccc6a2117a7e90fcbe9076c80e5321e8cf11a53a954871cff6,JUST_TRANSITION,LIVELIHOOD,livelihoods,93,104,The adverse impacts of climate change on ecosystems and their services put the lives and livelihoods of people across the world at risk.,1.0,explorer
+UNFCCC.non-party.1738.0,e4e1723c3dabc05419bdb08742f07719__f1c5a9fe107a1c2e4b3eb576a977188085a452df139140be75f98476f4968f99,JUST_TRANSITION,JUST_TRANSITION,Just Transition,250,265,"For example, the first Russian climate efficiency rating contains the ""Just Transition"" section and considers the interests of stakeholders in developing corporate decarbonization strategies.",1.0,explorer
+UNFCCC.non-party.1738.0,d36fd050c0248cf79fa7fcc27de4af58__cceae319f4cfb74872e746f3bedcd1a69da76e80f39e6fad58a28a7b91cedd45,JUST_TRANSITION,LIVELIHOOD,livelihoods,888,899,"Impacts on snow, sea ice, and permafrost impact traditional practices of reindeer herding, hunting, and fishing, all practices that indigenous communities rely on for cultural wellbeing, food security, and livelihoods.",1.0,explorer
+UNFCCC.non-party.1738.0,f39692be33f1f479f31aa7a206519daa__8b4100551ae94049fb78b01998d6e6147650368602773ddc20f714b372a60403,JUST_TRANSITION,LIVELIHOOD,livelihood,205,215,"The livelihood of Khasia, also called Khasi, indigenous people cultivate betel leaves",1.0,explorer
+UNFCCC.non-party.1738.0,f39692be33f1f479f31aa7a206519daa__8b4100551ae94049fb78b01998d6e6147650368602773ddc20f714b372a60403,JUST_TRANSITION,LIVELIHOOD,livelihood,166,176,"o Indigenous peoples in Bangladesh use innovative agroforestry practices, based on indigenous knowledge passed down through many generations, to maintain sustainable livelihood and steward ecosystems.",1.0,explorer
+UNFCCC.non-party.1738.0,a7d3fe82152b6db0051548224c8d2116__2e4108d499b39051a1e9e51ddf73d2bfd3d378d286dd96e5bed711ac1e8722a0,JUST_TRANSITION,LIVELIHOOD,livelihoods,621,632,"However, the escalating loss and damage associated with climate impacts, including extreme weather events, altered landscapes, and disrupted ecosystems, are challenging their ability to adapt and maintain their traditional livelihoods.",1.0,explorer
+UNFCCC.non-party.1738.0,20633093360f39f349d7af3fc184506c__40bf3d9c4e91487da44e565939e09456fe618a73c278eafe0f50e8f23931c223,JUST_TRANSITION,LIVELIHOOD,livelihoods,215,226,"o Submission from the Arctic region emphasizes the Sámi people's struggle to adapt to climate change as environmental shifts, land fragmentation, and land-use competition limit their ability to preserve traditional livelihoods, such as reindeer husbandry.",1.0,explorer
+UNFCCC.party.1742.0,845ec75995c70404f5802eb5fd4b6a5c__071df719f382a1c02a7e2548802fa6f3c6048a6a32be9f26c02b8129d9f94881,JUST_TRANSITION,WORKERS,workers,292,299,"Positive Impacts
+Measures
+EE industrial measures Social
+for large firms and
+SMEs
+Greater efficiency and lower
+energy bills
+Satisfying green consumers
+Decoupling energy and
+industry, bringing more
+macro-economic stability
+Improved air quality, public
+health and quality of life
+(residents and workers).
+",1.0,explorer
+UNFCCC.party.1742.0,578af2d58c90afeea3f1a5c2f8c0dad1__e6f4ce19f32b39ba67848f8f9d994b39cd53bba6ee48c58646eee0bba233a2c6,JUST_TRANSITION,EMPLOYEES,employee,346,354,"The above policy initiatives will
+insulation)
+lead to the following measures/ • Improved employee
+productivity
+(automation; better
+conditions)
+Positive impact on
+safety issues and
+prevention of
+accidents (LEDs
+ompared to halogen
+bulbs: automation)
+Improved public health
+Public participation
+from installations in
+public buildings/
+provision of grants or
+subsidy schemes
+Contribution to SDG 11
+- sustainable cities and
+communities
+technologies:
+LED lighting, in the
+residential and non-
+residential building sector
+Automated lighting in non-
+residential buildings
+EE water heating/ heat
+pumps
+Positive Impacts
+Social
+EE appliances
+EE office/ IT equipment
+Wall/roof insulation and
+double-glazing
+.
+",1.0,explorer
+UNFCCC.party.1742.0,578af2d58c90afeea3f1a5c2f8c0dad1__e6f4ce19f32b39ba67848f8f9d994b39cd53bba6ee48c58646eee0bba233a2c6,JUST_TRANSITION,PUBLIC_PARTICIPATION,Public participation,528,548,"The above policy initiatives will
+insulation)
+lead to the following measures/ • Improved employee
+productivity
+(automation; better
+conditions)
+Positive impact on
+safety issues and
+prevention of
+accidents (LEDs
+ompared to halogen
+bulbs: automation)
+Improved public health
+Public participation
+from installations in
+public buildings/
+provision of grants or
+subsidy schemes
+Contribution to SDG 11
+- sustainable cities and
+communities
+technologies:
+LED lighting, in the
+residential and non-
+residential building sector
+Automated lighting in non-
+residential buildings
+EE water heating/ heat
+pumps
+Positive Impacts
+Social
+EE appliances
+EE office/ IT equipment
+Wall/roof insulation and
+double-glazing
+.
+",1.0,explorer
+UNFCCC.party.1742.0,2f2e5738388ddb77bb9e8845a62193f6__a25d487c047242cad723e8c2ad00bb435b906f8b2c64a5d8b7a2d032cd00bf17,JUST_TRANSITION,WORKFORCE,workforce,28,37,"Furthermore, upskilling the workforce and collaborations/ partnerships with educational
+institutions and automotive companies are being looked into to push further this
+electrification transition in our local markets (e.g. readiness to repair and maintain EVs).",1.0,explorer
+UNFCCC.party.1742.0,e724537177ab2112163c68d27e41fc0e__1748a4cb8890c2e268528dc3275094a6d62af2b28a34ac01fc4a0109f26a39a6,JUST_TRANSITION,EMPLOYERS,employers,411,420,"One of the
+few positive outcomes of the COVID-19 pandemic is that it forced employers, including
+govemment, to implement infrastructure that supports teleworking/remote working, thus
+decoupling the need to commute from the ability to produce.",1.0,explorer
+UNFCCC.party.1742.0,5d2a4994bf7b64c0ee5ee038acd7dac0__340fec0376ba265ce2bb03a393e1bb90c6a3424873cf1bcc2eb1085161193ce1,JUST_TRANSITION,WORKFORCE,workforce,39,48,"estimated that around 33% of the local workforce worked remotely, and it is expected
+that post-COVID-19, half of the time worked will continue be carried out in this way.",1.0,explorer
+UNFCCC.party.1742.0,5d2a4994bf7b64c0ee5ee038acd7dac0__340fec0376ba265ce2bb03a393e1bb90c6a3424873cf1bcc2eb1085161193ce1,JUST_TRANSITION,EMPLOYEES,employees,287,296,"Studies
+covering foreign countries show an enormous appetite for remote working from the part
+of both employers and employees.",1.0,explorer
+UNFCCC.party.1742.0,5d2a4994bf7b64c0ee5ee038acd7dac0__340fec0376ba265ce2bb03a393e1bb90c6a3424873cf1bcc2eb1085161193ce1,JUST_TRANSITION,EMPLOYERS,employers,273,282,"Studies
+covering foreign countries show an enormous appetite for remote working from the part
+of both employers and employees.",1.0,explorer
+UNFCCC.party.1742.0,77eaa31536ae17e44db0be102b52336e__9efb51476ffecf0dc6e587a34614e5fe5729144bd9c61f8f3bcf64b60162c602,JUST_TRANSITION,EMPLOYEES,employees,1064,1073,"Measures
+Electrification measures
+Public Transport measure
+Active Transport measures
+Positive Impacts
+Social
+Health benefits from
+reduced air and noise
+pollution, potentially
+lower traffic accidents
+and more regular
+exercising
+• Increased flexibility for
+employees
+Travel time reductions
+for individuals and
+businesses
+• Improved travel for
+non-vehicle owners,
+enabling social and
+economic
+participation
+• Enhancing the
+efficiency of local
+components of the
+TEN-T network
+• Facilitated access to
+cultural sites and
+improved preservation
+as a result of lower
+traffic emissions
+Economic
+• Incremental
+investment in the EV
+market
+Reduced traffic
+congestion
+contributing to
+Negative impacts
+Social
+•
+High upfront EV
+capital cost/use might
+exclude some
+individuals from the
+personal vehicle
+ownership market
+• Risks for public safety
+in EV accidents
+• Waste management of
+EVS/ batteries
+• Security of supply
+issues for electricity
+and batteries (EVS)
+• Reduced social
+interaction (and linked
+health effects and
+work engagement)
+resulting from TW/
+RW
+• Higher costs for
+employees, and
+potential increased
+digital divide.
+",1.0,explorer
+UNFCCC.party.1742.0,77eaa31536ae17e44db0be102b52336e__9efb51476ffecf0dc6e587a34614e5fe5729144bd9c61f8f3bcf64b60162c602,JUST_TRANSITION,EMPLOYEES,employees,255,264,"Measures
+Electrification measures
+Public Transport measure
+Active Transport measures
+Positive Impacts
+Social
+Health benefits from
+reduced air and noise
+pollution, potentially
+lower traffic accidents
+and more regular
+exercising
+• Increased flexibility for
+employees
+Travel time reductions
+for individuals and
+businesses
+• Improved travel for
+non-vehicle owners,
+enabling social and
+economic
+participation
+• Enhancing the
+efficiency of local
+components of the
+TEN-T network
+• Facilitated access to
+cultural sites and
+improved preservation
+as a result of lower
+traffic emissions
+Economic
+• Incremental
+investment in the EV
+market
+Reduced traffic
+congestion
+contributing to
+Negative impacts
+Social
+•
+High upfront EV
+capital cost/use might
+exclude some
+individuals from the
+personal vehicle
+ownership market
+• Risks for public safety
+in EV accidents
+• Waste management of
+EVS/ batteries
+• Security of supply
+issues for electricity
+and batteries (EVS)
+• Reduced social
+interaction (and linked
+health effects and
+work engagement)
+resulting from TW/
+RW
+• Higher costs for
+employees, and
+potential increased
+digital divide.
+",1.0,explorer
+UNFCCC.party.1742.0,5e5e0a2718f541d9e2fe97d5bcacf834__b698b7710ee69ef89409f3e29b59acf32337b7cfa17354c47ed2d31a11c9a53e,JUST_TRANSITION,WORKFORCE,workforce,171,180,"In order to support this further, government will be looking into promoting and incentivising further remote working amongst the workforce and improving provision of online services.",1.0,explorer
+UNFCCC.party.1742.0,0ee96782ed1d93b3762725d0fc21dec4__75a00ec5ca8f8da2eb32562e9f9b7e0a8e8a315bad6354dc11e175acfe3e8122,JUST_TRANSITION,GREEN_JOB,green jobs,186,196,"Positive Impacts
+Measures
+Sorting of Residual Waste atSocial
+incinerators
+80% Capture of Municipal
+Biowaste
+and Biogas
+Upgrade
+Household waste prevention
+measures
+Creation of additional
+green jobs
+Increased public
+awareness on waste
+management issues and
+facilitated responsible
+participation, Increased
+awareness in homes
+enables food cost
+savings
+Improved public health
+Improved security for
+incinerator workers &
+neighborhoods
+Better job conditions for
+EfW plant workers
+Lower nuisance effects
+on individuals residing
+near the EfW facility
+Economic
+Cost savings for
+commercial businesses
+and more customer
+profile insights for tailored
+offerings
+Potential reduction in
+costs, capacity issues
+and adverse extemalities
+experienced in the
+sector
+Economic efficiency and
+resiliency gains from a
+more circular economy
+Creation of additional
+raw material input into
+secondary economic
+markets
+R&I in connection with
+change in biogas use
+and development of
+affinient wa
+Negative impacts
+Social
+Change in household
+behavior requires more
+attention and effort,
+against time and space
+constraints
+Potential disincentive for
+households to sort
+recyclable waste at
+source (from semi-mixed
+waste separation
+measure
+Economic
+Higher administrative
+burden on Local
+Councils
+Higher cost of collection
+Administrative burden on
+entities such as
+WasteServ and ERA
+Change in demand for
+printing houses
+Macroeconomic impacts
+from household behavior
+changes (e.g. purchases,
+saving)",1.0,explorer
+UNFCCC.party.1742.0,0ee96782ed1d93b3762725d0fc21dec4__75a00ec5ca8f8da2eb32562e9f9b7e0a8e8a315bad6354dc11e175acfe3e8122,JUST_TRANSITION,WORKERS,workers,466,473,"Positive Impacts
+Measures
+Sorting of Residual Waste atSocial
+incinerators
+80% Capture of Municipal
+Biowaste
+and Biogas
+Upgrade
+Household waste prevention
+measures
+Creation of additional
+green jobs
+Increased public
+awareness on waste
+management issues and
+facilitated responsible
+participation, Increased
+awareness in homes
+enables food cost
+savings
+Improved public health
+Improved security for
+incinerator workers &
+neighborhoods
+Better job conditions for
+EfW plant workers
+Lower nuisance effects
+on individuals residing
+near the EfW facility
+Economic
+Cost savings for
+commercial businesses
+and more customer
+profile insights for tailored
+offerings
+Potential reduction in
+costs, capacity issues
+and adverse extemalities
+experienced in the
+sector
+Economic efficiency and
+resiliency gains from a
+more circular economy
+Creation of additional
+raw material input into
+secondary economic
+markets
+R&I in connection with
+change in biogas use
+and development of
+affinient wa
+Negative impacts
+Social
+Change in household
+behavior requires more
+attention and effort,
+against time and space
+constraints
+Potential disincentive for
+households to sort
+recyclable waste at
+source (from semi-mixed
+waste separation
+measure
+Economic
+Higher administrative
+burden on Local
+Councils
+Higher cost of collection
+Administrative burden on
+entities such as
+WasteServ and ERA
+Change in demand for
+printing houses
+Macroeconomic impacts
+from household behavior
+changes (e.g. purchases,
+saving)",1.0,explorer
+UNFCCC.party.1742.0,0ee96782ed1d93b3762725d0fc21dec4__75a00ec5ca8f8da2eb32562e9f9b7e0a8e8a315bad6354dc11e175acfe3e8122,JUST_TRANSITION,WORKERS,workers,406,413,"Positive Impacts
+Measures
+Sorting of Residual Waste atSocial
+incinerators
+80% Capture of Municipal
+Biowaste
+and Biogas
+Upgrade
+Household waste prevention
+measures
+Creation of additional
+green jobs
+Increased public
+awareness on waste
+management issues and
+facilitated responsible
+participation, Increased
+awareness in homes
+enables food cost
+savings
+Improved public health
+Improved security for
+incinerator workers &
+neighborhoods
+Better job conditions for
+EfW plant workers
+Lower nuisance effects
+on individuals residing
+near the EfW facility
+Economic
+Cost savings for
+commercial businesses
+and more customer
+profile insights for tailored
+offerings
+Potential reduction in
+costs, capacity issues
+and adverse extemalities
+experienced in the
+sector
+Economic efficiency and
+resiliency gains from a
+more circular economy
+Creation of additional
+raw material input into
+secondary economic
+markets
+R&I in connection with
+change in biogas use
+and development of
+affinient wa
+Negative impacts
+Social
+Change in household
+behavior requires more
+attention and effort,
+against time and space
+constraints
+Potential disincentive for
+households to sort
+recyclable waste at
+source (from semi-mixed
+waste separation
+measure
+Economic
+Higher administrative
+burden on Local
+Councils
+Higher cost of collection
+Administrative burden on
+entities such as
+WasteServ and ERA
+Change in demand for
+printing houses
+Macroeconomic impacts
+from household behavior
+changes (e.g. purchases,
+saving)",1.0,explorer
+UNFCCC.party.1742.0,19258574b1552144e41b76a139a54d0a__71becf1b891c0705c5ccd6b877e340a94b3f6e677c45803d5711ccbc02db090b,EQUITY_AND_JUSTICE,FAIRNESS,fairness,93,101,"The internal distribution of effort among the EU Member States is based on the principles of fairness and solidarity, meaning that all Member States are expected to contribute effectively and tangibly, within the parameters of cost-effectiveness, but also with a spirit of solidarity between the States.",1.0,explorer
+UNFCCC.party.1742.0,142adaf1ac0a60724a8680140288a5c6__fb705d67f73d591bba4b606a0c5beed9683bd3e48db66a0f58f1c81735f96dea,JUST_TRANSITION,LIVELIHOOD,livelihood,367,377,"Malta's fisheries sector is small and contributes very little to the economy, including a small working population (1.0%) which depends on fishing and aquaculture for their livelihood.",1.0,explorer
+UNFCCC.party.1742.0,a6806fb7599e141b275cf17db1996143__482f4a8981911e57398d077852b2119300ede9bde72732db4f2b6cd78d60ead8,JUST_TRANSITION,SOCIAL_INCLUSION,social inclusion,117,133,"Specific Objective 8 - Promote employment, growth, gender equality, including the
+participation of women in farming, social inclusion and local development in rural areas,
+including the circular bio-economy and sustainable forestry",1.0,explorer
+UNFCCC.party.1742.0,a6806fb7599e141b275cf17db1996143__482f4a8981911e57398d077852b2119300ede9bde72732db4f2b6cd78d60ead8,GENDER_EQUALITY,GENDER_EQUALITY,gender equality,51,66,"Specific Objective 8 - Promote employment, growth, gender equality, including the
+participation of women in farming, social inclusion and local development in rural areas,
+including the circular bio-economy and sustainable forestry",1.0,explorer
+UNFCCC.party.1742.0,df1a5de488cbd7cae804c291174f1fca__21b18b5e06ab2501e419bab22bebf100c19cab796c8d356730cdd7c2e14d90a0,JUST_TRANSITION,WORKERS,workers,125,132,"Particular sectors will also be affected through increased occupational health and safety concerns, for example construction workers and those working in the primary industries (agriculture, fisheries) and exposed the high temperatures, rainfall and extreme weather events.",1.0,explorer
+UNFCCC.party.1742.0,69630e422c8b1d58f1ed57feda0c136b__1bc09a451beca61f8733b9063dbefae52f5f67a16dd45b080525e355fe7fa312,EQUITY_AND_JUSTICE,EQUITY,Equity,952,958,"Core/
+general
+0.00
+0.00
+20,000.0
+0
+European - EUR
+Climate-specific
+Mitigation
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Adaptatio
+n
+0.00
+0.00
+0.00
+0.00
+Cross-
+cutting
+0.00
+0.00
+0.00
+0.00
+9,265.20 60,000.00
+9,265.20 150,000.0
+Year 2017
+ODA
+OOF
+Other
+Other
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Core/
+general
+Total climate specific by funding source
+(EUR)
+69,265.20
+0.00
+90,000.00
+National currency
+Climate-specific
+Mitigation Adaptation
+Cross-
+cutting
+Other
+Total climate specific by financial
+instrument (EUR)
+Grant
+Concessional loan
+Non-concessional loan
+Equity
+159,265.20
+0
+0",1.0,explorer
+UNFCCC.party.1742.0,3f8ff76013588c0018222eb2fb97a31a__6c4842b5bda4b9bf86797a80be21c741ac6e9d390c8251a22f29bb7255445b0a,EQUITY_AND_JUSTICE,EQUITY,Equity,923,929,"Core/
+general
+0.00
+0.00
+20,000.0
+0
+European - EUR
+Climate-specific
+Mitigation
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Adaptatio
+n
+0.00 100,000
+0.00
+0.00
+0.00
+0.00
+Cross-
+cutting
+0.00
+0.00
+0.00
+0.00
+0.00
+100,000
+Year 2018
+ODA
+OOF
+Other
+Other
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Core/
+general
+Total climate specific by funding source
+(EUR)
+National currency
+Climate-specific
+Mitigation Adaptation
+Cross-
+cutting
+Other
+Total climate specific by financial
+instrument (EUR)
+Grant
+Concessional loan
+100,000 Non-concessional loan
+Equity
+100,000
+0
+0",1.0,explorer
+UNFCCC.party.1742.0,0069ad6bf3fadf37e384051862214140__8312be1b3dfd2944780823795469e519b35dce1bab76ef28e7d48a31a288ab77,EQUITY_AND_JUSTICE,EQUITY,Equity,816,822,"Core/
+general
+0.00
+0.00
+20,000.0
+0
+European - EUR
+Mitigation
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Climate-specific
+Adaptatio
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Cross-
+cutting
+100,000
+0.00
+0.00
+0.00
+0.00
+100,000
+Year 2019
+ODA
+OOF
+Other
+Other
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Core/
+general
+Total climate specific by funding source
+(EUR)
+100,000
+National currency
+Climate-specific
+Mitigation Adaptation
+Cross-
+cutting
+Equity
+Other
+Other
+Total climate specific by financial
+instrument (EUR)
+Grant
+Concessional loan
+Non-concessional loan
+100,000
+0
+0",1.0,explorer
+UNFCCC.party.1742.0,76e8a983bcd5018802d5fc68706ddf9b__8e2ab67ae24d17a25d3c03a4d01ec6f59707a84158a69871b53b148ab969914c,EQUITY_AND_JUSTICE,EQUITY,Equity,810,816,"Core/
+general
+0.00
+0.00
+20,000.0
+0
+Mitigation
+European - EUR
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Climate-specific
+Adaptatio
+n
+0.00 100,000
+0.00
+0.00
+0.00
+0.00
+0.00
+Cross-
+cutting
+0.00
+0.00
+0.00
+0.00
+100,000
+Year 2020
+ODA
+OOF
+Other
+Other
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+Core/
+general
+Total climate specific by funding source
+(EUR)
+National currency
+Climate-specific
+Mitigation Adaptation
+Cross-
+cutting
+Equity
+Other
+Other
+Total climate specific by financial
+instrument (EUR)
+Grant
+Concessional loan
+100,000 Non-concessional loan
+100,000
+0
+0",1.0,explorer
+UNFCCC.party.1742.0,13a7f637b71aa08b1d0975d94811c3e7__100b1efff38c5542e0fe90d38bf6e5ef141147c942d98c5d059010f110906462,EQUITY_AND_JUSTICE,EQUITY,equity,755,761,"2
+currency
+Euro
+Funding
+source:
+ODA.
+OOF,
+Other
+Disbursed Other
+Financial
+instrument:
+grant,
+concessional
+loan, non-
+Type of
+support:
+Mitigation,
+adaptation,
+concessional crosscutting,
+other.6
+loan, equity,
+others
+Grant
+Sector 7
+Channel Parent
+Category 4700
+and Chennel ID
+Crosscutting 41317 (DAC-CRS)",1.0,explorer
+UNFCCC.party.1742.0,b79f2bfedbf4905036a455933b713c91__76b66b51d556de1e508182f55bebb01eb5aa4f973dcf87226464424cfb6aa8d8,EQUITY_AND_JUSTICE,EQUITY,equity,786,792,"currency euro - EUR
+currency
+3
+€100,000 Euro
+Funding
+source:
+ODA,
+OOF,
+Other*
+Financial
+instrument:
+grant,
+concessional
+loan, non-
+Type of
+support:
+Mitigation,
+adaptation,
+concessional crosscutting.
+loan, equity,
+others.
+",1.0,explorer
+UNFCCC.party.1742.0,2f9a7d744631d211d5b141456090d7da__e60ea087a9445d33652979deac94ec4458a9c9b9fbfc8e5e8273702555055c33,EQUITY_AND_JUSTICE,EQUITY,equity,746,752,"currency euro - EUR currency
+2
+€100,000 Euro
+Funding
+source:
+ODA,
+OOF,
+Other*
+Financial
+instrument:
+grant,
+concessional
+loan, non-
+concessional crosscutting.
+loan, equity,
+other.6
+others
+Disbursed Other Grant
+Type of
+support:
+Mitigation,
+adaptation,
+Sectord.",1.0,explorer
+UNFCCC.party.1742.0,8fb9dc71457fdd971a5220177bd77b39__17a13fc170e3f9ba2e787a471e050f34d96924c986e129dabf208141d02ef59a,EQUITY_AND_JUSTICE,EQUITY,equity,455,461,"loan, equity,
+othera
+other5
+Grant
+ODA
+Crosscutting
+Sector?
+",1.0,explorer
+UNFCCC.party.1742.0,71aeb5ff74655b84c9a688a2e5ded437__7922f236af470c40d9a8ef90bac0e72d8f01865ac17fb967e3845c2f15750de1,EQUITY_AND_JUSTICE,EQUITY,equity,359,365,"loan, equity.
+",1.0,explorer
+UNFCCC.party.1742.0,6a322f2f875814d30272cd7f459090a8__c2d79ceafab89d9661b92f28a91e98277a7ed00c13541e5dafa57fc1480a0a70,EQUITY_AND_JUSTICE,EQUITY,equity,387,393,"concessional
+Type of
+support:
+Mitigation,
+adaptation,
+loan, non-
+concessional crosscutting.
+other
+loan, equity,
+others
+Sector?
+",1.0,explorer
+UNFCCC.party.1742.0,d35b527a3d842b2c6a21c97bd01324bd__5ba09120d729e56e4db145d7930e85087777b461bb429d9089dcdd178654afd8,EQUITY_AND_JUSTICE,EQUITY,equity,329,335,"Recipient country/region/project/programme
+Total contributions through bilateral, regional
+and other channels
+Total amount
+Climate-specific
+European
+euro-
+EUR
+0.00
+national
+currency
+euro-
+EUR
+Status:
+disbursed,
+committed'
+Financial
+instrument:
+Type of
+support:
+Mitigation,
+loan, non- adaptation,
+concessional crosscutting.
+loan, equity.
+other
+others
+Funding
+grant,
+source: concessional
+ODA,
+OOF,
+Other
+Sector
+Additional
+information",1.0,explorer
+UNFCCC.party.1742.0,ee59fd2c48815a56c7295ede02416d0f__f40305b181b5e19846ec9b53e7f3ec39946be32271c857da61f5d4781be83983,JUST_TRANSITION,LIVELIHOOD,livelihoods,111,122,"Through its staff CEER is also involved in outreach activities and training courses in the
+community that link livelihoods and sustainability issues including climate change with
+various sectors of the community including fisherfolk, farmers and youth.",1.0,explorer
+UNFCCC.party.1742.0,673fa048c6a437fd9aacf6aee67309e4__5cca0b4179e37cb85d8b1ee1f01f4d94f48a2e2fcea017e37ba5f8aa9eaa2423,EQUITY_AND_JUSTICE,JUSTICE,justice,570,577,There has been a significant increase in themes related to climate justice and social issues following the UN's launch of the SDGs.,1.0,explorer
+UNFCCC.party.1742.0,98ff7f06fc857f68fc53674fcbc978d1__74a03cd6504b4bdf6566d340869a0277e8662474b8a0c43170763d5f7355858a,EQUITY_AND_JUSTICE,JUSTICE,Justice,185,192,The theme adopted by the members of ENOC for 2022 was Climate Justice and the Impact of Climate Change on Children's Rights.,1.0,explorer

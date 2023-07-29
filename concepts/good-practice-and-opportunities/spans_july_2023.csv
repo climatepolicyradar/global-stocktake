@@ -1,0 +1,1259 @@
+document_id,text_block_text_hash,type,id,text,start_idx,end_idx,sentence,pred_probability,annotator
+UNFCCC.non-party.1740.0,fa0a7a563f6701dd4aa01d4c645f8b4a__52e0278fca7c9c58e6037a9216794780d0d8c54f343d624c4b05e8e29d2aef46,SUCCESS,SUCCESS,success,120,127,"In parallel, public and private leaders should fast-forward practical action on CDR together - very similar to the success story I experienced in relation to renewables.",1.0,explorer
+UNFCCC.non-party.1740.0,bc635bd44cdd6bc4d651866c12671a0a__466a48cef8b925439c95fe0ae6c4adf55502f46d93852c23363f07a7ebefc569,GOOD_PRACTICE,GOLD_STANDARD,gold standard,189,202,"Despite storage for millennia being the gold standard, there are practical barriers to assuring projects for this long.",1.0,explorer
+UNFCCC.non-party.1740.0,160c80e504e722dfd6176d8acf1cc6a1__f604f13f53bafede85d0c637699001ed9e695c4395626c8f572406cf90290910,OPPORTUNITY,SOLUTION,solutions,442,451,"This categorisation is contested, however, and blurred (a third ""hybrid"" category is frequently employed to cover methods in between)²¹. Methods which protect, restore or manage ecosystems while delivering other benefits are termed ""nature-based solutions"" by some"", while methods which involve a variety of biomass uses coupled to durable storage have been called ""biomass carbon removal and storage (BICRS)*",1.0,explorer
+UNFCCC.non-party.1740.0,c1c9c8f35d649e35458c91564531daa1__dbf1e79217fe97a3976bf1e48d8f272df522e53b5286f7a21f63d66535ad6918,OPPORTUNITY,SOLUTION,solution,216,224,Wood buildings as a climate solution.,1.0,explorer
+UNFCCC.non-party.1740.0,f32d0dc813356d26a2332dfcde091db6__3b443167cb2abf56c05d2730c6d1a20ff7e28a7986613a88afe06300c698fe3a,OPPORTUNITY,PROMISING,promising,770,779,"In Phase Two, an additional £58 million ($65 million) will be awarded to pilot the 15 most promising designs (ending March 2025)"".",1.0,explorer
+UNFCCC.non-party.1740.0,4f3abb0c2594fb7c0599cb30bdad9b45__c800015291919274fbda5078e7b9c5e346d646567272195036686c98c8d0c116,CASE_STUDY,CASE_STUDY,case studies,5,17,"Four case studies (European Union, United Kingdom, United States and Brazil) show tangible progress and policymaking dedicated to CDR.",1.0,explorer
+UNFCCC.non-party.1740.0,7c2857b206b444da47529a5ba9cbc250__ea856559dc8e1b6ea0164f48827cb538bb2e388ea86c51963dbbfd9833efd67e,CASE_STUDY,CASE_STUDY,case studies,88,100,• Understanding the conditions that influence upscaling of CDR will continue to require case studies that take into account countries' respective political contexts.,1.0,explorer
+UNFCCC.non-party.1740.0,c02e7dd5227e92c4e167b1c7a009322f__be38f0082e62e5dadb7b499f474b9ca998378f8b97e613264d08a502e62be6c0,CASE_STUDY,CASE_STUDY,case studies,466,478,"This exists in various forms, such as setting explicit targets; modelling scale-up of CDR in national mitigation pathways; increasing Research, Development and Demonstration funding for CDR (see Chapter 3 - Innovation); or implementing CDR-specific incentives and policies ¹56, 157 Comparative case studies have identified different types of CDR policymaking ¹57.",1.0,explorer
+UNFCCC.non-party.1740.0,c02e7dd5227e92c4e167b1c7a009322f__be38f0082e62e5dadb7b499f474b9ca998378f8b97e613264d08a502e62be6c0,CASE_STUDY,CASE_STUDY,case studies,611,623,"Here, we provide snapshots of CDR policy in practice via four illustrative case studies.",1.0,explorer
+UNFCCC.non-party.1740.0,c02e7dd5227e92c4e167b1c7a009322f__be38f0082e62e5dadb7b499f474b9ca998378f8b97e613264d08a502e62be6c0,CASE_STUDY,CASE_STUDY,case studies,1126,1138,"While all four have recently enhanced dedicated CDR regulation, these case studies reveal important similarities and considerable differences in the way CDR is regulated, which are not apparent in the reporting practices under the UNFCCC.",1.0,explorer
+UNFCCC.non-party.1740.0,3d0a1569e70763ea27c5045e34004cde__865ba4935547df3d41e7629fdd1bde99c2f3742709cacedb65d084181bc17f31,CASE_STUDY,CASE_STUDY,case studies,11,23,Summary of case studies,1.0,explorer
+UNFCCC.non-party.1740.0,d260c3b03c48bf86998c465cfefd9969__72a4b0c89dc1b7d93ae7ad9f6b9cadbeab588303664322b94291e0e82e2c8730,OPPORTUNITY,PROMISING,promising,314,323,"• Brazil illustrates a development that is relevant in all four cases but is particularly visible here: CDR policy is shaped by aspects that go beyond climate policy, and a multiplicity of possible justifications for CDR policy exist (e.g. managing interests of important economic sectors like agriculture through promising additional revenue streams).",1.0,explorer
+UNFCCC.non-party.1740.0,08d78860d13173465b14ad5f12d5f3d7__d76e10bf17a8f7f1ff3c9196f81942f3157391da3f8542078391633e82e09ea6,CASE_STUDY,CASE_STUDY,case study,14,24,• None of the case study countries gives any indication of planning for achieving net-negative emissions.,1.0,explorer
+UNFCCC.non-party.1740.0,1e6a7ba32569668092d196b49a4748cf__1657d6b4784a9201a0e2e3420289c95c6f91c1e54845f125435f9e590b547584,CASE_STUDY,CASE_STUDY,case studies,82,94,Policy approaches and integration patterns also vary from method to method in the case studies.,1.0,explorer
+UNFCCC.non-party.1740.0,26366d9082e8af85822a715bccd7da75__543922e41fe5a23176cfaffe0834ead6ee41beae25184d496effced1b14caf33,CASE_STUDY,CASE_STUDY,case studies,20,32,"Looking closer into case studies and identifying commonalities and differences in governance and policymaking practices will continue to be crucial to understanding the various enabling and constraining conditions that influence upscaling of CDR, including shared physical infrastructure (e.g. for CO₂ transport and storage).",1.0,explorer
+UNFCCC.non-party.1740.0,26366d9082e8af85822a715bccd7da75__543922e41fe5a23176cfaffe0834ead6ee41beae25184d496effced1b14caf33,CASE_STUDY,CASE_STUDY,case studies,764,776,Capturing realworld dynamics will therefore continue to require case studies that take into account the respective political contexts in which the enhancement of CDR emerges as a sub-domain of climate policy.,1.0,explorer
+UNFCCC.non-party.1740.0,07b4d59c11a06cb1de30d248d3f023cc__f68c956124605fe0e939befc7f0e1136e928524ec3c6829d83a3acf710eaa93a,GOOD_PRACTICE,BEST_PRACTICE,best practices,513,527,"While limited institutional capacity may hamper achievement of this goal, this platform co-led by the US, Saudi Arabia and Canada may contribute to enhanced governance and policymaking through facilitating exchange of best practices and mutual learning on technology development and MRV frameworks for novel CDR methods.",1.0,explorer
+UNFCCC.non-party.1740.0,f1cc4eb8d9352337e7ced7c6d21c5497__f4e437ea8b49def8ce667c90aef0261e92c8036df693b3cf3aebb8677b8c1280,SUCCESS,SUCCESSFUL,successful,596,606,"A comparison of current and proposed CDR with these scenarios would suggest that the overall CDR gap is manageable, so long as efforts to expand current conventional CDR on land to meet these levels are successful.",1.0,explorer
+UNFCCC.non-party.1740.0,c5b3529bfc8d1406349cf11367727bc4__133a4dcc4d0837905c4c656e7eab5fc626b1e86f35a88efffdd4dee8efc0b2a6,OPPORTUNITY,OPPORTUNITY,opportunities,282,295,"As such, it is critical to redouble mitigation efforts but also to explore opportunities for integrated, cross-sector policies that can support both emission reductions and CDR upscaling.",1.0,explorer
+UNFCCC.non-party.1740.0,88065bef3e800dae1206f464a307d774__0c417ad037a8e8f5cde5739ff17a42b0fafeab6616a95277d7a6aa13ab2f788d,OPPORTUNITY,OPPORTUNITY,opportunities,515,528,"There are, however, gaps to close, further areas to analyse, and opportunities to improve beyond this first step.",1.0,explorer
+UNFCCC.non-party.1740.0,88065bef3e800dae1206f464a307d774__0c417ad037a8e8f5cde5739ff17a42b0fafeab6616a95277d7a6aa13ab2f788d,SUCCESS,SUCCESSFUL,successful,423,433,"We, the scientific convenors of this report, believe that such an assessment has an important role to play, informing and aiding the efforts of those who seek to develop CDR as part of successful climate action.",1.0,explorer
+UNFCCC.non-party.1740.0,d6becc842a5f7891abf53b0a878bf07d__e999d27cbb83292ffcb11844f6c601a231f1ecc6301da3c768837a3a54759d96,OPPORTUNITY,OPPORTUNITY,opportunities,404,417,Specific opportunities for expanding the community include:,1.0,explorer
+UNFCCC.non-party.1740.0,4738b658df378df15a1152ecb9048145__4885240abf4ffc5c2c974b2f0b163e02317f079cad44a4fcb701f9e212d494dc,CASE_STUDY,CASE_STUDY,case studies,204,216,"It may also include case studies of other countries, for instance high-income economies with different emissions profiles (such as Australia, Finland, Iceland, New Zealand, Sweden and Switzerland), emerging economies with growing emissions (such as China, India, and Indonesia) and low-income countries with low emissions levels but high CDR potential.",1.0,explorer
+UNFCCC.non-party.1740.0,39450b7222f2c66a2a50389c3512afc6__fec13462a80511015fd382b957a3bed6087d05e1ba6a1ef03558cc479529c6bd,CASE_STUDY,CASE_STUDY,case studies,80,92,"• Tracking policy developments more thoroughly in several ways, such as through case studies of states and cities developing CDR policies, analysis of interactions between government action and the private sector (including voluntary markets and advance purchase agreements), analysis of developments in the UNFCCC, evaluation of multilateral agreements and cooperation platforms (such as the Bonn Challenge, the 4p1000 Initiative and Mission Innovation on CDR), and analysis of developments to monitor, report and verify CDR activities.",1.0,explorer
+UNFCCC.non-party.1740.0,e21029c7243a8c6b5bd4e46b0fc9e971__51b8e4709e8d4465fb1e11bfaa076d0cd19127fd4fb70d83783838380ecb7f49,OPPORTUNITY,SOLUTION,solutions,42,51,"Bellamy, R. & Osaka, S. Unnatural climate solutions?",1.0,explorer
+UNFCCC.non-party.1740.0,ed6fe06fbd31f7b864fdf9be64b02289__2b5a3eb9fd63bed35507faf7c98e2be60c95c7297dc6a4e4d3b0c77d33bbe804,OPPORTUNITY,SOLUTION,solution,28,36,Carbon Storage as a climate solution.,1.0,explorer
+UNFCCC.non-party.1740.0,02482b2f4bcd3b61311d5a883f00a578__1f8a2aff039b50e4d2e559c871ba630e3b2ab16e6cc399a200a7586107976f81,CASE_STUDY,CASE_STUDY,case study,4833,4843,"de Mello Brandão Vinholis, M. Macchione Saes, M. S. Carrer, M. J. & Meirelles de Souza Filho, H. The effect of meso-institutions
+on adoption of sustainable agricultural technology: A case study of the Brazilian Low Carbon Agriculture Plan.",1.0,explorer
+UNFCCC.non-party.1740.0,3355cc3a3c874cf7810ddc4d78df2ffa__2449800c929877ff82e6eaba1378d2f91c54ba897b15a4919a1c185aa65b0b11,GOOD_PRACTICE,GOLD_STANDARD,Gold Standard,837,850,Gold Standard.,1.0,explorer
+UNFCCC.non-party.1740.0,b92a467c0b5b9723c9ebe8ae5453ebde__1147e5dec0c1a0514d98b0bce049784c3566919ce7b84512c232ad57007b49a1,OPPORTUNITY,OPPORTUNITY,opportunities,442,455,"International Boreal Forest Research Association (IBFRA) 2021-11 Sustainable boreal forest management -challenges
+and opportunities for climate change mitigation.",1.0,explorer
+UNFCCC.non-party.1740.0,b92a467c0b5b9723c9ebe8ae5453ebde__1147e5dec0c1a0514d98b0bce049784c3566919ce7b84512c232ad57007b49a1,OPPORTUNITY,OPPORTUNITY,opportunities,644,657,"https://www.skogsstyrelsen.se/globalassets/om-oss/rapporter/rapport-
+er-2021202020192018/rapport-2021-11-sustainable-boreal-forest-management-challenges-and-opportunities-for-cli-
+mate-change-mitigation-002.pdf (2021).
+",1.0,explorer
+UNFCCC.party.1736.0,7b11382d5ac4fc06b481091d9bbe0279__408b3052b00059fe561e1f784ef8dec4da1aec14e2d641b9bb32d5045a6f7d91,GOOD_PRACTICE,BEST_PRACTICE,best practices,13,27,"In line with best practices in development cooperation and OECD-DAC guidelines, Iceland's development cooperation in bilateral partner countries is based on close cooperation with local communities and their needs and is based on detailed needs assessment.",1.0,explorer
+UNFCCC.party.1736.0,394752e756de070a3d497445860d3b17__ba3043a5433cbc953a8da7c74ce11566b3c5655a82f6a62cfc2bdbed122ae7a8,GOOD_PRACTICE,GOOD_PRACTICE,good practice,250,263,"Emission factors are taken mainly from the 2006 IPCC Guidelines for National Greenhouse Gas Inventories, the 2013 Supplement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories: Wetlands and the 2013 Revised supplementary methods and good practice guidance arising from the Kyoto Protocol.",1.0,explorer
+UNFCCC.party.1736.0,7ddcdbb212b19b6b7eca9041db6c0123__14a35b8bc2cefcd752a5b49a74ad6ca39525b17ac41f629d69739bed41cdc214,OPPORTUNITY,SOLUTION,solution,163,171,"The Hub is an online solution, and forms part of its Air Quality and Climate Change Data Portal.",1.0,explorer
+UNFCCC.party.1736.0,4191166f7e1d74f4e164cb52907f82df__ec0442146f6a475e2efc0a09e59155413fd86820e50237fc6437b487942d73ab,SUCCESS,SUCCESSFUL,successful,880,890,"However, little funding followed the plan, and its implementation was not entirely successful.",1.0,explorer
+UNFCCC.party.1736.0,5a75035fbf1258df636250fdf07bb4bd__266e28e66208e2d4c6e13e7b32419168e2c5c51d1e41dd45320f10b7cea67913,OPPORTUNITY,OPPORTUNITY,opportunities,250,263,"The Icelandic fishing sector has already achieved significant results in reducing emissions in recent years, but there are still many opportunities for improvement.",1.0,explorer
+UNFCCC.party.1736.0,5a75035fbf1258df636250fdf07bb4bd__266e28e66208e2d4c6e13e7b32419168e2c5c51d1e41dd45320f10b7cea67913,OPPORTUNITY,OPPORTUNITY,opportunities,310,323,It is crucial to seize those opportunities in order for Iceland to reach its climate targets.,1.0,explorer
+UNFCCC.party.1736.0,d21f826fbe38b50e7fcfd329fde58f89__10efc6da56db6d70e76b8eb4013d73e4313065b86c400bf0b8f5df296559f3be,OPPORTUNITY,OPPORTUNITY,opportunity,37,48,Tourism companies will also have the opportunity to apply for grants as there are many possibilities for electrification in that sector.,1.0,explorer
+UNFCCC.party.1736.0,c5cfd2d508244270c89b41eac190224e__367946d942966263f87f19515caee2dec22cf27d3e3f3e4d1b1f959c314c6426,OPPORTUNITY,SOLUTION,solutions,278,287,As well as reducing emissions through re-injecting CO₂ into the basaltic rock HS Orka has been exploring various other solutions and the possibilities to capture CO₂ and use it for producing fuel or in other types of industrial production.,1.0,explorer
+UNFCCC.party.1736.0,fc4893a6bfa476d8fd9f302c9487f5da__2ecd15fe3ae7e81333b3e382179fe5b01801eaf85392b000e28dd4d96afb4209,OPPORTUNITY,OPPORTUNITY,opportunities,15,28,"There are many opportunities for energy transition from fossil fuel to renewable fuel in different sectors of manufacturing industries, such as food production and industries linked to fisheries.",1.0,explorer
+UNFCCC.party.1736.0,b58c38780d39a808680758069e860a3a__a7bd5fb5a4e1d8daaa2d0849de74dc92b234fe07fc6f633b8704adc426dbd63b,OPPORTUNITY,SOLUTION,solutions,792,801,"A taxation on F-gases can have a significant impact in a short span of time because more sustainable solutions are already available and it is fairly simple to phase out F-gases, technologically.",1.0,explorer
+UNFCCC.party.1736.0,5f9d25b242d28e0d98959734da6c2d4f__52b6d458edff85e8a148a5754501a6fc13caa9902622d2b7658f9e0120677a76,SUCCESS,SUCCESSFUL,successful,1284,1294,"If this experiment will be successful, other municipalities
+may follow suit.
+",1.0,explorer
+UNFCCC.party.1736.0,5f9d25b242d28e0d98959734da6c2d4f__52b6d458edff85e8a148a5754501a6fc13caa9902622d2b7658f9e0120677a76,OPPORTUNITY,OPPORTUNITY,opportunities,1538,1551,"The results
+showed that there are opportunities in increased wastewater treatment and the use of sludge
+for land reclamation and restoration.
+",1.0,explorer
+UNFCCC.party.1736.0,205d927100fdfbef1c171cff70f88a90__46d80a1c7416204c1c9c3e46760f15fd0529bad8d2bd068d7d51fccb99f0fa86,OPPORTUNITY,SOLUTION,solutions,201,210,"Furthermore, it increases demand for climate friendly solutions, such as sustainable taxis and rental cars and effective transport contracts.",1.0,explorer
+UNFCCC.party.1736.0,a3f7995fc5e63b3fe9b3813835573326__afa1faf15f6c6846b5a45f760ad2a0106692969893cfd12b4483fb2eb1c6cbb1,OPPORTUNITY,OPPORTUNITY,opportunities,367,380,"The government procures goods and services for 117 billion ISK every year, which allows for many opportunities to form a clear environmental policy regarding procurement.",1.0,explorer
+UNFCCC.party.1736.0,193c92117539bcc0b89b7014fc601919__b7c50e58ed6e37adcfcfea0c9020911ca2f8bc1fcec629640cfc0801b7cecb19,OPPORTUNITY,SOLUTION,solutions,26,35,• Use digital procurement solutions and information technology systematically for data analysis and joint procurement.,1.0,explorer
+UNFCCC.party.1736.0,f60c82a889f8aa1f8622dc32aa67aa42__34873601653f093403cf3435e0e18fbfb9f7008f8939ddf394e1a949be79f111,OPPORTUNITY,OPPORTUNITY,opportunity,1415,1426,The program provides their graduating fellows with the opportunity to enter MSc and PhD programmes with Icelandic universities.,1.0,explorer
+UNFCCC.party.1736.0,e03b7d76f0dca6eb2fadfc55232bdaaa__da475de30a33538ea7f6617c57fcd87cc154440724d2889dd5d21896820b3a96,GOOD_PRACTICE,BEST_PRACTICE,best practices,756,770,"The aluminium smelters in Iceland are currently operating using the best available technology, following the best practices set out in the Directive 2006/21/EC (BAT Directive).",1.0,explorer
+UNFCCC.party.1736.0,a57463109318bf7a1ae5ef079818ed4e__8aac8d1242376fc55a1acdf95e015b7dec507f288f8ad10eefab6ef5fbe03982,SUCCESS,SUCCESS,success,942,949,"The magnitude of these changes will, however, be no less dependent on the success of future fisheries management aiming at long term sustainable level for all commercial species.",1.0,explorer
+UNFCCC.party.1736.0,52729e93d4228dd0c40b4ca0b910c4b6__4e191a6dd92590d62e477cae56e7ae46e39e77e04b8d12344394fb1f2612de04,SUCCESS,SUCCESSFUL,successful,12,22,"The rate of successful introduction (intended and unintended) of arthropod species in Iceland has
+increased with warming climate and among them are several pest species on trees and shrubs.",1.0,explorer
+UNFCCC.party.1736.0,974c0d8a3535851b33cdb265caf89760__e2f30c5496c21cb0f9f797751977d69b196fc9a053a93c5f64fa0cfde6fa6090,SUCCESS,SUCCESS,success,902,909,"Breeding success of the Ptarmigan, an important game species in Iceland, has been shown to be closely related to precipitation and wind,1More extreme weather could therefore affect the species.",1.0,explorer
+UNFCCC.party.1736.0,bb7a75c171dd72358add586e80eeedb3__7ec27c406265a6ddd80c3f16fc32015659beb4ca4360c40f57fdfb64456d7292,GOOD_PRACTICE,BEST_PRACTICE,best practices,29,43,Iceland endeavours to follow best practices in international development cooperation and important efforts to that end have been made in recent years.,1.0,explorer
+UNFCCC.party.1736.0,da27bc7adbc11771e00c759bd4eadb2b__2000c60840c96a5cf112ca94ba8aa29be67fe9ca3a757ec36464db18dd31fbbf,OPPORTUNITY,OPPORTUNITY,opportunities,790,803,e) Sustainable economic growth and decent work opportunities for all (pursuant to SDG no. 8).,1.0,explorer
+UNFCCC.party.1736.0,7b11382d5ac4fc06b481091d9bbe0279__408b3052b00059fe561e1f784ef8dec4da1aec14e2d641b9bb32d5045a6f7d91,GOOD_PRACTICE,BEST_PRACTICE,best practices,13,27,"In line with best practices in development cooperation and OECD-DAC guidelines, Iceland's development cooperation in bilateral partner countries is based on close cooperation with local communities and their needs and is based on detailed needs assessment.",1.0,explorer
+UNFCCC.party.1736.0,f45f416488562e3dbfb4c9fab3ad8383__28f53b0fea85aa3eac6cbe3de55667c696e59f2f8835582ed7c8dc4d88b541dc,OPPORTUNITY,SOLUTION,solutions,198,207,"ESMAP is a renewable energy program within the World Bank which assists low and middle-income countries to increase know-how and institutional capacity to achieve environmentally sustainable energy solutions for low carbon development, poverty reduction and economic growth.",1.0,explorer
+UNFCCC.party.1736.0,eb523b8d22cc99085d1e75f1ff89314f__c82e6d1653836d41bd02da59bb0fd13688a291446fef191d4b36d544c458d95e,SUCCESS,SUCCESSFUL,successful,457,467,"The campaign - which over a period of two weeks encourages the public to leave their car at home and bike, walk or use public transport to work-has been widespread and successful, with good participation from the public.",1.0,explorer
+UNFCCC.party.1736.0,dd888c89e0ce3eebfddd7fd4a51d2d46__71e57aa421af9b50aed8bcd8647b3354be900a8829919d8bf1f18415737397ef,SUCCESS,SUCCESSFUL,successful,42,52,"The Eco-School project has proven to be a successful method, not only for increasing environmental awareness at schools but also in the homes of the children as they bring forward their knowledge on environmental issues and climate change to their parents and other family members.",1.0,explorer
+UNFCCC.party.1736.0,7e7d4ad1b0bc036814d0961dcf17e56f__3d254e177159c1ea2173e45a9a66171306cae088111642b22409abd2f0555e33,OPPORTUNITY,OPPORTUNITY,opportunity,394,405,"Information officers working for the Ministry of the Environment, Energy and Climate and its institutions have a direct and personal contact to key players within the mass media which gives them unique opportunity to present information through the largest TV and radio channels as well as the mainstream newspapers.",1.0,explorer
+UNFCCC.party.1736.0,c90b1c74c2844fe0b22145ced2d15d4b__2b770a3dbdd0e1feebd50e5977b0f456d074cc1db20a0e7ab0258b2eed8413e7,OPPORTUNITY,OPPORTUNITY,opportunity,441,452,"The programme consists of six months
+annual training for practicing professionals from developing and transitional countries with significant
+geothermal potential, as well as an opportunity for outstanding fellows to pursue MSc and/or PhD degrees
+through cooperation with the University of Iceland and Reykjavik University.",1.0,explorer
+UNFCCC.party.1736.0,7047620dfcfcc663fe2369e05fcb98ac__b085dca3d2e555bc52b28a59b8f104d096f43a9464b158cd60088f2616f2e0c3,GOOD_PRACTICE,BEST_PRACTICE,best practice,485,498,Information and best practice are also shared between member countries.,1.0,explorer
+UNFCCC.party.1736.0,95857923ae4465bc119e14e6d1e46b07__3b0b95d1e338cabca3ecc4fd303ad6dc91532c36df954979553f24ac090a5c58,GOOD_PRACTICE,BEST_PRACTICE,best practices,29,43,Iceland endeavours to follow best practices in international development cooperation and important efforts to that end have been made in recent years.,1.0,explorer
+UNFCCC.party.1734.0,801dd6d9217ef8640de7d7a7974af99d__8468fe29b679497b1d86e0ba9b561229964d0a501ddbc28a92f256387716c394,OPPORTUNITY,OPPORTUNITY,opportunities,11,24,as explore opportunities for accessing technological and,1.0,explorer
+UNFCCC.party.1734.0,50c299ae3d33c644bf140a98f80264c5__8ad2dbbc35b43b56b3b739eded29a17740a9e4bf864ad4255fb228191b15aea1,OPPORTUNITY,SOLUTION,solutions,36,45,aptation and providing nature-based solutions.,1.0,explorer
+UNFCCC.party.1734.0,b7f593a18bd1b45beb7147e07481ad55__fdbddee1cb53ad2fac02db518cf9c953d5d4b0f2fe6dedd0257b5fbb762dc9d0,OPPORTUNITY,OPPORTUNITY,opportunity,8,19,cellent opportunity to integrate adaptation into medium,1.0,explorer
+UNFCCC.party.1734.0,fa26fc76ec9b3547098086211b3e71ef__bbe752cc90241b1b2f1363d793c12f249e2d874efdf92334eb3ce4cbd024bdf3,OPPORTUNITY,OPPORTUNITY,opportunities,47,60,"processes, have little access to resources and opportunities",1.0,explorer
+UNFCCC.party.1734.0,9ef598182a1c46a13740e2ffb6c448f5__f7afbf1445d6ff42749ab587209b1392f2a405c91f0bf57583652f88a156f53f,OPPORTUNITY,OPPORTUNITY,opportunity,0,11,opportunity to diversify the mix of forms of energy used,1.0,explorer
+UNFCCC.party.1734.0,07695bbc09a13621714114aac4fe8e5b__ad117af17affd967b1002e4ab41b8e4a22d0f76d618e4d4843dcf419a62d39f9,OPPORTUNITY,OPPORTUNITY,opportunities,31,44,agement tools and market-based opportunities; and (iii) to,1.0,explorer
+UNFCCC.party.1734.0,64246b8d5fe25e809b800077002a9d7c__ca14ebf617062d6f0a9ee0c4df5fde7ae93340068493f7a6bdc9b6f442c451b0,OPPORTUNITY,OPPORTUNITY,Opportunities,247,260,"Tab
+Strengths
+Existence of:
+Planning instruments that already integrate
+the medium and long-term impacts of CM
+Institutional framework for CM
+Concrete adaptation actions
+MC seen as a priority in the PQG and
+integrated into the State Budget module
+Opportunities
+Creation of education and awareness programs
+Existence of the legal framework and political
+commitment
+Experience in dealing with extreme events
+Existence of various cooperation partners and
+CCA programs
+Weaknesses
+Lack of studies on climate and means of data
+collection
+Poor knowledge and technical skills about CCA
+Poor quality of adaptation actions
+Low integration of the most vulnerable groups in
+the decision regarding CCA
+Threats
+Scarce financial resources
+Cultural diversity that threatens communication
+(e.g. variety of languages)
+Poverty
+Multiple vulnerabilities (HIV-AIDS, low level of
+education, crime, poverty, among others)
+Corruption",1.0,explorer
+UNFCCC.party.1734.0,3df029ab188a1cdd855e6a6b8aaeec54__c802f339527c3882a0e2660d5c8d8badf379214b8afe09acb4cf34a8b7c60da9,OPPORTUNITY,OPPORTUNITY,opportunities,43,56,al and human capacity as well as exploring opportunities,1.0,explorer
+UNFCCC.party.1734.0,91f3eb483385f727e3b752d08d815efc__00697f0197283fd2924472825c940d3365cf6455145fc3ce55a867abd9a27495,OPPORTUNITY,OPPORTUNITY,opportunities,10,23,implement opportunities to reduce Green House,1.0,explorer
+UNFCCC.party.1734.0,281b59e7cb10d45022600fcf9f3ddeb0__3ec918c4a759c441bd69db2330b617b3b098963c9831a62a8bd27ff6a8a8db7b,OPPORTUNITY,OPPORTUNITY,opportunities,22,35,"take advantage of the opportunities that the country has,",1.0,explorer
+UNFCCC.party.1734.0,6f5d66947d0746a91506c067ad6017c2__996152492d9a32de8170052872da825c41f61fc57fa7d6d6eb29481c863fc24a,OPPORTUNITY,OPPORTUNITY,opportunities,25,38,"3. Equality - of rights, opportunities and challenges be-",1.0,explorer
+UNFCCC.party.1734.0,16d2a2474f69558bd5782c198866df9e__1956725d0b822f54dfc20fd6e78fed18c11af469b0c2849c63a512b54cbcfb62,OPPORTUNITY,PIONEER,pioneering,11,21,"ership and pioneering spirit at the expense of a reactive
+attitude;",1.0,explorer
+UNFCCC.party.1734.0,a41984aec3fb2ca6994f95ba308667d8__742fbec36467caf0598e792667812838ed0496f24ef3eeef3ccc09e1428d8ec1,SUCCESS,SUCCESSFUL,successful,2,12,A successful NAP is one that creates the conditions to,1.0,explorer
+UNFCCC.party.1734.0,e3b3616019dbfea8fdf02acee11d9b80__8f411e2ba516546a4d94d7b94ff1066c4eccee595abdf6d7fab51f6904424d09,OPPORTUNITY,OPPORTUNITY,opportunity,46,57,"can provide food, water, shelter and economic opportunity",1.0,explorer
+UNFCCC.party.1734.0,cbe02896cdd938572dd12ab85029dc3a__32bc66d28f8228a0966490e146024dc83e59416569245fc57e90a3469ddb7d55,GOOD_PRACTICE,BEST_PRACTICE,best practices,1943,1957,"Furthermore, it recognizes that
+agriculture, as it is influenced by climate, can increase the probability of risk in
+production
+It established as priorities in relation to measures to adapt to CC the following:
+(i) to Strengthen the early warning system for agriculture; (ii) to Develop farmers'
+capacities to deal with CC; (iii) to Reduce the impacts of CC in coastal areas; (iv) to
+Manage water resources under CC conditions
+The strategy is aimed at aligning Mozambique with internationally accepted
+best practices for efficient energy use, raising citizens' awareness of good
+environmental practices, diversifying the energy supply matrix, with particular
+emphasis on new and renewable sources of energy and the opportunities created
+by the Clean Development Mechanism (CDM), under the Kyoto Protocol (FP)
+EDENR is structured in two main lines of action: the Off-Net Strategy (EDENR-
+FR) and the On-Net Strategy (EDENR-ER).",1.0,explorer
+UNFCCC.party.1734.0,cbe02896cdd938572dd12ab85029dc3a__32bc66d28f8228a0966490e146024dc83e59416569245fc57e90a3469ddb7d55,OPPORTUNITY,OPPORTUNITY,opportunities,2156,2169,"Furthermore, it recognizes that
+agriculture, as it is influenced by climate, can increase the probability of risk in
+production
+It established as priorities in relation to measures to adapt to CC the following:
+(i) to Strengthen the early warning system for agriculture; (ii) to Develop farmers'
+capacities to deal with CC; (iii) to Reduce the impacts of CC in coastal areas; (iv) to
+Manage water resources under CC conditions
+The strategy is aimed at aligning Mozambique with internationally accepted
+best practices for efficient energy use, raising citizens' awareness of good
+environmental practices, diversifying the energy supply matrix, with particular
+emphasis on new and renewable sources of energy and the opportunities created
+by the Clean Development Mechanism (CDM), under the Kyoto Protocol (FP)
+EDENR is structured in two main lines of action: the Off-Net Strategy (EDENR-
+FR) and the On-Net Strategy (EDENR-ER).",1.0,explorer
+UNFCCC.party.1734.0,5d21c8b83b0fddc40fd90302288a6aac__754c9b88874b1e4dcba4ea11884010c87df5bfce53ffb691afe6f071dccb878c,OPPORTUNITY,OPPORTUNITY,opportunity,850,861,"This
+strategy provides an opportunity to align and harmonize policies, strategies
+and sectoral plans, promoting the ownership and integration of climate change
+and mobilizing funds to carry out activities that result in greater agricultural
+productivity, greater efficiency in the use of energy, restoration of degraded areas
+and the management, protection and sustainable use of forests.",1.0,explorer
+UNFCCC.party.1734.0,ee13576090cee1ff71ff8914ac984a00__7d4e1240979da0362a14863dddc48dbd04964006b17885e4ec6cbba8082446d2,GOOD_PRACTICE,GOOD_PRACTICE,good practices,882,896,"Private Sector
+Civil society
+Media
+Community-Based
+Organizations
+Academy and Research
+Institutes
+Development partners
+and climate finance
+Project implementation and fundraising
+Support to the Government in the implementation of activities on
+cross-cutting issues
+Technical support for the design and implementation of sectoral
+policies and measures
+It can be an example by integrating climate change risks into
+business plans with a view to creating greater resilience and
+security for investments
+Sector leadership role in introducing and disseminating best
+practices
+Implementation of adaptation and mitigation activities at the
+community level
+Community empowerment
+Mobilization of funds for project implementation
+Monitoring NAP implementation as an independent observer
+Divulgação de informação sobre boas práticas de redução
+de vulnerabilidade
+Dissemination of information on good practices to reduce
+vulnerability
+Translation of articles on adaptation into common language
+Transmission of local and ancestral knowledge about observations
+of climatic phenomena, mechanisms of adaptation to extreme
+climatic events
+Integration of ancestral knowledge and cutting-edge technology
+with low cost and maintenance to increase resilience
+Facilitation of the interaction between scientific knowledge and
+local knowledge
+Support and cooperation in the implementation of programs and
+projects
+Proposal and support for the implementation of adaptation
+measures
+Development and inclusion of adaptation in education curricula
+Development of research programs and systematic observation,
+including standardization of methods and data quality
+Systematization and documentation of scientific, technical and
+local knowledge about climate change
+Provide resources for government, NGOs and CSOs in Mozambique
+to carry out development activities
+Alignment of technical and financial interventions with the
+adaptation measures and actions defined in the NAP so that all
+stakeholders work towards a common objective",1.0,explorer
+UNFCCC.party.1734.0,ca373a4da9a97c925f3b9dd0e5ac3e23__9aebf22c44c98dfbf41b7fbdcebf076dcab6a7872ac3161335464e0cb7e46907,OPPORTUNITY,SOLUTION,solutions,10,19,reduction solutions in the local knowledge;,1.0,explorer
+UNFCCC.party.1734.0,46d62f8d44be1c77b4d1ac9711633c4d__51ef7ba9cf63b276d7531e2403b070694222559cb70d903930542aba85883e36,OPPORTUNITY,OPPORTUNITY,opportunity,9,20,have the opportunity to benefit from the implementation,1.0,explorer
+UNFCCC.party.1734.0,d5acfd3ce694c7849eacf77e6d01b2d3__bcb359987ddebd51155142b981556c158d9ffea77fa0bd239aa7b46fb96dcd7e,OPPORTUNITY,OPPORTUNITY,opportunities,36,49,"to EWS information, decision-making opportunities, and",1.0,explorer
+UNFCCC.party.1734.0,37141a2abc3f4cd8d3764116c9de32f1__6783927317d191541cd5112b6d72c2c5237a1b8546f72d165ebd889cce53491f,OPPORTUNITY,SOLUTION,solutions,25,34,identified and potential solutions identified.,1.0,explorer
+UNFCCC.party.1734.0,169e36e0601da0a2b9dd7325f5b16504__00fbb13afc61f76eb23bc1fbc181c9c33a17dd3f6069530fcb6b84a090256740,OPPORTUNITY,SOLUTION,solution,52,60,openings of new fields of cultivation) are the best solution,1.0,explorer
+UNFCCC.party.1734.0,3ce7dd61c19ddbeeecab79b9b69e2c76__fb7c200d9129656d9a2bf4acd1d55b7c32926d0a9dd8e92a04ecdd2d4e626e99,OPPORTUNITY,OPPORTUNITY,opportunity,35,46,Resilient agriculture serves as an opportunity to take a,1.0,explorer
+UNFCCC.party.1734.0,635a07b6a36beead8574ac8d51e66218__5c826b1201de1e9ce140e9add56d0934135ea0e9384ee869900b54bb5bb231fa,OPPORTUNITY,SOLUTION,solutions,15,24,and adaptation solutions;,1.0,explorer
+UNFCCC.party.1734.0,fd4cafc49b291702d6152b0cc1a44766__c7bfeb819938f44b17e530c32e7634b8b5f2ca9df3bf7f5fe4add8f0b8ac0af0,OPPORTUNITY,OPPORTUNITY,opportunities,0,13,opportunities in communities.,1.0,explorer
+UNFCCC.party.1734.0,38f4ef97ad3981e2a4be972ded0b1bc8__8f2bc02bcc3122babcbd210ca6ec637b680f4ceb9624cb20405a1c2ebaa6dd59,GOOD_PRACTICE,GOOD_PRACTICE,good practices,17,31,(ii Promotion of good practices among operators and,1.0,explorer
+UNFCCC.party.1734.0,43d3cd8eae3a8c38cbc23b5cf8d7be39__73c6d3a7307d011685f895058b8a493409d2a2a998fe63136bda112c877752d4,GOOD_PRACTICE,GOOD_PRACTICE,good practices,19,33,(iii) Promotion of good practices among operators,1.0,explorer
+UNFCCC.party.1734.0,bd38218aa9df3dbfeac50040ab0ce0da__7ec1cd992aefb8d1bb429789b68d5b379e9e2749e02714c76401b860861bbb53,SUCCESS,SUCCESS,success,18,25,essential for the success of this effort.,1.0,explorer
+UNFCCC.party.1745.0,af02cec4741a5cf4bb0838e7f2ef784f__e9ae0cbd33e4a0742577e8e157fdfa95399e52b442c24d5a5f699aab2ad32ca5,OPPORTUNITY,OPPORTUNITY,opportunities,347,360,The LT-LEDS proposes an economic transformation that leads to the creation of economic opportunities and green jobs though paid employment and entrepreneurship.,1.0,explorer
+UNFCCC.party.1745.0,af02cec4741a5cf4bb0838e7f2ef784f__e9ae0cbd33e4a0742577e8e157fdfa95399e52b442c24d5a5f699aab2ad32ca5,OPPORTUNITY,OPPORTUNITY,opportunities,686,699,"The LT-LEDS acknowledges the principles of just transition to a decarbonized, resilient economy and proposes measures to ensure a more inclusive labor market through establishing a Women and Youth in Green Jobs Program that addresses barriers to accessing economic opportunities.",1.0,explorer
+UNFCCC.party.1745.0,af02cec4741a5cf4bb0838e7f2ef784f__e9ae0cbd33e4a0742577e8e157fdfa95399e52b442c24d5a5f699aab2ad32ca5,OPPORTUNITY,OPPORTUNITY,opportunities,204,217,"The LT-LEDS recognizes the role that women, youth, and vulnerable communities play in climate action, and in alignment with national sustainable development policies, LT-LEDS implementation will maximize opportunities for gender and social inclusion outcomes.",1.0,explorer
+UNFCCC.party.1745.0,af08a75ae7bfcd2761954e2082b261ee__e7cf7d985123641dd2a9cf55943c15dba52ea622d8a074767646b4dfd8076075,OPPORTUNITY,OPPORTUNITY,opportunities,417,430,"climate proofing, and modernizing key Ethiopian economic sectors while ensuring a just transition and the creation of economic and decent job opportunities.",1.0,explorer
+UNFCCC.party.1745.0,e57a9fe73fc4138b6a11aa67c4e2f9b3__82f909ed3fe39c3f733e9e01a9c96f4e9ad0082c5297652bc8cccdcdaf58b075,OPPORTUNITY,PIONEER,pioneering,302,312,"Given Ethiopia's position as a ""green champion"" and a ""green model"" country in Africa, building on the pioneering Climate Resilience Green Economy (CRGE) strategy developed in 2011 and the recent launch of the Green Legacy Initiative, an impactful and transformational LT-LEDS will further demonstrate Ethiopia's global leadership in climate action.",1.0,explorer
+UNFCCC.party.1745.0,3a69002fba7af3bace13d8cd355aa2ca__4d498bcaac3cbfff5d0ac6d3af052bdcc996ec6700bb8ebfac65c68caa3c00ed,OPPORTUNITY,OPPORTUNITY,opportunity,540,551,"The long-term planning horizon of the LT-LEDS provides an opportunity to consider interactions, synergies, and trade-offs between different sectoral goals, mitigation and",1.0,explorer
+UNFCCC.party.1745.0,02e68d059b23705b8bdc605ed4241e06__6a5d048bb3beccafb989834f843eb88e282a2f1a84fca802afd61bd8da85d9f2,OPPORTUNITY,OPPORTUNITY,opportunities,431,444,"This vision and pathway can help formulate Ethiopia's aspirations by identifying critical issues, challenges, and opportunities at the intersection of climate action and socioeconomic development objectives.",1.0,explorer
+UNFCCC.party.1745.0,0297b9a3cb4e76315964eab47361e8e7__dad73ded6a3d8740bc79b231ae538fec7382c5be2a070a28f7b271909412f85d,OPPORTUNITY,OPPORTUNITY,opportunities,441,454,"Furthermore, by identifying adaptation co-benefits of mitigation actions,
+the chances of maximizing and mobilizing multiple funding opportunities for implementation of these actions are enhanced.",1.0,explorer
+UNFCCC.party.1745.0,c48a07198c3f7348bc9ee6f3196c89ed__e2a4cd3910a9c59d2e9f039d199e32c0730ee6cd2e30cc383dc0b6d34eaa788f,OPPORTUNITY,OPPORTUNITY,opportunity,354,365,"Further, the country's young and growing workforce (at around 2 million per year) presents an opportunity but also strains the absorption capacity of the labor market, necessitating the creation of sufficient new and decent jobs to capitalize on its potential.",1.0,explorer
+UNFCCC.party.1745.0,8f0889cdf01800d4cebdc1adf998389b__aebad1fa88755e60abf23e349e3689250f2ea652d0b6a5a98096a585af7d1e93,OPPORTUNITY,OPPORTUNITY,opportunities,155,168,"perennial crops, and increasing areas under irrigation schemes-modernize Ethiopia's agriculture systems, maintain and increase the number of jobs, provide opportunities for the young rural labor force, and potentially boost agriculture exports.",1.0,explorer
+UNFCCC.party.1745.0,a2cd875b2b6085f273d3dad7b76543c7__75a2975a8d52d3b43f13adb49a11e81735a1f87d5af6a3e63f0d9551ffb08608,GOOD_PRACTICE,BEST_PRACTICE,best practices,805,819,"The GoE, through the Ministry of Transport and Logistics, underpins the importance of transport for its citizens and seeks to employ best practices to support the sustainable implementation of policies.",1.0,explorer
+UNFCCC.party.1745.0,b7d16181e6b2be56311eceb51d3e1cd9__723948b6abf8306cceada474ec0158f8d79d731ac92314071fe0006dd46e20e1,OPPORTUNITY,OPPORTUNITY,opportunities,78,91,"To address the climate impacts in the transport sector, the GoE sees multiple opportunities to decrease emissions and jump-start the development of sustainable transport.",1.0,explorer
+UNFCCC.party.1745.0,bd3ef4557901b9d3636a48515d3bd569__71eb131051cf9d35136d7ed47b8d7393dc69446d77a16087c91612c7e8c962a1,OPPORTUNITY,OPPORTUNITY,opportunities,117,130,"indicates continued government support of the agricultural sector, with objectives including creating sufficient job opportunities in rural areas, improving the supply of raw materials for agro-industries, and ensuring food and nutrition security by transforming agri-food systems in the country.",1.0,explorer
+UNFCCC.party.1745.0,6fac37bbd934cea1e9ffd40dadcd9ffc__0da1b37bd7e30bae97f82d29045ecbee5ad959e900ac5818d5ba32379307a9a0,OPPORTUNITY,PROMISING,promising,146,155,"MtCO₂e
+400
+300
+200
+100
+0
+-100
+2030
+Total
+2040
+- Livestock
+Low-emission scenario
+To develop the low-emission pathw for the cou
+agriculture sector, promising and high-level mitigation
+interventions are proposed as depicted in Table 47 helow
+Managed soils
+2050",1.0,explorer
+UNFCCC.party.1745.0,1082b39e9ec50be044db2f58b4238fcc__892af2e53a2c8f38a1b54462a797b3ebc3264d923d5ee052e024aff15a53e462,OPPORTUNITY,OPPORTUNITY,opportunities,392,405,"To this end, agricultural extension and advisory systems will be strengthened, improved livestock feeding systems will be widely promoted, and breeding programs will be designed and implemented, tapping into the opportunities that innovations in science and technology offer.",1.0,explorer
+UNFCCC.party.1745.0,e4932e4caa8cb676b076cc2a6948229e__88739ead56a4e11405737dcee367f824d359187dfd4123525ed8748712b2dc74,OPPORTUNITY,SOLUTION,solutions,357,366,Forests are also one of the most important solutions to addressing the effects of climate change.,1.0,explorer
+UNFCCC.party.1745.0,62cf1c41b4070ba7d4874911a151635b__39307688e8dd5ecf2dd2ffcce93c3678dd35771527424503fb7c5294e47a929b,OPPORTUNITY,OPPORTUNITY,opportunities,351,364,"Carbon offset funds provide opportunities
+for protection and restoration of native
+ecosystems, with corresponding gains for
+biodiversity and reductions in carbon
+Reforestation connecting fragmented forests
+reduces exposure to forest edge disturbances
+>",1.0,explorer
+UNFCCC.party.1745.0,4c3d27ef291bf31caf81b1dd5eff4777__377e00b35eb9dba2c6931c6d8ac8388f5f438910badb3fb21dc863b0df0d00b0,OPPORTUNITY,OPPORTUNITY,opportunities,216,229,"These also have high potential for value-added opportunities, such as methane capture and nutrient recovery.",1.0,explorer
+UNFCCC.party.1745.0,ed1523c05f0c0d51316d618fd5be64c4__5c68a409e7d401d9a453e08129ca192ee8d933def3ca9f848ada7c4857eb4438,OPPORTUNITY,OPPORTUNITY,opportunities,30,43,"on the contamination profile, opportunities for reuse as soil amender will be investigated.",1.0,explorer
+UNFCCC.party.1745.0,0715a3b5a926ca815a48325256402f3b__0f9abd105055294df081099ebd010d46554518177d87abc364fcb51405d80bae,OPPORTUNITY,OPPORTUNITY,opportunities,1308,1321,"It can also provide a valuable energy
+source in remote areas
+Reduced exposure to pathogens, including by
+overflowing treatment plants and drains during extreme
+weather events
+Adaptive water management in wastewater treatments
+can help regulate uncertain hydrological changes due to
+climate change and their impacts
+Wastewater that is properly treated can be used for
+irrigation purposes, reducing reliance on fresh water
+Adaptation trade-offs
+Possible decreased
+job opportunities in
+the informal waste
+collection sector
+(including waste
+pickers at the landfills)
+Increased energy
+requirements for an
+urban, centralized
+wastewater treatment
+system due to
+pumping and aeration",1.0,explorer
+UNFCCC.party.1745.0,52f0639653f8532325a486c72d85136e__89d1fe94e725dc2b0454d792f23d6452118d12a9140ceb313390c674f9558754,OPPORTUNITY,OPPORTUNITY,opportunities,39,52,This section covers emission reduction opportunities in the process steps of cement manufacturing and measures that can contribute to reducing these process emissions.,1.0,explorer
+UNFCCC.party.1745.0,e2f5ffe4cd62052d3bd4d7e8f5f73495__eb5364df16135d0bbe5a95d5553527f661eac16dfcf9f7b9a015b49bad2f8940,OPPORTUNITY,OPPORTUNITY,opportunities,312,325,"For example, in 2017, the World Bank and Korea
+Green Growth Trust Fund"" explored the opportunities,
+challenges, and solutions to using alternative fuels in
+the cement sector in Ethiopia, which can largely reduce
+the emissions from the industry.",1.0,explorer
+UNFCCC.party.1745.0,e2f5ffe4cd62052d3bd4d7e8f5f73495__eb5364df16135d0bbe5a95d5553527f661eac16dfcf9f7b9a015b49bad2f8940,OPPORTUNITY,SOLUTION,solutions,343,352,"For example, in 2017, the World Bank and Korea
+Green Growth Trust Fund"" explored the opportunities,
+challenges, and solutions to using alternative fuels in
+the cement sector in Ethiopia, which can largely reduce
+the emissions from the industry.",1.0,explorer
+UNFCCC.party.1745.0,e2f5ffe4cd62052d3bd4d7e8f5f73495__eb5364df16135d0bbe5a95d5553527f661eac16dfcf9f7b9a015b49bad2f8940,OPPORTUNITY,OPPORTUNITY,opportunities,501,514,"Similarly, there are
+several opportunities to improve the thermal and energy
+efficiency of cement manufacturing.",1.0,explorer
+UNFCCC.party.1745.0,6235b54276d0731a41c4cc80fa73367c__26cc973ab0bbe800fd28cbf40ee3d7ee3dabd5b5e015b8292da2bcdba5527741,OPPORTUNITY,OPPORTUNITY,opportunity,296,307,The IEA identifies increased scrap collection to enable more scrap-based production as a short-term opportunity.,1.0,explorer
+UNFCCC.party.1745.0,7f339375c6a906d0b4304781b85a4c52__93cee20af213abc0d452dc4a4bc1f7d93779c9af5d8fb024713c0dbd28d04df9,OPPORTUNITY,OPPORTUNITY,opportunities,81,94,"In 2012, the US Environmental Protection Agency listed several energy efficiency opportunities in the iron and steel industry to help reduce GHG emissions from the sector.",1.0,explorer
+UNFCCC.party.1745.0,36a7c059669e0c63d95f3ab70334f80b__73a143e58aecb77d2aaf1006a7aff12704d9d71a84e845edd273fa46984239a1,OPPORTUNITY,OPPORTUNITY,Opportunities,61,74,"8 Use of Alternative Fuels in the Cement Sector in Ethiopia: Opportunities, Challenges and Solutions.",1.0,explorer
+UNFCCC.party.1745.0,0668c189c70fab7f291964d375c073b1__2cd2fb1c2e83ddbcc0300681ceaeaace979e713dcfd91c9d99825ea62a554c42,OPPORTUNITY,OPPORTUNITY,opportunities,177,190,"The framework consists of four green growth dimensions: efficient and sustainable resource use, natural capital protection, green economic opportunities and social inclusion.",1.0,explorer
+UNFCCC.party.1745.0,7f5a72a1b012edaaa5844bdb76656817__bcaf151dee5e73bb8b36de999ec969ebf2af36787bc99956eed48f5b2f964c4c,OPPORTUNITY,OPPORTUNITY,opportunity,346,357,"Similar to the share of forest area to total land area, the maximum ambition scenario offers the best opportunity to achieve significant progress in improving aboveground biomass, which is a useful indicator of sustainable forest management and a measure",1.0,explorer
+UNFCCC.party.1745.0,916b59a87711ad2d1a4f48527228974c__94029621afbd937065edd216dc01be92a496e012ede69d7e15d277676da7d89d,OPPORTUNITY,OPPORTUNITY,opportunities,251,264,This forecasted increase in green jobs offers opportunities for an inclusive labor market in key sectors to drive growth in Ethiopia's economy.,1.0,explorer
+UNFCCC.party.1745.0,a9dba416a2cd2fb26e896b8bea4b7b07__48f23dab8f8e41e358507763571f8b457e11bb40777e8e86ed6f7010e774cb82,OPPORTUNITY,OPPORTUNITY,opportunities,91,104,"The LT-LEDS proposes an economic transformation that will lead to the creation of economic opportunities and green jobs, through paid employment and entrepreneurship and in formal and informal sectors.",1.0,explorer
+UNFCCC.party.1745.0,915068d4ab638d62ea8a42f98dc29207__355b083a0725a61c9b7a51fe728a67da99883e8010f207b19b23a1e4bd0faeb8,OPPORTUNITY,OPPORTUNITY,opportunities,276,289,"Central to the concept of ""just transitions"" is the preparation of the workforce for the demands of the future green labor market to ensure equal opportunities for women, men, youth, and workers currently engaged in informal and vulnerable jobs.",1.0,explorer
+UNFCCC.party.1745.0,67e9f38473cde535d1856c1a47c858e7__0290a177a0bb1eed5136187be15a9bdfe926c64691d481e0fad0b6f88d012c94,OPPORTUNITY,OPPORTUNITY,opportunities,616,629,"This will require deliberate strategic approaches to address the barriers women face when accessing jobs and economic opportunities, including the following:",1.0,explorer
+UNFCCC.party.1745.0,98454f784f79505344cfd15f629c2c76__fb4359947c3321e2926c8400a4ae45558a146b88f89e3e1e96cda4068c1690d9,OPPORTUNITY,OPPORTUNITY,opportunities,66,79,"linked to gender roles in participating in education and training opportunities, which will require focus and support to women's networks.",1.0,explorer
+UNFCCC.party.1745.0,74aa90bfdd2cd57246588e16fa2c5439__8d68fb8836f03b3d85cf589a207f051fe184af6f07b6cc45ef0b242979a21875,OPPORTUNITY,OPPORTUNITY,opportunities,541,554,"Furthermore, the program can identify opportunities to leverage green economic policy instruments, such as through provisions for employment and investment criteria for more inclusive opportunities.",1.0,explorer
+UNFCCC.party.1745.0,74aa90bfdd2cd57246588e16fa2c5439__8d68fb8836f03b3d85cf589a207f051fe184af6f07b6cc45ef0b242979a21875,OPPORTUNITY,OPPORTUNITY,opportunities,687,700,"Furthermore, the program can identify opportunities to leverage green economic policy instruments, such as through provisions for employment and investment criteria for more inclusive opportunities.",1.0,explorer
+UNFCCC.party.1745.0,0bb385c4b2dda22222a1921baebb6f6d__cddb12678716f3b9e2885ac13fd4679e61c07e681c7db3528ca8c3076dda4d56,OPPORTUNITY,SOLUTION,solutions,218,227,Expansion of care solutions and investment in infrastructure in rural and urban areas can support women's access to opportunities created by the implementation of the LT-LEDS actions.,1.0,explorer
+UNFCCC.party.1745.0,0bb385c4b2dda22222a1921baebb6f6d__cddb12678716f3b9e2885ac13fd4679e61c07e681c7db3528ca8c3076dda4d56,OPPORTUNITY,OPPORTUNITY,opportunities,316,329,Expansion of care solutions and investment in infrastructure in rural and urban areas can support women's access to opportunities created by the implementation of the LT-LEDS actions.,1.0,explorer
+UNFCCC.party.1745.0,bcc18f4444d875865825795cb85a9dc4__69cfc0ed77c6f3e70ccb61f21bffc53b12dece0e3463363aa4ae3de6adcc428a,OPPORTUNITY,SOLUTION,solutions,343,352,"The largest share of the total mitigation investment will be required for the power generation sector (67% of the total estimated investment), followed by the waste management sector (16%), the electrification of the transport sector (16%), energy efficiency solutions (1%), and upgrading technology in the industrial sector and use of CCS technology (<1% of the total estimated investment).",1.0,explorer
+UNFCCC.party.1745.0,817011a651a8d06c552ad7bf7a55d848__91207783b36ea9feeb61dc13f86e29e67257a63dba39ecf74478d34f09a040b5,OPPORTUNITY,OPPORTUNITY,opportunity,226,237,"They also improve the efficiency of the fiscal system, which decreases the opportunity costs of public funding channeled to carbon mitigation (and adaptation) activities in Ethiopia.",1.0,explorer
+UNFCCC.party.1745.0,fc451db1626be45b911a5a721336f719__49750bb0252e610e39e60a15e19b59711094804fc1c6ef417e77624b7a6bd1f7,OPPORTUNITY,OPPORTUNITY,opportunities,332,345,These aims and targets will steer the country in identifying opportunities for increasing the ambition in its next NDC revision.,1.0,explorer
+UNFCCC.party.1745.0,88082a0447012205be3dda6e68226dd7__1c11fa30bf056c4293945e85d78d84210c9a46696a6bb862bc684bb14c252708,GOOD_PRACTICE,BEST_PRACTICE,best practices,542,556,"While LDCs like Ethiopia can report ""at their discretion, Ethiopia is working toward meeting international best practices to demonstrate a high degree of ambition and climate policy leadership.",1.0,explorer
+UNFCCC.party.1745.0,66d3a06e543db70e84c22ee5d9304938__a0fd44d11091700ea0d39a31d63af33d52401d0d5999deaff7ae1bebffb5a262,SUCCESS,SUCCESSFUL,successful,421,431,"Therefore, international support is critical in building capacity for stakeholders who will undertake the tracking, collection, and reporting of data, as the integrated CDR through the MRV and M&E systems are a prerequisite for successful implementation of the LT-LEDS, including",1.0,explorer
+UNFCCC.party.1730.0,3f8a4a4f09fb541d23f01644272adec1__a6111c2f1e1972a23f90de076bc261b236363e21fb409a47c219731bebe2dd91,GOOD_PRACTICE,BEST_PRACTICE,best practices,0,14,best practices and experience related to the preparation of the NDC;,1.0,explorer
+UNFCCC.party.1730.0,b8ec0e04a5e03537ad4ddb74ff47e0f2__8424fec3e22f7d193960d23a3fd9bf4e0a08ab44aed3f395888ab1fa70cb8a08,OPPORTUNITY,PROMISING,promising,773,782,"target
+3.2 Coverage of
+emissions and
+sectors
+Conditional target:
+Reduction of GHG emissions by 25% by the end of 2030 relative to 1990 base
+year, subject to significant additional international investments and significant
+grant assistance; access to an international technology transfer mechanism; co-
+financing and participation in international research projects, development of
+promising low-carbon technologies and initiatives to build local expertise.
+",1.0,explorer
+UNFCCC.party.1730.0,d585f1907e2da8f841ec099f962a6ebe__db789d4546baddc58e964255787dd298f0722efb3db54c9ded3067030121b700,OPPORTUNITY,PROMISING,promising,135,144,"Key thematic areas, and research relevant to the Republic of Kazakhstan based on the R&D portfolio management approach, identifying promising topics and screening out low-impact projects.",1.0,explorer
+UNFCCC.party.1730.0,849877d1810f01100e4feaf6d3bdc838__6498b59a1137e06d3a857e3a3a46c5eb0b98c90a4c6f32226182546e8fa54ffb,OPPORTUNITY,SOLUTION,solutions,83,92,"4. approaches for creating an ecosystem for the development of new decarbonization solutions, including startup incubators and (or) integration with the existing ones.",1.0,explorer
+UNFCCC.party.1730.0,e6c79db2a7cfd08cf2b0a792b8e50d1a__38dbcf45f0805f3a70c3065eb579b06f5a606fa11aa1e858b259e1b826933a36,OPPORTUNITY,OPPORTUNITY,opportunity,1992,2003,"The Republic of Kazakhstan plans to reduce greenhouse gas emissions at
+the national level but retains the opportunity to participate in the mechanisms
+of Article 6 of the Paris Agreement through various international mechanisms,
+including through the linking of emissions trading systems.
+",1.0,explorer
+UNFCCC.non-party.1737.0,4c8df20c0d2190b6ad4bcda12f424dca__4f2b49e124b18a3d61bd1605efea36a3c4aa2fba0823a651e1f8f3e65a13e945,OPPORTUNITY,OPPORTUNITY,opportunity,66,77,"As the Paris Agreement ""report card"", the GST presents a critical opportunity to acknowledge this omission,
+and to ""course-correct"" towards achieving the long-term goals of the Paris Agreement in such a way that
+children's rights, including their right to a healthy environment, are upheld.",1.0,explorer
+UNFCCC.non-party.1737.0,3e97370b8f9b130eb85c0984a970cb4a__68e0abb2a3dd5f6f0dc29e34c2371ceedaf5e156b98d5e4c320ddfd53db10e50,OPPORTUNITY,SOLUTION,solution,511,519,"While stabilizing levels of greenhouse gas emissions at safe levels remains the only long-term solution to tackling climate change, the mitigation measures required are off track and will come too late for protecting children that are already experiencing unprecedented impacts.",1.0,explorer
+UNFCCC.non-party.1737.0,42a07122512b7479d435deca53404bb2__215cceb5898c47dd433bdeef400a740bb44539723577659d95c0e764da7862cf,OPPORTUNITY,SOLUTION,solutions,451,460,"Where possible, strong preference should be given to nature-based (land- and ocean-based) solutions that comprehensively support children's right to a clean, healthy and sustainable environment, contributing to climate, environmental and sustainable development objectives essential for children's well-being.",1.0,explorer
+UNFCCC.non-party.1746.0,8c9a81fceee8dc218b545cbc9e0d7491__227c8c7014fb487812161bd0b587c45622b635b95e8865f39c96856820df71b4,OPPORTUNITY,OPPORTUNITY,opportunity,18,29,Thank you for the opportunity to make this submission.,1.0,explorer
+UNFCCC.non-party.1746.0,451422d6d30a5f7d5309b55a0fc1477f__f49724f0be9872630a312f9376a6ac51f92a9820c42610284c165b7810f8045f,OPPORTUNITY,OPPORTUNITY,opportunities,66,79,"Consequently, not enough people have access to the information or opportunities to take part in climate action; institutions such as museums and other cultural institutions are not able to understand or fulfil their possible roles and their obligations; governments' commitments are not mainstreamed or communicated; and climate change continues to worsen, and causes and impacts are not addressed.",1.0,explorer
+UNFCCC.non-party.1746.0,8b2bd302dca73d9317e2ffad9c368dd0__0543338dc14d81052f9300888932551246d4317425d28cc97590a44999775fed,OPPORTUNITY,OPPORTUNITY,opportunities,60,73,"Co-ordinated action: UNFCCC and Parties to promote concrete opportunities for countries and sub-national actors to contribute to Action for Climate Empowerment, in the way that actions are taken for e.g. World Environment Day, the Decade on Ecosystem Restoration, Decade on Ocean Science for Sustainable Development and more, and/or integrate ACE with these.",1.0,explorer
+UNFCCC.non-party.1746.0,081935b89cb9e0542b5e052fb5408a96__15d090693ddddf7bf49fdcf56fe8913684be4c33cd1c2a822971b65428e84446,OPPORTUNITY,OPPORTUNITY,opportunities,169,182,"Promoting e.g. ACE communities of practice, opportunities to share experiences and good practices more frequently, and that are more accessible than the ACE Dialogues at the SB meetings, to build momentum and capacity.",1.0,explorer
+UNFCCC.non-party.1746.0,081935b89cb9e0542b5e052fb5408a96__15d090693ddddf7bf49fdcf56fe8913684be4c33cd1c2a822971b65428e84446,GOOD_PRACTICE,GOOD_PRACTICE,good practices,208,222,"Promoting e.g. ACE communities of practice, opportunities to share experiences and good practices more frequently, and that are more accessible than the ACE Dialogues at the SB meetings, to build momentum and capacity.",1.0,explorer
+UNFCCC.non-party.1746.0,7adcd75efd44d3d28b73a5e2080f23c8__420f8d1bd50ef2b9f6190d5792831a7576dc981e2fdf82ee2fc28bd411f3a4a2,OPPORTUNITY,OPPORTUNITY,opportunity,18,29,Thank you for the opportunity to make this submission.,1.0,explorer
+UNFCCC.party.1732.0,7b11382d5ac4fc06b481091d9bbe0279__408b3052b00059fe561e1f784ef8dec4da1aec14e2d641b9bb32d5045a6f7d91,GOOD_PRACTICE,BEST_PRACTICE,best practices,13,27,"In line with best practices in development cooperation and OECD-DAC guidelines, Iceland's development cooperation in bilateral partner countries is based on close cooperation with local communities and their needs and is based on detailed needs assessment.",1.0,explorer
+UNFCCC.party.1732.0,a57463109318bf7a1ae5ef079818ed4e__8aac8d1242376fc55a1acdf95e015b7dec507f288f8ad10eefab6ef5fbe03982,SUCCESS,SUCCESS,success,942,949,"The magnitude of these changes will, however, be no less dependent on the success of future fisheries management aiming at long term sustainable level for all commercial species.",1.0,explorer
+UNFCCC.party.1732.0,0b857fc1e4b279eef8da3844ba2fe16f__377ea72d50fef1d563e6d64006f9c11c50070f2f8a01ea0a8dac24fe87e5fcdc,SUCCESS,SUCCESSFUL,successful,12,22,The rate of successful introduction (intended and unintended) of arthropod species in Iceland has increased with warming climate and among them are several pest species on trees and shrubs.,1.0,explorer
+UNFCCC.party.1732.0,fd4a1f725e24b23174648e78457a51ed__fb6270dda356a4d85fe90af5b25cb93e264595e20103b75c8b3ade946b041cb8,SUCCESS,SUCCESS,success,1106,1113,"Breeding success of the Ptarmigan, an important game species in Iceland, has been shown to be closely related to precipitation and wind, ""More extreme weather could therefore affect the species.",1.0,explorer
+UNFCCC.party.1732.0,ae8ae5b1e4c6141d4a4742cf16ce1ada__2496d3789a6887367108b46375d465d03636382540a2fa7f82aebd9d4afa3d09,GOOD_PRACTICE,BEST_PRACTICE,best practices,29,43,Iceland endeavours to follow best practices in international development cooperation and important efforts to that end have been made in recent years.,1.0,explorer
+UNFCCC.party.1732.0,da27bc7adbc11771e00c759bd4eadb2b__2000c60840c96a5cf112ca94ba8aa29be67fe9ca3a757ec36464db18dd31fbbf,OPPORTUNITY,OPPORTUNITY,opportunities,790,803,e) Sustainable economic growth and decent work opportunities for all (pursuant to SDG no. 8).,1.0,explorer
+UNFCCC.party.1732.0,7b11382d5ac4fc06b481091d9bbe0279__408b3052b00059fe561e1f784ef8dec4da1aec14e2d641b9bb32d5045a6f7d91,GOOD_PRACTICE,BEST_PRACTICE,best practices,13,27,"In line with best practices in development cooperation and OECD-DAC guidelines, Iceland's development cooperation in bilateral partner countries is based on close cooperation with local communities and their needs and is based on detailed needs assessment.",1.0,explorer
+UNFCCC.party.1732.0,f45f416488562e3dbfb4c9fab3ad8383__28f53b0fea85aa3eac6cbe3de55667c696e59f2f8835582ed7c8dc4d88b541dc,OPPORTUNITY,SOLUTION,solutions,198,207,"ESMAP is a renewable energy program within the World Bank which assists low and middle-income countries to increase know-how and institutional capacity to achieve environmentally sustainable energy solutions for low carbon development, poverty reduction and economic growth.",1.0,explorer
+UNFCCC.party.1732.0,d565d90ef113bcfa9d2ab13ecf4bb3c1__0d82c08b7d1449df27a418d2117f170704363516dbba528b606a758da6b6fb93,SUCCESS,SUCCESSFUL,successful,460,470,"The campaign - which over a period of two weeks encourages the public to leave their car at home and bike, walk or use public transport to work - has been widespread and successful, with good participation from the public.",1.0,explorer
+UNFCCC.party.1732.0,dd888c89e0ce3eebfddd7fd4a51d2d46__71e57aa421af9b50aed8bcd8647b3354be900a8829919d8bf1f18415737397ef,SUCCESS,SUCCESSFUL,successful,42,52,"The Eco-School project has proven to be a successful method, not only for increasing environmental awareness at schools but also in the homes of the children as they bring forward their knowledge on environmental issues and climate change to their parents and other family members.",1.0,explorer
+UNFCCC.party.1732.0,7e7d4ad1b0bc036814d0961dcf17e56f__3d254e177159c1ea2173e45a9a66171306cae088111642b22409abd2f0555e33,OPPORTUNITY,OPPORTUNITY,opportunity,394,405,"Information officers working for the Ministry of the Environment, Energy and Climate and its institutions have a direct and personal contact to key players within the mass media which gives them unique opportunity to present information through the largest TV and radio channels as well as the mainstream newspapers.",1.0,explorer
+UNFCCC.party.1732.0,996975481a28c53b2535f970aedea151__9a099371c09760fe79b13be245a701d72528feb96c97e299028c0a400826f46a,OPPORTUNITY,OPPORTUNITY,opportunity,244,255,"The programme consists of six months annual training for practicing professionals from developing and transitional countries with significant geothermal potential, as well as an opportunity for outstanding fellows to pursue MSc and/or PhD degrees through cooperation with the University of Iceland and Reykjavik University.",1.0,explorer
+UNFCCC.party.1732.0,7047620dfcfcc663fe2369e05fcb98ac__b085dca3d2e555bc52b28a59b8f104d096f43a9464b158cd60088f2616f2e0c3,GOOD_PRACTICE,BEST_PRACTICE,best practice,485,498,Information and best practice are also shared between member countries.,1.0,explorer
+UNFCCC.party.1743.0,33a5c2b674a600040a09a2a7b1eb30d2__f145c69010544029c58a862b12c7649945dd7f63e347bc85bd56157f7d6efb65,OPPORTUNITY,OPPORTUNITY,opportunities,170,183,"Measures
+Solar PV installations
+Installation of SWHs/SWH
+Additional
+electricity
+interconnector
+Offshore floating wind turbines
+Positive impacts
+Social
+• Increased labour
+opportunities in
+maintenance and
+installation
+• Self-sufficiency of
+consumers
+Participation of civil
+society
+•
+•
+Improved health
+Measures that
+address several
+SDGs
+Economic
+• Greater innovation and
+research
+With RE, less
+dependence on foreign
+energy sources
+Negative impacts
+Social
+• Affordability issues
+Potential financial
+gap for operator
+• Risks during
+installations/
+maintenance
+Reduced available
+roof space
+•
+• Negative visual
+impacts on cultural
+sites
+Economic
+• Increased imports
+• Administrative burden
+on public authorities
+Initial capital outlay
+Increased maintenance
+costs
+•
+•
+•
+Rooftop property right
+issues
+Solar rights issues
+Expropriated land",1.0,explorer
+UNFCCC.party.1743.0,ddc39626e25944863c8bde60ebc349f3__fe5944a497f0d8c3b8a9a10a2427e5428e010cf21f8608f502533302999b9b43,OPPORTUNITY,SOLUTION,solutions,21,30,"Moreover, altemative solutions to address global warming and reduce emissions from transportation, such as hydrogen fuel cells, biofuels, synthetic fuels, ammonia, and sustainable aviation fuel, require further examination.",1.0,explorer
+UNFCCC.party.1743.0,ddc39626e25944863c8bde60ebc349f3__fe5944a497f0d8c3b8a9a10a2427e5428e010cf21f8608f502533302999b9b43,OPPORTUNITY,SOLUTION,solutions,253,262,This includes studying these solutions at an international level before considering their adoption and modelling them for the local context.,1.0,explorer
+UNFCCC.party.1743.0,709616d69e6f21459c9c29bbdfef5534__99f4551ea1834ef57e97661bcc27f545d60388ee7b976179666f2595d6d18017,OPPORTUNITY,OPPORTUNITY,opportunities,973,986,"The University has a number of smart travel initiatives ranging from information on travelling to the University, investment in walking and cycling infrastructure, and flexibility and teleworking opportunities for staff.",1.0,explorer
+UNFCCC.party.1743.0,2ac86712b364e6f77f549291a6e1cb94__8a31896594658d1a519ffb328243b2dde4ae854b7481a559d18db63c5d28ce6f,OPPORTUNITY,OPPORTUNITY,opportunities,10,23,"There are opportunities for Malta's agricultural sector to reduce its emissions through diversification of food production methods, shifting towards forms of agricultural production which require reduced inputs of fertilisers, water resources and energy relative to conventional agriculture.",1.0,explorer
+UNFCCC.party.1743.0,664a112463d94ae2ec539dd2093a4a7e__e021e690f26efd4a16028c6823b5cebba1a5549f46bc0698634618e587c8bc1f,OPPORTUNITY,OPPORTUNITY,opportunities,365,378,"Lower dependency on
+imports
+FDI opportunities
+Negative impacts
+Social
+•
+Food safety issues
+Change to farming
+practices
+Increased regulation by
+public authorities
+Need to tackle the
+negative perception of
+produce quality
+Economic
+•",1.0,explorer
+UNFCCC.party.1743.0,664a112463d94ae2ec539dd2093a4a7e__e021e690f26efd4a16028c6823b5cebba1a5549f46bc0698634618e587c8bc1f,OPPORTUNITY,OPPORTUNITY,opportunities,145,158,"New entrepreneurship/
+production
+Methane
+vaccines
+Positive Impacts
+inhibiting
+employment
+opportunities
+Potential for exports
+Improved public health
+Economic
+• Niche area of
+economic growth
+through innovation
+(aquaponics)
+• Increased product
+offering in the market
+(aquaponics)
+",1.0,explorer
+UNFCCC.party.1743.0,c8c18a2a25e0a3a0c8215d65ed2fa75a__f2d46ed267d9439af3a15936cbaa98d8a47b06a2f664e5e7428e4ec3a41e340e,SUCCESS,SUCCESS,success,4,11,"The success of afforestation projects which can further enhance the sinks and as a result
+also potentially lead to a reduction in GHG emissions are based on the following factors:
+the geographic specificities of the Maltese islands need to be taken into account in order",1.0,explorer
+UNFCCC.party.1743.0,5e8016485376d698e6b19b2d1568a615__e048bc6f0b8079e2a0d2db2951fcc7a1d649b8fcee9279f445cf5a7f8f09ebd6,OPPORTUNITY,SOLUTION,solutions,111,120,"Previous Reporting
+Separation of organic waste
+The design and commissioning of new end-of-pipe
+infrastructural solutions to treat separately collected
+organic waste from which blogas is generated as a by-
+product and Recovering energy from waste"".
+",1.0,explorer
+UNFCCC.party.1743.0,fd23df95b1c7000438538bd30db4d48c__0987ec6e8eacfb83805f183142bb0d19e73c529dcfe34e89d3a82fdd6c285f11,OPPORTUNITY,OPPORTUNITY,opportunities,592,605,"Recent years have seen several important changes in modelling approaches and capacity across all sectors and within all entities involved, and the work to improve Malta's capabilities in this area are expected to continue, driven by a combination of new reporting obligations, ongoing work in policy planning (NECP), the need to cater for important new sectoral developments in recent and forthcoming years, and access to capacity building opportunities.",1.0,explorer
+UNFCCC.party.1743.0,7125713a34d72cff9a22397a351abc50__93cc8117c636931af67f8896073bef568dbc2d36d3c1e9709f617c939c4e48d5,OPPORTUNITY,OPPORTUNITY,opportunity,44,55,"Each box represents
+one emissions
+reduction
+opportunity
+Estimated cost in a
+given year to reduce
+emissions by 1 tCO₂e
+with this opportunity
+Annual GHG emissions
+reduction potential in
+a given year
+Opportunities are
+Forted by increasing
+costs per tCO,",1.0,explorer
+UNFCCC.party.1743.0,7125713a34d72cff9a22397a351abc50__93cc8117c636931af67f8896073bef568dbc2d36d3c1e9709f617c939c4e48d5,OPPORTUNITY,OPPORTUNITY,Opportunities,197,210,"Each box represents
+one emissions
+reduction
+opportunity
+Estimated cost in a
+given year to reduce
+emissions by 1 tCO₂e
+with this opportunity
+Annual GHG emissions
+reduction potential in
+a given year
+Opportunities are
+Forted by increasing
+costs per tCO,",1.0,explorer
+UNFCCC.party.1743.0,7125713a34d72cff9a22397a351abc50__93cc8117c636931af67f8896073bef568dbc2d36d3c1e9709f617c939c4e48d5,OPPORTUNITY,OPPORTUNITY,opportunity,128,139,"Each box represents
+one emissions
+reduction
+opportunity
+Estimated cost in a
+given year to reduce
+emissions by 1 tCO₂e
+with this opportunity
+Annual GHG emissions
+reduction potential in
+a given year
+Opportunities are
+Forted by increasing
+costs per tCO,",1.0,explorer
+UNFCCC.party.1743.0,ea1d11b195602885375fdf2d833f5b4a__f75b885a88a470c6e55148269270677bf1fff86cb01d8ec9504c65fafd427482,OPPORTUNITY,OPPORTUNITY,opportunity,451,462,"For the cost figures, this is described economically as the opportunity cost, but a similar logic applies to emissions and utility consumption calculations.",1.0,explorer
+UNFCCC.party.1743.0,26d2daf8be64c3ec72f90ca9589c0035__1c4cef286f555cf6be123810e4d0e038cefdd87d14677d06608c993672fc2612,OPPORTUNITY,OPPORTUNITY,Opportunities,258,271,Opportunities for improving industrial EE are therefore of interest in the pursuit of territorial GHGEs reductions.,1.0,explorer
+UNFCCC.party.1743.0,bada3421982a9b16284bb26d9fc691b4__8f08abbeefdfbf434bf7151e9499df2ac239e9d2eccf0dd9b38b12dfcd336f7d,OPPORTUNITY,SOLUTION,solutions,662,671,"Government, through entities such as Malta Enterprise and Indis Malta, are committed to work with industry to find decarbonisation solutions.",1.0,explorer
+UNFCCC.party.1743.0,aff1a12c2c5f7bff8a5db44df8f3c124__99c70eed9693ddb426cb7522d43c98e1160bd098e9c561f57b69f3c74bc26405,OPPORTUNITY,SOLUTION,solutions,643,652,"Action is being taken on different but complementary approaches, in recognition of the fact that a mix of solutions is needed.",1.0,explorer
+UNFCCC.party.1743.0,d4a855c2ad82a684e6b97d477f7b9e89__7f3748fbb36c7a316c9e363652f2c1a548526b975a58e8810f25314821fb04ee,OPPORTUNITY,OPPORTUNITY,opportunities,986,999,"The University has a number of smart travel initiatives ranging from information on travelling to the University, investment in walking and cycling infrastructure, and flexibility and teleworking opportunities for staff.",1.0,explorer
+UNFCCC.party.1743.0,1406714b9097f90cbc327f203891e143__931a2d22dc2ca67b67b0a721c18ab7d1eee9930306bd04c7526ad817e45db06c,OPPORTUNITY,SOLUTION,solutions,36,45,"Furthermore, other non-conventional solutions to global warming and curbing emissions from transport, such as hydrogen fuel cells, biofuels, and synthetic fuels, ammonia, and sustainable aviation fuel need be further studied and looked into, including on an international level, before being adopted and modelled for the local scenario.",1.0,explorer
+UNFCCC.party.1743.0,a48430704ff5581c3a81db7e5dfb5255__be926e767c8263aa4e26a997f92acf383868023265e73b915068bdd0fb1b52ff,OPPORTUNITY,OPPORTUNITY,opportunities,10,23,"There are opportunities for Malta's agricultural sector to reduce its emissions through diversification of food production methods, shifting towards forms of agricultural",1.0,explorer
+UNFCCC.party.1743.0,e48615c9876149702da5ad978182be5b__30c192c49add0ee5ca2311de4bfbc79a4ab29e583b9d7254fe03846842a1a71f,OPPORTUNITY,OPPORTUNITY,opportunities,1245,1258,"In addition, progressive farms are exploring opportunities to improve the quality of forage to improve cows' average daily gain and reduce enteric methane emissions.",1.0,explorer
+UNFCCC.party.1743.0,85eebc21efce2cf952cccb76c318b410__0d09c8b944173e344289fdccf506e1929bdaca5f6b5faa984334c96f5b766475,SUCCESS,SUCCESS,success,4,11,"The success of afforestation projects which can further enhance the sinks and as a result also potentially lead to a reduction in GHG emissions are based on the following factors: the geographic specificities of the Maltese islands need to be taken into account in order to implement the measures; the limiting factors in implementing LULUCF measures to further enhance and safeguard the sector; limited land availability: lack of water; lack of rainfall; and, high population density.",1.0,explorer
+UNFCCC.party.1743.0,df310f6021e17c1950bb73ea063823f5__7af812d14b4882d13ff0c31305e418895df058d465193c7f0236350e3c31e5d9,OPPORTUNITY,OPPORTUNITY,opportunity,171,182,"The Tree 4U campaign was launched in January 2005 and gives an opportunity to individuals, NGOs, and companies alike to plant indigenous trees in afforestation areas around the Maltese Islands.",1.0,explorer
+UNFCCC.party.1743.0,1cb922baaf6b020260f8045b8b4a0118__3bda201e8abfe16c5fb26e56d53fbed1ec7c44008a3d9c1c3a88abf3f87d77c4,OPPORTUNITY,SOLUTION,solutions,133,142,The vision of the Ministry for the Environment is to maximise the inherent resource value in waste through holistic waste management solutions and by fostering societal change towards waste prevention and aspire to progressively move towards a zero-waste scenario.,1.0,explorer
+UNFCCC.non-party.1744.0,c8ede0f5ecf4f7edc2f1a7a3e777f293__b927378bdba8207b6eae0de9e28726b1fdaa770ab67fb5eb4b491a97a3d502b8,GOOD_PRACTICE,GOOD_PRACTICE,good practices,387,401,"We, Heads of State and Government, Ministers and High Representatives, gathered at the United Nations on 18 and 19 May 2023 for the high-level meeting of the General Assembly on the midterm review of the Sendai Framework for Disaster Risk Reduction 2015-2030¹ to assess progress on integrating disaster risk reduction into policies, programmes and investments at all levels, identify good practices, gaps and challenges and accelerate the path to achieving the outcome and goal of the Sendai Framework and its seven global targets by 2030.",1.0,explorer
+UNFCCC.non-party.1744.0,4ea20d9c8fccec200763b1b657934354__bb87d439e15c2abdf060cd4ef1318679368922506e09f03342c75cf94e0f49f6,SUCCESS,SUCCESSFUL,successful,360,370,"We welcome the holding of the United Nations Conference on the Midterm Comprehensive Review of the Implementation of the Objectives of the International Decade for Action, ""Water for Sustainable Development"", 2018-2028, from 22 to 24 March 2023, and reiterate that sustainable, integrated, disaster risk-informed water resource management is necessary for successful disaster preparedness, disaster risk reduction and climate change adaptation and that the achievement of the water-related goals and targets contributes to the successful implementation of the Sendai Framework.",1.0,explorer
+UNFCCC.non-party.1744.0,4ea20d9c8fccec200763b1b657934354__bb87d439e15c2abdf060cd4ef1318679368922506e09f03342c75cf94e0f49f6,SUCCESS,SUCCESSFUL,successful,531,541,"We welcome the holding of the United Nations Conference on the Midterm Comprehensive Review of the Implementation of the Objectives of the International Decade for Action, ""Water for Sustainable Development"", 2018-2028, from 22 to 24 March 2023, and reiterate that sustainable, integrated, disaster risk-informed water resource management is necessary for successful disaster preparedness, disaster risk reduction and climate change adaptation and that the achievement of the water-related goals and targets contributes to the successful implementation of the Sendai Framework.",1.0,explorer
+UNFCCC.non-party.1744.0,1b163243d1e9195d5cfefebed73c7d1d__f4650ebb5deb4b6f98d0f123e4b70c0c212325b49211500f49298c56eddad6b7,GOOD_PRACTICE,GOOD_PRACTICE,good practices,523,537,"(a) Strengthening the collection and analysis of data on hazards, disaster events and their impacts, including losses and damages, and the monitoring of systemic risk, cascading effects, compounding hazards and multiple risk drivers through enhancing investment in human and institutional capacity development, research, digital technological development and innovation, emerging technologies, Earth and climate observations as well as geographic information systems, and sharing of lessons learned from past disasters and good practices for multidimensional and multi-hazard risk assessment, risk analytics, risk mapping and strategic foresight, especially in developing countries;",1.0,explorer
+UNFCCC.non-party.1744.0,4fbfd4657f985e3eccf91cb2e6edf177__c9c4a231f74d26e08cf392d5dd4ddf991538515f68a015f06169460c83ac549c,GOOD_PRACTICE,BEST_PRACTICE,best practices,161,175,"We stress the need to foster better understanding and knowledge of disaster risk, in particular in developing countries through, inter alia, the exchange of best practices and expertise, technology transfer on concessional and preferential terms, as mutually agreed, educational and training programmes for disaster risk reduction and management and access to relevant data and information.",1.0,explorer
+UNFCCC.non-party.1744.0,1e5d9c2b400a5d38981dbd400dcbd8cf__db51547f4b5f5e52e3e6f59b6e91b08944f5ac9ce3d3294ab1d42b6ca1cb98e5,OPPORTUNITY,SOLUTION,solutions,293,302,"(f) Promoting disaster risk reduction policies, strategies and actions that reduce the risk of displacement in the context of disasters, including by addressing the underlying disaster risk factors and causes of such displacement, preparing for its adverse consequences and supporting durable solutions to disaster-related displacement through international, regional, subregional, transboundary and bilateral cooperation;",1.0,explorer
+UNFCCC.non-party.1744.0,5b4560425cf235c0b349f053720f5417__e1ca5bec4a92608c556267c67a2dc30be0ada87ac525ecd7253725b037bfa66f,OPPORTUNITY,SOLUTION,solutions,27,36,"(g) Promoting nature-based solutions, ecosystem-based approaches, among other approaches, for disaster risk reduction at all levels and across all phases of disaster risk reduction and management to restore, maintain and enhance ecosystem functions and services for protection from natural hazards, and to contribute towards increasing the resilience of biodiversity, supporting sustainable livelihoods and building community resilience;",1.0,explorer
+UNFCCC.non-party.1744.0,e8e62e751139ed83759608299ba29c21__b7a48ebb64aeab5049d062f1c40909964cda7bf41209ee4d6b9e593cafdd5268,OPPORTUNITY,OPPORTUNITY,opportunities,376,389,"We are concerned that the number of people and countries affected by disasters will increase owing to the impact of climate change and increasing exposure and vulnerability to hazards and that most countries still lack effective pre-disaster preparedness to effectively respond and build back better in recovery, rehabilitation and reconstruction, which has led to missed opportunities to build resilience, reduce disaster risk and make progress towards sustainable development through riskinformed recovery and reconstruction.",1.0,explorer
+UNFCCC.non-party.1748.0,9a9cf8aa3531dcf30d7dbf7a813027ca__8525950568c41f562a29efb102f3a8a38bd06a91d653f8d55c12def7d8da13d7,GOOD_PRACTICE,GOOD_PRACTICE,good practice,299,312,"iations and acronyms
+2006 IPCC Guidelines
+20
+2019 Refinement to the 2006 20
+IPCC Guidelines
+Ga
+AD
+act
+AFOLU
+AR
+BUR
+CH₂
+CO₂
+CO₂ eq
+DANE
+EF
+ETF
+GHG
+GWP
+HFC
+HWP
+ICA
+IDEAM
+IPCC
+IPCC good practice guidance
+NC
+NDC
+NE
+NIR
+non-Annex I Party
+PFC
+REDD+
+Revised 1996 IPCC
+Guidelines
+SF6
+TTE
+aga
+As
+bie
+me
+IPCC good practice guidance G
+for LULUCF
+IPPU
+LULUCF
+MRV
+N₂O
+ΝΑ
+NAMA
+UNFCCC guidelines for the
+preparation of NCs from non-
+Annex I Parties
+UNFCCC roporting
+ca
+can
+Na
+em
+en
+gre
+glo
+hy
+han
+int
+Ins
+Int
+Go
+Gr
+ind
+lan
+me
+nit
+no
+nal
+na
+na
+no
+nal
+Pa
+pe
+red
+des
+ma
+(de
+Re
+su
+tea
+""G
+inc
+SI",1.0,explorer
+UNFCCC.non-party.1748.0,9a9cf8aa3531dcf30d7dbf7a813027ca__8525950568c41f562a29efb102f3a8a38bd06a91d653f8d55c12def7d8da13d7,GOOD_PRACTICE,GOOD_PRACTICE,good practice,178,191,"iations and acronyms
+2006 IPCC Guidelines
+20
+2019 Refinement to the 2006 20
+IPCC Guidelines
+Ga
+AD
+act
+AFOLU
+AR
+BUR
+CH₂
+CO₂
+CO₂ eq
+DANE
+EF
+ETF
+GHG
+GWP
+HFC
+HWP
+ICA
+IDEAM
+IPCC
+IPCC good practice guidance
+NC
+NDC
+NE
+NIR
+non-Annex I Party
+PFC
+REDD+
+Revised 1996 IPCC
+Guidelines
+SF6
+TTE
+aga
+As
+bie
+me
+IPCC good practice guidance G
+for LULUCF
+IPPU
+LULUCF
+MRV
+N₂O
+ΝΑ
+NAMA
+UNFCCC guidelines for the
+preparation of NCs from non-
+Annex I Parties
+UNFCCC roporting
+ca
+can
+Na
+em
+en
+gre
+glo
+hy
+han
+int
+Ins
+Int
+Go
+Gr
+ind
+lan
+me
+nit
+no
+nal
+na
+na
+no
+nal
+Pa
+pe
+red
+des
+ma
+(de
+Re
+su
+tea
+""G
+inc
+SI",1.0,explorer
+UNFCCC.non-party.1748.0,6185af1ce79e7ffc5d94891847cf66f7__995b9bc779d83b43154adfd93d4c1f976be5272a3c948714ad9a4b55d5eb9a4b,GOOD_PRACTICE,GOOD_PRACTICE,Good Practice,0,13,Good Practice Guidance and Uncertainty Management in National Greenhouse Gas Inventories,1.0,explorer
+UNFCCC.non-party.1748.0,8571f3003a45c0c40ca96803ed5638d4__55f8c99f0484cbed5905039a33fa844f9d86899d8b34b5f472ce34b0f16d1dbc,GOOD_PRACTICE,GOOD_PRACTICE,Good Practice,0,13,"Good Practice Guidance for Land Use, Land-Use Change and Forestry",1.0,explorer
+UNFCCC.non-party.1748.0,7816b8c7ab61e653468412736dda0bb7__b86b7c013d7d7cb38f506aa51a9a92f734fca4f4e44aad2d892950421efd7d0a,GOOD_PRACTICE,GOOD_PRACTICE,good practice,102,115,Colombia reported comparable information addressing the tables included in annex 3A.2 to the IPCC good practice guidance for LULUCF and the sectoral reporting tables annexed to the Revised 1996 IPCC Guidelines.,1.0,explorer
+UNFCCC.non-party.1748.0,24acacc3d39b0b6ac482e24e71ede44b__d51c5c5477dafbb284fd915562545e8e978a6b50812652c9065e8a06d84a8ef0,OPPORTUNITY,SOLUTION,solutions,771,780,"Emission reduction potentials have been projected for all areas, the most significant being for energy generation, with estimates in the order of 8.31 Mt CO₂ eq by 2030 to be achieved as a result of actions linked to (1) the diversification of the energy mix and the transformation of non-interconnected areas through the use of local energy resources, (2) the promotion of cost-effective solutions for more productive and sustainable electricity generation over time and (3) an increase in service provision coverage through the use of reliable technologies with a lower EF or the interconnection of decentralized energy sources",1.0,explorer
+UNFCCC.non-party.1748.0,33b9f9f5441ad5208bcd16368430defa__302f4d16d313cb5f1718421ce7cf1191db54f6f697efae8dbd12936db1d4aa8d,GOOD_PRACTICE,GOOD_PRACTICE,good practices,141,155,Mitigation actions in the environment sector are associated with two main strategic approaches: biodiversity and ecosystem services; and good practices and efficient use of resources.,1.0,explorer
+UNFCCC.non-party.1748.0,2b16fbbe1153f052c8fe9198be6fd65e__954c5f86b94babbd4ed9a6067e6ad7563c0b248d3c86802482559849f27893da,GOOD_PRACTICE,GOOD_PRACTICE,good practice,1340,1353,"Non-Annex I Parties are encouraged to include, as
+appropriate and to the extent that capacities permit,
+in the inventory section of the BUR:
+The updates of the section on national inventories Yes
+of anthropogenic emissions by sources and
+removals by sinks of all GHGs not controlled by
+the Montreal Protocol should contain updated data
+on activity levels based on the best information
+available using the Revised 1996 IPCC Guidelines,
+the IPCC good practice guidance and the IPCC
+good practice guidance for LULUCF; any change
+to the EF may be made in the subsequent full NC.
+",1.0,explorer
+UNFCCC.non-party.1748.0,2b16fbbe1153f052c8fe9198be6fd65e__954c5f86b94babbd4ed9a6067e6ad7563c0b248d3c86802482559849f27893da,GOOD_PRACTICE,GOOD_PRACTICE,good practice,1525,1538,"Yes
+good practice guidance for LULUCF;
+(b)",1.0,explorer
+UNFCCC.non-party.1748.0,2b16fbbe1153f052c8fe9198be6fd65e__954c5f86b94babbd4ed9a6067e6ad7563c0b248d3c86802482559849f27893da,GOOD_PRACTICE,GOOD_PRACTICE,good practice,1376,1389,"Non-Annex I Parties are encouraged to include, as
+appropriate and to the extent that capacities permit,
+in the inventory section of the BUR:
+The updates of the section on national inventories Yes
+of anthropogenic emissions by sources and
+removals by sinks of all GHGs not controlled by
+the Montreal Protocol should contain updated data
+on activity levels based on the best information
+available using the Revised 1996 IPCC Guidelines,
+the IPCC good practice guidance and the IPCC
+good practice guidance for LULUCF; any change
+to the EF may be made in the subsequent full NC.
+",1.0,explorer
+UNFCCC.non-party.1748.0,14eca19ec8a0fc1057862fc08afaac32__7d896392494cfe7867834ce331a84d903afc1cd37739927871eb6607160bcbac,GOOD_PRACTICE,GOOD_PRACTICE,good practice,1333,1346,"Non-Annex I Parties are also encouraged, to the
+extent possible, to undertake any key source
+analysis as indicated in the IPCC good practice
+guidance to assist in developing inventories that
+better reflect their national circumstances.
+",1.0,explorer
+UNFCCC.non-party.1748.0,bcc92e3fdcf4dd24d9c1b99e3f83ad34__c63abbb40be2f16c973319b84685e705695c5171839acadfeb5b1e331f070299,GOOD_PRACTICE,GOOD_PRACTICE,good practice,1288,1301,"Annex I Party shall, as appropriate and
+ent possible, provide in its national
+on a gas-by-gas basis and in units of
+mates of anthropogenic emissions of:
+ex I Parties are also encouraged, to the Yes
+sible, to undertake any key source
+sindicated in the IPCC good practice
+to assist in developing inventories that
+ect their national circumstances.
+",1.0,explorer
+UNFCCC.non-party.1748.0,9cd8f9d1bbe01aea22d30bbc76efe68d__5bccbb79671e58fb1a3b39859fa6d63ae3e822eff4dc4f1a03464d01d5d9826d,GOOD_PRACTICE,GOOD_PRACTICE,Good Practice,12,25,"Good Practice Guidance and Uncertainty Management in National
+Greenhouse Gas Inventories.",1.0,explorer
+UNFCCC.non-party.1748.0,b2fce02b9b50f9e1c2f8e262e7bf8903__19b6631338c1b9f09043b608fee45e2b5cd1a87cda65f43dacfe03b1acc20907,GOOD_PRACTICE,GOOD_PRACTICE,Good Practice,12,25,"Good Practice Guidance for Land Use, Land-Use Change and Forestry.",1.0,explorer
+UNFCCC.party.1729.0,ed7ed26157db80cda6695f9be1b05d00__5fa7fab2ab45eac7564d41a9c15931308ca8d948ab298dd527f1918c72387114,SUCCESS,SUCCESS,success,554,561,"It shall leverage on
+Egypt's recent success on attaining pro-poor economic growth with the decline in poverty
+since 2020 for the first time in almost two decades and strengthening social safety nets to
+reach the most vulnerable.",1.0,explorer
+UNFCCC.party.1729.0,28c3c6090aced1277778e2c19d0acd0a__6e4791ba40dfbd9173541094997a884380138f7574b85b2292e137b61d339185,CASE_STUDY,CASE_STUDY,Case Study,304,314,12-Developing Human Capital in Egypt through Energy Subsidy Reforms: A Case Study.,1.0,explorer
+UNFCCC.party.1729.0,cbf71f7d184c6fbaccd33401bd17585c__10cc1cc526cdfa0b4a7e1f01913980114d3fe2f310931ad00978644cd874beb8,OPPORTUNITY,SOLUTION,solutions,564,573,"This scale-up in renewable energy would necessitate to transform the electricity grid to ""smart grid' through modern digital technology, smart metering, and flexible solutions appropriate to the local context and expand on regional interconnections.",1.0,explorer
+UNFCCC.party.1729.0,38edc87675233b39e234a23abe96ce0b__0241c1f1be70ce4994082ca2b29d2c33a4da928766ce574ddcd0edb74f7df90b,OPPORTUNITY,SOLUTION,solutions,30,39,Reinforcement of nature-based solutions for land protection through sand dune stabilization by the cultivation of wild plants and wooden barriers and preserving natural defense lines against sea encroachment during storms.,1.0,explorer
+UNFCCC.party.1729.0,8379dd94422587ece3eb1fe906e1935d__7641070d34da5f9a9bcb3deb7ea625b3d21add0b6dceba7bb6709344824ffd74,GOOD_PRACTICE,BEST_PRACTICE,Best practices,154,168,"ii Contextual matters, including, inter
+a National circumstances, such as
+geography, climate, economy,
+sustainable development and
+poverty eradication;
+b
+Best practices and experience Refer to Section 1 (National Context >
+related to the preparation of Introduction) above
+the
+nationally
+determined
+contribution;
+stakeholders.
+",1.0,explorer
+UNFCCC.party.1729.0,924bf4ab9860172d48bf0b8ad6a75c4a__92a6f2b82a75d1f653788850e9780a97d7b37cc02c8f93fcc08b372ee3a4b7bd,GOOD_PRACTICE,GOOD_PRACTICE,good practice,756,769,"Default emission factors
+in IPCC good practice guidance issued in the
+years 1996 and 2006 have been utilized.
+",1.0,explorer
+UNFCCC.party.1729.0,924bf4ab9860172d48bf0b8ad6a75c4a__92a6f2b82a75d1f653788850e9780a97d7b37cc02c8f93fcc08b372ee3a4b7bd,GOOD_PRACTICE,GOOD_PRACTICE,Good Practice,924,937,"In addition to the IPCC Guidelines for National
+GHG Inventories, the 'Good Practice Guidance
+and Uncertainty Management in National
+GHG Inventories' guidelines were used for
+preparation of the inventories.
+",1.0,explorer
+UNFCCC.party.1735.0,061e344f984a0b3165b6cb3dfb70a3d8__b93d496da4d30f4c848b79e93b710b2d294eece002353425600831f8f72f140a,GOOD_PRACTICE,BEST_PRACTICE,best practice,660,673,"97% of the 9,000 MW power commissioned in 2020 and 2021 were renewable, the rest is cogeneration, which is a best practice of efficiency.",1.0,explorer
+UNFCCC.party.1735.0,de5c3dac2cf913aeea277fdc7518f3d7__8715bbd8bee23b14453333f3baff6c536c276a4afd0fe571a8f72953ae08cea9,OPPORTUNITY,OPPORTUNITY,opportunities,156,169,"Hoc Working Group (AWG-LCA) established under the Convention to dwell upon Türkiye to have better access to the financing, technology and capacity-building opportunities to develop its ability to apply the provisions of the Convention more effectively.",1.0,explorer
+UNFCCC.party.1735.0,b739b5e4eedb965d19bf2f88f5b9d94b__37093c14347b23faf5598abbd5d06864f6f946a7787411cb75a95308d0d40b19,OPPORTUNITY,OPPORTUNITY,opportunities,116,129,"In the decision of the Conference of the Parties, UNFCCC is requested to prepare a technical report identifying the opportunities that Türkiye (Annex I Parties whose special circumstances are recognized by the Conference of the Parties) can benefit, at least until 2020, from support from relevant bodies established under the Convention and other relevant bodies and institutions to enhance mitigation, adaptation, technology, capacity-building and access to finance, to be evaluated by the Subsidiary Body for Implementation (SBI) at the next conference.",1.0,explorer
+UNFCCC.party.1735.0,c81598178ac39da6524f4c3cb0399feb__cabc3d0eaa746bf7f37ad9b7ad3c9653f0f91a4d23afa0195292c4107919a322,OPPORTUNITY,OPPORTUNITY,opportunities,160,173,"2. Requests the secretariat to prepare, for consideration by the Subsidiary Body for Implementation at its thirty-eighth session, a technical paper identifying opportunities for Annex I Parties whose special circumstances are recognized by the Conference of the Parties to benefit, at least until 2020, from support from relevant bodies established under the Convention and other relevant bodies and institutions to enhance mitigation, adaptation, technology, capacity-building and access to finance;",1.0,explorer
+UNFCCC.party.1735.0,1c3e115b6045ff89ed7ff4a18868c9be__e4d5d6d51355b97f072bba5b2db7233f23fbf8fd09b1f22ab3242bf9991afa05,OPPORTUNITY,OPPORTUNITY,opportunities,544,557,"1. Recognizes the opportunities for Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties to benefit, at least until 2020, from support from relevant bodies established under the Convention and other relevant bodies and institutions to enhance mitigation, adaptation, technology, capacitybuilding and access to finance; Encourages Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties to fully utilize those opportunities; Urges Parties included in Annex II to the Convention which are in a position to do so, through multilateral agencies, including the Global Environment Facility within its mandate, relevant intergovernmental organizations, international financial institutions, other partnerships and initiatives, bilateral agencies and the private sector, or through any further arrangements, as appropriate, to provide financial, technological, technical and capacity-building support to Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties in order to assist them in implementing their national strategies, actions and plans on climate change mitigation and adaptation, and in developing their low-emission development strategies or plans in accordance with decision1/CP.16.",1.0,explorer
+UNFCCC.party.1735.0,1c3e115b6045ff89ed7ff4a18868c9be__e4d5d6d51355b97f072bba5b2db7233f23fbf8fd09b1f22ab3242bf9991afa05,OPPORTUNITY,OPPORTUNITY,opportunities,18,31,"1. Recognizes the opportunities for Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties to benefit, at least until 2020, from support from relevant bodies established under the Convention and other relevant bodies and institutions to enhance mitigation, adaptation, technology, capacitybuilding and access to finance; Encourages Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties to fully utilize those opportunities; Urges Parties included in Annex II to the Convention which are in a position to do so, through multilateral agencies, including the Global Environment Facility within its mandate, relevant intergovernmental organizations, international financial institutions, other partnerships and initiatives, bilateral agencies and the private sector, or through any further arrangements, as appropriate, to provide financial, technological, technical and capacity-building support to Parties included in Annex I to the Convention whose special circumstances are recognized by the Conference of the Parties in order to assist them in implementing their national strategies, actions and plans on climate change mitigation and adaptation, and in developing their low-emission development strategies or plans in accordance with decision1/CP.16.",1.0,explorer
+UNFCCC.party.1735.0,ab86acfa4b7ae64050405c6d31fe7f52__fd89fbe76b0d45073c458fd7e342dbe6c2754fc411683c9f5aa12c8fd06353d8,SUCCESS,SUCCESSFUL,successful,167,177,"Municipalities are important administrations in combating climate change, since they are responsible for taking a wide range of decisions that could contribute to the successful achievement of the national targets.",1.0,explorer
+UNFCCC.party.1735.0,874473d3f639a087d2c69d76fa75fe57__a72f72249026e02ed2675f8daac6b6779d2b1758d7e1641026bd0f651e984743,OPPORTUNITY,SOLUTION,solutions,383,392,It is aimed to implement smart city technologies and solutions to apply and disseminate on a regional and global scale.,1.0,explorer
+UNFCCC.party.1735.0,803efb76c108a6769e6e677106b8ab6c__b35584128f70cbdacbc61124b483d84c4692adfb964031084af27672594eccf9,OPPORTUNITY,OPPORTUNITY,opportunities,842,855,"It has aimed to increase the wind or solar energy capacity, create new investment opportunities, establish an electricity storage unit, and contribute to the security of supply by reducing the intermittent generation profile and imbalances.",1.0,explorer
+UNFCCC.party.1735.0,402697ba8a1f93a5332af1c240fafcf9__8e667ae3dcb88948d13f3512484eec06c509e385d8e91cad9f2874198f8892f4,GOOD_PRACTICE,BEST_PRACTICE,best practices,605,619,"The Green Certificate is currently a
+voluntary scheme that encourages the use of best practices, some of which are not mandated
+by the existing regulations.",1.0,explorer
+UNFCCC.party.1735.0,1a804c9631bdee4cf631447aa5496cb0__f5a3270e6e97b5bab39b09dd64b568892e77177a7fef7258846b3b5c2a38231b,OPPORTUNITY,OPPORTUNITY,opportunities,275,288,"Ports are encouraged for development of supply opportunities for alternative fuels, development of onshore powering/cold ironing infrastructure, establishment of renewable energy infrastructure in ports, installation of low/zero emission vehicles, handling equipment and other projects related to other structures.",1.0,explorer
+UNFCCC.party.1735.0,53f58b3634ccf29b4f846cf022799723__dc7f826d44880eb890e9293967053cecaa2b81caa96e114985f106eeb641f26c,OPPORTUNITY,SOLUTION,solutions,69,78,"""Green solutions are used to address the fundamental infrastructure and superstructure of Organized Industrial Zones (OIZ) as part of the World Bank initiative.",1.0,explorer
+UNFCCC.party.1735.0,34116e5a5426781eb69f7e271288c328__3d6bd84ecc7aad00eb11d5121f306ffa1c1550c25a96f9379ec68f9b8595f834,OPPORTUNITY,SOLUTION,solutions,620,629,"Sectoral Focus Groups have been established in selected pilot sectors in order to determine the technological needs related to combating/adaptation with climate change and the legal obligations to be brought by the European Green Deal, and to create technological solutions for the identified needs.",1.0,explorer
+UNFCCC.party.1735.0,19d0d798bbbc2b57247667cc62a80a0b__598248af49c5a4538648bc20c7a1c8c2f54869ab01e116574ab049dec5cc2a18,GOOD_PRACTICE,BEST_EXAMPLE,best examples,11,24,One of the best examples is the Environmentally Based Agricultural Land Protection Programme (ÇATAK) to agri-environmental programs.,1.0,explorer
+UNFCCC.party.1735.0,08e88b87046158c274dcd9835091c1f0__98ea39750b52e2345371bc8a3b7910895867a6b6e9c8f410a33265f0635a125c,OPPORTUNITY,PIONEER,pioneer,557,564,"As a result, packaging and packaging waste management; are evaluated as a pioneer for waste and resource management, which has a positive impact on decreasing GHG emissions by promoting sustainable resource management and higher recycling rates.",1.0,explorer
+UNFCCC.party.1735.0,59929ee4b29c386216e397b2c7147ac7__3f10f35ea4d6c6c9ea5379e305d4f8e0864da33e87594be93778f3cba58be36c,OPPORTUNITY,SOLUTION,solutions,910,919,"With the Climate Promise Project, which was completed in 2021 and whose beneficiary institution was the MoEUCC, sectoral risk analyses were conducted for seven geographical regions of Türkiye as part of the preparation of regional action plans, and a catalog of nature-based solutions was compiled to strengthen climate change adaptation and mitigation.",1.0,explorer
+UNFCCC.party.1735.0,46ecf56876b1ca997022db33705823ba__884e586a0b99531c2d3af6dfe850cb3dc84d42cadfe75c6cfa6841f314793c23,OPPORTUNITY,SOLUTION,solutions,223,232,"In this regard, Türkiye prepared Regional Climate Change Action Plans in 2020 for all seven geographical regions in order to identify the regional action needs and solutions.",1.0,explorer
+UNFCCC.party.1735.0,91d0020d47b00201b0f82147d7092c4e__32360f9e18749ccdeac2df8f03bbe84220c708030dbc5c5b68053c0eeb0530a5,GOOD_PRACTICE,BEST_PRACTICE,best practices,1083,1097,"Project has been approved
+by the Ministry of Agriculture and Forestry in 12.12.2022 and it has three main outcomes those
+are strengthening the policies and strategic plans for promotion of the agro-ecosystem
+approach, promoting agroecological practices, applying integrated agroecosystem and
+sustainable land management practices in Bolu province and promoting the best practices and
+disseminating the learned lessons.",1.0,explorer
+UNFCCC.party.1735.0,ab69a15490ce3c935c59ea18327fc8ac__cce1dfbc53917143fd35ed0b84182fb2d110cbdf0a09e1f8bd620a088c9a2ccd,OPPORTUNITY,SOLUTION,solutions,1244,1253,"As part of Türkiye's efforts to minimize the impacts of climate change on biodiversity, it has taken a position in support of nature-based solutions and an ecosystem-based approach in the Post2020 Global Biodiversity Framework negotiations Türkiye will update its NBSAP according to the Kunming-Montreal Global Biodiversity Framework, to ensure the effective implementation of the Convention on Biological Diversity, Türkiye has Kunming-Montreal Global Biodiversity Framework, also established the National Biodiversity Coordination Council.",1.0,explorer
+UNFCCC.party.1735.0,0ba3dc315a73e660f0b70d9c0ac4a5fb__ad96ed285ba57e6868e825f7064991e9df899961c445fa100a55f734f126f7d8,OPPORTUNITY,OPPORTUNITY,opportunities,339,352,"These ecosystems provide a range of
+significant ecological, economic, and social benefits, including serving as a habitat for various
+plant and animal species, providing recreational opportunities, and protecting against natural
+disasters such as storms and floods.",1.0,explorer
+UNFCCC.party.1735.0,200d13ebbaf1838d64871314d9ffee9d__92e2789f846f2a7b0bf34ef77c8dbb7577977210005df73ea5192387b62d0d72,OPPORTUNITY,SOLUTION,solutions,464,473,"Within the scope of the international agreements and regulations, including Regional Sea Conventions like the Barcelona Convention, in line with the Paris Agreement and the European Green Deal and sustainable development goals (especially SDG 13, SDG 11, SDG 12, SDG 14), to increase the resilience of the Mediterranean to climate change, land degradation, integrated coastal management, marine and coastal biodiversity, etc. ecosystem-based approach, naturebased solutions, circular economy, reduction of land-based pollution; an intensive study has been planned on the adoption of practices on the subject.",1.0,explorer
+UNFCCC.party.1735.0,c4ad96f9f96bf59862b7eedfdc63aa93__5d76ab2d84ec56fcea05bff07fde7ed7207ddad71a544179be114fd3487aa4da,OPPORTUNITY,OPPORTUNITY,opportunities,342,355,"These ecosystems provide a range of important ecological, economic, and social benefits, including serving as a habitat for a variety of plant and animal species, providing recreational opportunities, and protecting against natural disasters such as storms and floods.",1.0,explorer
+UNFCCC.party.1735.0,9b63870ee76ae5ce2dc4120ab4ed907a__8c79b3bc4c30d8b1117908b679612aa03ef25dd0b2aa4579395aebe2ee371e93,OPPORTUNITY,SOLUTION,solutions,898,907,"To support these efforts, the project has several objectives including developing urban adaptation planning solutions.",1.0,explorer
+UNFCCC.party.1735.0,bbebf86db60da1fba29e4cf9d1be3144__9a457d11d86c245ffb84e8e5ef1c29cad0080c781b913bf9878582dfad6d0c14,GOOD_PRACTICE,GOOD_PRACTICE,good practices,170,184,"that will be devoted for preparing national frameworks, strategies, standards, and certificate
+programs, running research and investigation (R&I) activities, transfer of good practices,
+delivering personnel training, implementing pilot demonstrations, disseminating and exploiting
+the project results linked to climate risk assessment, adaptation, mitigation, reduction of net
+greenhouse gases emission at World Heritage Sites, historical buildings and museums.",1.0,explorer
+UNFCCC.party.1735.0,ba0070f53982281421e87681d6219b16__cc6596144b68e1c21080b690973c13c7a244333797ea6f89dcb7b1040c7c0d25,SUCCESS,SUCCESSFUL,successful,341,351,The motivation and high-level ownership of the Government for the green transformation of the economy will pave the way for the successful implementation of this Research Agenda.,1.0,explorer
+UNFCCC.party.1735.0,73d77ba389b45e8a6c7fd8414e413f11__32f014c279f45a2f3b6c5b0c19cf89b1acbd6e679ba6fd1b0b9f4dacecbf96d1,OPPORTUNITY,SOLUTION,solutions,418,427,Ground-breaking R&D and innovation-based solutions are discussed in specific themes chosen in accordance with the EU Green Deal topics.,1.0,explorer
+UNFCCC.party.1735.0,73d77ba389b45e8a6c7fd8414e413f11__32f014c279f45a2f3b6c5b0c19cf89b1acbd6e679ba6fd1b0b9f4dacecbf96d1,OPPORTUNITY,OPPORTUNITY,opportunity,748,759,"We aimed to foresee the technologies of the future for adaptation and mitigation to climate change, to enable Türkiye to develop its R&D and innovation capacity in these technologies, and thus to turn the climate change crisis into an opportunity in the medium/long term.",1.0,explorer
+UNFCCC.party.1735.0,ddf9ab4001e82e2168d48d8f041f6603__3e39b4e5de64cb4788def44ea7d4f48b78cc0c2d90156ce3c467da68662283d9,OPPORTUNITY,SOLUTION,solutions,363,372,"Türkiye's main national R&D and Innovation Support Programs involve priorities based on the Green Deal for innovative solutions to contribute to protect ecosystems from climate change, clean and circular economy, clean, accessible and secure energy supply, green and sustainable smart transport.",1.0,explorer
+UNFCCC.party.1735.0,194ace3c7ac345821bb24bc401c791e7__935f6248e3357e963214871874f0fdeb8598f40b5e785a14535f1cde635ceecb,OPPORTUNITY,OPPORTUNITY,opportunities,245,258,"The ""Advanced Materials High Technology Platform"", where advanced material technologies are developed to provide cleaner production opportunities and the ""Turkish Photovoltaic Technologies Platform"", where highly efficient and cost-effective solar cell technologies, including new generation solar energy technologies are developed; are examples of platform projects focusing on green technologies.",1.0,explorer
+UNFCCC.party.1735.0,41902fe318ce80c6ecf0dbcf628a3485__59a35f8fd5c92e149807364f9a7a93a6551fa2a02672b271e0196f7246af4c72,OPPORTUNITY,SOLUTION,solutions,577,586,Considering the teams of researchers involved in these projects; 153 researchers from 31 different institutions/organizations (university/research center/private sector) operating in this field have come together to create domestic and national solutions.,1.0,explorer
+UNFCCC.party.1735.0,47c44ea17923cd51e317aa658cc21282__fafc2a143bfe867f3ee01d0eb84e520872b4acaf9e707e855026e418ca891cfe,OPPORTUNITY,PIONEER,pioneering,380,390,"In addition, we continue to support 82 qualified researchers, who have carried out pioneering research in Türkiye, with TUBITAK's National Outstanding Researchers Program.",1.0,explorer
+UNFCCC.party.1735.0,9634897e61d6f3208570d59fe76f2203__4c49c759f2ee59b228ac2c6d74faf3ae3f3127ec02c5ea0dcf7e9af5cf783926,OPPORTUNITY,SOLUTION,solutions,783,792,"Benefiting from the outputs of this study, proper STI and investment support programs will be designed in cooperation with MolT especially for projects that will provide domestic solutions to the technological needs of private sector organizations in Türkiye that will enable them to adapt to green transition.",1.0,explorer
+UNFCCC.party.1735.0,e13f8b4ff70bca733b72190eb57d76f1__0df6aa376ac5ebbd5b56c40054cdd22e3a8827b1384226e5e683d997b38f139b,OPPORTUNITY,SOLUTION,solutions,562,571,"TUBITAK encourages multidisciplinary and multi-stakeholder solutions, with an approach based on ""co-creation"" and ""succeeding together"" to promote impact-oriented solutions.",1.0,explorer
+UNFCCC.party.1735.0,e13f8b4ff70bca733b72190eb57d76f1__0df6aa376ac5ebbd5b56c40054cdd22e3a8827b1384226e5e683d997b38f139b,OPPORTUNITY,OPPORTUNITY,opportunities,126,139,"TUBITAK is committed to developing technologies that can help the country face global risks and challenges, turning them into opportunities for innovation.",1.0,explorer
+UNFCCC.party.1735.0,e13f8b4ff70bca733b72190eb57d76f1__0df6aa376ac5ebbd5b56c40054cdd22e3a8827b1384226e5e683d997b38f139b,OPPORTUNITY,SOLUTION,solutions,666,675,"TUBITAK encourages multidisciplinary and multi-stakeholder solutions, with an approach based on ""co-creation"" and ""succeeding together"" to promote impact-oriented solutions.",1.0,explorer
+UNFCCC.party.1735.0,d4fe75d7a879e76a81d0c7d35cf1464f__ef1634cc7ead1cccc4f88bdf14c2405c680c375cc2d970099ef23545053645b3,OPPORTUNITY,SOLUTION,solutions,476,485,"The project seeks to strengthen TUBITAK MAM's scientific reputation, attractiveness, and networking channels while promoting scientific excellence in key applications of smart environmental solutions for the mitigation and adaptation of Türkiye's economy to climate change.",1.0,explorer
+UNFCCC.party.1735.0,2826cc1a07689d0f717b6218681815b3__2eb3604b553108f9bdea29b0182ed12966efeba54d4aa993c3cb190650d74279,OPPORTUNITY,SOLUTION,solutions,117,126,R&D Program allows technology developer SMEs to collaborate with customer firms and transform their technology-based solutions that meet sector needs into outputs with commercial value.,1.0,explorer
+UNFCCC.party.1735.0,04330c529c80e20a761557454cfafb90__04b966caee4ef21c80a920493f5d0f654459f2d4e501e11d534f2b4a3688522a,OPPORTUNITY,OPPORTUNITY,opportunity,438,449,"In this way, it is aimed that Türkiye will turn the climate change crisis into an opportunity in the medium/long term.",1.0,explorer
+UNFCCC.party.1735.0,617e2543f51a83c1ab6e62e843da4bee__5ff560b443cf086b107894b2b7598b6f4ef6154922c8dc02df9f9f3363a7645e,OPPORTUNITY,SOLUTION,solutions,554,563,"Pursuant to the fundamental principles and general goals of the National Education, the objectives and responsibilities of secondary education are twofold: (1) To instill in all students an awareness of, and ability to understand, problems to the extent that a basic, common culture allows them to seek solutions and develop the consciousness to contribute to the country's economic, social, and cultural progress; and (2) To prepare students for higher education or career fields in line with their interests, aptitudes, and abilities through diverse programs and schools.",1.0,explorer
+UNFCCC.party.1735.0,5b2c1e2f0d5757cfc6c9c9783576f232__1185c3c5303b8d022db42a794fd780c04b135579f890a7e57b64fb9bd5307703,OPPORTUNITY,OPPORTUNITY,opportunities,29,42,• Determining energy savings opportunities and amounts,1.0,explorer
+UNFCCC.party.1735.0,bd0a6c23fd2476fe0d23a2712737d84e__0d2ae9296e6ca2194931c51185f42bb467b55df86513e86a5ee3141584d7f03c,OPPORTUNITY,OPPORTUNITY,opportunity,693,704,"Kickoff and final meetings of projects are often open to the public, providing and opportunity for citizens to learn about and engage with the work being done to combat climate change.",1.0,explorer
+UNFCCC.party.1735.0,ad61181210f7e70788c2bd2c298a672a__4abd03199a642e1da83ecb960d1500d43df2e56132e0b86ea037f6b8a797ec58,OPPORTUNITY,OPPORTUNITY,opportunities,510,523,"This includes financial support for travel and accommodation, as well as opportunities for networking and collaboration with international partners.",1.0,explorer
+UNFCCC.party.1735.0,84f07b519284ce4c07c75ac2eb41b82b__e0a111e05a7f54517ad755e28c0d70cb0162277e1f42f3c37659d8c263eeb44f,OPPORTUNITY,OPPORTUNITY,opportunities,53,66,"Hosting international events can lead to significant opportunities and contributions for
+international cooperation for the host country.",1.0,explorer
+UNFCCC.party.1735.0,6b0239f4c6ab3bbe62af1e91f5fbdda2__3433921eac9add0490ed9fe0e9c5d018616f310d5de0715f0fcc89bcce241d32,GOOD_PRACTICE,BEST_PRACTICE,best practices,238,252,"At this summit, British and Turkish business leaders
+discussed climate action in the private sector and the best practices that both countries can use
+in their industries to achieve net absorption goals (TÜSİAD, 2022).",1.0,explorer
+UNFCCC.party.1735.0,3e5fc62d9400dd7995f5e062040e5dbc__31d02b5bce96a3e14c696f40e7063a0e14963eb2a314e7a7cc895c644383c6ff,GOOD_PRACTICE,GOOD_PRACTICE,good practices,383,397,"Additionally, the association aims to transfer good practices in agriculture to the municipalities of member states, share technological developments and develop capacity through inter-municipal transfer.",1.0,explorer
+UNFCCC.party.1735.0,d6db536f0ccffc3d4fbf07bfb89afb04__3a1a8b3a2cae95c58a47f38256c8dabf56241dfe3cc9a00ea9a2039fe82b1c40,SUCCESS,SUCCESSFUL,Successful,326,336,"Additionally, TÜSİAD held a session titled ""Sustainable Finance in Türkiye: Successful Cases, Challenges, and Opportunities "" at the EBRD pavilion and another session titled ""The Role of Sustainable Finance in Green Growth"" at the International Chamber of Commerce's (ICC) ""Make Climate Action a Business Forum for Everyone"" pavilion at COP27.",1.0,explorer
+UNFCCC.party.1735.0,d6db536f0ccffc3d4fbf07bfb89afb04__3a1a8b3a2cae95c58a47f38256c8dabf56241dfe3cc9a00ea9a2039fe82b1c40,OPPORTUNITY,OPPORTUNITY,Opportunities,360,373,"Additionally, TÜSİAD held a session titled ""Sustainable Finance in Türkiye: Successful Cases, Challenges, and Opportunities "" at the EBRD pavilion and another session titled ""The Role of Sustainable Finance in Green Growth"" at the International Chamber of Commerce's (ICC) ""Make Climate Action a Business Forum for Everyone"" pavilion at COP27.",1.0,explorer
+UNFCCC.party.1735.0,d6db536f0ccffc3d4fbf07bfb89afb04__3a1a8b3a2cae95c58a47f38256c8dabf56241dfe3cc9a00ea9a2039fe82b1c40,GOOD_PRACTICE,BEST_PRACTICE,best practices,97,111,"At the United Nations Climate Change Conference (COP27) held in November 2022, TÜSİAD shared the best practices of the Turkish business world in combating climate change and the green transition studies carried out by TÜSİAD at the Turkish Pavilion.",1.0,explorer
+UNFCCC.party.1735.0,c9b17fe06dd7126f9a70ce0797d4a8ad__0aba155f259db3a2ee777e830fbef59ba1654c80146bb7d71707a9d54e898184,GOOD_PRACTICE,GOOD_PRACTICE,good practices,185,199,"webinar, with the participation of experts from Türkiye and the UK, the role of sustainable agricultural production in combating climate change, the impact of Farm to Fork Strategy and good practices for sustainable agriculture were discussed (TÜSİAD, 2022).",1.0,explorer
+UNFCCC.party.1735.0,b5ed836f9a6c5583ae654f64f0a78137__35e5a26c654517f8af0ac79362d3f00eba9deebb36d389a271267b170aeb5246,GOOD_PRACTICE,GOOD_PRACTICE,good practices,70,84,"agriculture, food security, and logistics; facilitate the transfer of good practices between municipalities and is expected to develop joint projects with Union member countries and municipalities.",1.0,explorer
+UNFCCC.party.1735.0,8a0850324e16e23a1ea1b52acbbf0509__54520f027bc93e71966e5dcf9aaaf0805bdfe04f3027254c906a31881c711dcf,OPPORTUNITY,OPPORTUNITY,opportunity,214,225,"These letters provided an opportunity for stakeholders to submit their views on the issues discussed in the report, as well as to provide feedback on the overall process of public participation.",1.0,explorer
+UNFCCC.party.1735.0,0b895a9242a0a0a99c233d9d3673e6dd__efdc108f252e2e6e6474b853011d300ce892baa3a28623159a82cb1d982be439,OPPORTUNITY,OPPORTUNITY,opportunity,429,440,"Throughout the public participation process, the focus was on ensuring that all stakeholders had an equal opportunity to participate and that their views were considered.",1.0,explorer
+UNFCCC.party.1735.0,0b895a9242a0a0a99c233d9d3673e6dd__efdc108f252e2e6e6474b853011d300ce892baa3a28623159a82cb1d982be439,OPPORTUNITY,OPPORTUNITY,opportunity,226,237,The Zoom meetings provided an opportunity for stakeholders to interact with each other and share their thoughts on the report.,1.0,explorer
+UNFCCC.non-party.1747.0,7913727155fb60f9e22a80fddd894b93__975b710a0af8f965d51ddbde5e926eceee6e88865816c5dd2843d3a10d86981b,OPPORTUNITY,OPPORTUNITY,opportunity,746,757,"While countries play a key role in monitoring and assessing the achievements of their national adaptation goals, and communicate this information through their policies, plans and strategies, including NDCS, NAPs, Adaptation Communications (ACs), National Communications (NCs) and the upcoming Biennial Transparency Reports (BTRS), the Global Stocktake offers a compelling opportunity to build on the country level strengths, and reinforce the use of high quality data to provide valuable information on the global progress towards GGA.",1.0,explorer
+UNFCCC.non-party.1747.0,7aea1029bf9a0ebdf43a6abb83a2bf3a__70d7570e68e1b13a3d6ede1c90d553b3faf53be5b661761e5782c11375b8a314,OPPORTUNITY,SOLUTION,solution,67,75,"Lastly, FAO also recognizes the role of migration as an adaptation solution in the context of rural agricultural
+livelihoods affected by adverse impacts of climate change.",1.0,explorer
+UNFCCC.non-party.1747.0,1a9deaa98eb30ecb2b65217c3d0c97ed__addf29f17276acb8e2e3af3ece838b998272850bcf3b716bb7f3361697480200,OPPORTUNITY,OPPORTUNITY,opportunities,780,793,"It is worth noting that several countries have worked on identification of opportunities and needs for ""climate proofing' of key investments, relating to adaptation options, for instance, through cost-benefit analysis or multi-criteria assessments and capacity building in applying adaptation technologies and practices.",1.0,explorer
+UNFCCC.non-party.1747.0,c6c3687a00db9af5f28981c5ba2ee465__97122b4162ef6a28fd07755673c4917059f93d34174582fd0479f740123e8395,OPPORTUNITY,OPPORTUNITY,opportunities,588,601,"Also, AFOLU sector, in particular forests and trees, offer multiple opportunities in building mitigation and adaptation synergies, with clear co-benefits for helping achieve the SDGs and biodiversity targets.",1.0,explorer
+UNFCCC.party.1731.0,3d1dcd481b8a9b8520ae31e09da2b9af__88d81a2c4e61e487afe1b4d08a05f8d43d3af2b33198d1d893b5fe3606440974,OPPORTUNITY,SOLUTION,solutions,269,278,"Beyond these sectors, the UAE also aims to remove Carbon Dioxide (CO2) through nature-based solutions.",1.0,explorer
+UNFCCC.party.1731.0,ca881c2db8543f2624dcb2499f9c6276__7e87101c5b8fd6649deb5a89c6787d05ed20af311e40fe2af6ee30e5308ff184,OPPORTUNITY,OPPORTUNITY,opportunity,758,769,"The transition also provides an opportunity to position the UAE as an international clean energy hub, which can attract companies to set up production facilities or relocate production steps to the UAE.",1.0,explorer
+UNFCCC.party.1731.0,be2d1a70c84bf3aa045ccfd49b6079c4__40e1c4870260cf8c41b77f4a6288458920e5992b05e3321e72bfbd01f7f726b6,OPPORTUNITY,OPPORTUNITY,opportunity,71,82,"The UAE views climate action not only as an imperative, but also as an opportunity for sustainable economic growth and socially inclusive prosperity.",1.0,explorer
+UNFCCC.party.1731.0,be2d1a70c84bf3aa045ccfd49b6079c4__40e1c4870260cf8c41b77f4a6288458920e5992b05e3321e72bfbd01f7f726b6,OPPORTUNITY,OPPORTUNITY,opportunities,669,682,"This level of growth is aligned with the objective of the ""We the UAE 2031"" plan to double the country's GDP to AED 3 trillion by 2031.³ Moving towards a greener future is a tremendous opportunity, encouraging all countries to work together to unlock those opportunities related to renewable energy, green buildings, sustainable transport, water and waste management.",1.0,explorer
+UNFCCC.party.1731.0,be2d1a70c84bf3aa045ccfd49b6079c4__40e1c4870260cf8c41b77f4a6288458920e5992b05e3321e72bfbd01f7f726b6,OPPORTUNITY,OPPORTUNITY,opportunity,597,608,"This level of growth is aligned with the objective of the ""We the UAE 2031"" plan to double the country's GDP to AED 3 trillion by 2031.³ Moving towards a greener future is a tremendous opportunity, encouraging all countries to work together to unlock those opportunities related to renewable energy, green buildings, sustainable transport, water and waste management.",1.0,explorer
+UNFCCC.party.1731.0,e4bf3df54fa1790a99d88bb3ce956f32__cd2b7bc58c3195ecbafeb2b050b6bce83704a9a0d8b77e7b789755b73ac05ca4,OPPORTUNITY,SOLUTION,solutions,156,165,"""Year of Sustainability for the UAE, and will host a year-long series of initiatives and events to foster collaboration and promote concrete and innovative solutions to address the climate crisis².",1.0,explorer
+UNFCCC.party.1731.0,3e8eab37fb41b349586dd4889f3f9e2b__cdf4166986edaedd6f875383e0876aba87638684aecee3f67b17f22724d43318,OPPORTUNITY,OPPORTUNITY,opportunities,129,142,"At the same time, addressing the crisis should create opportunities for building resilience and improving social well-being with sustainable, lowcarbon economic growth.",1.0,explorer
+UNFCCC.party.1731.0,d07934320e7c7e4ddbb17ccd38ea6712__9acf482d45bd88b567cb01fa0ab119657a4fa853da014cb145d18207703bf08a,OPPORTUNITY,OPPORTUNITY,opportunities,144,157,opportunities that will drive change in alignment with the 2030 Agenda for Sustainable Development and the Paris Agreement.¹4,1.0,explorer
+UNFCCC.party.1731.0,9053eccbfb86efdba139fc55a6dc19c4__47f783ea0ffaf6c3e8bec2e2b811caef32010b8153d6eceeea89bf99a1f24fef,OPPORTUNITY,SOLUTION,solutions,728,737,"It is allocating $15 billion to lowcarbon solutions, including carbon capture and storage, electrification and investments in hydrogen and renewables (refer to Chapter 4.3.2 'Industry for further details).29",1.0,explorer
+UNFCCC.party.1731.0,450bb745e3f1be34b1bdbb6222280c6d__985bf21d98ca2741040929cbb338118e9a0c04577cc0a2de0c54b6d07616cebe,OPPORTUNITY,OPPORTUNITY,opportunities,458,471,"Climate change
+Temperature Rise
+Humidity Rise
+Sea level Rise
+Extreme events
+Rainfal/floods
+storms/cyclonas drought
+|||||
+Direct consequence
+Heat Stress
+Warmer cooling water
+Transport disruptions
+●●● L●●●
+Priority climate risks
+Health
+Reduced labor productivity
+Energy
+Efficiency losses of power plants
+Reduced power output
+Deterioration of power facilities
+Infrastructure
+Damage to coastal/offshore infrastructura
+Increased maintenance cost
+Loss of business opportunities
+Reduced reliability
+Environment
+Coral bleaching
+Loss of wetlands",1.0,explorer
+UNFCCC.party.1731.0,e0c8d35a80972e2d287f4c5ec07580bc__fff9b4ffca8d92a23c9caf2c88b0acf0c207d91ab2e5ce44ecefebcbdec28c25,OPPORTUNITY,SOLUTION,solutions,33,42,Carbon capture and storage (CCS) solutions are key to decarbonising the UAE's heavy emitting sectors and are particularly relevant to reducing emissions from the chemical process associated with the manufacturing of cement.,1.0,explorer
+UNFCCC.party.1731.0,7ff40491d398a0d300cadddfba2da650__3640ed9c9d8d157a256828afbf84b5a8b2cb21f9edb1fad974b2f80731e1bff4,OPPORTUNITY,PIONEER,pioneering,122,132,"Within the We the UAE 2031 vision, the UAE strives to become a top global producer of low-carbon hydrogen, continuing its pioneering effort in driving the global energy transition and environmental stewardship, while contributing to a prosperous future for all.",1.0,explorer
+UNFCCC.party.1731.0,14a783bcd7c0164e9cd84345f134c00f__81fae26edcd8550387a9479ecc3758c765f47925a9702c54c23075059086cbf6,OPPORTUNITY,SOLUTION,solutions,1509,1518,"It is also committed to an upstream methane intensity target of 0.15% by 2025, one of the lowest targets in the Middle East.76 Additionally, ADNOC has allocated $15 billion to low-carbon solutions such",1.0,explorer
+UNFCCC.party.1731.0,53aa5c42d5c61b6c8f827d0d723e0d7d__cb61ae11087d3bd0aa08f1ce38ff7c454696043f606d816a53398b776d5a16b5,SUCCESS,SUCCESSFUL,successful,484,494,"Similarly, the extension of Taweelah A1 project included a WHR facility, and a successful engineering procurement and construction project built a WHR power plant at Sharjah Cement Factory (SCF).",1.0,explorer
+UNFCCC.party.1731.0,2b87c0c7f6fc098bcf49997a2d07b017__1995e555a18cf9be63f0b5ae6ea5ff87260254a0f4e0722e55aadcb11c399f76,OPPORTUNITY,SOLUTION,solutions,375,384,"This might be achieved by expanding existing first and last mile mobility solutions and introducing a unifying smartphone application that includes real-time information about transport options, among other possibilities.",1.0,explorer
+UNFCCC.party.1731.0,168cb7ea1970808a91b81eb07e8a0ccf__d76289c0ff4366ce837fba6078e0a7b94a1f1e027414fd6c7bac338e793618f1,OPPORTUNITY,OPPORTUNITY,opportunities,268,281,"In 2020, the UAE Cabinet approved a national system for sustainable agriculture aimed at improving the efficiency of farms, enhancing food self-sufficiency, and creating new economic opportunities for the sector.",1.0,explorer
+UNFCCC.party.1731.0,10e1e381c8aa41d0a4042b03bd18633b__9a7a3cf473d99b5a3c620044122464aaac47d5b18ba9dc49020cf9044344661e,OPPORTUNITY,SOLUTION,solutions,584,593,The initiative is also seeking new catering solutions aimed at the reduction of food loss and waste.,1.0,explorer
+UNFCCC.party.1731.0,6c9674f476f7dee0895bced60e7166eb__040f8703b3ec96758af4fb61d3dc5c96e9b5c0e965405e7cceedbfa424d1bf01,OPPORTUNITY,SOLUTION,solutions,273,282,"The UAE aims to decrease demand for water resources and targets a reduction in the water supply needed for agriculture to 7.1 million cubic metres per day by 2036 (down from 8.2 million in 2016).100 To this end, multiple initiatives are in place to introduce novel farming solutions and technologies.",1.0,explorer
+UNFCCC.party.1731.0,1fa292755de138972005eb87e0cd0dac__822e9287394cab77bea0b23ac33489f3448eb4219819e5e6bff338d6273dcb13,OPPORTUNITY,SOLUTION,solutions,89,98,"The UAE is also committed to remove CO₂ from the atmosphere mainly by using nature-based solutions (NBS)
+(e.g., by planting mangroves).",1.0,explorer
+UNFCCC.party.1731.0,1fa292755de138972005eb87e0cd0dac__822e9287394cab77bea0b23ac33489f3448eb4219819e5e6bff338d6273dcb13,OPPORTUNITY,SOLUTION,solutions,202,211,"The country will also explore innovative Direct Air Capture (DAC) solutions which
+extract CO₂ directly from the atmosphere, which in the long term is critical to reach net zero emissions.",1.0,explorer
+UNFCCC.party.1731.0,26daa9b083300c3eb757d7dcf232b43f__f56b5d4cb4210592d933116170a38b43239684b67a01248bd2462ed265d991f4,OPPORTUNITY,OPPORTUNITY,opportunities,127,140,"To avoid power facility damage and deterioration, the UAE is conducting regular maintenance checks and exploring modernisation opportunities by establishing partnerships with industry leaders in energy-efficient technologies.",1.0,explorer
+UNFCCC.party.1731.0,a406d6322a9e4f38d847607c8c1c9141__15cd127ff0a0d9155941d94dbe4f8602bc399c26a46a685326ffdc9319e72b19,OPPORTUNITY,SOLUTION,solutions,1481,1490,"Several trial installations have already been made to understand the performance of various outdoor comfort solutions in urban environments in the UAE, and a first residential community designed following Rafah's guidelines is currently being planned.",1.0,explorer
+UNFCCC.party.1731.0,a406d6322a9e4f38d847607c8c1c9141__15cd127ff0a0d9155941d94dbe4f8602bc399c26a46a685326ffdc9319e72b19,OPPORTUNITY,SOLUTION,solutions,1224,1233,Ras Al Khaimah is also investing in researching outdoor comfort solutions and technologies.,1.0,explorer
+UNFCCC.party.1731.0,03daa4142817416469ad29a2c8fa0e05__4aec6f14a52a6877488338bfed5cb1ab19718fd15bcd7a0dfcad1989d0c1b213,GOOD_PRACTICE,BEST_PRACTICE,best practices,583,597,"Acknowledging that loss of biodiversity and ecosystems is a high-risk impact of the climate crisis, the UAE has been working to protect its environment through regulations, establishment of protected areas, and the promotion of best practices for economic activities reliant on the environment (for example fishing and farming).",1.0,explorer
+UNFCCC.party.1731.0,147ee64163d3e6e7a9bf750c5112bd9f__c02ed7424a2bd56b2904ee0454edaabbc654e808a355ef28b2a3ab90f9657aa9,OPPORTUNITY,SOLUTION,solutions,244,253,"The National Biodiversity Strategy and the National Strategy for Coastal and Marine Environment, along with the UAE's international environmental commitments, have been guiding the country's initiatives in conservation and nature-based climate solutions.",1.0,explorer
+UNFCCC.party.1731.0,bcbdbdd29f45846ce8aea3e38a34351f__cb40b66b7e2d0f226bec7c525b3de3ce1418a12fefeed2775a288629334850f0,OPPORTUNITY,SOLUTION,solutions,284,293,"The PHSSR is an international collaboration between academic, governmental, and private institutions to explore novel solutions in clinical research, digital health, and innovation.",1.0,explorer
+UNFCCC.party.1731.0,fec0068587e21f3533d0e89376c43763__fb75db605662ebf515bfef5c288a37bd28a029a48565b8c75af8d8c37d3936d8,OPPORTUNITY,SOLUTION,solutions,10,19,exploring solutions to restore the historic site of All Bithnah in Fujairah.,1.0,explorer
+UNFCCC.party.1731.0,f5ec993f77c25f8308b54935bb9aca38__57fda01dcef8debd8971d5c3330779d942001434c7d8377e5bea1d82f432b8e1,OPPORTUNITY,SOLUTION,solution,91,99,The need for sustainable food production systems is increasingly recognised as a necessary solution.,1.0,explorer
+UNFCCC.party.1731.0,9a25b57a84447f74654ac73eca5b0856__942f07f05777975eae837d0c8026554f0f94fae8d81b7b947e9fa0f0053b7e0c,OPPORTUNITY,OPPORTUNITY,opportunity,111,122,The UAE is creating policies to deliver the financing required to make climate action an attractive investment opportunity.,1.0,explorer
+UNFCCC.party.1731.0,3b591fdb2eacf95a569eed277ed14a4d__754883cdcaf21381adcb53dcdc17be8a1c46f5aba934147bc18b6610f45bc008,OPPORTUNITY,OPPORTUNITY,opportunities,11,24,Investment opportunities in mitigation and adaptation actions are reshaping the relevance of the insurance sector to the transition towards a sustainable economy.,1.0,explorer
+UNFCCC.party.1731.0,191eee06cf7aab9b1fc44a9a19aa040c__2bfc29a9765f660e30acac21ed56a8677c49aad53b2e5292e6935809c14a0160,OPPORTUNITY,OPPORTUNITY,opportunities,52,65,"Similarly, the government aims to create investable opportunities in the industrial and buildings sectors.",1.0,explorer
+UNFCCC.party.1731.0,ab629d77f0298a8cd30aeceaf60a2906__e31ae8a15d816a272833edc21ccee7f2583ec3e77d6fa3ea47705d00fd582557,OPPORTUNITY,SOLUTION,solutions,366,375,"For example, its Space Data Centre is a digital platform which provides scientists, scholars, public and private entities, start-ups, and community members with access to space data to develop algorithms and solutions for addressing national and global challenges.",1.0,explorer
+UNFCCC.party.1731.0,ab629d77f0298a8cd30aeceaf60a2906__e31ae8a15d816a272833edc21ccee7f2583ec3e77d6fa3ea47705d00fd582557,OPPORTUNITY,SOLUTION,solutions,542,551,"The project is exploring solutions to improve waste and water quality monitoring, GHG and air quality inventory collection and emissions management systems.",1.0,explorer
+UNFCCC.party.1731.0,35533025ab66752456174535c207f9e9__c23e2adfc6d87f79d60e44a58605fe8339649631e438912f7130d16616cdd7fb,OPPORTUNITY,OPPORTUNITY,opportunities,333,346,"The objective of the Hydrogen Leadership Roadmap is not only to enable the UAE to achieve Net Zero by 2050, but also to create new economic opportunities for the nation.",1.0,explorer
+UNFCCC.party.1731.0,68c1dbb39cc6114f11b13dc821d30496__36f2072cd592e14d97af6a149446004fe622909a5fe34a3eb0067b4a1aafde05,OPPORTUNITY,SOLUTION,solutions,302,311,"For example, the Dubai Electricity and Water Authority has established a Research and Development centre to develop and test innovative solutions around 4 key research areas which include solar power, water, smart grid integration and energy efficiency.",1.0,explorer
+UNFCCC.party.1731.0,984ce440d18538277d6b4e861787fcaa__70ce6924f0d3f5f167e50afdbc43d2d33fea14640e645f50a4f6fc7a6dbcb106,OPPORTUNITY,OPPORTUNITY,opportunity,190,201,"The UAE sees climate action as an opportunity and acknowledges the need to invest in key tools, such as technology and R&D, to achieve its ambitions.",1.0,explorer
+UNFCCC.party.1731.0,232ae31cd9243400b72f909cc767cbed__dfcbb7158ed50d73b0681ab2f57e6f7ded66b69fffb1909b4e301a370e77135f,OPPORTUNITY,OPPORTUNITY,opportunities,426,439,Appropriate upskilling and capability building is needed to maximise local employment and the job creation opportunities that the climate transition,1.0,explorer
+UNFCCC.party.1731.0,7e2a6111d34b092dee194269cf142065__183040088c46ac1aac80f013c7f074a420fe37a27b5e3d233c0d873fc4e134f6,OPPORTUNITY,SOLUTION,solutions,1175,1184,"In Ras Al Khaimah, the RAK Energy Innovation Competition is providing a platform for SMEs and start-ups to showcase innovative solutions to the specific climate change challenges in the emirate and to receive support from participating public and private organisations.",1.0,explorer
+UNFCCC.party.1731.0,73549b47984121a526aaf1000177fda5__73667641b322caeb9a7df6a2bd667ffe648b25f7cb44eedfa82f984dc9c34523,OPPORTUNITY,OPPORTUNITY,opportunities,96,109,"The implementation of the plan includes preparing the UAE's workforce to leverage the opportunities arising from the new green economy, mobilising relevant stakeholders in climate action, building their capacity, and raising awareness about climate change.",1.0,explorer
+UNFCCC.party.1731.0,1618b48c07da60beeb06a29c2ab9fe6d__b44ca96de10e2f2caa0ee7177771ffd3f51342baa98b9deac2b4ffdf5547d999,OPPORTUNITY,OPPORTUNITY,opportunities,452,465,The Jahiz digital platform will provide government employees with opportunities for training and improve the competitiveness and future readiness of the UAE government.,1.0,explorer
+UNFCCC.party.1731.0,682898d8308157c89fd0c367dacd386d__d7bfe3b50892281759373f3b29e4df0eef335a9e2cab7ca8db24ee06c7bb2ee8,OPPORTUNITY,SOLUTION,solutions,271,280,"The Abu Dhabi Sustainability Week (ADSW) and the Water, Energy, Technology, and Environment Exhibition (WETEX) in Dubai Solar Show are internationally known, global platforms that invite policy makers, business executives and the general public to discuss strategies and solutions for a net zero future in a series of workshops.",1.0,explorer
+UNFCCC.party.1731.0,f29e9eec9194dc4cf1798d120ab75d4a__062d1bb93008a41ec85767c6cb1ebe748ee33f3fa86f3d9d346e5e19968c1d9d,OPPORTUNITY,OPPORTUNITY,opportunities,659,672,"By providing capacity-building opportunities and raising awareness, AYCCC seeks to bridge the gap between youth and decision-makers and promote a more inclusive and effective climate governance framework.",1.0,explorer
+UNFCCC.party.1731.0,5446c811f9257798958981cb8350927c__ee77085e89029f367a478698e6bdde7745c0c2849f371033e396b4f5cc7dc8c8,OPPORTUNITY,OPPORTUNITY,opportunity,398,409,"Ahead of COP28, the UAE government launched the Climate Ambassadors Programme, inviting students to simulate climate negotiations at COP28.177 A further opportunity for children to participate in decision-making in the lead up to and at COP28 is represented by an open call from the UAE Ministry of Education to all private and public schools in the country to nominate two of their pupils to submit their climate change portfolio.",1.0,explorer
+UNFCCC.party.1731.0,5446c811f9257798958981cb8350927c__ee77085e89029f367a478698e6bdde7745c0c2849f371033e396b4f5cc7dc8c8,OPPORTUNITY,OPPORTUNITY,opportunities,730,743,The selected students will be provided with training opportunities to actively engage in the climate conversation at COP28 and beyond.,1.0,explorer
+UNFCCC.party.1731.0,64ab0c1450424d4fa5f9de0465aaf8aa__80e56a3402e2d30841338d1da2252ae6d162bd07105433fda47247a8a7594326,OPPORTUNITY,PIONEER,pioneering,602,612,"Announced at the World Future Energy Summit (WFES) in 2008, the Zayed Sustainability Prize is the UAE's pioneering global award for high schools, small to medium-sized enterprises (SMEs), and non-profit organisations (NPOS) which have championed novel sustainability solutions.178 Additionally, the Youth Circles initiative overseen by the Federal Youth Authority promotes dialogue between youth and decision-makers, discussing topics such as leadership, entrepreneurship, innovation, technology, and sustainability, with the aim of crowdsourcing ideas to addr global challenges.",1.0,explorer
+UNFCCC.party.1731.0,df0b669ad3e0fec3b647df329c91c4a0__c5136cffc5001328fe4eba342df78dee01571cee6d902e3cf92d310d9eb5451b,OPPORTUNITY,PIONEER,pioneers,1703,1711,"Masdar is also leading the Future Sustainability Leaders (FSL) initiative, which puts university students and young professionals in touch with prominent global business leaders, policymakers, and technology pioneers, to impart to them the latest practices in sustainability.",1.0,explorer
+UNFCCC.party.1731.0,df0b669ad3e0fec3b647df329c91c4a0__c5136cffc5001328fe4eba342df78dee01571cee6d902e3cf92d310d9eb5451b,OPPORTUNITY,OPPORTUNITY,opportunity,1201,1212,One such program is the CleanTech Youth program which aims to connect motivated young energy leaders from various fields and provide them with an educational and engaging opportunity to expand their knowledge and involvement in the clean and renewable energy sector.,1.0,explorer
+UNFCCC.party.1731.0,85ebdb42c457c6464a166178a1931a67__97fc257bb5374bd4ed3d596720f65d7260efbeb20a321982e16c87474d0a2fca,SUCCESS,SUCCESSFUL,successful,4,14,"The successful implementation of the UAE's NDC requires an effective measurement, reporting and verification (MRV) plan to establish transparency and accountability in identifying progress and define areas of improvement in its mitigation and adaptation measures.",1.0,explorer
+UNFCCC.party.1731.0,77497bb1c1aeb08258f21b99923e2146__d081fce19c2d9c7d9d8de5b66fb1279183a5ad5c21b03b9e15ca705910c90b10,GOOD_PRACTICE,GOOD_PRACTICE,good practice,1226,1239,"UAE is committed to improving the quality of inventory, and to
+perform recalculation, consistent with IPCC good practice
+guidance.
+",1.0,explorer
+UNFCCC.party.1731.0,f2a25fff82d16aab9126ff41148ac6ae__9f829989b51c4105069b9d831b67e537f0ea674aef0608a137c7359cc39c83ab,GOOD_PRACTICE,BEST_PRACTICE,best practices,759,773,"on the Party's implementation plans including, as appropriate:
+ali)
+alii)
+aliija
+alib
+Domestic institutional arrangements,
+public participation and engagement.
+with local communities and indigenous
+peoples, in a gender-responsive
+manner,
+Refer to Chapter 3 'Stakeholder Engagement in NDC Planning and
+Preparation Process and Chapter 7.4 'Inclusivity for Climate Action:
+Youth, Women and People of Determination'
+Contextual matters, including, inter alia, Refer to 4 aliija, 4a(ii)b and 4a(ii)c
+as appropriate:
+a. National circumstances, such as
+geography, climate, economy,
+sustainable development and poverty
+eradication;
+Refer to Chapter 2 'UAE National Circumstances
+Best practices and experience related to UAE's NDC preparation demonstrate the following best practices:
+the preparation of the nationally
+determined contribution;
+To develop the UAE Net Zero Strategy (including the 2030 targets
+outlined in the NDC) the UAE involved government entities, in a
+whole-of-society approach led by the Ministry of Climate Change
+and Environment.",1.0,explorer
+UNFCCC.party.1731.0,f2a25fff82d16aab9126ff41148ac6ae__9f829989b51c4105069b9d831b67e537f0ea674aef0608a137c7359cc39c83ab,GOOD_PRACTICE,BEST_PRACTICE,Best practices,670,684,"on the Party's implementation plans including, as appropriate:
+ali)
+alii)
+aliija
+alib
+Domestic institutional arrangements,
+public participation and engagement.
+with local communities and indigenous
+peoples, in a gender-responsive
+manner,
+Refer to Chapter 3 'Stakeholder Engagement in NDC Planning and
+Preparation Process and Chapter 7.4 'Inclusivity for Climate Action:
+Youth, Women and People of Determination'
+Contextual matters, including, inter alia, Refer to 4 aliija, 4a(ii)b and 4a(ii)c
+as appropriate:
+a. National circumstances, such as
+geography, climate, economy,
+sustainable development and poverty
+eradication;
+Refer to Chapter 2 'UAE National Circumstances
+Best practices and experience related to UAE's NDC preparation demonstrate the following best practices:
+the preparation of the nationally
+determined contribution;
+To develop the UAE Net Zero Strategy (including the 2030 targets
+outlined in the NDC) the UAE involved government entities, in a
+whole-of-society approach led by the Ministry of Climate Change
+and Environment.",1.0,explorer
+UNFCCC.non-party.1738.0,9b96c949d3aeaa2f3632faf3b40ad769__61b67a0a34e9e866c95d6f9905a2d760c2706e9459ac9ce7000306c5693495e8,GOOD_PRACTICE,BEST_PRACTICE,best practices,165,179,"Decision 1/CP.21 established the Local Communities and Indigenous Peoples Platform (LCIPP), which 2/CP.23 operationalised to promote the exchange of experiences and best practices, build capacity for engagement, and facilitate the integration of diverse knowledge systems, practices, and innovations in designing and implementing climate policies and actions in a manner that respects and promotes the rights and interests of local communities and indigenous peoples.",1.0,explorer
+UNFCCC.non-party.1738.0,c0c59c82c4729daf29bc6060c6659dbf__64c7e8dd66bbef099a326c1a054a5b6572f22112b5b8569e534c9ed0c318310d,GOOD_PRACTICE,GOOD_PRACTICE,Good practices,0,14,"Good practices, experience and potential opportunities to enhance relevant international cooperation (19/CMA.1 paragraph 36(f)).",1.0,explorer
+UNFCCC.non-party.1738.0,c0c59c82c4729daf29bc6060c6659dbf__64c7e8dd66bbef099a326c1a054a5b6572f22112b5b8569e534c9ed0c318310d,OPPORTUNITY,OPPORTUNITY,opportunities,41,54,"Good practices, experience and potential opportunities to enhance relevant international cooperation (19/CMA.1 paragraph 36(f)).",1.0,explorer
+UNFCCC.non-party.1738.0,1a356e51e648985fc3d05a455d908df1__46608a6710488173412a0e21e3b80fc5e6dc8e3f94c24f243017ad190a31a023,OPPORTUNITY,OPPORTUNITY,Opportunities,90,103,Section V: Opportunities to enhance collective progress.,1.0,explorer
+UNFCCC.non-party.1738.0,7abfa33fb561b447ab2a8956de6b7ef2__7c18324546f7a6a65e87e299f63eedcdf5201b4e5a98320cca219c8b2d89c210,CASE_STUDY,CASE_STUDY,case studies,22,34,Annex I: Examples and case studies...,1.0,explorer
+UNFCCC.non-party.1738.0,11413cdebd85038d90401bf99909627d__36611b4a714b24a11044a1dfdaf46b71269cffa6c5e941accd35d96ee56ee062,GOOD_PRACTICE,GOOD_PRACTICE,good practices,571,585,"Responding to decision 19/CMA.1 paragraphs 24 and 36, the FWG offers insights about collective progress related to the overall effect of nationally determined contributions (36(b)), the state of adaptation efforts (36(c)), efforts to avert, minimize and address the adverse impacts of climate change (36(e)), barriers and challenges to means of implementation (36(f)), and good practices, experience, and potential opportunities to enhance relevant international cooperation (36(g)).",1.0,explorer
+UNFCCC.non-party.1738.0,11413cdebd85038d90401bf99909627d__36611b4a714b24a11044a1dfdaf46b71269cffa6c5e941accd35d96ee56ee062,OPPORTUNITY,OPPORTUNITY,opportunities,613,626,"Responding to decision 19/CMA.1 paragraphs 24 and 36, the FWG offers insights about collective progress related to the overall effect of nationally determined contributions (36(b)), the state of adaptation efforts (36(c)), efforts to avert, minimize and address the adverse impacts of climate change (36(e)), barriers and challenges to means of implementation (36(f)), and good practices, experience, and potential opportunities to enhance relevant international cooperation (36(g)).",1.0,explorer
+UNFCCC.non-party.1738.0,3bf2c4727a9904d7e5b8ced916ec6404__d8558d812c54a452274ef41b53e1d1ab977dab1f5fad3e9fefc881e97f2b2be2,GOOD_PRACTICE,BEST_PRACTICE,best practices,341,355,"In this context, the LCIPP was established for the exchange of experiences and sharing of best practices on mitigation and adaptation in a holistic and integrated manner.""",1.0,explorer
+UNFCCC.non-party.1738.0,682166a8f72855c891799009645f10f1__662e50f82a84da2af6b578d5ad9829c45e6d2a09c6e7f1d1bb2adc2f6b6eb4a9,GOOD_PRACTICE,BEST_PRACTICE,best practices,76,90,The LCIPP was established for the exchange of experiences and sharing of best practices on mitigation and adaptation in a holistic and integrated manner.,1.0,explorer
+UNFCCC.non-party.1738.0,bb250ba6e13032155d0d36e113f60f0f__2c4dd3a13ac87690d5fc47ed989b8f5115e638e1eb9093d1f2d7fe4c5522008c,GOOD_PRACTICE,BEST_PRACTICE,best practices,67,81,"a. Knowledge: the platform promotes the exchange of experience and best practices with a view to applying, strengthening, protecting and preserving traditional knowledge, knowledge of indigenous peoples and local knowledge systems, as well as technologies, practices and efforts of local communities and indigenous peoples related to addressing and responding to climate change, taking into account the free, prior and informed consent of the holders of such knowledge, innovations and practices.",1.0,explorer
+UNFCCC.non-party.1738.0,9fa5854835b39793afcb16cd54e544c3__fd455d13c08d823c0f84d33fa00a93cebae226e5f1d91ece540458b00686ef6d,OPPORTUNITY,OPPORTUNITY,opportunities,41,54,"Good practices, experience and potential opportunities to enhance relevant international cooperation (19/CMA.1 paragraph 36(g))",1.0,explorer
+UNFCCC.non-party.1738.0,9fa5854835b39793afcb16cd54e544c3__fd455d13c08d823c0f84d33fa00a93cebae226e5f1d91ece540458b00686ef6d,GOOD_PRACTICE,GOOD_PRACTICE,Good practices,0,14,"Good practices, experience and potential opportunities to enhance relevant international cooperation (19/CMA.1 paragraph 36(g))",1.0,explorer
+UNFCCC.non-party.1738.0,4cb3c1fc4e27f2adc5251755dfc13f4f__62c7e78ad099a9de65da933f2ae323901b9e8c7a95bd8c862cdd040007f2cfb1,OPPORTUNITY,OPPORTUNITY,opportunities,565,578,The process to access existing funding opportunities is rigorous and often involves multiple stages and different entities.,1.0,explorer
+UNFCCC.non-party.1738.0,4cb3c1fc4e27f2adc5251755dfc13f4f__62c7e78ad099a9de65da933f2ae323901b9e8c7a95bd8c862cdd040007f2cfb1,OPPORTUNITY,OPPORTUNITY,opportunities,109,122,"Under the LCIPP initial two-year workplan, a mapping effort was carried out to focus on existing funding opportunities for the participation of indigenous peoples and local communities from all regions in relation to climate change policies and actions.",1.0,explorer
+UNFCCC.non-party.1738.0,7885dd2e742b54d8a9323a1c5b371a18__c7476f4ae0d14ffa20f2e0739ba01825e23abd3eb610e66902ccdc9c5b51481c,OPPORTUNITY,OPPORTUNITY,opportunities,1260,1273,The mapping of existing policies and practices for the participation of indigenous peoples and local communities in climate change related bodies and processes under and outside the Convention revealed opportunities to increase the respectful engagement of indigenous peoples and local communities exist both at the individual and institutional levels.,1.0,explorer
+UNFCCC.non-party.1738.0,7885dd2e742b54d8a9323a1c5b371a18__c7476f4ae0d14ffa20f2e0739ba01825e23abd3eb610e66902ccdc9c5b51481c,OPPORTUNITY,OPPORTUNITY,opportunities,1925,1938,Clarity on such understandings can help safeguard engagement and help align resource mobilization needs with existing funding opportunities and strengthen resource mobilization.,1.0,explorer
+UNFCCC.non-party.1738.0,2eed77e11ee671611518377436f70c0d__c412d349ef56b9b77c7704b631a3f72139791cede1a8c48831b9f6dac0076236,GOOD_PRACTICE,GOOD_PRACTICE,good practices,202,216,"The FWG has dedicated an activity under the LCIPP second three-year workplan (2022-2024) to identify diverse communication channels, in addition to the LCIPP web portal, to exchange experiences and good practices.",1.0,explorer
+UNFCCC.non-party.1738.0,1fdec268d24e53b68a45609949e1a68a__eed95cd9446a53701fa843cc9e79fa5264b6ca14b63e92a08fedb398d464f368,GOOD_PRACTICE,GOOD_PRACTICE,good practices,851,865,"The FWG strives to continue its important work in the spirit of partnership to facilitate the exchange of experiences and good practices, build capacity for engagement, and integrate diverse ways of knowing to elevate collective progress towards achieving the purpose of the Paris Agreement and its long-term goals.",1.0,explorer
+UNFCCC.non-party.1738.0,43dc0ff50ea4cbce1fc1f669c2c8f21a__edd5244fa1cc2d6acd19e71d509867bb2b415208bff3428f6ec782b81cfd2b7f,GOOD_PRACTICE,GOOD_PRACTICE,good practices,45,59,"The FWG has included this annex to highlight good practices and the impact of the ethical and equitable engagement of the knowledge, values and technologies of indigenous peoples, and local knowledge systems, in addressing and responding to climate change.",1.0,explorer
+UNFCCC.non-party.1738.0,ca8bb597be19ae9b1a577f1fb1d6ed7a__3eb1a61422010aa5250d5ec6d093e0a96d83412042cc22530f8a163b302bd5b3,CASE_STUDY,CASE_STUDY,case studies,22,34,Annex I: Examples and case studies,1.0,explorer
+UNFCCC.non-party.1738.0,7aded199aff3a8b96b9f2aee48c6d324__783e37a5f062090bc7e46bbfbfa548340808dcbe11017d13d02a12b5e46764ab,CASE_STUDY,CASE_STUDY,Case study,6,16,"56
+55 Case study from Indigenous Livelihoods Enhancement Partners, 2021.",1.0,explorer
+UNFCCC.non-party.1738.0,3e45e411b57a05c287afd965244b2948__e48230cab74a9e6eaf36c86e8d7cd434bb311eaa6167cfe90e119ca71c8f67c0,GOOD_PRACTICE,GOOD_PRACTICE,good practices,151,165,"Recommends that relevant bodies and processes outside the Convention collaborate with the FWG in
+order to, among other things, exchange experience and good practices pertaining to the engagement",1.0,explorer
+UNFCCC.non-party.1738.0,8c1faaf1b6a25e69657389e3be63d13d__a0225f24d663bd3b6dba01e7dc42d167ab97d6411cb6d9b837172d1d54560588,GOOD_PRACTICE,GOOD_PRACTICE,good practices,21,35,Identify and promote good practices for the participation of indigenous peoples and local communities in national climate policymaking;,1.0,explorer
+UNFCCC.non-party.1738.0,eb0414de3c656ee2adb9def94ad657ee__7fcd0460c34b5db2fe52d7ccef00254568ff0208fd6551e2f173e61df4c98697,OPPORTUNITY,OPPORTUNITY,opportunities,191,204,"Consider how activities and decisions may affect the rights, knowledge systems, practices and ways of life of indigenous peoples and the practices and interests of local communities; Provide opportunities for consistent and ongoing participation of indigenous peoples and local communities, including by providing translation of materials and interpretation during meetings into the six official languages of the United Nations, as necessary and appropriate; Strengthen engagement with work under the LCIPP, including activities to build capacity for respectful, ethical and equitable engagement with the knowledge of indigenous peoples and local knowledge systems;",1.0,explorer
+UNFCCC.non-party.1738.0,ca7f775638394b0252e35702657dc7da__69cd81536eb3b78a22f044665896837afe29a9fb30acdb6637f1f122d8927714,OPPORTUNITY,OPPORTUNITY,opportunities,184,197,"Provide targeted training sessions, including e-learning opportunities and in person workshops, to facilitate and enhance access of indigenous peoples and local communities to funding opportunities.",1.0,explorer
+UNFCCC.non-party.1738.0,ca7f775638394b0252e35702657dc7da__69cd81536eb3b78a22f044665896837afe29a9fb30acdb6637f1f122d8927714,OPPORTUNITY,OPPORTUNITY,opportunities,57,70,"Provide targeted training sessions, including e-learning opportunities and in person workshops, to facilitate and enhance access of indigenous peoples and local communities to funding opportunities.",1.0,explorer
+UNFCCC.party.1742.0,b933cbe8132d9c7c746ef8afcac1040a__653046bc203b0de267a66dec0da027690d73f9b1b9ca16398a5a15684c169d7b,GOOD_PRACTICE,GOOD_PRACTICE,GOOD PRACTICE,1924,1937,"8.4.2 Met Office....
+9 EDUCATION, TRAINING & PUBLIC AWARENESS
+9.1 EXAMPLES OF GOOD PRACTICE.
+",1.0,explorer
+UNFCCC.party.1742.0,5449f1fdb44ca88f505d46e0cdf8fbb1__678a076c2b0bb230bbd2f8e2c3281582b432ac581bb995090fc30926a2897f33,GOOD_PRACTICE,GOOD_PRACTICE,good practice,63,76,The EkoSkola and GLOBE initiative is an example of good practice that facilitates the dissemination of good environmental (including as it relates to climate action) at various levels of education.,1.0,explorer
+UNFCCC.party.1742.0,aa0c5defa38d4e4703f9ad2ea3c49d0d__ff6efffd03109c66e3c6053d54b0e20e0fd9f2cf1fa401c98abc1cce40c6ed03,OPPORTUNITY,OPPORTUNITY,opportunity,567,578,"An interconnector with Sicily provides another alternative for the sourcing of electricity, and an opportunity to also transfer electricity to the European grid.",1.0,explorer
+UNFCCC.party.1742.0,6bd6a7151054ffc91ca7bf7ac92c49ac__28b14a63fb4c220c68e56aafbb82cfe48983b0fe324258eca69acb3ba5a44226,OPPORTUNITY,FOREFRONT,forefront,678,687,"In the meantime, a shift towards waste disposal in managed landfills (Zwejra and Ta' l-Għallis, both in Malta) coupled with greater emphasis on reducing, reusing and recycling and waste treatment, has been at the forefront of solid waste management policy.",1.0,explorer
+UNFCCC.party.1742.0,81b38cb436b61a6aca75e9bc1976fbdd__e677f9eb4b5cf4736b05c48b4fbb7a382d3d28a2d2985e327229334c245ff7c5,OPPORTUNITY,OPPORTUNITY,opportunities,168,181,"Measures
+Solar PV installations
+Installation of SWHs/SWH
+Additional
+interconnector
+Offshore floating wind turbines
+electricity
+Positive impacts
+Social
+Increased labour
+opportunities in
+maintenance and
+installation
+• Self-sufficiency of
+consumers
+Participation of civil
+society
+Improved health
+Measures that
+address several
+SDGs
+•
+•
+Economic
+• Greater innovation and
+research
+With RE, less
+dependence on foreign
+energy sources
+Negative impacts
+Social
+•
+• Negative visual
+impacts on cultural
+sites
+Affordability issues
+Potential financial
+gap for operator
+Risks during
+installations/
+maintenance
+Reduced available
+roof space
+Economic
+• Increased imports
+Administrative burden
+on public authorities
+Initial capital outlay
+Increased maintenance
+costs
+• Rooftop property right
+issues
+Solar rights issues
+Expropriated land
+•
+•",1.0,explorer
+UNFCCC.party.1742.0,ddc39626e25944863c8bde60ebc349f3__fe5944a497f0d8c3b8a9a10a2427e5428e010cf21f8608f502533302999b9b43,OPPORTUNITY,SOLUTION,solutions,21,30,"Moreover, altemative solutions to address global warming and reduce emissions from transportation, such as hydrogen fuel cells, biofuels, synthetic fuels, ammonia, and sustainable aviation fuel, require further examination.",1.0,explorer
+UNFCCC.party.1742.0,ddc39626e25944863c8bde60ebc349f3__fe5944a497f0d8c3b8a9a10a2427e5428e010cf21f8608f502533302999b9b43,OPPORTUNITY,SOLUTION,solutions,253,262,This includes studying these solutions at an international level before considering their adoption and modelling them for the local context.,1.0,explorer
+UNFCCC.party.1742.0,709616d69e6f21459c9c29bbdfef5534__99f4551ea1834ef57e97661bcc27f545d60388ee7b976179666f2595d6d18017,OPPORTUNITY,OPPORTUNITY,opportunities,973,986,"The University has a number of smart travel initiatives ranging from information on travelling to the University, investment in walking and cycling infrastructure, and flexibility and teleworking opportunities for staff.",1.0,explorer
+UNFCCC.party.1742.0,e0dab618d770a515702816da479b872e__c4c043d7a6f70ead7d1cd9ed005ee48308a495d3061296a9b0134e9c2247e9a6,OPPORTUNITY,OPPORTUNITY,opportunities,10,23,"There are opportunities for Malta's agricultural sector to reduce its emissions through
+diversification of food production methods, shifting towards forms of agricultural",1.0,explorer
+UNFCCC.party.1742.0,a0e67f4d7f7db5aa8137a6a83fe9719b__a3029253d9938b70dae4d1beb70aaf329ab5e2a0dd7a65a69c008c5188899327,OPPORTUNITY,OPPORTUNITY,opportunities,144,157,"Measures
+Commercial
+Aquaponics-based food
+production
+Methane
+vaccines
+Positive Impacts
+scale Social
+inhibiting
+New entrepreneurship/
+employment
+opportunities
+•
+Potential for exports
+• Improved public health
+Economic
+•
+Niche area of
+economic growth
+through innovation
+(aquaponics)
+• Increased product
+offering in the market
+(aquaponics)
+Lower dependency on
+imports
+FDI opportunities
+Negative impacts
+Social
+• Food safety issues
+• Change to farming
+practices
+Increased regulation by
+public authorities
+Need to tackle the
+•
+•
+negative perception of
+produce quality
+Economic
+•",1.0,explorer
+UNFCCC.party.1742.0,a0e67f4d7f7db5aa8137a6a83fe9719b__a3029253d9938b70dae4d1beb70aaf329ab5e2a0dd7a65a69c008c5188899327,OPPORTUNITY,OPPORTUNITY,opportunities,368,381,"Measures
+Commercial
+Aquaponics-based food
+production
+Methane
+vaccines
+Positive Impacts
+scale Social
+inhibiting
+New entrepreneurship/
+employment
+opportunities
+•
+Potential for exports
+• Improved public health
+Economic
+•
+Niche area of
+economic growth
+through innovation
+(aquaponics)
+• Increased product
+offering in the market
+(aquaponics)
+Lower dependency on
+imports
+FDI opportunities
+Negative impacts
+Social
+• Food safety issues
+• Change to farming
+practices
+Increased regulation by
+public authorities
+Need to tackle the
+•
+•
+negative perception of
+produce quality
+Economic
+•",1.0,explorer
+UNFCCC.party.1742.0,bfbfc043e5d664d9dc10e8f4089b1ed7__82a0e4c3c7d4503ebff741a1f3bb7f7642c0297d60304ca0e6d65e4d9f541b5c,SUCCESS,SUCCESS,success,4,11,The success of afforestation projects which can further enhance the sinks and as a result also potentially lead to a reduction in GHG emissions are based on the following factors: the geographic specificities of the Maltese islands need to be taken into account in order to implement the measures; the limiting factors in implementing LULUCF measures to further enhance and safeguard the sector; limited land availability; lack of water; lack of,1.0,explorer
+UNFCCC.party.1742.0,e4b6116b76f9288f2288f3459792eb8e__c8c01078afd940ae30701ede6a7e998284f3bffe11f306fb24397e7ce514d08c,OPPORTUNITY,SOLUTION,solutions,112,121,"Previous Reporting
+Separation of organic waste""
+The design and commissioning of new end-of-pipe
+infrastructural solutions to treat separately collected
+organic waste from which blogas is generated as a by-
+product and Recovering energy from waste"".
+",1.0,explorer
+UNFCCC.party.1742.0,dba7462b51d0d05084a29f3c769c79cd__b79678e9232a9ed82d193bf3cdd7a510a5958e5bb022e74a95bce378d84e8c34,SUCCESS,SUCCESSFUL,successful,466,476,"Education, incentives, and collaborations with educational institutions and automotive companies are crucial for ensuring successful adoption of EVs.
+",1.0,explorer
+UNFCCC.party.1742.0,d03c14c65c40074a7508698cce053253__cb7cecb227ded1a8e5c6b9ec580f111083945288e23dd3620b01ee43689def98,OPPORTUNITY,OPPORTUNITY,opportunities,657,670,"Recent years have seen several important changes in modelling approaches and capacity across all sectors and within all entities involved, and the work to improve Malta's capabilities in this area are expected to continue, driven by a combination of new reporting obligations, ongoing work in policy planning (NECP), the need to cater for important new sectoral developments in recent and forthcoming years, and access to capacity building opportunities.",1.0,explorer
+UNFCCC.party.1742.0,f061308fe59069eb32f70aa0e1fa1f76__c81e17a434910d355947b5df0eac49bf71df370a2c08020c4d6768d74d66d086,OPPORTUNITY,OPPORTUNITY,opportunity,44,55,"Each box represents
+one emissions
+reduction
+opportunity
+Estimated cost in a
+given year to reduce
+emissions by 1 tCO₂e
+with this opportunity
+Annual GHG emissions
+reduction potential in
+a given year
+Opportunities are
+sorted by increasing
+costs per tGO,e",1.0,explorer
+UNFCCC.party.1742.0,f061308fe59069eb32f70aa0e1fa1f76__c81e17a434910d355947b5df0eac49bf71df370a2c08020c4d6768d74d66d086,OPPORTUNITY,OPPORTUNITY,opportunity,128,139,"Each box represents
+one emissions
+reduction
+opportunity
+Estimated cost in a
+given year to reduce
+emissions by 1 tCO₂e
+with this opportunity
+Annual GHG emissions
+reduction potential in
+a given year
+Opportunities are
+sorted by increasing
+costs per tGO,e",1.0,explorer
+UNFCCC.party.1742.0,f061308fe59069eb32f70aa0e1fa1f76__c81e17a434910d355947b5df0eac49bf71df370a2c08020c4d6768d74d66d086,OPPORTUNITY,OPPORTUNITY,Opportunities,197,210,"Each box represents
+one emissions
+reduction
+opportunity
+Estimated cost in a
+given year to reduce
+emissions by 1 tCO₂e
+with this opportunity
+Annual GHG emissions
+reduction potential in
+a given year
+Opportunities are
+sorted by increasing
+costs per tGO,e",1.0,explorer
+UNFCCC.party.1742.0,ba744eed6187b293e21c314fb2ef6e9a__69f5a5f55b9e98dd3d94ea2fc9f00437d7de7257cbec0c6d79917d21816ae129,OPPORTUNITY,OPPORTUNITY,opportunity,451,462,"For the cost figures, this is described economically as the opportunity cost, but a similar logic applies to emissions and utility consumption calculations.",1.0,explorer
+UNFCCC.party.1742.0,6f5841a3eee45e9be3e55c6d2e57bf58__6b33f78993b791dce7f509e5c89b7decdddb8ec3179ddaf0b0cc57e68886d97a,OPPORTUNITY,OPPORTUNITY,opportunity,293,304,This is an opportunity for both the EU and Mediterranean states to rise to the occasion and to be the first group of states that seek to address climate change adaptation from a regional perspective.,1.0,explorer
+UNFCCC.party.1742.0,6f5841a3eee45e9be3e55c6d2e57bf58__6b33f78993b791dce7f509e5c89b7decdddb8ec3179ddaf0b0cc57e68886d97a,OPPORTUNITY,OPPORTUNITY,opportunities,987,1000,"On an International and Regional level Malta is also committed to cooperate in supporting opportunities for increased technical know-how and capacity building within the European Union, as a Small Island State and through the Union for the Mediterranean so as to outreach similar states with identical vulnerabilities.",1.0,explorer
+UNFCCC.party.1742.0,e998b9109714579a9481dd746165702f__31c3aa0d3f8863650039e0c38c91a5412547de252db6de90f71b385237ed0006,OPPORTUNITY,OPPORTUNITY,opportunities,320,333,"Hence water management measures focus on ensuring that water demand is maintained at highly efficient levels, whilst opportunities for the development of increasingly sustainable alternative (or non-conventional) water resources are promoted.",1.0,explorer
+UNFCCC.party.1742.0,1d5a1da62fcdb00ddd42679356a8aea4__848554cfffae9136e02f16a5a98661bfba6f184967cede2a3de71b70e28967b2,OPPORTUNITY,OPPORTUNITY,opportunity,282,293,"Furthermore, the still outdated Local Plans, last approved in 2006, provide opportunity for further uncoordinated and unplanned development to occur.",1.0,explorer
+UNFCCC.party.1742.0,1e6efc73d44bb239f37ec96529d8e124__d72d3a92d8f8418fb0282964ee281947c8e1ff49b3250ed03418b0ab2b6bf6ed,OPPORTUNITY,OPPORTUNITY,opportunity,331,342,These two types of legal instruments provide the required opportunity to ask developers to take into consideration adaptation measures for climate change.,1.0,explorer
+UNFCCC.party.1742.0,ac9852092cb6d0b9a95c07e2d4b706eb__ec8aabbd274d0093be93c3bc393934c72aee92b33b84280a913cf4661b18e45f,OPPORTUNITY,SOLUTION,solutions,87,96,"Adaptation measures addressing and conserving natural ecosystems, such as nature-based solutions may be challenging to devise.",1.0,explorer
+UNFCCC.party.1742.0,4c4160080d4c73fc90a102be78f3f700__ef4d0b0fb0d75d319646a4aac451b182e7a12a28d0ab15bb187260bb8d53708d,OPPORTUNITY,OPPORTUNITY,opportunities,302,315,"Furthermore, the tourism sector is likely to find niche opportunities that may arise due to more favourable 223",1.0,explorer
+UNFCCC.party.1742.0,d525ad192e89b18e93d62efdff271d81__c9cb52acd0a131a9f0a519aa5c3be00956988d9f144794b5b8e1e87522821414,OPPORTUNITY,SOLUTION,solutions,361,370,"This focuses on net-zero carbon buildings, renewable energy generation and
+energy storage solutions, resource efficiency in industry, and tuming waste into a resource.",1.0,explorer
+UNFCCC.party.1742.0,c3d2c8edd99c311eab6e184424a36b3d__d00a075f231f7dbe4d342cb695a7c915c8b4ef3b7c50916f4fafa795b8d7a165,SUCCESS,SUCCESSFUL,successful,885,895,Malta has in fact been successful in decoupling economic growth from its consumption of fossil fuels.,1.0,explorer
+UNFCCC.party.1742.0,2b9adbbfe7697ea8bb27ef472101d606__eed2aebcce00ad7ebbf4d8be6d5308170b8217254f686427cb48ed7960cc2d1a,OPPORTUNITY,OPPORTUNITY,opportunity,574,585,"The aim of these scholarships donated by the Government of Malta served to complement other national climate action projects and provide the opportunity to educate academically and train professionally, young people from developing states on how to manage mitigation, adaptation and governance of climate change.",1.0,explorer
+UNFCCC.party.1742.0,2b9adbbfe7697ea8bb27ef472101d606__eed2aebcce00ad7ebbf4d8be6d5308170b8217254f686427cb48ed7960cc2d1a,OPPORTUNITY,OPPORTUNITY,opportunity,61,72,The scholarships offered students from developing states the opportunity to focus their studies and research according to their national needs and realities.,1.0,explorer
+UNFCCC.party.1742.0,1fa899188f7e75e41f16237da3bb2f3f__886b4cc2befc1fcd0f83f8277b28c24b8926be118ffc5e5362ea68abf60e81f8,CASE_STUDY,CASE_STUDY,case study,127,137,"The activities of a wide range of bodies working under the auspices of the University of Malta are described here, providing a case study of the role of this academic institution in spearheading research in Malta in the various facets of climate change.",1.0,explorer
+UNFCCC.party.1742.0,3aafcbc79dfda83985841ac5eafe793e__7b681fca44d169e9c041d2246b7b10ac066400f88c588c7f8808975967e7dada,OPPORTUNITY,SOLUTION,solutions,87,96,"• to assess coastal risks and identify sustainable, suitable, and effective protective solutions, that take into account the impacts of climate change, the integrated management of water and land-side resources, and land-sea interactions; and to promote national harmonization among the various ministries and key stakeholders, to implement of coastal protection solutions for the Maltese Islands, by establishing a consistent and holistic strategic framework at national level.",1.0,explorer
+UNFCCC.party.1742.0,3aafcbc79dfda83985841ac5eafe793e__7b681fca44d169e9c041d2246b7b10ac066400f88c588c7f8808975967e7dada,OPPORTUNITY,SOLUTION,solutions,363,372,"• to assess coastal risks and identify sustainable, suitable, and effective protective solutions, that take into account the impacts of climate change, the integrated management of water and land-side resources, and land-sea interactions; and to promote national harmonization among the various ministries and key stakeholders, to implement of coastal protection solutions for the Maltese Islands, by establishing a consistent and holistic strategic framework at national level.",1.0,explorer
+UNFCCC.party.1742.0,e2428e6c9fa9ac5b0932fb426ff2bfd5__170b76fd3a62d73c0c7ac5121486ea1876cb25a87430ccbccb87070c1e82fc6a,OPPORTUNITY,OPPORTUNITY,opportunities,228,241,CEER offers opportunities for Education for Sustainable Development (ESD) to empower citizens to actively participate in environmental decision-making fora and in initiatives that promote a good quality of life for all.,1.0,explorer
+UNFCCC.party.1742.0,e2428e6c9fa9ac5b0932fb426ff2bfd5__170b76fd3a62d73c0c7ac5121486ea1876cb25a87430ccbccb87070c1e82fc6a,OPPORTUNITY,OPPORTUNITY,opportunity,513,524,"CEER provides a focal point for coordinating ESD initiatives, increasing the opportunity for ESD research, making scientific and technological research results more accessible and facilitating resource transfer and capacity building in Malta and the EuroMed region.",1.0,explorer
+UNFCCC.party.1742.0,950e90c59d9f78171726360f084eb06b__0a5fc7d85392de33f89ba16c296e0a3f5a1fc9a42c81d229c1e13078d6c128d0,OPPORTUNITY,SOLUTION,solutions,500,509,"The Applied Environmental Sciences Research Group (which worked on agro-environmental issues, including the reduction of the carbon footprint, carbon sequestration, and biodiversity for sustainable agriculture as part of a strategy to promote resilience and as an adaptation to climate change), and the Energy Research Group (which specialised in global and regional solutions by innovative devices in emerging technologies, systems level integration to policy engagement for better community) are examples of such research groups that have since concluded their objectives.",1.0,explorer
+UNFCCC.party.1742.0,81b76210afcdf06e070ec6b9cc4fbaae__a78b932e5709767e071e2cdf7194e060b695a0462e34788cfdd0cc4a7ec77460,OPPORTUNITY,OPPORTUNITY,opportunities,318,331,"The OM group also coordinates the Master of Science in Applied Oceanography, which is offered on a full-time, taught basis and which combines both theoretical and applicative aspects of oceanography, such that students can partake of overseas research visits, work placements and numerous instrument field deployments opportunities at sea.",1.0,explorer
+UNFCCC.party.1742.0,f158b553a885ef2f4944eb34040415ca__f73e294db16a6e107cb1ff6a9e51e90df2ea6c219543187bd985c2b85f386ada,GOOD_PRACTICE,GOOD_PRACTICE,GOOD PRACTICE,16,29,9.1 EXAMPLES OF GOOD PRACTICE,1.0,explorer
+UNFCCC.party.1742.0,f7d81898f48bc0abbf97b717cd3da2c5__88dc211fde8812065de6073c5afdb402916c6fddc0dbb3c65f9f90d058fd8962,OPPORTUNITY,OPPORTUNITY,opportunity,340,351,"This was part of the Government's commitment, under the Climate Finance Package, to provide support for capacity building in developing states by providing students from these countries with the opportunity to focus their studies and research on their national needs and realities.",1.0,explorer
+UNFCCC.party.1742.0,cb5d296bc0af2e9df7b0871b58f899b5__8c90054bb5071e39f1dcc96ab38b09faa162840af9c2ef60ad6555f173d26661,OPPORTUNITY,OPPORTUNITY,opportunity,186,197,These audits provide students with an opportunity to practice their environmental auditing skills (developed during EkoSkola) by facing real-life sustainability issues/dilemmas that challenge the 'textbook' approach to sustainable development.,1.0,explorer
+UNFCCC.party.1742.0,0871b00be75388637fa78bce107c725e__8362a964706e0b8e047c6c74c868d426578138fdedd3be30e209aab8b76a2fbc,OPPORTUNITY,OPPORTUNITY,opportunity,264,275,"It is an opportunity to learn about the various FEE¹¹2 programmes, explore issues related to sustainable development, develop ideas for cross-curricular work, and get information about initiatives organised by organisations and entities that work on issues related to sustainability (including climate change).",1.0,explorer
+UNFCCC.party.1742.0,2889ac13a66523f1cc8756f1780925af__d9ce2f1e2c66cdc0328b56da740616f0039b2bb6a1d6c4258c594bc422d50f53,OPPORTUNITY,OPPORTUNITY,opportunity,196,207,"The Summits provide students with an opportunity to discuss at length their concerns and propose solutions about specific sustainability issues of local, national, and global relevance with experts and policy makers.",1.0,explorer
+UNFCCC.party.1742.0,2889ac13a66523f1cc8756f1780925af__d9ce2f1e2c66cdc0328b56da740616f0039b2bb6a1d6c4258c594bc422d50f53,OPPORTUNITY,SOLUTION,solutions,256,265,"The Summits provide students with an opportunity to discuss at length their concerns and propose solutions about specific sustainability issues of local, national, and global relevance with experts and policy makers.",1.0,explorer
+UNFCCC.party.1742.0,0fb2705e36e5da3985d9faf510d0f18d__c41f437533f8d1e10d771b0ef1a6d123df2cf7aebec4fcef37172d9aee8f9454,SUCCESS,SUCCESS,success,21,28,"Following EkoSkola's success story in seamlessly infusing ESD in schools through a bottomup whole-school approach, three other international programmes were introduced:",1.0,explorer
+UNFCCC.party.1742.0,6bd1ba8d9307b7d08bd5394c70864968__991d05aabb1d23b5762fdb32d92c49019db9199c15cebb7ab73d36675c83a576,OPPORTUNITY,OPPORTUNITY,opportunities,93,106,o Global Leaming and Observations to Benefit the Environment (GLOBE): provides students with opportunities to conduct and share scientific investigations of environmental parameters.,1.0,explorer
+UNFCCC.party.1742.0,8ec93a23c47fb863401f721f6426453e__39b6f7ed274dff4d93d4f66d6c38ff3ba7f3c6beb228c0ae9ce3a24e83071c9a,OPPORTUNITY,SOLUTION,solutions,122,131,SeedGreen is an entrepreneurial programme that incentivises young entrepreneurs who have solutions and start-up ideas aimed at protecting the environment and target climate change.,1.0,explorer
+UNFCCC.party.1742.0,8ec93a23c47fb863401f721f6426453e__39b6f7ed274dff4d93d4f66d6c38ff3ba7f3c6beb228c0ae9ce3a24e83071c9a,OPPORTUNITY,SOLUTION,solutions,304,313,SeedGreen provides participants with the tools they require to develop start-ups offering solutions and sustainable services to the current market.,1.0,explorer
+UNFCCC.party.1742.0,5301f5e54e91e9660f68368bc4aeaecc__e302af329602fb1c3eead7c2abf48618a50ae39abe7950ba6280acd237c57b05,OPPORTUNITY,SOLUTION,solutions,130,139,"e. ClimAccelerator: is a global programme giving start-ups access to innovate, catalyse, and scale the potential of their climate solutions.",1.0,explorer
+UNFCCC.party.1742.0,869bd53d098d4b1efbab97a2634e91c1__d8dcae1534939fae74210c64f625c218aa66322a5fab149d9d66fe624be89741,CASE_STUDY,CASE_STUDY,Case Study,63,73,"""Allocation of Water Resources, Case Study-Malta.""",1.0,explorer
+UNFCCC.party.1742.0,a9df7527a313b01fb2f929ca7065b3e9__54e5de39b30845cb78c24b4918550fa7455239e388620cada756a3375d3d6b54,GOOD_PRACTICE,GOOD_PRACTICE,Good Practice,59,72,"As described in the 2013 Revised Supplementary Methods and Good Practice Guidance Arising from the Kyoto Protocol', Article 3.3 activities and Forest Management (FM) are mandatory and take precedence over elected 3.4 activities.",1.0,explorer
+UNFCCC.party.1742.0,b42613fca916e4fa86eb0a38c88c9ab5__e6824ad35d0fba85a47e4146c3fbc388bf4037f441e361e9a718f4e016e1aed0,GOOD_PRACTICE,GOOD_PRACTICE,good practice,257,270,"Therefore, land that was reported under D, on which subsequent regrowth of forests occurs continues to be reported under Article 3.3 (D) and it is good practice to report it as a subcategory to indicate that this previously deforested land can be acting as a carbon sink.",1.0,explorer

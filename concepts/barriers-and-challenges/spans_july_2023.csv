@@ -1,0 +1,1099 @@
+document_id,text_block_text_hash,type,id,text,start_idx,end_idx,sentence,pred_probability,annotator
+UNFCCC.non-party.1740.0,a57f7ea76e0ca87c22d589330654a916__1feb789f69c88ccfb6259f29a0c8f81c98489401c6cf94158c49d952676aa94d,CHALLENGES,CHALLENGES,challenge,123,132,"term, several countries plan to maintain or slightly increase conventional CDR on land by
+2030, which is on its own a huge challenge requiring dedicated policies and management.",1.0,explorer
+UNFCCC.non-party.1740.0,e1b15efacae88ded5e3ab2459e8b8650__ea5d7f0f7eb2678ff4dbb2518e1d5cb79e7a3d3f553b7b17bd3afcdf79365b2c,CHALLENGES,CHALLENGES,challenge,164,173,"standardised transparent reporting and involving societal deliberation, will support and shape
+these outcomes in a manner that acknowledges both the urgency of the challenge and issues
+such as policy costs, hazards and land-use conflicts.",1.0,explorer
+UNFCCC.non-party.1740.0,c53961c68ef5511b636a28e86485ee92__4529ee637a6411d7a75734db7677f1a62bf7b6879a1991d79d7fe29e2bb8e7ed,BARRIERS,PREVENT,prevent,346,353,"While such efforts to reduce emissions prevent further CO₂ and other greenhouse gases (GHGs) from going into the atmosphere, Carbon Dioxide Removal (CDR) involves taking CO₂ out of the atmosphere that is already there.",1.0,explorer
+UNFCCC.non-party.1740.0,dd6958c02f0ef83839ed13f77a59921a__78ca1a312d2a4332f59a1200f02f0e787eb8b6bc648b0764861b4cdee2df4297,CHALLENGES,FAIL,fail,339,343,"Examples of how different approaches meet, or fail to meet, the principles of CDR are shown in Figure 1.1.",1.0,explorer
+UNFCCC.non-party.1740.0,bc635bd44cdd6bc4d651866c12671a0a__466a48cef8b925439c95fe0ae6c4adf55502f46d93852c23363f07a7ebefc569,BARRIERS,BARRIERS,barriers,224,232,"Despite storage for millennia being the gold standard, there are practical barriers to assuring projects for this long.",1.0,explorer
+UNFCCC.non-party.1740.0,375c3081983a20fab6894308831746d7__38738795a3859b7b8aa391c315b4f070c05fc567d3c8d19aae85233e15816267,CHALLENGES,CONSTRAINT,constraints,786,797,"As well as providing the method names we use throughout the report, the table summarises the specific route through the carbon cycle that each method employs; its stage of development (or Technology Readiness Level, TRL); its estimated costs at scale; its mitigation potential (the maximum potential to both remove atmospheric CO₂ and displace emissions in 2050 - by replacing emissions-intensive products and processes - considering biophysical and technological limits but not economic, environmental, socio-cultural or institutional constraints); its key potential hazards and co-benefits; and the feasibility of monitoring, reporting and verification (MRV).",1.0,explorer
+UNFCCC.non-party.1740.0,375c3081983a20fab6894308831746d7__38738795a3859b7b8aa391c315b4f070c05fc567d3c8d19aae85233e15816267,CHALLENGES,CHALLENGES,challenging,1209,1220,"Furthermore, MRV of the net carbon removal can be challenging, and hazards and co-benefits can be highly contextspecific, particularly for methods involving the land and ocean.",1.0,explorer
+UNFCCC.non-party.1740.0,5ad10d4ec88c3a18f5e89e5dc90c298e__10d73f675bc0545a7d401a6e3506f93a5a2b827a576939839a01c6a670a8e22c,BARRIERS,DIFFICULT,Difficult,1822,1831,"Difficult to quantify CDR accurately.
+",1.0,explorer
+UNFCCC.non-party.1740.0,5ad10d4ec88c3a18f5e89e5dc90c298e__10d73f675bc0545a7d401a6e3506f93a5a2b827a576939839a01c6a670a8e22c,CHALLENGES,INSUFFICIENT,Insufficient,777,789,"[Storage in aquatic
+biomass
+Cost at
+scale
+($/tCO₂)
+100-300
+50-200
+40-260
+50-500
+Insufficient
+data
+Mitigation MRV
+potential
+(GtCO,/yr)
+5-40
+2-4
+1-100
+1-3
+<1
+Capture: v high,
+no
+Storage: high,
+yes
+Capture: low, no
+Storage: low, no
+Example hazards
+Capture: low, no Mining impacts; air quality impacts of rock
+Storage:
+dust when spreading on land.",1.0,explorer
+UNFCCC.non-party.1740.0,895b19e2b268d34d10c1c42cfa4152f1__1ae2a52d15cd68a4e8259825d5c3e0128d8b857e0b5974db8ab332f127763079,CHALLENGES,INSUFFICIENT,Insufficient,942,954,"[Storage in trees]
+8-9
+8-9
+15-400
+0-240
+10-345
+-45-100
+Insufficient
+data
+Insufficient
+data
+Insufficient
+data
+Insufficient
+data
+0.5-11
+0.5-10
+0.3-6.6
+0.6-9.3
+0.5-2.1
+0.3-9.4
+0.2-1.3
+0.1-2.1
+Capture: high,
+yes
+Storage:
+high, yes
+Capture:
+high, yes
+Storage:
+high, yes
+Capture:
+high, yes**
+Storage:
+med, yes**
+Capture:
+med, yes
+Storage:
+low, yes
+",1.0,explorer
+UNFCCC.non-party.1740.0,895b19e2b268d34d10c1c42cfa4152f1__1ae2a52d15cd68a4e8259825d5c3e0128d8b857e0b5974db8ab332f127763079,CHALLENGES,INSUFFICIENT,Insufficient,978,990,"[Storage in trees]
+8-9
+8-9
+15-400
+0-240
+10-345
+-45-100
+Insufficient
+data
+Insufficient
+data
+Insufficient
+data
+Insufficient
+data
+0.5-11
+0.5-10
+0.3-6.6
+0.6-9.3
+0.5-2.1
+0.3-9.4
+0.2-1.3
+0.1-2.1
+Capture: high,
+yes
+Storage:
+high, yes
+Capture:
+high, yes
+Storage:
+high, yes
+Capture:
+high, yes**
+Storage:
+med, yes**
+Capture:
+med, yes
+Storage:
+low, yes
+",1.0,explorer
+UNFCCC.non-party.1740.0,895b19e2b268d34d10c1c42cfa4152f1__1ae2a52d15cd68a4e8259825d5c3e0128d8b857e0b5974db8ab332f127763079,CHALLENGES,INSUFFICIENT,Insufficient,960,972,"[Storage in trees]
+8-9
+8-9
+15-400
+0-240
+10-345
+-45-100
+Insufficient
+data
+Insufficient
+data
+Insufficient
+data
+Insufficient
+data
+0.5-11
+0.5-10
+0.3-6.6
+0.6-9.3
+0.5-2.1
+0.3-9.4
+0.2-1.3
+0.1-2.1
+Capture: high,
+yes
+Storage:
+high, yes
+Capture:
+high, yes
+Storage:
+high, yes
+Capture:
+high, yes**
+Storage:
+med, yes**
+Capture:
+med, yes
+Storage:
+low, yes
+",1.0,explorer
+UNFCCC.non-party.1740.0,895b19e2b268d34d10c1c42cfa4152f1__1ae2a52d15cd68a4e8259825d5c3e0128d8b857e0b5974db8ab332f127763079,CHALLENGES,INSUFFICIENT,Insufficient,996,1008,"[Storage in trees]
+8-9
+8-9
+15-400
+0-240
+10-345
+-45-100
+Insufficient
+data
+Insufficient
+data
+Insufficient
+data
+Insufficient
+data
+0.5-11
+0.5-10
+0.3-6.6
+0.6-9.3
+0.5-2.1
+0.3-9.4
+0.2-1.3
+0.1-2.1
+Capture: high,
+yes
+Storage:
+high, yes
+Capture:
+high, yes
+Storage:
+high, yes
+Capture:
+high, yes**
+Storage:
+med, yes**
+Capture:
+med, yes
+Storage:
+low, yes
+",1.0,explorer
+UNFCCC.non-party.1740.0,5b56b9faf17cb37a149d1dfb16a83e4f__767876610ef17780954fbf5b28349fb3498302a43bceacbf781a74db89fae17f,CHALLENGES,CHALLENGES,challenges,509,519,This may be primarily due to institutional challenges involved in setting up experimental research in the ocean.,1.0,explorer
+UNFCCC.non-party.1740.0,086e5858fc33f855e352d78497be9238__43c8b8d66cd9f08c69c01c509737d7d35072f30cca42313fad88f3bd756e4145,BARRIERS,DIFFICULT,difficult,103,112,Our results suggest that the size of the literature on CDR-already vast and fast-growing - may make it difficult to keep an overview of developments in research.,1.0,explorer
+UNFCCC.non-party.1740.0,a107862e4bd93e0bca87474039feeb01__7bd542d2b7559402806b0761a7e67a76f181697e44eb180f2c8dbe874f53c4fc,CHALLENGES,CHALLENGES,challenging,261,272,"The purpose of the programme is to promote ""challenging R&D based on revolutionary concepts"" and includes CDR in the ""Moonshot for beyond Zero-Emission Society""64.",1.0,explorer
+UNFCCC.non-party.1740.0,f2172bc14be5637fd252e8ee7e82ed1e__30df9d2911bcb3b867c4beadc8b1ca160ac491d8b82675dfbb43a55e2c3b58ed,CHALLENGES,CHALLENGES,challenge,32,41,We provide an indication of the challenge to scale up CDR by comparing announcements of CDR targets from companies and industry groups with the current size of the industry and with estimates of the CDR potential of different methods by 2050.,1.0,explorer
+UNFCCC.non-party.1740.0,f3c96e71be94146ce599d4d33109090f__7966cd70c2981fd91ffdd7e7b57a2a30b46cd7ab5e08f633008917598d420ed5,CHALLENGES,CHALLENGES,challenges,339,349,"However, public awareness of many CDR methods is low, which can lead to methodological challenges.",1.0,explorer
+UNFCCC.non-party.1740.0,8388e7221adb58fbadd747f83c27df2f__78b159b9907a9a3202f43d8c95111d52ea8d33ada9161c4d29abc6130fe6598f,BARRIERS,LIMIT,limitation,370,380,"This may be a limitation of our English-language sampling methodology, although some research papers also raise concerns about regional disparities117,118 Mitigation pathways that meet the Paris temperature goal, for instance those assessed by the Intergovernmental Panel on Climate Change (IPCC), often include scaling-up of CDR in precisely the regions where scientific literature on public perceptions is absent.",1.0,explorer
+UNFCCC.non-party.1740.0,fcfb2c1c418aa8228dd0b47b574d24a0__9e6dfe10f01600470f0b85eb74a358b56eb72f184a45787365fb2b11aaa1bbc4,CHALLENGES,FAIL,failed,194,200,Ocean iron fertilisation is discussed very negatively following some failed field experiments ¹45.,1.0,explorer
+UNFCCC.non-party.1740.0,79f54a1da54897a724c51d41ff0783de__848ce40435d5cfd0ca582f0a45f8a38814afbeafa5cac693046a219ba6783301,CHALLENGES,CHALLENGES,challenges,92,102,Generating an estimate of the amount of CDR currently occurring requires solving three main challenges.,1.0,explorer
+UNFCCC.non-party.1740.0,8d5437ae3389908c7ca26269a8da8b83__6c62a6af65ed5196ed7b88916768f4a264cae5b795a50f48740d030cfdf1cdfa,CHALLENGES,CHALLENGES,challenging,61,72,"Estimating global Carbon Dioxide Removal (CDR) deployment is challenging, given uncertainty around defining what counts as CDR, data availability and issues with reporting approaches.",1.0,explorer
+UNFCCC.non-party.1740.0,bb2a8f11d48e98837203535d0055232f__5390d01b0508c05252ae5400b532bc9e242e1b69dd4a9cae81bd8ca936c796bf,CHALLENGES,CHALLENGES,challenging,223,234,"However, accurately estimating CDR deployment is challenging.",1.0,explorer
+UNFCCC.non-party.1740.0,3c9ec53590f8acf4f25bc3db3cf33c99__f0bcc2a139cbb99f5e7a5f82ed0f528a1c021fde698632362595ab7cf9e00dc1,CHALLENGES,CHALLENGES,Challenge,0,9,Challenge 2: Finding sufficient data,1.0,explorer
+UNFCCC.non-party.1740.0,c85d61f70a5e2f8aa5f952f4a414d44a__1c57d0df9631bea4b68d18ec9ff9fad03d50193043ba7e4b8241d9ca6c5856ee,CHALLENGES,CHALLENGES,Challenge,0,9,Challenge 1: Defining CDR,1.0,explorer
+UNFCCC.non-party.1740.0,605e0ed217112d8dc2d0dd753f6fcd0d__56c031fca788991844b42593639b9f581d15634d681e00c72a57cadf6786642f,CHALLENGES,CHALLENGES,challenging,88,99,Developing an estimate of the net removal achieved through current deployment of CDR is challenging from a reporting perspective.,1.0,explorer
+UNFCCC.non-party.1740.0,576289468845646193e44336a136f811__26f36e07285f00b01205ca14ddf07a9c7613374f57de3ce4cdeb250f21b4bfa5,CHALLENGES,CHALLENGES,Challenge,0,9,Challenge 3: Developing an effective measurement approach,1.0,explorer
+UNFCCC.non-party.1740.0,762d631978ba98376951802691f8481e__4fdfa5cdd372416a0b001328c38a8629a8e5c1099ea05d6f092ac6ea44bb9543,BARRIERS,BARRIERS,barriers,292,300,There are three main barriers that need to be overcome to ensure we can maintain an accurate CDR deployment estimate going forward.,1.0,explorer
+UNFCCC.non-party.1740.0,762d631978ba98376951802691f8481e__4fdfa5cdd372416a0b001328c38a8629a8e5c1099ea05d6f092ac6ea44bb9543,CHALLENGES,CHALLENGES,challenging,168,179,"Developing an accurate estimate of CDR deployment is necessary if we want to achieve the goals of the Paris Agreement, as without an accurate deployment baseline it is challenging to determine if we are generating sufficient volumes of CDR (see Chapter 8 -",1.0,explorer
+UNFCCC.non-party.1740.0,022ff416f1c68b5ba1aedf6941655752__4cd09d5ad19f7aa59c3d337b54b5d1221d674c9c4a23b01021da56bbfdabb372,CHALLENGES,CONSTRAINT,constraints,475,486,"Modelling teams combine these widely used assumptions with their own estimations and quantifications of the potential for technological change, as well as future availability and cost improvements of technologies, and then apply key policy constraints (such as a global temperature limit) to arrive at a pathway or scenario.",1.0,explorer
+UNFCCC.non-party.1740.0,c47c63803efa801f0951ed217b2d9395__a57dff7641a10ada26e975ae682fde6b0eb5262835897198a4db542f55158423,CHALLENGES,CONSTRAINT,constraints,349,360,"These interconnected systems are represented as a mix of different technologies, processes and practices that are deployed to meet the demand for energy and other services within a given set of policy targets or constraints.",1.0,explorer
+UNFCCC.non-party.1740.0,f76defb3d65b65ec3332767da0ba7d02__3f9105fdc7e26e94a687f3b69d3b5e57df78d2d5858d3b8e46ee268f8b4f8663,CHALLENGES,CONSTRAINT,constraints,791,802,"As such, IAMS are a key resource to explore the constraints or possibilities that shape how we meet climate goals, including the key roles of CDR methods in doing so.",1.0,explorer
+UNFCCC.non-party.1740.0,7b893711d4565c383d82add70e00b7d5__691b0077a490d64ee7e7ad027d33176cbcc7f1b3b4149cb7f8d5a77b60cc0cac,CHALLENGES,FAIL,Failing,157,164,Failing to deliver these emission reductions in the short term increases scale and dependence on CDR in the long term.,1.0,explorer
+UNFCCC.non-party.1740.0,b1e2f5a6373cfdf0dd32f239e139f047__3f2ca87506e38a01a6072e42e83970fce7c86c5e534ec7eef1cccbbfa1646edd,CHALLENGES,CHALLENGES,challenge,389,398,Considering these separately is important to highlight the scale-up challenge.,1.0,explorer
+UNFCCC.non-party.1740.0,51f45ab7e6d171e8890a9e4a97e45ed6__d26a3f23b7362bb719ae8212e9868317927e65fcef541224b99a8c962e33989c,CHALLENGES,FAILURE,Failure,42,49,Failure to create momentum in this formative phase will contribute to a widening gap by 2050 and beyond.,1.0,explorer
+UNFCCC.non-party.1740.0,f338cbf814ba87424ee0647e69240ac2__75cd0de16490f626842d8878444868304295b1d27e0651293e78f0b2717baa7e,CHALLENGES,FAILURE,failure,568,575,"The extent of early deployment of novel CDR over the next decade is therefore crucial, as a failure to create momentum in this formative phase will contribute to a widening gap by 2050 and beyond.",1.0,explorer
+UNFCCC.non-party.1740.0,0caca552943bd1c6d5b4174af028e3a6__664f77e57387ed08785f401aa3b8369b3025a9f4a2384aead076145a7a61b970,CHALLENGES,INSUFFICIENT,insufficient,143,155,"-10.0
+(2010)
+ho
+-2.5
+-5.0
+-7.5
+-10.0
+Current and proposed levels of carbon dioxide are insufficient to meet the Paris temperature goal
+2020
+2030
+2050
+1
+1
+Current CDR
+1.1 1.3 2.1 1.3 14
+Factor change from 2020
+0 0 69
+NDCs conditiona
+Focus on Renewables
+NDCs conditiona
+460
+Focus on Carbon Removal
+0
+1.3
+(0.95-22)
+30
+(0-540)
+Scenario medan and ranges
+2.7
+Focus on Demand Reduction
+",1.0,explorer
+UNFCCC.non-party.1740.0,39450b7222f2c66a2a50389c3512afc6__fec13462a80511015fd382b957a3bed6087d05e1ba6a1ef03558cc479529c6bd,CHALLENGES,CHALLENGES,Challenge,398,407,"• Tracking policy developments more thoroughly in several ways, such as through case studies of states and cities developing CDR policies, analysis of interactions between government action and the private sector (including voluntary markets and advance purchase agreements), analysis of developments in the UNFCCC, evaluation of multilateral agreements and cooperation platforms (such as the Bonn Challenge, the 4p1000 Initiative and Mission Innovation on CDR), and analysis of developments to monitor, report and verify CDR activities.",1.0,explorer
+UNFCCC.non-party.1740.0,b92a467c0b5b9723c9ebe8ae5453ebde__1147e5dec0c1a0514d98b0bce049784c3566919ce7b84512c232ad57007b49a1,CHALLENGES,CHALLENGES,challenges,629,639,"https://www.skogsstyrelsen.se/globalassets/om-oss/rapporter/rapport-
+er-2021202020192018/rapport-2021-11-sustainable-boreal-forest-management-challenges-and-opportunities-for-cli-
+mate-change-mitigation-002.pdf (2021).
+",1.0,explorer
+UNFCCC.party.1736.0,5dab6c7646a20861070034590ee29ccd__de7d028ebd99b7c010a3f8eb9f68aea1af107153b60848f50f9ab57da95e8969,CHALLENGES,CONSTRAINT,constraints,373,384,"Table 11 Example of minimum, medium and full QC requirements to be performed within the
+emission inventory team according to time constraints and staff capacities..
+",1.0,explorer
+UNFCCC.party.1736.0,ede965d12ce2953d2ff0ea860f311522__e3e962bbb8e7df956ea37023fc135f283efaec62cf28e520d65f3f7ee3626d8b,CHALLENGES,INSUFFICIENT,insufficient,178,190,"The station network, however, has insufficient coverage in the Icelandic highland where precipitation tends to be greater than in lowland areas.",1.0,explorer
+UNFCCC.party.1736.0,9d0af85a537f04a00cc2c8c618705b96__4ef4f0e158ba20062706bb8e2ee40582c962d0514e3234fc73650e5a48330a0a,BARRIERS,DIFFICULT,difficult,236,245,"Public transportation outside the main urban areas is primitive and has been difficult to operate, due to thin population and widespread private car ownership.",1.0,explorer
+UNFCCC.party.1736.0,87bf4c82d5ed55249c8109141dac57e8__d480cd072117576fc9f3d993cd0fc91cb2b757a3aed3ab9d94523250b02634d6,BARRIERS,LIMIT,limitation,339,349,Therein the Parties agree to fulfil jointly their quantified emission limitation and reduction commitments for the second commitment period inscribed in the third column of Annex B to the Kyoto Protocol.,1.0,explorer
+UNFCCC.party.1736.0,97174f2db64e8dc242e77bf4a9edb21d__80dac7aa5ad21f68fca34482affa545fdd823e43276dda89121a7e6ffb5fc9c3,BARRIERS,DIFFICULT,difficult,323,332,"The emissions from Agriculture have though stayed relatively stable since 1992, hence it is difficult to state whether the recent decrease in emissions will continue or not.",1.0,explorer
+UNFCCC.party.1736.0,ae1ff0de6d9a54660ab11608756d5389__2de6f0d44e3a5d0c8cbe51e17c13c5372056326cea2016ae0e967a80ac509862,CHALLENGES,FAIL,fail,411,415,"Regulation No 520/2017 is currently being revised, in order to reflect the changes due to the new Commission Implementing Regulation (EU) 2020/1208 and after changes in the organisation of the inventory work Main changes include clearer definitions of responsibilities of the various institutions and other data providers involved, clearer deadlines and clearer provisions on what can be done if data providers fail to provide the data required as per the regulation.",1.0,explorer
+UNFCCC.party.1736.0,331bf9b8527fc3951e3f4030ee3646e8__958878ceced4a639d621389c04bfff9937bda09b4673719303e5e129c6b59d00,CHALLENGES,CONSTRAINT,constraints,130,141,"Table 11 Example of minimum, medium and full QC requirements to be performed within the emission inventory team according to time constraints and staff capacities.",1.0,explorer
+UNFCCC.party.1736.0,0c83ea3903ffa531da46f3f5a556d32b__d654b92211e6535a42581cb7705973f20e862fed1472e8adcc4e257cdacd3210,BARRIERS,LIMIT,limitation,544,554,Therein the Parties agree to fulfil jointly their quantified emission limitation and reduction commitments for the second commitment period inscribed in the third column of Annex B to the Kyoto Protocol.,1.0,explorer
+UNFCCC.party.1736.0,faa75605a656b091464dbf94e801ac54__cef7c10ea78dca2f0a67ff2beec7ab47e58975ccc5589bbea36fcfbc8ade55be,BARRIERS,PREVENT,prevent,643,650,"These steps are taken in order to ensure that on a longer term, Iceland becomes and remains carbon neutral or carbon negative, thus contributing to the overall objective of the Convention to stabilize greenhouse gas concentrations in the atmosphere at a level that will prevent dangerous human interference with the climate system.",1.0,explorer
+UNFCCC.party.1736.0,aef81323efdf69b83e6d7907f88f3774__ceebb0e2577c415f9005eebc62f0260020862cc0b739f577918c599559a21501,BARRIERS,OBSTACLE,obstacles,559,568,An additional analysis to determine the cost-efficiency of domestic fuel production and map the obstacles to utilising it will be undertaken.,1.0,explorer
+UNFCCC.party.1736.0,df295b85ca16d7b04e5414fb49b637a5__a8e618f1b55c966a6ad56067849ef4a437585c8ad061d55c9e6b35f9c5d22ffe,BARRIERS,PREVENT,preventing,348,358,"This regulation limits the total amount of the most significant F-gases which can be sold, banning the use of F-gases in many new types of equipment where less harmful alternatives are available, and preventing emissions of F-gases from existing equipment.",1.0,explorer
+UNFCCC.party.1736.0,b92b1762a9f11cdae87d50adb4418e66__ed4c191c419e4fe86df72834cce7ed2febf1cfd66c82f0ed8021cbf6ace50353,BARRIERS,PREVENT,prevent,437,444,"At the same time as there is a major focus on reclaiming wetlands in Iceland, it is vital to prevent further draining of wetlands unless absolutely necessary.",1.0,explorer
+UNFCCC.party.1736.0,5f9d25b242d28e0d98959734da6c2d4f__52b6d458edff85e8a148a5754501a6fc13caa9902622d2b7658f9e0120677a76,BARRIERS,PREVENT,prevent,615,622,"It focuses on better efficiency, creating less waste as well as increasing education to
+prevent waste generation.",1.0,explorer
+UNFCCC.party.1736.0,e03b7d76f0dca6eb2fadfc55232bdaaa__da475de30a33538ea7f6617c57fcd87cc154440724d2889dd5d21896820b3a96,BARRIERS,DIFFICULT,difficult,625,634,"The projections show only a slight increase in emissions compared to 2020 emissions and relatively constant PFC emissions, since a prediction of PFC emissions is difficult to achieve.",1.0,explorer
+UNFCCC.party.1736.0,6d5bd170357cade877805b9198f08130__b451085c86811857bc68f2371d5a8596e73bb2ed07e1750634c3375abceaf727,CHALLENGES,LACK_OF_DATA,lack of data,313,325,"Where the application of default or Tier 3 facility specific emission factors was not possible due to the lack of data, averages of historical data were used to provide implied emission factors.",1.0,explorer
+UNFCCC.party.1736.0,a4a03ace7df23985b7919431a603d234__183ca770b7c09a27955c26a0c678d0b8ea22a65505f0abfb2ed6e6f48aab2d4c,CHALLENGES,LACK_OF_DATA,lack of data,670,682,The emission factors are the same as are used in the historical inventory and could not be projected due to a lack of data and their high uncertainty.,1.0,explorer
+UNFCCC.party.1736.0,d94648832ec5ed7f00672d04f66874dd__c97d32ac2430c184403031e0838c68593dc586a8e504a2be3c4a9628bee84dad,CHALLENGES,CHALLENGES,challenge,260,269,"Where results challenge our existing mass balance of waste handling, we may need to revise",1.0,explorer
+UNFCCC.party.1736.0,d4ccd4ade564c51163ec1d681f023ab8__ded6afa659997149a6e57aa3ce0f0712780024d79fdc619b4e5169855f79f5cd,CHALLENGES,INSUFFICIENT,insufficient,178,190,"The station network, however, has insufficient coverage in the Icelandic highland where precipitation tends to be greater than in lowland areas.",1.0,explorer
+UNFCCC.party.1736.0,447a6df303688f178c48226208d9e14e__fe3d83a8901ccbd93803a4a2e101b8e61b730e71a6cbdbd83959d7ef0f32ced3,BARRIERS,DIFFICULT,difficult,387,396,Field data from glacier regions in the world are scarce due to their remote locations and difficult and expensive logistics associated with glaciological field work.,1.0,explorer
+UNFCCC.party.1736.0,cbdba5d16c9f43244fd90140b9ee1951__172cab10d83ea57f552f7750e36d288ff58111681d94b65dc68a05d61dae15e2,BARRIERS,LIMIT,limitation,70,80,"Population limitation in a non-cyclic arctic fox population in a changing climate.
+",1.0,explorer
+UNFCCC.party.1736.0,7baab9f8a9fef41751cacd18ef09879c__731fc38acb5a5fc2ce2a7cfa8064929fa40eaf377f39854958ee8383f2ef839c,LESSONS_LEARNED,LESSONS_LEARNED,lessons learned,13,28,"Cooperation, lessons learned",1.0,explorer
+UNFCCC.party.1736.0,635da3aabf9126a67a25ae64e81172b2__5fd523d35f56862af4b08a1d2dbaf982dbf337cb84f7c8da1804b58a080f9f28,CHALLENGES,CHALLENGES,challenges,166,176,"Land degradation and desertification rank among the world's greatest environmental challenges, significantly affecting a range of issues such as climate, biodiversity, soil quality, food and water security, peace and human wellbeing, especially for the more vulnerable rural poor.",1.0,explorer
+UNFCCC.party.1736.0,61ebd9eb6ccb7a36513e51facbca43cc__541f2b60de1a6470c7ac995a5517833977313c26402657c6992b74041cea1417,BARRIERS,PREVENT,prevent,581,588,The ICEWIND project focuses on wind energy in cold areas and its main goal was to share knowledge between the Nordic countries and identify factors that delay or prevent the adoption of wind energy in the Nordic countries.,1.0,explorer
+UNFCCC.party.1736.0,df889df6d8bceb7e9559bd0bf9df0241__e08f5c5bdbd785e11d4a319cc6010f55b7e551ce220bd47ccc09f77f0dedaf58,CHALLENGES,CHALLENGES,challenges,129,139,"The websites of the Soil Conservation Service of Iceland and the Icelandic Forest Service provide
+information on climate-related challenges these institutions are engaged in.",1.0,explorer
+UNFCCC.party.1736.0,87bf4c82d5ed55249c8109141dac57e8__d480cd072117576fc9f3d993cd0fc91cb2b757a3aed3ab9d94523250b02634d6,BARRIERS,LIMIT,limitation,339,349,Therein the Parties agree to fulfil jointly their quantified emission limitation and reduction commitments for the second commitment period inscribed in the third column of Annex B to the Kyoto Protocol.,1.0,explorer
+UNFCCC.party.1728.0,de02b7e0efa7784ebc58fa8a7384ef49__8a348bace95e95a92404810e1bb83960290ac185015a278967d441c035d24f68,CHALLENGES,CHALLENGES,challenges,539,549,"By acceding to both the UNFCCC and the Paris Agreement on behalf of Vatican City State, the Holy See expressed its intention to contribute and to give its moral support to the efforts of all States to cooperate, in accordance with their common but differentiated responsibilities and respective capabilities, in an effective and appropriate response to the challenges posed by climate change to humanity and to our common home>>³.",1.0,explorer
+UNFCCC.party.1728.0,a345ff1b1b13d77ca80be4ada48e4aea__e59df874f7e2a7bbf8e858bd6642b45ffbae842ad9ca55ed0cb46447ac6f66c8,CHALLENGES,CHALLENGES,challenge,127,136,"On 24 May 2015, Pope Francis issued his Encyclical Letter Laudato Si' on Care for Our Common Home,¹ in which he noted that the challenge to protect our common home includes a concern to bring the whole human family together to seek a sustainable and integral development, for we know that things can change».?",1.0,explorer
+UNFCCC.party.1728.0,24b0d07dd422e7f6093065a17c944d4f__9395612235925a6a6466d8bda584ad5e6c103ec438e5d638eb4883a5abdfe189,CHALLENGES,CHALLENGES,challenges,5,15,"Such challenges have <not only environmental, but also ethical, social, economic and political relevance, affect[ing] above all the life of the poorest and most fragile.",1.0,explorer
+UNFCCC.party.1728.0,5f52fc9039fa789c1e57747248994888__55919de778e2c7700ea2ac0393ecc1478f76769c3791dd5474ed144341345559,CHALLENGES,INSUFFICIENT,insufficient,147,159,"However, if domestic reductions prove insufficient to achieve the set objectives
+the use of international mechanisms will not be excluded.",1.0,explorer
+UNFCCC.party.1734.0,cc87cc0858a3b1478e9d53f2d2149c5b__c5258a288bfe640da175f91824b1c82c312bcc9d7aaed78176bbc2a710dbc182,CHALLENGES,CHALLENGES,challenge,35,44,"In response to the above-mentioned challenge,",1.0,explorer
+UNFCCC.party.1734.0,76c977348075a6f6ba6a68da6acdbf4a__0c6be84938375e461cb251c98bb230bd684458a1808bb623e526397ecafc58c7,CHALLENGES,CONSTRAINT,constraints,46,57,Territorial planning has been one of the main constraints,1.0,explorer
+UNFCCC.party.1734.0,cb096c521ee4d7f6c45d19ea9e7382d8__6b81b800ec531cc04d16f1524b42eec1da40ef300e0bf7bb4a5dbbabeee24a35,BARRIERS,DIFFICULT,difficult,14,23,plex and more difficult to manage.,1.0,explorer
+UNFCCC.party.1734.0,91754dd0947ba06a03b6f57348e68137__5a27ebaf92c5f33dd8687b4f72940ea2ca05ce232160757fb3b217bcae39169b,BARRIERS,LIMIT,limitation,0,10,"limitation of the State Budget, little was implemented.",1.0,explorer
+UNFCCC.party.1734.0,8cf810056b82f64e7365381fa1a01073__757efef1f436a1ddceaa60f95e56b03759008ab2de94348d83a21cbd90c9a1d1,CHALLENGES,DEFICIENT,deficient,39,48,Climate finance in Mozambique is still deficient.,1.0,explorer
+UNFCCC.party.1734.0,093752ff5aa282f85f4fc1b959b582a9__d3fa892d0610faa87013975dd0d16422af7f969de39d39421c98e99c95139f8c,BARRIERS,BARRIERS,barriers,40,48,"collected during the consultations, the barriers and gaps",1.0,explorer
+UNFCCC.party.1734.0,c1eefcaaa44da88ac92473973367af10__e5c7c8a1c209581099146862775fb0bc1de1551fad3555dfea596407eb636d9b,CHALLENGES,CHALLENGES,challenges,30,40,the country and the potential challenges for the manage-,1.0,explorer
+UNFCCC.party.1734.0,4e7fa038509a942388b2d08eb904893f__e02ee61606deb4683ad4def99a6c62597d35696b84c646a1442e41e755b219e4,CHALLENGES,CHALLENGES,challenge,15,24,"ever, the main challenge is the development of industries",1.0,explorer
+UNFCCC.party.1734.0,79f8f72036d895b6f7911c206b2bc928__ffcdd0aab66555af75e3e783f1b7174797f6f4752723302177013bd81d1589b7,BARRIERS,DIFFICULT,difficult,17,26,complex and more difficult to manage.,1.0,explorer
+UNFCCC.party.1734.0,a8aa41688885f358875290ed9bb822de__a403eb8cb54e5c60758ded427cdd04d30f8a753f48581877e23ccbe39a6f2cf0,CHALLENGES,CHALLENGES,challenge,29,38,Gender inequalities remain a challenge in ensuring the,1.0,explorer
+UNFCCC.party.1734.0,a96df2bfa0640cfc12db508bdb9c41ea__35fc49d7bbf362fde286f814d3507ff39e507740cb68355ee63dee28a331b1a0,BARRIERS,BARRIERS,barrier,8,15,a major barrier to the efforts of the Government and its,1.0,explorer
+UNFCCC.party.1734.0,3173adbbc2da7d7af72a8629fa71b23a__65d911041a80e17c64de78424e352afc7f70bce05cd784cb15164b2a0899ab18,CHALLENGES,CHALLENGES,challenges,6,16,These challenges increase in emergency situations due to,1.0,explorer
+UNFCCC.party.1734.0,b476dddd0d028b40200edb6bbdb82ce0__49e94ed5970978047b2fe0eb18e94daf190cff6aee5e0510c263f471301f0e9c,BARRIERS,BARRIERS,barriers,43,51,"ica and the Caribbean, to address critical barriers of pri-",1.0,explorer
+UNFCCC.party.1734.0,18af1c5cc8dd1f8f5dbb872a8f5c0bce__7dec6e3659ea50adcd6b8b1b6871132211502e21eb05ab65c6f7e07b4a07b1ac,BARRIERS,LIMIT,limitation,44,54,"populations and sectors, however, given the limitation of",1.0,explorer
+UNFCCC.party.1734.0,39831f96fd845cf02783020a8be33814__f87982d1d6f4fce778379ed2f97c845aff3ea4343f84d9d81647babf98c320b9,CHALLENGES,CHALLENGES,challenges,46,56,"ing progress at various levels, has faced the challenges",1.0,explorer
+UNFCCC.party.1734.0,10029cb0a53c40d39f55f7b69d5f2b8a__23179d0f3fb79b362ee2ade26b63027663e24e574088db897870ffe1eec4064f,CHALLENGES,INSUFFICIENT,Insufficient,3,15,1. Insufficient availability of climate funding for the coun-,1.0,explorer
+UNFCCC.party.1734.0,5ef931eecca1347a6aeba4709bf4c98a__c143d4cdbe45c44ab0da5b4f192c699ba9041a7fb9ef9513fd163cadee85cd5c,BARRIERS,BARRIERS,barriers,9,17,gaps and barriers that had already been the scope of the,1.0,explorer
+UNFCCC.party.1734.0,3bf12eb84997a635244a66b6e3d67503__64c921cf48ed8bbf7537e6a851858b7daee938d0dafece469299f6474775cb59,CHALLENGES,INACTION,inaction,32,40,climate change and the costs of inaction; and,1.0,explorer
+UNFCCC.party.1734.0,d9dbe7de0ffa5565cbd4e81a96db84f4__1dec37389de83e4fa94c7ab3d39768c81acf0beda2dee4ebb8460ee618309d17,CHALLENGES,INSUFFICIENT,Insufficient,3,15,1. Insufficient incentives to attract the participation of the,1.0,explorer
+UNFCCC.party.1734.0,72a211ae952180d5cd9affe39173ab7e__0f794f7f4d767a381921bd15e3b72385881c11b0e0715810a5b8cf72146b1345,CHALLENGES,INSUFFICIENT,insufficient,741,753,"The parties development strategy
+is elaborated
+and implemented
+1.2 The mandate for climate change
+adaptation is defined at the national,
+provincial and district levels
+1.3 Sectoral NAPs are compiled,
+including the mandate,
+coordination and implementation
+mechanisms at national, provincial
+and district levels
+Insufficient coordination
+and governance mechanisms
+lead to insufficient policy
+coherence at national, provincial
+and district levels
+2.",1.0,explorer
+UNFCCC.party.1734.0,72a211ae952180d5cd9affe39173ab7e__0f794f7f4d767a381921bd15e3b72385881c11b0e0715810a5b8cf72146b1345,CHALLENGES,INSUFFICIENT,Insufficient,681,693,"The parties development strategy
+is elaborated
+and implemented
+1.2 The mandate for climate change
+adaptation is defined at the national,
+provincial and district levels
+1.3 Sectoral NAPs are compiled,
+including the mandate,
+coordination and implementation
+mechanisms at national, provincial
+and district levels
+Insufficient coordination
+and governance mechanisms
+lead to insufficient policy
+coherence at national, provincial
+and district levels
+2.",1.0,explorer
+UNFCCC.party.1734.0,6f5d66947d0746a91506c067ad6017c2__996152492d9a32de8170052872da825c41f61fc57fa7d6d6eb29481c863fc24a,CHALLENGES,CHALLENGES,challenges,43,53,"3. Equality - of rights, opportunities and challenges be-",1.0,explorer
+UNFCCC.party.1734.0,d57907bd14f16ef16064ce997fc2dacd__d26dba7202030d1a9f2ffd34d0ac500b90d12ffbf752e484f98ac268b674d641,CHALLENGES,CHALLENGES,challenges,24,34,address key development challenges facing people in Mo-,1.0,explorer
+UNFCCC.party.1734.0,5d400fb06227f1e0a8f6db636e87a54a__3523a80d9e6321781e911727fc64fcb49fe55c8bdf108f41a033e954a022dedc,BARRIERS,PREVENT,prevent,14,21,measures that prevent and reduce exposure to hazards,1.0,explorer
+UNFCCC.party.1734.0,d4262225a1884d9ce8bdc7210add6165__d4c6e156a6029316e75e53d0574b77b483be2b28245f37f8b1db6a6dae67c3cd,CHALLENGES,CHALLENGES,challenges,603,613,"He mentions that one
+of the challenges that Mozambique has is soil erosion and salinization, mainly
+associated with CC in the coastal zone.",1.0,explorer
+UNFCCC.party.1734.0,d97550d4ac11b909d3588bfe63d63388__e0b8e3bac213e4650737ceecab63cf2c52df412feb7ca02638eaf1833e4cb94d,BARRIERS,PREVENT,preventing,456,466,The territorial development plan advocates preventing risks of natural and anthropogenic origin and safeguarding the sustainability of ecosystems and biodiversity and envisages ensuring: resilient and sustainable country that knows well the areas most exposed to the different types of risk (of natural or human origin) and threats to the quality of the environment,1.0,explorer
+UNFCCC.party.1734.0,da618fc4f2048c66a62fff5f76d0a54f__5797570ce9e4c82361eec574e64f92162d86edeb55f6a4d6939021c5a8e71dfe,BARRIERS,PREVENT,prevent,504,511,"To operate MICOA's Gender Department as a national mechanism for
+implementing and monitoring priority actions in the field of gender, environment
+and climate change
+The general objectives are:
+a) to prevent the loss of human life and destruction of property caused by natural
+or man-made disasters;
+b) Incorporation of disaster prevention in the overall process of national
+development;
+c) Promotion of internal and external solidarity, in the event of calamities;
+d)",1.0,explorer
+UNFCCC.party.1734.0,da618fc4f2048c66a62fff5f76d0a54f__5797570ce9e4c82361eec574e64f92162d86edeb55f6a4d6939021c5a8e71dfe,BARRIERS,PREVENT,preventing,1839,1849,"The law recognizes that its
+objectives will only be achieved through multisectoral and multidisciplinary
+efforts, involving the structures of society and individual citizens, in order
+to guarantee promptness and effectiveness in responding to events that have
+occurred, but also in preventing their occurrence or its effects through a
+proactive stance.",1.0,explorer
+UNFCCC.party.1734.0,da618fc4f2048c66a62fff5f76d0a54f__5797570ce9e4c82361eec574e64f92162d86edeb55f6a4d6939021c5a8e71dfe,BARRIERS,PREVENT,preventing,3113,3123,"The general objective of this plan is to reduce the risk of disasters, the loss of
+vital infrastructure, as well as preventing the emergence of new disaster risks
+by increasing human and infrastructural resilience in the face of extreme
+climatic, natural and anthropic events.",1.0,explorer
+UNFCCC.party.1734.0,f1608eacb2b8ef7cbca85a6ea5349fb0__b495a8f004d7b9af3a27db03a7a6c9665a1ef1cd67ba3991156798e24b6a20eb,CHALLENGES,INADEQUATE,inadequate,849,859,"Indeed, a large part of the
+occurrence of diseases such as diarrhoea, malnutrition, malaria and neglected
+tropical diseases is attributable to the unavailability of drinking water, inadequate
+sanitation or insufficient hygiene.",1.0,explorer
+UNFCCC.party.1734.0,f1608eacb2b8ef7cbca85a6ea5349fb0__b495a8f004d7b9af3a27db03a7a6c9665a1ef1cd67ba3991156798e24b6a20eb,CHALLENGES,INSUFFICIENT,insufficient,874,886,"Indeed, a large part of the
+occurrence of diseases such as diarrhoea, malnutrition, malaria and neglected
+tropical diseases is attributable to the unavailability of drinking water, inadequate
+sanitation or insufficient hygiene.",1.0,explorer
+UNFCCC.party.1734.0,ec89036483c2e573f4d0bbdd7cb29715__3e83e7ae31399fa35d5ea3f95eb3596592c0299e0bb258279e8de9ee7ded3eb4,CHALLENGES,CHALLENGES,challenges,12,22,A number of challenges and systemic issues will need to be,1.0,explorer
+UNFCCC.party.1734.0,ce7b0429a12c5e19180305b601879334__12fa5f15fea5d1134006733ac2046e29ec523dd659cc2bf735b0cadfe8b33aad,CHALLENGES,CHALLENGES,challenges,20,30,thus adding several challenges in the various development,1.0,explorer
+UNFCCC.party.1734.0,f1f73f416f2c354647a10673d98d0894__fdf6d91a28273d9c9f45b2326c2eb2f3f3c79e1e2a347f6785a8deaaae770199,CHALLENGES,CONSTRAINT,constraints,22,33,es cause setbacks and constraints in various development,1.0,explorer
+UNFCCC.party.1734.0,18e319b214ee6932719fd441f509ba78__2756d64d96cd1ef31076d29ccd6c68bbd2d7e06cd546095b89e25747c7c4b356,BARRIERS,BARRIERS,barriers,46,54,when they occur still face coordination level barriers.,1.0,explorer
+UNFCCC.party.1734.0,2acff5462bb0c812a12b7f58cd39a8cf__ab6a69dc2f256528e49d06cf8b0fa23f1ef12692e339eb82b77f0eb778ef30f7,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,AND CONSTRAINTS FOR NATIONAL OR REGIONAL DEVELOPMENT GOALS,1.0,explorer
+UNFCCC.party.1734.0,aedf2d0043a9b5a0670f5856b08363b7__72463783d73fbd8e7236becc7258734d59cdb2f03cc55517bef8b225ab7809e9,CHALLENGES,CHALLENGES,challenge,22,31,"committees has been a challenge, but a goal to be achieved",1.0,explorer
+UNFCCC.party.1734.0,cff43092144f37d3ecbd24583b5deef1__1ee9540efebbc01d954b9e5d43e6fce424fabc91b8bb47bc91cb0127be6350cf,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+DEVELOPMENT GOALS",1.0,explorer
+UNFCCC.party.1734.0,57c714c64b09255373b487ea1a1033ee__6066174d11c60c3bbe20c3f86f32753bd9556f7578406c6650f1d0d02dcb2a11,BARRIERS,PREVENT,prevent,20,27,a set of actions to prevent the risk of climate disasters and,1.0,explorer
+UNFCCC.party.1734.0,9c4e6a973cc7f138f1ebf5fcb3afb14c__9597639a0fb7708c6a145053ed46ff008b6b29ea1235a1ff57359ac949b04d3d,BARRIERS,PREVENT,prevent,36,43,"information, and that this can help prevent and reduce the",1.0,explorer
+UNFCCC.party.1734.0,2acff5462bb0c812a12b7f58cd39a8cf__ab6a69dc2f256528e49d06cf8b0fa23f1ef12692e339eb82b77f0eb778ef30f7,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,AND CONSTRAINTS FOR NATIONAL OR REGIONAL DEVELOPMENT GOALS,1.0,explorer
+UNFCCC.party.1734.0,7ff858fc03a356eee3d9f69d4bdd4f01__a40296356621437c672fb5efeff232ae4e0c09cc8bc7c27abb719009491a3825,CHALLENGES,LACK_OF_ACCESS,lack of access,0,14,lack of access to technologies and the reduced ability to,1.0,explorer
+UNFCCC.party.1734.0,845c6e1fc80598167ac62969943b9f02__ed912461d096dea7cddfb23fa2bc9d3520d9cf98c76e7c87b1fae154c81cccf4,CHALLENGES,DEFICIENT,deficient,7,16,"is the deficient national capacity for planning, budgeting,",1.0,explorer
+UNFCCC.party.1734.0,6c37cb508f52e337ad7758528cd6b562__d9e0dea6d62782dcd06f56cad510df01de2d1b173ce6d34c7b2719cdcb43bbb6,BARRIERS,BARRIERS,barriers,28,36,"bon development, removal of barriers (institutional, le-",1.0,explorer
+UNFCCC.party.1734.0,9482eb7d358790f5825c17621871a406__f5d6908eb6256a81a6f154a958ad3c46ee02bf81d5850d9d5bc18ace5eedf261,BARRIERS,IMPEDIMENT,impediments,44,55,"ity, among others, are often pointed out as impediments",1.0,explorer
+UNFCCC.party.1734.0,4c7f71aaca4db8fad8c8b52bf1b323b4__d483bd89952f1bb4d83f5bffeb0c1c3c47b8ab1d02ca8aad3318aaf0dbb763d5,CHALLENGES,DEFICIENT,deficient,27,36,"the State Budget, which is deficient itself.",1.0,explorer
+UNFCCC.party.1734.0,503e4c7027e54ba255a0a3c3c368fd30__900055f7dd87f3ea9519f2e4d474c2bd5a3f2e2f073937b4dbc0a30360d646bc,CHALLENGES,CHALLENGES,challenge,47,56,"is recognized that these processes are still a challenge, but",1.0,explorer
+UNFCCC.party.1734.0,cff43092144f37d3ecbd24583b5deef1__1ee9540efebbc01d954b9e5d43e6fce424fabc91b8bb47bc91cb0127be6350cf,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+DEVELOPMENT GOALS",1.0,explorer
+UNFCCC.party.1734.0,67f7918fb2bad09c75bdec3fd8cab4aa__12c53ef9a2bc64acfac16215081d8434d697dc2faf549916cc19ca58205bf784,CHALLENGES,CHALLENGES,challenges,15,25,on the climate challenges of each region.,1.0,explorer
+UNFCCC.party.1734.0,2acff5462bb0c812a12b7f58cd39a8cf__ab6a69dc2f256528e49d06cf8b0fa23f1ef12692e339eb82b77f0eb778ef30f7,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,AND CONSTRAINTS FOR NATIONAL OR REGIONAL DEVELOPMENT GOALS,1.0,explorer
+UNFCCC.party.1734.0,7818f2f4e3da82eb7c047e5557c417bc__ded37b31ae2aab9ab3cc760fcd9bd91066de662034cc40a700bccd8837e74f17,CHALLENGES,LACK_OF_CAPACITY,lack of capacity,16,32,idence of their lack of capacity to deal with the impacts,1.0,explorer
+UNFCCC.party.1734.0,cff43092144f37d3ecbd24583b5deef1__1ee9540efebbc01d954b9e5d43e6fce424fabc91b8bb47bc91cb0127be6350cf,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+DEVELOPMENT GOALS",1.0,explorer
+UNFCCC.party.1734.0,2acff5462bb0c812a12b7f58cd39a8cf__ab6a69dc2f256528e49d06cf8b0fa23f1ef12692e339eb82b77f0eb778ef30f7,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,AND CONSTRAINTS FOR NATIONAL OR REGIONAL DEVELOPMENT GOALS,1.0,explorer
+UNFCCC.party.1734.0,c065c55f06e120e17996b636411c6da0__a56e32e135552763639516dad5f3f822ebae42632db8eebb65736e21f64feed5,CHALLENGES,CHALLENGES,challenges,4,14,the challenges of spreading these techniques throughout,1.0,explorer
+UNFCCC.party.1734.0,b3cd1c8fec0291c2aaa5d566c81180c6__dedc43f7c237ce8a69122f68a3a3a2a858c01c616de332fb6489ba8ee2c60358,CHALLENGES,CHALLENGES,challenges,11,21,ricultural challenges faced in each specific region.,1.0,explorer
+UNFCCC.party.1734.0,4dc54ca703131cd4490a1bf0b5e78b9c__8f83b5937b95a56e03b787ead879000c8d52ff42ff70e1432657df32cfa1264f,CHALLENGES,CHALLENGES,challenges,42,52,step forward in overcoming the historical challenges that,1.0,explorer
+UNFCCC.party.1734.0,bb5c030a5b646e632a147d3783f74431__71f4cb8212c110796ea4d2e09e74b73c0c1a0b954412f7171ff4f3378abda606,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+GOALS
+DEVELOPMENT",1.0,explorer
+UNFCCC.party.1734.0,ba65867c6e809fad921da0f1b7d84b24__5108f129eb244937e9ba300b574ba548fea8ef10a7ed748ee67c041d46612802,CHALLENGES,CHALLENGES,challenges,11,21,"forts, the challenges are still huge in the country because",1.0,explorer
+UNFCCC.party.1734.0,5268b98618b1e49e6ee6177947449bb8__e69a35ccc2e21cbe4d86ca31fa06173fb33aa5ad483ed0e5cb4dbc8c6c910c4b,CHALLENGES,CHALLENGES,challenges,3,13,er challenges.,1.0,explorer
+UNFCCC.party.1734.0,cff43092144f37d3ecbd24583b5deef1__1ee9540efebbc01d954b9e5d43e6fce424fabc91b8bb47bc91cb0127be6350cf,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+DEVELOPMENT GOALS",1.0,explorer
+UNFCCC.party.1734.0,2acff5462bb0c812a12b7f58cd39a8cf__ab6a69dc2f256528e49d06cf8b0fa23f1ef12692e339eb82b77f0eb778ef30f7,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,AND CONSTRAINTS FOR NATIONAL OR REGIONAL DEVELOPMENT GOALS,1.0,explorer
+UNFCCC.party.1734.0,dff0887e3249e6efc57ef96419b37a53__c4672e742b595b05078597e2f7601b67c6510a370eb71389033931cf78189571,BARRIERS,PREVENT,prevent,19,26,services and would prevent the government from taking,1.0,explorer
+UNFCCC.party.1734.0,9896bd0db72aeffb5fc4c3b45dcda989__e8850c96952d350f1a081daa7656bf8e22651327b9dec8643808292ee28f03fc,BARRIERS,PREVENT,prevent,22,29,"Additionally, it will prevent the country's GDP from ex-",1.0,explorer
+UNFCCC.party.1734.0,0c62fb3f9b9965a0545b969f75f27f79__769cfbd39c787a4b8f1f2b8cc1f28f9ffbed731bb73c33c3fcfc1170590fb888,BARRIERS,PREVENT,prevent,13,20,measure will prevent the country from being burdened by,1.0,explorer
+UNFCCC.party.1734.0,d51bc05166d6e530dbc315b57f7aa293__c7a028767448c364baaa7269040c31336dd82374aae67117e2332d0a94730b3f,CHALLENGES,CHALLENGES,challenge,5,14,huge challenge for the country.,1.0,explorer
+UNFCCC.party.1734.0,729c136215e8ed48d9c991e4111f39a7__15a992d0faecc943c49c90953031dd1c96159cca324693d36dd3c3155db7ae87,CHALLENGES,CHALLENGES,challenge,0,9,challenge of sustainable management of water resources,1.0,explorer
+UNFCCC.party.1734.0,09712a12faadb0bbf0331110e80ad5a5__5bc30ae535e0e4ab5aafbff4b12d5b166969232f5e655130bf43d0b06980ceac,CHALLENGES,CHALLENGES,challenges,35,45,distinct water resource management challenges; in the,1.0,explorer
+UNFCCC.party.1734.0,cff43092144f37d3ecbd24583b5deef1__1ee9540efebbc01d954b9e5d43e6fce424fabc91b8bb47bc91cb0127be6350cf,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+DEVELOPMENT GOALS",1.0,explorer
+UNFCCC.party.1734.0,e633b7296f817ac3be36eb5e7f093f6c__b577d3daf4358a29d570ebb6ded8fb44819108653cf630ee72914c9a7e89f161,CHALLENGES,CHALLENGES,challenges,0,10,"challenges, the country must ensure the sustainable man-",1.0,explorer
+UNFCCC.party.1734.0,4797ba9dab0389b01624a8e43b6b2276__a677e25c1f53a259f4fbe1d324180cbaa44b7f3000b3f00d9c11bb8fc9c77cba,CHALLENGES,CHALLENGES,challenges,0,10,challenges of water resource management in the country.,1.0,explorer
+UNFCCC.party.1734.0,689b713e303d3b9589820482379dca5d__443d4aa183ee3adae50220920aab11acdc1839026f75775089f6e096eb16de00,BARRIERS,PREVENT,prevent,14,21,management to prevent territorial development from,1.0,explorer
+UNFCCC.party.1734.0,a12665f156b8bfebd57f30b71497a9cc__8f2364927d7a1a02b1b3e0bad2fd9c4641ab226f4fcd193151824803d8f18e67,CHALLENGES,CONSTRAINT,constraint,47,57,The management of water resources is a serious constraint,1.0,explorer
+UNFCCC.party.1734.0,b1a9b438192c70ef876f4af753cf3b0e__7eaa001ffe6228f7de8f4c55b09ed97e06f192a4def7697be9bd22ffb6c735e5,BARRIERS,BARRIERS,barriers,38,46,"However, these and other barriers should not",1.0,explorer
+UNFCCC.party.1734.0,dadf2a3b7cb65e9d24f26296a68e7baa__c614402c04d0fdeefbef325ec86d04591f6af5b70b3f6603a404d1f83ab35113,BARRIERS,BARRIERS,barriers,49,57,prove access to renewable energies is faced with barriers at,1.0,explorer
+UNFCCC.party.1734.0,cff43092144f37d3ecbd24583b5deef1__1ee9540efebbc01d954b9e5d43e6fce424fabc91b8bb47bc91cb0127be6350cf,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+DEVELOPMENT GOALS",1.0,explorer
+UNFCCC.party.1734.0,85e7233950e7c20dea3a71899a995c8b__3753a7f1fc899252206faf047f86eda1f1093e733fdfd5d7c55926d018f297bc,CHALLENGES,CHALLENGES,challenges,35,45,b) It ensures the reduction of the challenges of lack of ac-,1.0,explorer
+UNFCCC.party.1734.0,42c79c3124c61e26e67a8446d39d3ca7__d33dcce2c9f5b13f0fb67de62d94b4c12277bce035f210fee8dce874310bd3a0,BARRIERS,PREVENT,prevent,46,53,developed actions that include vaccination to prevent the,1.0,explorer
+UNFCCC.party.1734.0,5f4a1699e116e727280a887e7c2271c9__7b4c9f1087cf8fc58b62b507162a3e8b91a9b912c6fec7d0fc7646f3ce538595,BARRIERS,PREVENT,prevent,36,43,tion of the use of mosquito nets to prevent cases of malaria,1.0,explorer
+UNFCCC.party.1734.0,800353cef28f07d8a3a8edcd5e769317__71c52d2177eb00d3aeeddb371a92a2a8f093fbeda7cec52b1028433948bf8c6a,BARRIERS,PREVENT,prevent,34,41,the implementation of measures to prevent diseases asso-,1.0,explorer
+UNFCCC.party.1734.0,1d6e1fe795f6a0a3b1cb62da74d03780__2424d429eb1acf78794ca45d829a39739d3ea4675856195c8c76f81349f2e67f,BARRIERS,PREVENT,prevent,36,43,ciated with climate change and thus prevent the country,1.0,explorer
+UNFCCC.party.1734.0,48fdbb2ee79957ce658d139ab874ba48__372253f87de5b369648cfde02e1add89df43c6c2312923961ac6944325148e6b,CHALLENGES,CHALLENGES,challenges,14,24,"These challenges may continue, with the risk of",1.0,explorer
+UNFCCC.party.1734.0,9a253d0524e76af106fc0b77f9726b31__e0892ae1c6f5b83d4d435da0099ca0a281374231c983064eb8f21dbff4683a4f,BARRIERS,PREVENT,prevent,10,17,"tion will prevent diseases and this negative impact
+on the",1.0,explorer
+UNFCCC.party.1734.0,cff43092144f37d3ecbd24583b5deef1__1ee9540efebbc01d954b9e5d43e6fce424fabc91b8bb47bc91cb0127be6350cf,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+DEVELOPMENT GOALS",1.0,explorer
+UNFCCC.party.1734.0,d4549b689a6762ddd1c1eb8fe026c644__758441f6c4d5b6e786845e8d290b4218aee88518d80ab9f82372910c1febb5c4,BARRIERS,PREVENT,prevent,9,16,tices to prevent diarrhea and cholera.,1.0,explorer
+UNFCCC.party.1734.0,1e162425149f76da36a3a3d2516d2439__fd968b72db7a0ac19217401e39cc5b4d209704035e4cd09a9057266bc9ed55dc,BARRIERS,PREVENT,prevent,32,39,(i) Reinforcing the capacity to prevent and control the,1.0,explorer
+UNFCCC.party.1734.0,f0b1ba2c7f2e1a665b081b9ca046130a__7c2dfa11c59170da0abdca98c093a765d53fe32afd2a8e574a4357927903b99e,CHALLENGES,CONSTRAINT,constraints,7,18,mental constraints and national development.,1.0,explorer
+UNFCCC.party.1734.0,cff43092144f37d3ecbd24583b5deef1__1ee9540efebbc01d954b9e5d43e6fce424fabc91b8bb47bc91cb0127be6350cf,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+DEVELOPMENT GOALS",1.0,explorer
+UNFCCC.party.1734.0,56080338102fd9176cd3724d1545e4ba__f50e8441d95bd28592c23da3030c15bf4f28ad382cc379ab1236964278332a8a,CHALLENGES,CHALLENGES,challenges,25,35,"this cause, so that some challenges can be managed jointly.",1.0,explorer
+UNFCCC.party.1734.0,7d76e9d1e103a26c7bfcb52e42ea01ef__a9155dde5d1ce40b04d92bbc9df54e322af9da426ca95904fcc8b57b6bc5be38,CHALLENGES,CHALLENGES,challenge,10,19,The great challenge the country faces in risk manage-,1.0,explorer
+UNFCCC.party.1734.0,8c40aa2115da242c418c8f153151455d__622937e08f830617f191e4ac28928f9896b390fa2c7508253c54921e7ef8b5f3,CHALLENGES,CONSTRAINT,constraints,14,25,environmental constraints come up.,1.0,explorer
+UNFCCC.party.1734.0,8c40aa2115da242c418c8f153151455d__622937e08f830617f191e4ac28928f9896b390fa2c7508253c54921e7ef8b5f3,CHALLENGES,CONSTRAINT,constraints,41,52,These constraints,1.0,explorer
+UNFCCC.party.1734.0,ec963d2fc4f115d7b4911fb8a14fdccf__61ed47769e2f481b54dd6a047e408cd5411d02e86c77e0866bc7023a60a94ebe,BARRIERS,PREVENT,prevent,11,18,ment is to prevent natural disasters from hitting the same,1.0,explorer
+UNFCCC.party.1734.0,cff43092144f37d3ecbd24583b5deef1__1ee9540efebbc01d954b9e5d43e6fce424fabc91b8bb47bc91cb0127be6350cf,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+DEVELOPMENT GOALS",1.0,explorer
+UNFCCC.party.1734.0,a05c6e9743c3e52a29a13122304a2359__e9ca4d1cfe013f36468a99756ce49ff5cc8e8d99d0996abfc6e75c8dd59c7b96,CHALLENGES,CONSTRAINT,constraints,6,17,"These constraints cause local, regional and national de-",1.0,explorer
+UNFCCC.party.1734.0,66a7ea832107a3e1f17a25ed8aacdfe8__71a7b8d810004d6ffb8f49863b7cc3c6778e85f8f75997e6f0a5b3dfb3b49f12,CHALLENGES,LACK_OF_ACCESS,lack of access,37,51,This reality creates consequences of lack of access to goods,1.0,explorer
+UNFCCC.party.1734.0,cff43092144f37d3ecbd24583b5deef1__1ee9540efebbc01d954b9e5d43e6fce424fabc91b8bb47bc91cb0127be6350cf,CHALLENGES,CONSTRAINT,CONSTRAINTS,4,15,"AND CONSTRAINTS FOR NATIONAL OR REGIONAL
+DEVELOPMENT GOALS",1.0,explorer
+UNFCCC.party.1745.0,dc49ef01de9d06ffb9f5f2b3b496fee4__31c5ea492054b3b65e4e94a3d550292c7c126f572877c3229ebedd273a7341bd,CHALLENGES,CHALLENGES,challenges,33,43,Key challenges for development.,1.0,explorer
+UNFCCC.party.1745.0,af02cec4741a5cf4bb0838e7f2ef784f__e9ae0cbd33e4a0742577e8e157fdfa95399e52b442c24d5a5f699aab2ad32ca5,BARRIERS,BARRIERS,barriers,655,663,"The LT-LEDS acknowledges the principles of just transition to a decarbonized, resilient economy and proposes measures to ensure a more inclusive labor market through establishing a Women and Youth in Green Jobs Program that addresses barriers to accessing economic opportunities.",1.0,explorer
+UNFCCC.party.1745.0,af02cec4741a5cf4bb0838e7f2ef784f__e9ae0cbd33e4a0742577e8e157fdfa95399e52b442c24d5a5f699aab2ad32ca5,CHALLENGES,CHALLENGES,challenges,735,745,The program will also address the challenges workers face in vulnerable employment and enterprises in informal sectors.,1.0,explorer
+UNFCCC.party.1745.0,02e68d059b23705b8bdc605ed4241e06__6a5d048bb3beccafb989834f843eb88e282a2f1a84fca802afd61bd8da85d9f2,CHALLENGES,CHALLENGES,challenges,415,425,"This vision and pathway can help formulate Ethiopia's aspirations by identifying critical issues, challenges, and opportunities at the intersection of climate action and socioeconomic development objectives.",1.0,explorer
+UNFCCC.party.1745.0,d8ef5acd231ea5a631a6286030f661b3__60b15d70a52a42716aed3f3f92ba1487498ac96b2087d9ab4eeede86cd54a8f8,CHALLENGES,CHALLENGES,challenges,27,37,Ethiopia faces several key challenges that hinder its economic development.,1.0,explorer
+UNFCCC.party.1745.0,00492f044f7b11f349b1a28af1e04752__77976ffad2a01f0cc07728ef4d8ab70ae66acdb296729b6ff15eecbc312edc9b,CHALLENGES,CHALLENGES,Challenges,241,251,"Challenges include the underdevelopment of water resources, low health service coverage, a high population growth rate, low economic development, inadequate road infrastructure in droughtprone areas, weak institutional structures, and a lack of awareness.",1.0,explorer
+UNFCCC.party.1745.0,00492f044f7b11f349b1a28af1e04752__77976ffad2a01f0cc07728ef4d8ab70ae66acdb296729b6ff15eecbc312edc9b,CHALLENGES,INADEQUATE,inadequate,387,397,"Challenges include the underdevelopment of water resources, low health service coverage, a high population growth rate, low economic development, inadequate road infrastructure in droughtprone areas, weak institutional structures, and a lack of awareness.",1.0,explorer
+UNFCCC.party.1745.0,14333aa62aef0c3c7868e139f393f40f__e1f0de0c57910147f10bf109bcdd42ba808df2698d654e43d375b93ecd48abcb,CHALLENGES,CHALLENGES,challenges,4,14,Key challenges for development,1.0,explorer
+UNFCCC.party.1745.0,0dd4fadbe6e99268c094b063b0b2a9bd__a806bba3071cc60e41d9232a54ad5141d6ae73a36a2c4fdb160f83172a1db1c9,BARRIERS,PREVENT,Prevent,0,7,Prevent encroachments on NMT facilities,1.0,explorer
+UNFCCC.party.1745.0,20e612b5c33704e803628b51cdecf552__1fceb5c87fdf16f6adc9cc24fd0dc79c4e3b7603eb61c949cec5506ff87db5d1,BARRIERS,BARRIERS,barriers,637,645,"Other affected road infrastructure assets or components include pavement, road geometry, vegetation, bridges and protective structures, signage, and barriers.",1.0,explorer
+UNFCCC.party.1745.0,12e0a9a6c99927a7ccb96150f6792a73__f32a5d177fbd0cfb0daefbc5d2a9883e343c48eb9bc9d8c70f4d8ff1ca0e706d,CHALLENGES,CONSTRAINT,constraints,260,271,"Some of the systemic constraints in Ethiopian agriculture include a shortage of improved seed, dependency on rainfall, limited mechanization.",1.0,explorer
+UNFCCC.party.1745.0,12e0a9a6c99927a7ccb96150f6792a73__f32a5d177fbd0cfb0daefbc5d2a9883e343c48eb9bc9d8c70f4d8ff1ca0e706d,CHALLENGES,CHALLENGES,challenges,82,92,"Despite appreciable achievements in increasing agricultural productivity, several challenges hamper efforts toward transforming the country's agriculture sector.",1.0,explorer
+UNFCCC.party.1745.0,13966aeae48a6002c01126c21cb2c80b__42fdfbe85719ae2c6c8770365966a35e141c2585714d44486ab1905968b2bf26,BARRIERS,BARRIERS,barriers,80,88,"Although the adaptation co-benefits of the mitigation actions are many, several barriers prevent these synergies from being fully achieved.",1.0,explorer
+UNFCCC.party.1745.0,13966aeae48a6002c01126c21cb2c80b__42fdfbe85719ae2c6c8770365966a35e141c2585714d44486ab1905968b2bf26,BARRIERS,PREVENT,prevent,89,96,"Although the adaptation co-benefits of the mitigation actions are many, several barriers prevent these synergies from being fully achieved.",1.0,explorer
+UNFCCC.party.1745.0,d8628191f075a0d63667f2856727e677__d3fbf435e8bdebc9a4394f6b49965c8cf2d681d2a92dadf2c937604eb882e3d6,BARRIERS,PREVENT,preventing,46,56,"At a much smaller sectoral level, limitations preventing these synergies from being fully utilized include limited farmers' skills in operating mechanized equipment; limited access to irrigation water in dry areas; and limited technical skills of agricultural extension workers in diversified crop production, disease management, and post-harvest handling.",1.0,explorer
+UNFCCC.party.1745.0,77fd37f32d8c304ed2210caab6ce4919__7177c1b5c96629df362bb2e89099e0338623b092f106d31ab53020e4c17f2c36,CHALLENGES,CHALLENGES,challenges,41,51,"However, Ethiopia's forests face several challenges and threats: small- and large-scale agricultural land conversion, increased wood extraction for fuel and construction, pressure caused by increased livestock grazing and gaps in the application of forest policy and regulations; tenure/ unclear forest user rights; lack of private investment in forestry development; population growth; and inadequate land use planning and participatory forest management (MEFCC, 2018).",1.0,explorer
+UNFCCC.party.1745.0,77fd37f32d8c304ed2210caab6ce4919__7177c1b5c96629df362bb2e89099e0338623b092f106d31ab53020e4c17f2c36,CHALLENGES,INADEQUATE,inadequate,391,401,"However, Ethiopia's forests face several challenges and threats: small- and large-scale agricultural land conversion, increased wood extraction for fuel and construction, pressure caused by increased livestock grazing and gaps in the application of forest policy and regulations; tenure/ unclear forest user rights; lack of private investment in forestry development; population growth; and inadequate land use planning and participatory forest management (MEFCC, 2018).",1.0,explorer
+UNFCCC.party.1745.0,8d99425aa640842ea4409a4bc154d34e__f02eb03d4bf98d0189c3308537eb0d7dc33815063f8d38d69b9ddd6bc4e8d6f2,CHALLENGES,LACK_OF_DATA,lack of data,178,190,"Due to the complexity of some mitigation actions, a lack of data to model their emissions, or linkages with other emitting sectors, the LT-LEDS did not include the following actions, which should be considered for future climate efforts:",1.0,explorer
+UNFCCC.party.1745.0,508568457448bf556b2db3bb0ac25514__b6a8c3da5be9580ef6c2756e1652ca4be6901ef0310ebc63bb706714ef425a88,BARRIERS,PREVENT,prevent,484,491,"Solid Waste Management Proclamation No. 513/2007
+is mainly concerned with promoting community participation to prevent the adverse effects of solid wastes,
+while the Solid Waste Management Strategy emphasizes ways to reduce, reuse, and recycle waste;
+composting of organic solid waste; energy production from incineration; and waste disposal.",1.0,explorer
+UNFCCC.party.1745.0,8649733254cfbfef4ec3021f8f92b24b__0017549bf5105cdc94d6054a927d09fe5715eabf4f91f4bba4d911148733aee3,CHALLENGES,DEFICIENT,deficient,228,237,"Operating WWTPs can increase emissions, especially if O&M is deficient, thus interventions largely focus on the smooth operation of these systems.",1.0,explorer
+UNFCCC.party.1745.0,0715a3b5a926ca815a48325256402f3b__0f9abd105055294df081099ebd010d46554518177d87abc364fcb51405d80bae,BARRIERS,PREVENT,Prevented,155,164,"Mitigation action
+Improved solid
+waste collection
+and disposal
+Biological
+treatment of solid
+waste
+Wastewater
+treatment and
+discharge
+Adaptation synergies
+Prevented surface water and groundwater contamination
+from toxic waste components that are higher in periods
+of intensive rain
+>
+>
+Reduced risk of flooding due to uncollected solid waste
+blocking drainage systems, especially during extreme
+weather events.",1.0,explorer
+UNFCCC.party.1745.0,5bca81dc80fba29ad9cb25b788408128__d60e0aa40cc1a4ce431b68cb887b56d75d7c09711f7b82b90634b05fc6c739e2,BARRIERS,RESTRICT,restricted,248,258,"For the current LT-LEDS, only CO₂ emissions were considered, since the GHG inventory is restricted to this GHG.",1.0,explorer
+UNFCCC.party.1745.0,e2f5ffe4cd62052d3bd4d7e8f5f73495__eb5364df16135d0bbe5a95d5553527f661eac16dfcf9f7b9a015b49bad2f8940,CHALLENGES,CHALLENGES,challenges,327,337,"For example, in 2017, the World Bank and Korea
+Green Growth Trust Fund"" explored the opportunities,
+challenges, and solutions to using alternative fuels in
+the cement sector in Ethiopia, which can largely reduce
+the emissions from the industry.",1.0,explorer
+UNFCCC.party.1745.0,8f417f3ee34c8eec96f78a6f6789f208__0f4b39e7e8a23058d28da001f488ee932f487a01a228e96028120c02eb725371,CHALLENGES,CHALLENGES,challenge,110,119,"A main challenge is that natural resource degradation can lead to resource scarcity, affecting industrial developments.",1.0,explorer
+UNFCCC.party.1745.0,68ecc35670c013be706dd24b56dd94e7__1a95f58debc8581e69744bb876f3abfa75e9b67166e6891b70261a161b7bb2b6,CHALLENGES,CONSTRAINT,constraints,234,245,"For most LDCs, limited access to foreign exchange and the burden of foreign debt is one of the most important development and growth constraints.",1.0,explorer
+UNFCCC.party.1745.0,67e9f38473cde535d1856c1a47c858e7__0290a177a0bb1eed5136187be15a9bdfe926c64691d481e0fad0b6f88d012c94,BARRIERS,BARRIERS,barriers,305,313,"The 2050 time horizon of the LT-LEDS lends itself to addressing deeper structural barriers that will bring women and youth into sectors, high-end jobs, and viable enterprises (e.g., through technical or leadership roles in wind and solar energy.",1.0,explorer
+UNFCCC.party.1745.0,67e9f38473cde535d1856c1a47c858e7__0290a177a0bb1eed5136187be15a9bdfe926c64691d481e0fad0b6f88d012c94,BARRIERS,BARRIERS,barriers,563,571,"This will require deliberate strategic approaches to address the barriers women face when accessing jobs and economic opportunities, including the following:",1.0,explorer
+UNFCCC.party.1745.0,74aa90bfdd2cd57246588e16fa2c5439__8d68fb8836f03b3d85cf589a207f051fe184af6f07b6cc45ef0b242979a21875,BARRIERS,BARRIERS,barriers,191,199,"To maximize benefits associated with the LT-LEDS, the strategy recommends the development of a Women and Youth in Green Jobs Program, which will put forward strategic actions to overcome the barriers women and youth face to access green jobs while promoting the inclusive formalization of informal sectors.",1.0,explorer
+UNFCCC.party.1745.0,ac38ef2a2bcfbbb59c3bf01522ed39aa__31dac61cf9af0d9a220952f33019383422b5a378b469d945d576d694dcafc20a,CHALLENGES,CHALLENGES,challenge,4,13,The challenge of financing the LT-LEDS interventions at the scale required is significant.,1.0,explorer
+UNFCCC.party.1745.0,45341727455987e819b5a5d698078e81__14fced4e959de5ed85a08228f5526e202a7c7d29de41d6afc776cd2bedfd827c,BARRIERS,BARRIERS,barriers,109,117,"The technical annex for the financial section summarizes the potential use of each intervention, the current barriers to their maximization, and specific actions to be taken to overcome such barriers.",1.0,explorer
+UNFCCC.party.1745.0,45341727455987e819b5a5d698078e81__14fced4e959de5ed85a08228f5526e202a7c7d29de41d6afc776cd2bedfd827c,BARRIERS,BARRIERS,barriers,191,199,"The technical annex for the financial section summarizes the potential use of each intervention, the current barriers to their maximization, and specific actions to be taken to overcome such barriers.",1.0,explorer
+UNFCCC.party.1745.0,fc451db1626be45b911a5a721336f719__49750bb0252e610e39e60a15e19b59711094804fc1c6ef417e77624b7a6bd1f7,CHALLENGES,CONSTRAINT,constraints,491,502,The adaptation M&E system will enable Ethiopia to better understand the resource needs and constraints of adapting to the impacts of climate change and how its stated adaptation targets in the LT-LEDS are achieved.,1.0,explorer
+UNFCCC.party.1730.0,ac3ae19337768fe318cc9cb779860158__4cc502de08d60f2ebb551f96c2c8ed263e0c24d7b94ff5f0fea954d21519ea8a,BARRIERS,BARRIERS,barriers,52,60,"In addition, measures to eliminate barriers and risks, responsible parties and deadlines were described.",1.0,explorer
+UNFCCC.party.1730.0,e6c79db2a7cfd08cf2b0a792b8e50d1a__38dbcf45f0805f3a70c3065eb579b06f5a606fa11aa1e858b259e1b826933a36,CHALLENGES,LACK_OF_ACCESS,Lack of access,2649,2663,"Lack of access to cheap loans for low-carbon projects, while brown assets
+have access to guarantees and financing with a potentially lower interest
+rate.",1.0,explorer
+UNFCCC.party.1730.0,e6c79db2a7cfd08cf2b0a792b8e50d1a__38dbcf45f0805f3a70c3065eb579b06f5a606fa11aa1e858b259e1b826933a36,BARRIERS,BARRIERS,barriers,2316,2324,"6. Fairness and ambitiousness of the nationally determined contribution
+6.1 Fairness and
+Kazakhstan's NDC implementation faces the following barriers that
+complicate the achievement of the target and demand serious considerations:
+1.",1.0,explorer
+UNFCCC.party.1730.0,7af2794bc8749413d607c805915347cd__987b04a263a8fe0506c46c86867b887c3e65d3797d2d4a2f83e80f08baaaa2fd,BARRIERS,PREVENT,prevent,37,44,"At the same time, it is necessary to prevent an increase in inflation and a
+significant increase in energy tariffs and basic needs of the population; it is
+also necessary to take into account that external factors, such as the
+consequences of a worldwide pandemic, global market volatility, and
+instability in neighboring states have negative social and economic
+consequences for the economy and population of the Republic of Kazakhstan
+and significantly reduce the window of intervention and reforms even for
+achieving the current NDC target.",1.0,explorer
+UNFCCC.party.1730.0,bca315c8533e296b078055f2712de4f9__3822aaa94048851a19032e17d2443d7246312176a42578695dc3ad6ca416dac9,CHALLENGES,CONSTRAINT,constraints,236,247,"The Republic of Kazakhstan aims to achieve carbon neutrality by 2060, which contributes to the accelerated achievement of the global peak of greenhouse gas emissions in the first half of the 21st century and also takes into account the constraints imposed by the principles of equity, sustainable development and poverty eradication.",1.0,explorer
+UNFCCC.party.1730.0,a375e1fcb2db27d5769d0d9a948ddaaa__035b7be3a0e9a6ee4bfb8202b2ae4690593ea70da58570db57da6569657af838,CHALLENGES,CHALLENGES,Challenge,233,242,Afforestation of at least up to 1.5 million ha of degraded land under the Bonn Challenge would bring substantial mitigation benefits.,1.0,explorer
+UNFCCC.party.1730.0,a375e1fcb2db27d5769d0d9a948ddaaa__035b7be3a0e9a6ee4bfb8202b2ae4690593ea70da58570db57da6569657af838,CHALLENGES,CHALLENGES,Challenge,143,152,Kazakhstan pledged to restore at least up to 1.5 million ha of degraded land through afforestation and reforestation until 2030 under the Bonn Challenge.,1.0,explorer
+UNFCCC.party.1730.0,539260d5e78f67d84d01240380ea4fb5__7720193f50e4103af745ae3f725032ba8f8b1d7b9d066b5d8b58257d6efe7a60,CHALLENGES,CHALLENGES,challenges,1045,1055,"The role of women in the adaptation of agricultural practices to climate
+change, participation in decision-making processes, planning and
+implementation of projects, awareness-raising and shifting public behaviour
+towards more responsible use of water and energy, climate risks
+understanding, and other identified challenges will be addressed by relevant
+state programs on priority areas of public and local administration for
+adaptation to climate change.",1.0,explorer
+UNFCCC.party.1730.0,539260d5e78f67d84d01240380ea4fb5__7720193f50e4103af745ae3f725032ba8f8b1d7b9d066b5d8b58257d6efe7a60,CHALLENGES,CHALLENGES,Challenge,393,402,"Implementation of the Plan will contribute to the achievement of the SDGs,
+the Bonn Forest Challenge and the Sendai Framework for Disaster Risk
+Reduction.
+system;
+The state policy of the Republic of Kazakhstan in the field of adaptation to
+climate change will also address biodiversity loss, reflecting the principles and
+goals of the UN Convention on Biological Diversity as well as the UN
+Convention to Combat Desertification.
+",1.0,explorer
+UNFCCC.non-party.1737.0,26975160cbc6043ff453a89ac3845d2d__d8e220c31163b9554bc9c05deff303350deffabe776b6063c7b85239026a5681,BARRIERS,BARRIERS,barriers,443,451,"Children's rights are consistently overlooked in legislation, policies, programmes and finance to address climate change, and children face extensive barriers to meaningful engagement in climate policy-making at all levels.",1.0,explorer
+UNFCCC.non-party.1746.0,8c9a81fceee8dc218b545cbc9e0d7491__227c8c7014fb487812161bd0b587c45622b635b95e8865f39c96856820df71b4,CHALLENGES,CHALLENGES,challenges,165,175,I am a museum consultant working to empower museums to contribute more effectively to sustainable development challenges.,1.0,explorer
+UNFCCC.non-party.1746.0,b09ba0bf187a419a72758c371100f274__acb99cfcc2c5f72f501e46a95f329de9207fdf076bb50dacd35271c0e7d2da34,CHALLENGES,CHALLENGES,challenges,1620,1630,"Cultural rights are the rights that link the lives of individuals and communities to wider social contexts, challenges and courses of action.",1.0,explorer
+UNFCCC.non-party.1746.0,7516f4be1617c6531cdac4e242a1ba91__e2a25f1eca098de1af91ba1032c45b549fc6fecd7569abd54c004b1e1b9cda2b,LESSONS_LEARNED,LESSONS_LEARNED,lessons learned,165,180,"• While sectors are making many climate actions, these are often undertaken in a scatter gun way, results are not combined nor shared, so momentum is not built, nor lessons learned.",1.0,explorer
+UNFCCC.party.1732.0,ede965d12ce2953d2ff0ea860f311522__e3e962bbb8e7df956ea37023fc135f283efaec62cf28e520d65f3f7ee3626d8b,CHALLENGES,INSUFFICIENT,insufficient,178,190,"The station network, however, has insufficient coverage in the Icelandic highland where precipitation tends to be greater than in lowland areas.",1.0,explorer
+UNFCCC.party.1732.0,9d0af85a537f04a00cc2c8c618705b96__4ef4f0e158ba20062706bb8e2ee40582c962d0514e3234fc73650e5a48330a0a,BARRIERS,DIFFICULT,difficult,236,245,"Public transportation outside the main urban areas is primitive and has been difficult to operate, due to thin population and widespread private car ownership.",1.0,explorer
+UNFCCC.party.1732.0,8efc9600410b2c22788c3863bb8b9a7c__736cb4545ff52275e27db5a4e3b9aa8cd1097adce38edbfff46746bbdbb927a3,CHALLENGES,INSUFFICIENT,insufficient,177,189,"The station network, however, has insufficient coverage in the Icelandic highland where precipitation tends to be greater than in lowland areas.",1.0,explorer
+UNFCCC.party.1732.0,447a6df303688f178c48226208d9e14e__fe3d83a8901ccbd93803a4a2e101b8e61b730e71a6cbdbd83959d7ef0f32ced3,BARRIERS,DIFFICULT,difficult,387,396,Field data from glacier regions in the world are scarce due to their remote locations and difficult and expensive logistics associated with glaciological field work.,1.0,explorer
+UNFCCC.party.1732.0,4e8ae909d25982211dd245cae448e4bd__6a8bc008e40fa37608d9eb703061a41347adff80d1c0b2a4b982e0fa5b70912c,BARRIERS,LIMIT,limitation,208,218,"Náttúrufræðingurinn, 91/3-4): 97-111.
+Pálsson, S., Hersteinsson, P. Unnsteinsdóttir, E.R. et al Population limitation in a non-cyclic arctic fox population in a changing climate.
+",1.0,explorer
+UNFCCC.party.1732.0,7baab9f8a9fef41751cacd18ef09879c__731fc38acb5a5fc2ce2a7cfa8064929fa40eaf377f39854958ee8383f2ef839c,LESSONS_LEARNED,LESSONS_LEARNED,lessons learned,13,28,"Cooperation, lessons learned",1.0,explorer
+UNFCCC.party.1732.0,722bbd0a858df10e137973a4564c31da__c411379d052165ad7dcce6c36d72f87d368f0e46789e9cde33cf7c1b923322aa,CHALLENGES,CHALLENGES,challenges,166,176,"Land degradation and desertification rank among the world's greatest environmental challenges, significantly affecting a range of issues such as climate, biodiversity, soil quality, food and water security, peace and human wellbeing, especially for the more vulnerable rural poor.",1.0,explorer
+UNFCCC.party.1732.0,ab0905c84d72540b1930319026405f17__6085bdfc6e74996c47a0a3d14fa78ee77aa31018a28391fc5624d47d67eecbc8,BARRIERS,PREVENT,prevent,788,795,The ICEWIND project focuses on wind energy in cold areas and its main goal was to share knowledge between the Nordic countries and identify factors that delay or prevent the adoption of wind energy in the Nordic countries.,1.0,explorer
+UNFCCC.party.1732.0,df889df6d8bceb7e9559bd0bf9df0241__e08f5c5bdbd785e11d4a319cc6010f55b7e551ce220bd47ccc09f77f0dedaf58,CHALLENGES,CHALLENGES,challenges,129,139,"The websites of the Soil Conservation Service of Iceland and the Icelandic Forest Service provide
+information on climate-related challenges these institutions are engaged in.",1.0,explorer
+UNFCCC.party.1743.0,ee1f5dbcce85920617b417c8640fbd10__d43015e55a38ac5ad5217ef56e33d6eefbd3b854fc683cfcb3d5a71e1ef00542,BARRIERS,LIMIT,limitation,342,352,"With emissions from anthropogenic sources being considered as a prime culprit in observed changes in climatic conditions, climate change mitigation policy will not effectively deliver on its goals unless a system is available to determine where we are with respect to emissions and removals, and to measure progress towards reaching emission limitation or reduction targets, in a quantified manner and on an ongoing basis - the national inventory is a crucial tool in this respect.",1.0,explorer
+UNFCCC.party.1743.0,07681b065403bfd49d2ddeaf078febb4__42d26bef470c38fd7039f05af1fa7298ad7210756d5f29091fd671b8bc106ac2,BARRIERS,LIMIT,limitation,731,741,"The Act sets the development, updating and publication of national greenhouse gas inventories as an obligation on the Maltese Government (Article 5, sub-article (2), point (a) (""In fulfilling its duties [to protect the climate for the present and future generations] the Government shall, inter alia: (a) develop, periodically update and publish national inventories of anthropogenic emissions by sources and removals by sinks of greenhouse gases in order to monitor progress towards achieving its quantified emission limitation or reduction commitments pursuant to international treaties ad its obligations as a Member State of the European Union",1.0,explorer
+UNFCCC.party.1743.0,f438378925d7b343de0bf49f25951dc1__3748fb567f4422d9e235daa82164c74358d74d644094080f3cf31f7941785454,BARRIERS,LIMIT,limitation,75,85,The ESD emissions reduction objective requires national-level reduction or limitation efforts in accordance with targets set for individual Member States.,1.0,explorer
+UNFCCC.party.1743.0,6787d4b90cc4e310a7401a7d2cbfb1fc__9078c3dd9f59b74407be77e9a77915ad40b47bf9146bf376acdf0b24091a96fe,BARRIERS,LIMIT,limitation,134,144,The overarching policy context up to 2012 has to be seen in light of the fact that Malta had not taken on any greenhouse gas emission limitation or reduction obligations in the context of the UNFCCC or the Kyoto Protocol.,1.0,explorer
+UNFCCC.party.1743.0,562f3c5e1e9d89d3b35bc6d5f49228fb__d96027d10c5af800bf9f6c0efc0da29c99b21ec86d2530dae5b3d3db40ab133a,BARRIERS,LIMIT,limitation,518,528,"This package included legislation enhancing the already existing Emissions Trading Scheme of the EU, the adoption, for the first time, of binding emission limitation or reduction targets for each Member State in the Effort-Sharing Decision, legislation enhancing the EU's ambitions with regards to renewable energy sources, and, subsequently, on energy efficiency, and the adoption of a legislative framework for carbon capture and storage in geological formations.",1.0,explorer
+UNFCCC.party.1743.0,b35c57f6d5e65fd42c869216da78b8df__00dc262a9040631c7ea1191f6ce827953b9873c8c7243a982437b0664d5684b2,BARRIERS,DIFFICULT,difficult,714,723,"This, together with an ever-growing population and GDP, has made limiting the consumption of energy and the formulation of measures to meet energy savings, difficult.",1.0,explorer
+UNFCCC.party.1743.0,2b529faf750076aeb21619cdfee15898__ec514cb2a0952411e8becfd4c07a53ddf661fd4592ec33ba810389a97ee88c19,BARRIERS,LIMIT,limitation,184,194,"For the Kyoto Protocol second commitment period (2013-2020), the EU and its Member States, and also including the UK³1 and Iceland, agreed to jointly fulfil their quantified emissions limitation and reduction commitments pursuant to Article 3 of the Kyoto Protocol.",1.0,explorer
+UNFCCC.party.1743.0,4eff556d7a729f8967e4a64af1b6a2cd__79b78427e58faf78de6cc2fc8c551cf4461bd7ec7eeba8daa1355797148fb936,BARRIERS,PREVENT,prevent,575,582,"The Act sets out duties and obligations on the Government, including to periodically compile national inventories of anthropogenic emissions by sources and removals by sinks, to formulate and implement policies regarding measures tom mitigate climate change and measures to prevent, avoid, reduce adverse impacts of climate change, to reduce vulnerability and enhance resilience to adverse impacts of climate change and to facilitate adaptation to climate change, among others.",1.0,explorer
+UNFCCC.party.1743.0,5d945d8e8fc134888d2e29727fa0c4f3__5286a21cdf2a70646fd9276656b89e215296728feef9de13738e37caa909cb18,BARRIERS,PREVENT,preventing,141,151,"The regulation focuses on limiting the number of F-gases sold in equipment, banning use of Fgases where less harmful alternatives exist, and preventing emissions of F-gases from existing equipment.",1.0,explorer
+UNFCCC.party.1743.0,a82427076ffb3d161ec0450a1fae40d0__5f00d8300fb93034b8da556094a71838c49982b08698f2fc5002e290bf7feb42,BARRIERS,PREVENT,prevent,828,835,"Regarding implementation, the cost to farmers is expected to be low - given that farmers already vaccinate livestock to prevent disease, adding another vaccine would be simple and cheap to administer.",1.0,explorer
+UNFCCC.party.1743.0,a82427076ffb3d161ec0450a1fae40d0__5f00d8300fb93034b8da556094a71838c49982b08698f2fc5002e290bf7feb42,CHALLENGES,CHALLENGES,challenges,328,338,"If a vaccine is to be developed and obtain the necessary regulatory approval, it will need to overcome practical challenges such as ensuring the vaccine has no unintended adverse effects (e.g. reduced productivity, different product taste, compromised food safety).",1.0,explorer
+UNFCCC.party.1743.0,be3eaed0e080b65e49512b54512c0896__5af50b233bf74d9fd1b30ec056c49156cc5538cd5d5b4dd095de31da31f3a55b,CHALLENGES,CONSTRAINT,constraints,416,427,"Increased
+Negative impacts
+Social
+Change in household
+behavior requires more
+attention and effort,
+against time and space
+constraints
+Potential disincentive for
+households to sort",1.0,explorer
+UNFCCC.party.1743.0,1a1dbbce39418d20b84959221e8f2d3e__522f35490de397fcee5d13eada4b82e7099cf81bb99394dfc50d247bc6c560ae,BARRIERS,LIMIT,limitation,1677,1687,"The reduction of
+emissions of F-gases
+through the limitation of
+emission of F-gases,
+especially
+from
+refrigeration and air-
+conditioning systems.
+including
+through
+training and certification
+of technical personnel,
+improved reporting, and
+eventual bans of high
+GWP gases in
+accordance
+with
+timeframes established
+in the Regulation.
+",1.0,explorer
+UNFCCC.party.1743.0,8d0333d16e0495cc1d34a5d817e689d4__97ed5c4bb5645bc354972fcd32cc2c053a4d17a4fd60d83adc4a6be1154d1807,BARRIERS,PREVENT,prevent,855,862,"Given that farmers already vaccinate livestock to prevent disease, implementation would be simple and cost would be low.
+",1.0,explorer
+UNFCCC.party.1743.0,60490efff32c72715ea2b9029380b5d5__b34b85d878773b2cb2b3f7019d41422e2619bb90b5913897a656e6185c5ae797,BARRIERS,LIMIT,limitation,1637,1647,"The technical limitation should be reviewed every 5 years to assess if further expansion is possible.
+",1.0,explorer
+UNFCCC.party.1743.0,60490efff32c72715ea2b9029380b5d5__b34b85d878773b2cb2b3f7019d41422e2619bb90b5913897a656e6185c5ae797,BARRIERS,LIMIT,limitation,1457,1467,"The technical limitation of solar PV will be reached by 2030 where circa 9,127 new PV systems will enable Ma
+oreah the 11.5% target share of RES in gross final energy consumption.",1.0,explorer
+UNFCCC.party.1743.0,3cfda45764dca2c30d537103f0bbbe1c__3cc63b7d16ec8116bb6fcf5dd18074347259c69824d6d26bc477100bf0bcd371,CHALLENGES,CONSTRAINT,constraints,280,291,"As of 2021, the fulfilment of entities' obligations is only possible within the constraints of the cap on emissions set by law and use of international credits is no longer allowed - this therefore means that the reduction in emissions covered by the EU ETS is domestic (EU-level) in nature.",1.0,explorer
+UNFCCC.party.1743.0,5d7913ff52d19242fb6be17a3883f319__2a839754d7fb7df08f3d51b9c287942559fa1f7bcf327ed3676fcdac5ee998c0,BARRIERS,LIMIT,limitation,243,253,"The Kyoto Protocol, in its very nature, aims at addressing in tangible terms the anthropogenic causes of observed climate change, through emission reduction or limitation efforts that contribute towards alleviating the harmful consequences of climate change for, among others, developing countries.",1.0,explorer
+UNFCCC.party.1743.0,13312f5934ee8bf6316523e6c9d81e3e__c0192ee71546c1e27cdf2bc2b5facedbb8d028484de405ace60bdedda87ea0a7,BARRIERS,LIMIT,limitation,12,22,"on emission limitation obligations under the Protocol as part of the joint fulfilment of the
+European Union's overall commitments.",1.0,explorer
+UNFCCC.party.1743.0,37c7a2ff87807a237a55b4a04453356f__4fe7d3e3da8068e7f8148c08c2bd50f58112ebcc5f54d3e431cdf7f700216d30,CHALLENGES,CONSTRAINT,constraints,133,144,"unit;
+- the low-carbon processes: the maximum technical potential that the processes can
+achieve over time, accounting for technical constraints such as availability of space or
+demand levels.",1.0,explorer
+UNFCCC.party.1743.0,b77822b2a1f8392065f21e482ebcecc0__49bccb19ebad235e36e1b41aa487545ead9288ebb80273c3fcf764d373fd6b5c,BARRIERS,LIMIT,limitation,243,253,"The Kyoto Protocol, in its very nature, aims at addressing in tangible terms the anthropogenic causes of observed climate change, through emission reduction or limitation efforts that contribute towards alleviating the harmful consequences of climate change for, among others, developing countries.",1.0,explorer
+UNFCCC.party.1743.0,b77822b2a1f8392065f21e482ebcecc0__49bccb19ebad235e36e1b41aa487545ead9288ebb80273c3fcf764d373fd6b5c,BARRIERS,LIMIT,limitation,453,463,Malta is an Annex I Party to the UNFCCC and thus has taken on emission limitation obligations under the Protocol as part of the joint fulfilment of the European Union's overall commitments.,1.0,explorer
+UNFCCC.party.1743.0,b77822b2a1f8392065f21e482ebcecc0__49bccb19ebad235e36e1b41aa487545ead9288ebb80273c3fcf764d373fd6b5c,BARRIERS,LIMIT,limitation,453,463,Malta is an Annex I Party to the UNFCCC and thus has taken on emission limitation obligations under the Protocol as part of the joint fulfilment of the European Union's overall commitments.,1.0,explorer
+UNFCCC.party.1743.0,b77822b2a1f8392065f21e482ebcecc0__49bccb19ebad235e36e1b41aa487545ead9288ebb80273c3fcf764d373fd6b5c,BARRIERS,LIMIT,limitation,243,253,"The Kyoto Protocol, in its very nature, aims at addressing in tangible terms the anthropogenic causes of observed climate change, through emission reduction or limitation efforts that contribute towards alleviating the harmful consequences of climate change for, among others, developing countries.",1.0,explorer
+UNFCCC.party.1743.0,e77e1d38341b74594870f118dfa61be2__c306bca19eb4348b72d75cd23729547c97db21de44e323bcd2bec63fe883a468,BARRIERS,BARRIERS,barriers,707,715,One-to-one discussions and surveys with tenants are also being conducted with the aim of identifying potential barriers and encouraging the installation of RES.,1.0,explorer
+UNFCCC.party.1743.0,c3448f3a2f080a94995e77edbb696535__48c90bbf6904009e97654cfab48b4859a11b6b63d4f3a0b7e840444faeb7ca96,BARRIERS,LIMIT,limitation,443,453,The NECP also points out that this technical limitation should be reviewed on a 5 yearly basis to assess further potential expansion of solar PV as technologies and/or understanding of the technical limitations evolve.,1.0,explorer
+UNFCCC.party.1743.0,c3448f3a2f080a94995e77edbb696535__48c90bbf6904009e97654cfab48b4859a11b6b63d4f3a0b7e840444faeb7ca96,BARRIERS,LIMIT,limitation,199,209,"According to the NECP, the technical limitation on the roll out of solar PV will be reached by 2030 - c. 9,127 new PV systems by 2030 will enable Malta to reach the 11.5% target share of RES in gross final energy consumption (by 2030).",1.0,explorer
+UNFCCC.party.1743.0,c7749cca97eec7ce3bb4a99b72b706e1__b0b2ef5ac533879f5561d6e17feb49efa80bd9c2f5f02f61714dc26f1669f532,CHALLENGES,CHALLENGES,challenges,457,467,"Besides economic and financial challenges in this pathway,
+there are also technical challenges as number of such technologies that require roof
+space in Malta.",1.0,explorer
+UNFCCC.party.1743.0,c7749cca97eec7ce3bb4a99b72b706e1__b0b2ef5ac533879f5561d6e17feb49efa80bd9c2f5f02f61714dc26f1669f532,CHALLENGES,CHALLENGES,challenges,404,414,"Besides economic and financial challenges in this pathway,
+there are also technical challenges as number of such technologies that require roof
+space in Malta.",1.0,explorer
+UNFCCC.party.1743.0,0ca3da10726550c010ab24b57a1ab8c3__7d18170da9b32b320eb621594d87d013644146c063baae61c3fde2933f295263,BARRIERS,BARRIERS,barriers,60,68,The physical constraints of Malta's territory and potential barriers to standard renewable technologies were fully reviewed during the NECP assessment.,1.0,explorer
+UNFCCC.party.1743.0,0ca3da10726550c010ab24b57a1ab8c3__7d18170da9b32b320eb621594d87d013644146c063baae61c3fde2933f295263,CHALLENGES,CONSTRAINT,constraints,13,24,The physical constraints of Malta's territory and potential barriers to standard renewable technologies were fully reviewed during the NECP assessment.,1.0,explorer
+UNFCCC.party.1743.0,bdc858f119d1ffbbb08474cd1181ebad__36d80079c232038eee3d31aeb8ce861f5c61c0941c17a92a866be63ed59a2ff1,CHALLENGES,CHALLENGES,challenges,87,97,"Moving offshore for renewable power generation has many advantages, but there are also challenges include conflict with other environmental obligations such as Natura 2000 sites, sites of community importance (SCIS) which are designated for the protection of marine habitats and species pursuant to the EU Nature Directive.",1.0,explorer
+UNFCCC.party.1743.0,a2bd3b2e8350be3a62f51fa8e0a65c4e__8d55afb5f9ed8bb3bffc98372ebcce7a7b08581362120f89568e5f5c832ceadf,BARRIERS,DIFFICULT,difficult,70,79,"It is deemed difficult to
+achieve the targeted uptake without regulatory measures complimenting such package.",1.0,explorer
+UNFCCC.party.1743.0,7ba5ad4acb6b2e7bf9bd9bf3450f946c__9fb88b454c76ddf2851c02c9693dbe88e1b7d0fe4fade75d6768581556650953,CHALLENGES,FAILURE,failures,260,268,"It proposes the development of a national system for manure management which will address a number of market failures, including the insufficient availability of cultivated land where manure can be applied, the vulnerability of the entire territory to nitrates contamination and the practical difficulties faced in terms of appropriate manure management by the typically small and fragmented farm holdings in Malta.",1.0,explorer
+UNFCCC.party.1743.0,7ba5ad4acb6b2e7bf9bd9bf3450f946c__9fb88b454c76ddf2851c02c9693dbe88e1b7d0fe4fade75d6768581556650953,CHALLENGES,INSUFFICIENT,insufficient,284,296,"It proposes the development of a national system for manure management which will address a number of market failures, including the insufficient availability of cultivated land where manure can be applied, the vulnerability of the entire territory to nitrates contamination and the practical difficulties faced in terms of appropriate manure management by the typically small and fragmented farm holdings in Malta.",1.0,explorer
+UNFCCC.party.1743.0,eb9d979f04a9ba8b677ca4203776228d__dec83fe778cf3e7b2f4d24f079a0bc10670a1824353339d3bf4b42af0f1e0f37,BARRIERS,PREVENT,preventing,0,10,"preventing further such pollution"" (Art.1).",1.0,explorer
+UNFCCC.party.1743.0,b5147a55ab698715549f971acbe58318__606b6a92f6902f29c66ec331f993b35f76e93de40839093874768f87dcaa7692,CHALLENGES,CHALLENGES,challenges,492,502,"If a vaccine is to be developed and obtain the necessary regulatory approval, it will need to overcome practical challenges such as ensuring the vaccine has no unintended adverse effects (e.g. reduced productivity, different product taste, compromised food safety).",1.0,explorer
+UNFCCC.party.1743.0,b5147a55ab698715549f971acbe58318__606b6a92f6902f29c66ec331f993b35f76e93de40839093874768f87dcaa7692,BARRIERS,PREVENT,prevent,992,999,"Regarding implementation, the cost to farmers is expected to be low - given that farmers already vaccinate livestock to prevent disease, adding another vaccine would be simple and cheap to administer.",1.0,explorer
+UNFCCC.non-party.1744.0,c8ede0f5ecf4f7edc2f1a7a3e777f293__b927378bdba8207b6eae0de9e28726b1fdaa770ab67fb5eb4b491a97a3d502b8,CHALLENGES,CHALLENGES,challenges,412,422,"We, Heads of State and Government, Ministers and High Representatives, gathered at the United Nations on 18 and 19 May 2023 for the high-level meeting of the General Assembly on the midterm review of the Sendai Framework for Disaster Risk Reduction 2015-2030¹ to assess progress on integrating disaster risk reduction into policies, programmes and investments at all levels, identify good practices, gaps and challenges and accelerate the path to achieving the outcome and goal of the Sendai Framework and its seven global targets by 2030.",1.0,explorer
+UNFCCC.non-party.1744.0,e031f2df8e7889f6c25a82bf47405d9f__282542dcdd881734c108c080f7a013caa07d5db6c0d219fd3886777d337213c8,CHALLENGES,CHALLENGES,challenges,841,851,"We express deep concern at the increasing frequency and intensity, as well as the number and scale of disasters and their devastating impacts, which have resulted in massive loss of life, food insecurity and famine, biodiversity loss, water-related challenges, increased displacement, humanitarian and development needs and longterm negative economic, social and environmental consequences, especially for those in vulnerable situations throughout the world, and which are undermining progress towards sustainable development, the implementation of the 2030 Agenda for Sustainable Development and the achievement of its Sustainable Development Goals, in particular for the least developed countries, small island developing States, landlocked developing countries and African countries, as well as middle-income countries facing specific challenges.",1.0,explorer
+UNFCCC.non-party.1744.0,e031f2df8e7889f6c25a82bf47405d9f__282542dcdd881734c108c080f7a013caa07d5db6c0d219fd3886777d337213c8,CHALLENGES,CHALLENGES,challenges,252,262,"We express deep concern at the increasing frequency and intensity, as well as the number and scale of disasters and their devastating impacts, which have resulted in massive loss of life, food insecurity and famine, biodiversity loss, water-related challenges, increased displacement, humanitarian and development needs and longterm negative economic, social and environmental consequences, especially for those in vulnerable situations throughout the world, and which are undermining progress towards sustainable development, the implementation of the 2030 Agenda for Sustainable Development and the achievement of its Sustainable Development Goals, in particular for the least developed countries, small island developing States, landlocked developing countries and African countries, as well as middle-income countries facing specific challenges.",1.0,explorer
+UNFCCC.non-party.1744.0,32a20141e2108ef2e13cf0e6713ef185__a15e21af362a56787ca97626ca5a5cef5000c09a917833ade43063cb89a7d9a0,BARRIERS,PREVENT,preventing,469,479,"We continue to recognize, in this regard, that conventional approaches to disaster management are no longer adequate and recognize also the need to shift from managing disasters and their impacts to reducing and preventing disaster risk.",1.0,explorer
+UNFCCC.non-party.1744.0,23981996ac3ffa93c50acf0f16288575__05c3686b91e49f7dbfca30d4e61310d213648adf040322985dca87b3ef727b45,CHALLENGES,INSUFFICIENT,Insufficient,29,41,"Insufficient access to disaster data, risk knowledge,
+technology and financing, as well as insufficient prioritization and action on disaster
+risk reduction, including through climate action, continue to hinder progress in
+implementing the Sendai Framework.",1.0,explorer
+UNFCCC.non-party.1744.0,23981996ac3ffa93c50acf0f16288575__05c3686b91e49f7dbfca30d4e61310d213648adf040322985dca87b3ef727b45,CHALLENGES,INSUFFICIENT,insufficient,120,132,"Insufficient access to disaster data, risk knowledge,
+technology and financing, as well as insufficient prioritization and action on disaster
+risk reduction, including through climate action, continue to hinder progress in
+implementing the Sendai Framework.",1.0,explorer
+UNFCCC.non-party.1744.0,1a3bafedeb7c2fff94fb39a02dea82c7__b0db215d59cc40b44cc49ddb87c01999f1965dc6532641aa504be5efc9fa1b0b,BARRIERS,BARRIERS,barriers,152,160,"We express concern that gaps in the collection of disaster loss and risk data, including data disaggregated by income, sex, age and disability, are barriers to the development of inclusive multisectoral disaster risk reduction policies and strategies.",1.0,explorer
+UNFCCC.non-party.1744.0,1b163243d1e9195d5cfefebed73c7d1d__f4650ebb5deb4b6f98d0f123e4b70c0c212325b49211500f49298c56eddad6b7,LESSONS_LEARNED,LESSONS_LEARNED,lessons learned,483,498,"(a) Strengthening the collection and analysis of data on hazards, disaster events and their impacts, including losses and damages, and the monitoring of systemic risk, cascading effects, compounding hazards and multiple risk drivers through enhancing investment in human and institutional capacity development, research, digital technological development and innovation, emerging technologies, Earth and climate observations as well as geographic information systems, and sharing of lessons learned from past disasters and good practices for multidimensional and multi-hazard risk assessment, risk analytics, risk mapping and strategic foresight, especially in developing countries;",1.0,explorer
+UNFCCC.non-party.1744.0,d950263e8434031346a79e4922f9f825__3078319af69ba83ce474a46ac4ddd699d590358d161c4ae6deda7984915ea1f9,BARRIERS,PREVENT,prevent,66,73,"We reaffirm that each State has the primary responsibility to prevent and reduce disaster risk and commend the progress made in strengthening national disaster risk governance, including the significant increase in countries with national disaster risk",1.0,explorer
+UNFCCC.non-party.1744.0,50fdb25721c1531ac1988f6ef1b7da5e__8db690ef6c3f6b32ca5410a4df5fda827d6d2afc8e9cdd7bb605e2dab09c99bc,CHALLENGES,CHALLENGES,challenges,375,385,"(b) Ensuring the provision of adequate, sustainable and timely means of implementation through capacity-building, financial and technical assistance and transfer of technology, on mutually agreed terms, to the least developed countries, small island developing States, landlocked developing countries and African countries, as well as middle-income countries facing specific challenges, to enhance the collection, analysis and dissemination of disaster-related data;",1.0,explorer
+UNFCCC.non-party.1744.0,9920b202632b4d922d742c78e516f745__71d48215d0a293509dd806854140351cfdfce7c395d2f658f20e4a778996a077,CHALLENGES,CHALLENGES,challenges,485,495,"We recognize the need for enhanced support to local authorities as well as for greater engagement with local communities and civil society organizations in developing countries, in particular the least developed countries, small island developing States, landlocked developing countries and African countries, as well as middle-income countries facing specific challenges.",1.0,explorer
+UNFCCC.non-party.1744.0,f06d221b7baa5baf14828abd8b39c603__59786f18f1e4f5aea390ada8fe91a3c9fdc55fbb03da6f2083d1e76a050a8976,CHALLENGES,CHALLENGES,challenges,258,268,"We recognize that the detrimental impact of disasters on the debt sustainability of many least developed countries, small island developing States, landlocked developing countries and African countries, as well as middle-income countries facing specific challenges, warrants further attention and that preserving external debt sustainability requires ex-ante financing to enable the systematic reduction of disaster risk and resilience-building as well as the disclosure of disaster risk to avoid exacerbating debt distress, when feasible.",1.0,explorer
+UNFCCC.non-party.1744.0,2d613c06cdd44ee953f50a0722af337c__77b64ea8e6da6a2f7b90cdf6ba66abf9f19a066bdce29085544ad918e3070bab,CHALLENGES,INADEQUATE,inadequate,315,325,"We recognize that, while investments have increased globally in some areas of disaster-related financing, such as social protection, forecast-based financing and risk transfer mechanisms including insurance, we are concerned that investments in disaster risk reduction and efforts to de-risk investments remain inadequate and recognize further that disaster risk reduction-related official development assistance has barely increased.",1.0,explorer
+UNFCCC.non-party.1744.0,cdd5477943ba1ddabc30fc9114eb3f87__83d10d0384d342dda278fcb081f6a510e20dbe4b940487f40ee73b1894b69c41,BARRIERS,PREVENT,prevent,100,107,"We are deeply concerned that public and private investments to anticipate, plan for, reduce and prevent disaster risk remain insufficient and do not match the scale of existing and future risk.",1.0,explorer
+UNFCCC.non-party.1744.0,cdd5477943ba1ddabc30fc9114eb3f87__83d10d0384d342dda278fcb081f6a510e20dbe4b940487f40ee73b1894b69c41,CHALLENGES,INSUFFICIENT,insufficient,129,141,"We are deeply concerned that public and private investments to anticipate, plan for, reduce and prevent disaster risk remain insufficient and do not match the scale of existing and future risk.",1.0,explorer
+UNFCCC.non-party.1744.0,999cb5080ea3762b8e8070f7ddde19b9__a34894cc949a99478c1e46e53b50d5223c885bfdb83594d3de2c0774119651f0,BARRIERS,PREVENT,prevent,289,296,"We recognize also the need for the global community, including international financial institutions, development banks and the private sector, to enhance efforts to scale up disaster risk reduction financing instruments to meet the scale of financing needed by developing countries to prevent and reduce risks and build resilience against current and future shocks and hazards.",1.0,explorer
+UNFCCC.non-party.1744.0,00f31af7a577adfd9e3a24663f3f5811__38fcc9485853bbf060c662114fe779493ac67782bd169729747f57eae770cd6f,CHALLENGES,CHALLENGES,challenges,357,367,"the reduction of disaster risk, the protection of lives, livelihoods and assets, resilience-building and the realization of sustainable development and poverty eradication, particularly in the least developed countries, small island developing States, landlocked developing countries and African countries, as well as middleincome countries facing specific challenges.",1.0,explorer
+UNFCCC.non-party.1744.0,adc4be12ef434861b9e4f9588d4fe035__4c65595b337243456b2ed42bd9a041150517b911fbc042aecd29a726364e367a,BARRIERS,PREVENT,prevent,215,222,"We recognize the need to implement integrated and inclusive economic, structural, legal, social, health, cultural, educational, environmental, technological, political, financial and institutional measures that prevent and reduce hazard exposure and vulnerability to disasters, increase preparedness for response and recovery and thus strengthen resilience.",1.0,explorer
+UNFCCC.non-party.1744.0,c6afb179e707d5391465081e3bdfe12e__a1541b4bebd84c05b757fd1ab09b18e05aa1ec9b4caf1bf3fb7d5d7a6a0785ee,CHALLENGES,CHALLENGES,challenges,460,470,"We are deeply concerned that coverage of and accessibility to multi-hazard early warning systems remains inadequate in all countries and emphasize the need to urgently extend the reach of multi-hazard early warning systems everywhere, especially in developing countries and in particular in least developed countries, small island developing States, landlocked developing countries and African countries, as well as middle-income countries facing specific challenges.",1.0,explorer
+UNFCCC.non-party.1744.0,c6afb179e707d5391465081e3bdfe12e__a1541b4bebd84c05b757fd1ab09b18e05aa1ec9b4caf1bf3fb7d5d7a6a0785ee,CHALLENGES,INADEQUATE,inadequate,109,119,"We are deeply concerned that coverage of and accessibility to multi-hazard early warning systems remains inadequate in all countries and emphasize the need to urgently extend the reach of multi-hazard early warning systems everywhere, especially in developing countries and in particular in least developed countries, small island developing States, landlocked developing countries and African countries, as well as middle-income countries facing specific challenges.",1.0,explorer
+UNFCCC.non-party.1744.0,9f5c8bb872f8c514c2cc77770fca612d__7ed1262e32dfc566abd729bbf75a683ab8d6f4e05c781f566a3fd5223c29da22,LESSONS_LEARNED,LESSONS_LEARNED,lessons learned,98,113,"(k) Strengthening prevention, preparedness, response and recovery for health emergencies, drawing lessons learned from the coronavirus disease (COVID-19) pandemic, and applying the Bangkok Principles for the implementation of the health aspects of the Sendai Framework.",1.0,explorer
+UNFCCC.non-party.1748.0,14e2e8e302dd0e49034c9fe569e7806c__12fab6a161e641968d7ad2e3f0f4b39c19e3f79147936d9a7db62ce4f752c915,CHALLENGES,CONSTRAINT,constraints,440,451,"In its third BUR, Colombia provided an update on its national circumstances, including a description of national and regional development priorities, objectives and circumstances, including features of geography, climate, biodiversity, demography and human development, and economy that might affect the Party's ability to deal with mitigating and adapting to climate change, as well as information regarding national circumstances and constraints on the specific needs and concerns arising from the adverse effects of climate change, as referred to in Article 4, paragraph 8, and, as appropriate, Article 4, paragraphs 910, of the Convention.",1.0,explorer
+UNFCCC.non-party.1748.0,4716e4d3946226a5f6d9ef19dc2fb975__e3c853daeca949f6eb9d2c7c7981ef4f0b341be5fe860a9309b3c86d26289c4d,CHALLENGES,CONSTRAINT,Constraints,0,11,"Constraints and gaps, and related technology, financial, technical and capacitybuilding needs, including a description of support needed and received",1.0,explorer
+UNFCCC.non-party.1748.0,c393954664250f1bd21f979340f9647e__af3142e4b04882ac393ab417ff1afdfda6ff9b89679dc9e1ac61434c3d363206,CHALLENGES,CONSTRAINT,constraints,19,30,Information on constraints and gaps was not reported in Colombia's BUR and the reason for this was not clear to the TTE.,1.0,explorer
+UNFCCC.non-party.1748.0,c393954664250f1bd21f979340f9647e__af3142e4b04882ac393ab417ff1afdfda6ff9b89679dc9e1ac61434c3d363206,CHALLENGES,CONSTRAINT,constraints,307,318,"During the technical analysis, the Party clarified that the methodology applied for the identification of financial, capacity-building and technology transfer needs does not include constraints and gaps.",1.0,explorer
+UNFCCC.non-party.1748.0,c393954664250f1bd21f979340f9647e__af3142e4b04882ac393ab417ff1afdfda6ff9b89679dc9e1ac61434c3d363206,CHALLENGES,CONSTRAINT,constraints,398,409,Colombia will work to improve the methodology to include analysis of constraints and gaps in future reports.,1.0,explorer
+UNFCCC.non-party.1748.0,bf88c85c7fe3ede6445ba5fb7eb64d67__c5c4263629a1c71c546d9a789851a78d55feb4f0e987d4b412b746f1b508a932,BARRIERS,BARRIERS,barriers,151,159,"(d) Updating the methodology used for identifying financial, capacity-building and technology transfer needs to include the identification of gaps and barriers;",1.0,explorer
+UNFCCC.non-party.1748.0,976ebbe11b406c984c5da6a64460c46e__f0fa1dbef6fcbd69a18c1141202050a5a59dd1df58712e198e1e6fb4e51f72dc,CHALLENGES,CONSTRAINT,constraints,61,72,"be consistent with the non-Annex I Party's capacity and time constraints and the availability of its data, as well as the level of support
+provided by developed country Parties for biennial update reporting.",1.0,explorer
+UNFCCC.non-party.1748.0,a32c6115e8ab54e5ecaefc8b3df39a93__fbb6530a4c86b1888a4249a52ab3bb3ded2f403b97bb29adda88c538375e763c,CHALLENGES,CONSTRAINT,Constraints,228,239,"Decision
+Decision/CP.17,
+annex III,
+paragraph 14
+Decision/CP.17,
+annex III,
+paragraph 15
+Decision/CP.17,
+annex III,
+paragraph 16
+Provision of the reporting requirements
+Non-Annex I Parties should provide updated
+information on:
+Constraints and gaps;
+(b) Related financial, technical and
+capacity-building needs.
+",1.0,explorer
+UNFCCC.party.1729.0,566ce5ccd0891c72a9f186438431faf3__ebdfd9971a1344245e6ab90f96da477aff85edd59c6ca5ad98aae0ac61466543,CHALLENGES,CHALLENGES,challenges,453,463,"Since then, Egypt adopted additional range of actions to respond to the
+climate change challenges as highlighted below.",1.0,explorer
+UNFCCC.party.1729.0,7a9b4b798d2b235c8c1db37e078fdc08__869afc4d9d0fc19394b004baa22214882d0c16a2ea0e151fdd23100905b1d4cc,CHALLENGES,CHALLENGES,challenges,37,47,"Egypt faced multitude of development challenges that were further exacerbated by the
+negative impacts of climate change and the accompanying stress on the national budget,
+as well as the need to address the economic impacts of the COVID pandemic.",1.0,explorer
+UNFCCC.party.1729.0,fd93e7ec9e1cac3b39417374b03e63c7__ac34e6deaa6742e172edc7753fd371300e69b659ddca97fdb9a7a2457792190e,BARRIERS,BARRIERS,barriers,140,148,"Structural and architectural interventions of conventional and unconventional engineering protection work (i.e. maritime walls, submersible barriers, soil fixation), artificial nourishment with sand to compensate for the erosion of beaches, and construction and reinforcement of anti-flood protection structures to protect lives, properties and economic activities for vulnerable populations.",1.0,explorer
+UNFCCC.party.1729.0,38edc87675233b39e234a23abe96ce0b__0241c1f1be70ce4994082ca2b29d2c33a4da928766ce574ddcd0edb74f7df90b,BARRIERS,BARRIERS,barriers,137,145,Reinforcement of nature-based solutions for land protection through sand dune stabilization by the cultivation of wild plants and wooden barriers and preserving natural defense lines against sea encroachment during storms.,1.0,explorer
+UNFCCC.party.1729.0,4fe204aa6e579fb0129ce899e101835c__cba96e93ef6f67170b7112051505f5ddb8d8d0e41d1a939e681b60ec89352b9e,CHALLENGES,CHALLENGES,challenges,378,388,"The CCCD requires substantial financial and human resources to achieve its mandate, cooperate effectively with national partners, implement capacity building programs, and establish robust information systems to address the challenges of climate change.",1.0,explorer
+UNFCCC.non-party.1741.0,a57f7ea76e0ca87c22d589330654a916__1feb789f69c88ccfb6259f29a0c8f81c98489401c6cf94158c49d952676aa94d,CHALLENGES,CHALLENGES,challenge,123,132,"term, several countries plan to maintain or slightly increase conventional CDR on land by
+2030, which is on its own a huge challenge requiring dedicated policies and management.",1.0,explorer
+UNFCCC.non-party.1741.0,e1b15efacae88ded5e3ab2459e8b8650__ea5d7f0f7eb2678ff4dbb2518e1d5cb79e7a3d3f553b7b17bd3afcdf79365b2c,CHALLENGES,CHALLENGES,challenge,164,173,"standardised transparent reporting and involving societal deliberation, will support and shape
+these outcomes in a manner that acknowledges both the urgency of the challenge and issues
+such as policy costs, hazards and land-use conflicts.",1.0,explorer
+UNFCCC.party.1735.0,6cec4e9a19bf93090ea77604c4d49ee2__b0ec4604686129a1ce7ca955bc449c7072fd83008981df7fc36f36b001a30496,BARRIERS,PREVENT,prevent,248,255,"and Climate Change (MoEUCC).³ The MoEUCC is structured to prepare legislation on settlement, environment and construction, to carry out urban transformation works, to supervise implementation, to ensure the development of professional services, to prevent environmental pollution and to protect our environment and nature, and to combat the effects of climate change.",1.0,explorer
+UNFCCC.party.1735.0,37be47286ba1d98c111b8ca09d4458f7__b2f635775f1cb7101e89fe064e17b837612986612575b4b3ab0bfbcba9b81d1d,BARRIERS,PREVENT,prevent,391,398,"The coastal areas of Türkiye experience milder climates influenced by the sea, while the North Anatolian Mountains and the Taurus Mountains prevent these effects from penetrating the country's interior, leading to continental climate characteristics in those regions.",1.0,explorer
+UNFCCC.party.1735.0,be31dbe1b28d436690db85f32b4fe8d5__46c4e6dc963fa6fbdab0f2dfb042437366d90347db8e7660f26f89bf2fc1cbc1,BARRIERS,LIMIT,limitation,258,268,Further limitation is the fact that each facility that can technically be constructed may not be very cost friendly.,1.0,explorer
+UNFCCC.party.1735.0,1c65bccb88078c7ea5ca9cb4858a2a85__cecb3d1d67ef291bb179eee84ba4f5aa82d174d59e706150a3d3c2bea144af62,BARRIERS,PREVENT,prevented,616,625,"With the acquisition of the potential, 10 MtCO2/year emissions corresponding to 4 million vehicles can be prevented.",1.0,explorer
+UNFCCC.party.1735.0,74e1a44b946af89aa763cfe9ad669d2c__b1333c39593623ad82e0f005eeb039fc5f1c704c825bce6ae3a54e82df67a791,BARRIERS,BARRIERS,barriers,510,518,"Studies have been carried out to assess the waste heat market in Türkiye, identify technically and financially viable waste heat recovery investments and existing barriers against implementation of waste heat recovery investments and develop sample/templates for energy audit within the scope of the project.",1.0,explorer
+UNFCCC.party.1735.0,4e31ca6c1c700786d0c25570d6842bb0__2632de517086bfe7d38fc46f45fe61563045ec5fabb67acfcbb3bfb7619c6a52,BARRIERS,RESTRICT,restricts,477,486,"By adding newly established restricts, the number of basins increased to 944 in 2018.",1.0,explorer
+UNFCCC.party.1735.0,17fe994e36c3a47f0ecf182ef7aedfe9__f8ce12f62b1828905fc22c61e6d098daa922e984b5fe802bff45f28d93104772,BARRIERS,PREVENT,preventing,160,170,"Decreasing unit fossil fuel consumption of motor vehicles; increasing the share of railways and urban mass transportation in load and passenger transportation; preventing unnecessary fuel consumption in urban transportation and decreasing emissions harmful for the environment,",1.0,explorer
+UNFCCC.party.1735.0,557248340a1c2f90e3643dc9fed4d445__f365d7e1f2e1c87ee2b111d54c1d17edfc0bc3651da484f330cae1ada54b681e,BARRIERS,BARRIERS,barriers,203,211,"A grant and support was provided to municipalities by the MoEUCC in cooperation with the
+İLBANK to support the construction of bicycle lanes, green walking trails, environment-friendly
+streets and noise barriers.",1.0,explorer
+UNFCCC.party.1735.0,52e4468ada43268a3e155aad8e3780b4__af8f6d3fff6f30e24bc9609a7a084e93452196cd3e8a03daacab19a6511ac5c7,BARRIERS,PREVENT,prevented,430,439,"In this way, producers were prevented from using fertilizers unconsciously.",1.0,explorer
+UNFCCC.party.1735.0,52ae806c74d583da9bff1d5eb27bf3e8__63b1685d5a08fefc46932491cb6ea70d77b378c31d92736a23578379dc5c65ec,BARRIERS,PREVENT,prevent,167,174,"Within the framework of legislation regarding ""Soil Conservation and Land Use and Changes"" it is targeted to ensure enough income for each agricultural land sizes and prevent divisions of lands into small fractions which are unfeasible to operate.",1.0,explorer
+UNFCCC.party.1735.0,14c9f2a3232dbac80f2d16e65395139f__ad617fb52cbba79f31292a72f69c977b69a51635f42e651e10f451fb97174bcd,BARRIERS,PREVENT,prevent,4,11,"ii. prevent land degradation, and protect and increase natural carbon sinks,",1.0,explorer
+UNFCCC.party.1735.0,e0684d93c06b0076e565e2c002d7fc21__d2930a3d62d05f3b0da66c0410d79e611c411b922c97bebb831192ff487094b3,BARRIERS,PREVENT,prevent,675,682,"At the same time, it was aimed to determine ""sustainable waste management strategies"" throughout the country by ensuring recycling and recovery and recycling of waste materials into the economy in order to prevent rapid consumption of natural resources.",1.0,explorer
+UNFCCC.party.1735.0,4223c4a5bf476a192467e67e4a7dc9aa__5fe30e8c6e6ec2753a1fb765d3b7ca7ad0dc3e02ad33468efa316d1d270e6d5e,BARRIERS,PREVENT,prevented,304,313,were prevented.,1.0,explorer
+UNFCCC.party.1735.0,08e88b87046158c274dcd9835091c1f0__98ea39750b52e2345371bc8a3b7910895867a6b6e9c8f410a33265f0635a125c,BARRIERS,PREVENT,prevent,406,413,The packaging waste by-law also introduced specific quotas concerning recycled material to be used as input during the packages' production process to support recycling to prevent the depletion of virgin/raw material as a circular economy approach.,1.0,explorer
+UNFCCC.party.1735.0,15a3021f91be6dd9f5d3561a0aa3bb52__677d2cd1bb55813b6416127ba6ec9f08f8b40dddd9448d70c1b87540b8934be0,BARRIERS,PREVENT,prevent,12,19,"In order to prevent all negative effects caused by plastic bags, a legal arrangement has been
+made for the payment of plastic bags for transportation purposes at the sale points such as",1.0,explorer
+UNFCCC.party.1735.0,7465f8fd88e532734c9def778a016e76__bc526ae8dd33e5a5135d753cd32d7fb60a43dd067238d625791438bb61c0ff84,BARRIERS,PREVENT,prevented,355,364,"With this reduction, the import of plastic raw materials necessary for the production of plastic bags in Türkiye has been prevented and approximately 5.24 billion Turkish liras have been saved, as well as approximately 31,500 tons of greenhouse gas emissions have been prevented.",1.0,explorer
+UNFCCC.party.1735.0,7465f8fd88e532734c9def778a016e76__bc526ae8dd33e5a5135d753cd32d7fb60a43dd067238d625791438bb61c0ff84,BARRIERS,PREVENT,prevented,502,511,"With this reduction, the import of plastic raw materials necessary for the production of plastic bags in Türkiye has been prevented and approximately 5.24 billion Turkish liras have been saved, as well as approximately 31,500 tons of greenhouse gas emissions have been prevented.",1.0,explorer
+UNFCCC.party.1735.0,7465f8fd88e532734c9def778a016e76__bc526ae8dd33e5a5135d753cd32d7fb60a43dd067238d625791438bb61c0ff84,BARRIERS,PREVENT,prevented,222,231,"Through this policy, between 2019 and 2022 approximately 62.5% reduction in the use of plastic bags was achieved cumulatively and the formation of 760,000 tons of plastic waste was prevented.",1.0,explorer
+UNFCCC.party.1735.0,6ca2f0c7b69fafa30b0277a2d7bcac27__40676f1493b9230fe94ea2f58cef4739863fb02c6dd3551214d0928d7951d38b,CHALLENGES,LACK_OF_DATA,lack of data,388,400,It was not feasible to offer a full risk analysis due to the limitations e.g. short time available to evaluate climate impact on cultural assets and a lack of data.,1.0,explorer
+UNFCCC.party.1735.0,095a755f21a0e054076690725264bcb6__725e41e8911628677a77028187eef5e0e329184f23f4375d4974752c6395d535,CHALLENGES,CHALLENGES,challenges,67,77,"Türkiye, located in the Mediterranean Basin, is facing significant challenges related to the impacts of climate change on its water resources.",1.0,explorer
+UNFCCC.party.1735.0,095a755f21a0e054076690725264bcb6__725e41e8911628677a77028187eef5e0e329184f23f4375d4974752c6395d535,CHALLENGES,CHALLENGES,challenges,605,615,"In order to address these challenges, it is necessary to prioritize and implement a variety of adaptation measures and water management practices by developing projects.",1.0,explorer
+UNFCCC.party.1735.0,3596a9caf795d1381ab7c28b00cd93c7__f57cbc1179d9ff39fcb1451ca52ee0a3216c7ab1bd48874f20b109e60b46c914,CHALLENGES,CHALLENGES,challenges,32,42,One strategy for addressing the challenges of decreasing water resources in Türkiye is the reuse of treated wastewater.,1.0,explorer
+UNFCCC.party.1735.0,2fb663173f29c766b53513968b46d31e__fe3ab3538fd6f8860df42fdd2c51c3536d0cbb9f61692f7d1f0ca1886cb449ca,BARRIERS,PREVENT,preventing,787,797,"In addition to these efforts, awareness-raising activities are also conducted to educate the public about the impacts of nitrate pollution and the importance of good agricultural practices for preventing it.",1.0,explorer
+UNFCCC.party.1735.0,489fd0d9039ab95f7a3012be80df6c31__8f177e273f255e0876c8773fe9f30c4f258067ee0c129e827cd1d82aa36010c8,CHALLENGES,CONSTRAINT,constraints,1872,1883,"Preparatory work for the DEN-IZ program for the period 2023-2025 has also begun, with new strategies expected to be added to the program based on the country's needs and budget constraints.",1.0,explorer
+UNFCCC.party.1735.0,789241b7433f4f139b7d0535e89dff76__2d3da05ab1ed64bed50619d1b641f8b71d473ee802e1a3fd9827005de43247da,BARRIERS,PREVENT,prevent,740,747,"These studies involve the construction of various types of structures, including classic (closed) check dams, open check dams, ground sills, and flood rakes, which are designed to hold sediment materials and prevent bed scours in the upper basins.",1.0,explorer
+UNFCCC.party.1735.0,91d0020d47b00201b0f82147d7092c4e__32360f9e18749ccdeac2df8f03bbe84220c708030dbc5c5b68053c0eeb0530a5,CHALLENGES,CHALLENGES,challenges,706,716,"The
+overall objective of the project is to facilitate introduction of a holistic approach taking into
+account of interactions between environment, nature, climate change and agricultural practices
+for more sustainable and efficient management of agro-ecosystems focusing on Bolu province
+through this project, Turkey will be able to help make a difference by its strengthening national
+policies and capacities to address these interconnected challenges.",1.0,explorer
+UNFCCC.party.1735.0,d6f759ded25f004db0c49400ebc039b1__7bcd6f7ff4151bcd624cd9bbfb597414eee3668e581c57fa75d7bb33832ecf67,BARRIERS,PREVENT,prevent,626,633,"The project aims to prevent uncontrolled fishing gear, which causes biological and economic losses, by using the media to alert people to remove derelict fishing gear, aid in identifying risk areas and inform fishermen about the seriousness of the situation.",1.0,explorer
+UNFCCC.party.1735.0,caf9af5c4c8e68e5979a48f03ca9a16a__edef356cfd81a69967baab6a99e168c1e0362713494c2d1f5656d6d82dc36f0d,BARRIERS,PREVENT,prevent,498,505,"The goal is to prevent interruptions in
+stainable development by minimizing loss of life and property during disasters, aligning with
+ternational frameworks such as the Hyogo and Sendai Framework.",1.0,explorer
+UNFCCC.party.1735.0,737d9b1dac1b5032c312fc0dc1d8a4e9__43e57f87c83264d0b57e0af275a96e27e2a3320476abf4d8885811c799160b26,CHALLENGES,FAILURE,Failure,747,754,"The General Directorate of DSI also utilizes the ""TAMBIS (Flood, Failure and Response Spatial Information System)"" application to identify flood events and their locations quickly and accurately, and to receive notices, photographs, and information from the public through SMS and email.",1.0,explorer
+UNFCCC.party.1735.0,6aa26bcc134ce1e54a1f7c3e00645db4__770e85d2af84c30b525db1601cb33d5fb97b0833e47c445bb8347ca58a3a5d06,BARRIERS,BARRIERS,barrier,706,713,"In addition, the Steel Barrier Design Program has been developed for use in debris flow barrier projects in wild streams to mitigate the increasing risk of flood events.",1.0,explorer
+UNFCCC.party.1735.0,6aa26bcc134ce1e54a1f7c3e00645db4__770e85d2af84c30b525db1601cb33d5fb97b0833e47c445bb8347ca58a3a5d06,BARRIERS,BARRIERS,Barrier,641,648,"In addition, the Steel Barrier Design Program has been developed for use in debris flow barrier projects in wild streams to mitigate the increasing risk of flood events.",1.0,explorer
+UNFCCC.party.1735.0,72c9c9855bcccd5ead3499c109be9fec__e26ef7d1567e59291dc2328ecbc428a9c3e018cb76596b24181cb7030a8fd04a,BARRIERS,PREVENT,prevent,170,177,"The ""National Strategy and Action Plan for Combating Desertification (2015-2023)"" is an important strategy document that outlines the actions and activities necessary to prevent desertification and land degradation in Türkiye, was approved in 2015 and entered into force.",1.0,explorer
+UNFCCC.party.1735.0,72c9c9855bcccd5ead3499c109be9fec__e26ef7d1567e59291dc2328ecbc428a9c3e018cb76596b24181cb7030a8fd04a,BARRIERS,PREVENT,prevent,764,771,The National Strategy and Action Plan for Combating Desertification (2019-2030) includes the planned actions and activities to prevent desertification and land degradation in Türkiye.,1.0,explorer
+UNFCCC.party.1735.0,c4a7dd60ec4b8ff958d9581d4c3a44e6__cc90ee0e0c19e574523796441085eba2f87a4a2c333d98ff61913b2308817c72,CHALLENGES,CHALLENGES,challenges,70,80,"Türkiye needs to adequately address environmental and climate-related challenges facing the
+coastal areas and their cumulative impacts to ensure the social well-being of current and future
+generations in the region.",1.0,explorer
+UNFCCC.party.1735.0,a7ed74a4f0d8eb962bfb63524ccc1cfe__3af6c9750f736b5c8a96c07bacd73ad70293e776bd9c4d5b875b6e01815b23f0,CHALLENGES,CHALLENGES,challenges,170,180,"In order to address these challenges, Türkiye
+has implemented a number of strategies and actions, including the development of the ""New
+Urban Agenda"", which aims to support building resilience and reducing greenhouse gas
+emissions from all relevant sectors, as well as promoting global, national, and local climate
+action, including adaptation and mitigation of climate change.",1.0,explorer
+UNFCCC.party.1735.0,46c747c85af555f344e20933bb7d7f58__799acffed5d683abe9739169d6b672a1b28dd5f92a8b3c050b3fcbb722de1424,CHALLENGES,CHALLENGES,challenges,73,83,"In order to address these challenges, Türkiye",1.0,explorer
+UNFCCC.party.1735.0,9868bbb31c820ac5174da21a2d9b453b__df517fbd748df6b3a2e2ddb27bd5a7cdf6c86b37ad2a47b92fa75737678291d5,BARRIERS,PREVENT,preventing,37,47,"Ensuring water and food security and preventing water and foodborne diseases,",1.0,explorer
+UNFCCC.party.1735.0,9b63870ee76ae5ce2dc4120ab4ed907a__8c79b3bc4c30d8b1117908b679612aa03ef25dd0b2aa4579395aebe2ee371e93,CHALLENGES,CHALLENGES,challenges,23,33,"To further address the challenges of climate change in urban areas, Türkiye is implementing several initiatives through projects.",1.0,explorer
+UNFCCC.party.1735.0,8d9ac2ee3505568fa146348fba93db2e__c945bd2b9e1bae15f187a9f1b8f1ba6e9e14ba217350ed0009d5eab03789479d,CHALLENGES,CHALLENGES,challenges,166,176,"This project aims to support the government in tackling the challenges related to climate and disaster-resilient housing and infrastructure interventions, focusing on the metropolitan municipalities of Istanbul, Izmir, Kahramanmaras, Manisa, and Tekirdag.",1.0,explorer
+UNFCCC.party.1735.0,6807a4ad7a5d6eef4b8f0cd64085ef83__25132846483cbdffbdd781728cfad6c90e8465448775a410852e9bc1c14b724b,BARRIERS,PREVENT,prevent,973,980,"The project also aimed to establish new mechanisms for power generation plants by making detailed risk definitions on the basis of facility and system, identifying physical risks that may cause performance loss or prevent production, determining prevention costs and possible income losses by making an economic analysis of risks, and creating new mechanisms for risk transfer.",1.0,explorer
+UNFCCC.party.1735.0,6807a4ad7a5d6eef4b8f0cd64085ef83__25132846483cbdffbdd781728cfad6c90e8465448775a410852e9bc1c14b724b,CHALLENGES,CHALLENGES,challenges,207,217,The project aimed to address the challenges that climate change poses to the power generation sector.,1.0,explorer
+UNFCCC.party.1735.0,6a861a6d47cb6094b7db55c2ea81ecf6__02bcb9a5fe37dd6abd8e6a07b12b0075c231050b31c52a32a270eb17b9388f9e,BARRIERS,PREVENT,prevent,92,99,"In order to prevent the environmental impacts and adverse effects and eliminate them to certain extend, the ""Green Port Project"" has been developed by the Ministry of Transport and Infrastructure.",1.0,explorer
+UNFCCC.party.1735.0,e13f8b4ff70bca733b72190eb57d76f1__0df6aa376ac5ebbd5b56c40054cdd22e3a8827b1384226e5e683d997b38f139b,CHALLENGES,CHALLENGES,challenges,96,106,"TUBITAK is committed to developing technologies that can help the country face global risks and challenges, turning them into opportunities for innovation.",1.0,explorer
+UNFCCC.party.1735.0,d4fe75d7a879e76a81d0c7d35cf1464f__ef1634cc7ead1cccc4f88bdf14c2405c680c375cc2d970099ef23545053645b3,CHALLENGES,CHALLENGES,challenges,274,284,"SMART4ENV Project (Enhancing the Scientific Capacity of TUBITAK MAM in the Field of Smart Environmental Technologies for Climate Change Challenges) which runs from 2022 to 2025, aims to improve TUBITAK MAM in the field of smart environmental technologies for climate change challenges.",1.0,explorer
+UNFCCC.party.1735.0,4b64b0a946a9090a9a9095aef6104d88__cf632d8e3363d542c2e875d4a7b8f3ffdf5997719ec4fad7aa6c254b5c063048,CHALLENGES,FAILURE,failure,241,248,"These HAWS provide an additional level of redundancy to existing systems by providing weather observations in case of the failure of the other systems, which are installed at the Regional Directorates and airports of TSMS.",1.0,explorer
+UNFCCC.party.1735.0,4565d4313c5b7bd18c9babd926b6eaa1__e3e14e83130152c8e878243ace386664318edff148b7a71658412134f9d17c70,CHALLENGES,INADEQUATE,Inadequate,177,187,Inadequate predictions of water flow inefficient operation can lead to significant financial losses and problems like overflowing dams and floods.,1.0,explorer
+UNFCCC.party.1735.0,172bb8b0a1fe00dc894fe8b583033b7f__723553bef9f7cff96daa8d4164b7c3188bd1b4efdcd9a0d337a10dff038cb7b9,BARRIERS,PREVENT,prevent,667,674,"By providing detailed frost risk forecast maps, the TSMS enables producers to take necessary precautions in order to prevent potential losses caused by frost.209",1.0,explorer
+UNFCCC.party.1735.0,b77646273081c7d8597a4f1d757c374b__0d54c67101e4d57b20775ca7f42b6b7a678b159a81310e967919c42bc5ecca14,BARRIERS,PREVENT,preventing,197,207,"The ""Meteorological Early Warning System for Forest Fires (MEUS)"" has been developed to provide an early warning system that is well-suited to the conditions present in Türkiye, in order to aid in preventing forest fires.",1.0,explorer
+UNFCCC.party.1735.0,746898e29af3f545ea2eaa35d0955a2d__78d6d438d5ca328c2396de05e1f6d5486b2065e071dc1645d96bdd8497388dd2,BARRIERS,OBSTACLE,obstacles,542,551,"To support this goal, institutions and organizations are also taking measures to remove obstacles to data access and usage.",1.0,explorer
+UNFCCC.party.1735.0,770c9086f5793e42fd003ffb60df7c5d__0c3ee4b851a0c6b3c3d8dc9fed353930cfad8e4fe6135404a03b7f98393d5121,BARRIERS,PREVENT,preventing,830,840,The primary objective of Türkiye within the scope of global fight against climate change is to take part in the global efforts for preventing climate change.,1.0,explorer
+UNFCCC.party.1735.0,952974deb7d7b896160137846f9da980__040ce3526ffe3efd6479dfeeae0f3a5ffa699b772451926fab29a308f4ceb807,BARRIERS,PREVENT,prevent,311,318,"It is the duty of the state and citizens to improve the natural environment, to protect the environmental health, and to prevent environmental pollution"", emphasizing the importance of protecting the environment.",1.0,explorer
+UNFCCC.party.1735.0,e10d89e5b1bafbd6297f6d4fb395b1c6__437924a77434bf72763816596bc1a6ae1dd34b5129413d7b62180b8e2525b460,BARRIERS,PREVENT,preventing,646,656,These efforts helped raise awareness about the importance of preventing forest fires.,1.0,explorer
+UNFCCC.party.1735.0,72cdfec30a75a1781e1c8696abd80ccd__7eaedfd30f6f7e03342e15f2220822cdfff829af6ea80dd68458d68afcc99496,BARRIERS,LIMIT,limitation,48,58,subject to any quantified emission reduction or limitation targets.,1.0,explorer
+UNFCCC.non-party.1747.0,304050e444a0b30c0091371d0e068334__f1c8614be205b94536bdafab32ad0910e2141a361c24de23bfa3eb4daddeca52,CHALLENGES,CHALLENGES,challenges,17,27,"To address these challenges, FAO works relentlessly to collect data, information, and knowledge on the impacts of climate change on agrifood systems, and to inform Members globally about the latest science.",1.0,explorer
+UNFCCC.non-party.1747.0,9cca68ee3e4864b05c49410900661937__6341238cee86d00d36737c83075061c5f175261fbbea516b5f4b2cc8768c2a2f,CHALLENGES,CHALLENGES,challenges,471,481,"The strategy aims to address a broad range of interlinked challenges, including the loss of biodiversity, desertification, land and environmental degradation, the need for accessible, renewable energy, and food and water security.",1.0,explorer
+UNFCCC.non-party.1747.0,a3f1552d608dc74cf5e2c19da15854ce__674578a337d4c0c2d84a17591f775a04baf86fd495fefbef614eea613cacde80,BARRIERS,PREVENT,prevent,906,913,"The CRTB users can conduct climate risk screenings in a few steps and obtain a comprehensive report that includes climateresilient measures and tailored recommendations to prevent, reduce and mitigate climate risk.",1.0,explorer
+UNFCCC.non-party.1747.0,1efa69120cf00d83fa675e85817e7ba2__3980b851ca6dd7b90e60cbedd5128e848be22cb2d538877e1fb9e59248bab560,BARRIERS,BARRIERS,barriers,17,25,"What are the barriers and challenges, including finance, technology development and transfer and capacity-building gaps, faced by developing countries?",1.0,explorer
+UNFCCC.non-party.1747.0,1efa69120cf00d83fa675e85817e7ba2__3980b851ca6dd7b90e60cbedd5128e848be22cb2d538877e1fb9e59248bab560,CHALLENGES,CHALLENGES,challenges,30,40,"What are the barriers and challenges, including finance, technology development and transfer and capacity-building gaps, faced by developing countries?",1.0,explorer
+UNFCCC.party.1731.0,3e8eab37fb41b349586dd4889f3f9e2b__cdf4166986edaedd6f875383e0876aba87638684aecee3f67b17f22724d43318,CHALLENGES,CHALLENGES,challenges,34,44,The climate crisis poses numerous challenges and requires systemic change.,1.0,explorer
+UNFCCC.party.1731.0,e61c72c68e55bd5e6a9b28dbd21f3040__09189c6c84ff3d5b15395a5f6ed26a769145ca0fc20d6d5f7dab1411397f032d,CHALLENGES,INACTION,inaction,1314,1322,"Rising water temperatures may also permanently damage crucial eco-systems such as corals and wetlands which serve as carbon sinks, thus further exacerbating climate change.36 Given its awareness of the devastating impact of climate change and of the cost of inaction, the UAE is committed to reducing its GHG emissions and enhancing its climate adaptation efforts to ensure climate resilience.",1.0,explorer
+UNFCCC.party.1731.0,8bb07a1b135e4c90807a4c59d863d11c__31fd2c09f06ddc76cfb27ece8243f20d51c2ac2b4813853d423407cc8dea3740,CHALLENGES,CHALLENGES,challenges,283,293,"However, the country faces challenges in reducing its industrial sector emissions.",1.0,explorer
+UNFCCC.party.1731.0,e0c8d35a80972e2d287f4c5ec07580bc__fff9b4ffca8d92a23c9caf2c88b0acf0c207d91ab2e5ce44ecefebcbdec28c25,BARRIERS,BARRIERS,barriers,584,592,CCfDs offer longterm contracts to pay for the difference between any carbon price and actual abatement costs and are a key tool for overcoming cost barriers.,1.0,explorer
+UNFCCC.party.1731.0,061f8fd00822e44870fd6f21810984f4__84df25438c00ca6083768dc1e686f706dc0a12b2fa024c83414b8113b103b8ab,BARRIERS,RESTRICT,restrict,210,218,The UAE also prepares to phase out internal combustion engine vehicles and plans to restrict usage of new ICE vehicles.,1.0,explorer
+UNFCCC.party.1731.0,1d4f6484dfbc7e3edfdd598829de76aa__530cc2ebca9585f7ec30d391a58c89a0986b252fcd8b8900ab312ebe6f9f1636,BARRIERS,PREVENT,Preventing,6,16,Preventing single-use plastic waste implications of different policy approaches,1.0,explorer
+UNFCCC.party.1731.0,43d4d056a0841a23428991ea018cdbec__2465ca4d32ec761e6698d634acbe9a08534d96341775815416c3d46e724cc218,CHALLENGES,CHALLENGES,challenge,247,256,"His Highness Sheikh Mohamed bin Zayed Al Nahyan, President of the UAE, launched the National Food Loss and Waste Initiative Ne'ma in 2022 as a collaboration between multiple federal entities as well as NGOs and civil society to jointly tackle the challenge of food loss and waste.",1.0,explorer
+UNFCCC.party.1731.0,d9c914ff02d102684b7c599a85281bf4__ddc50d9d396925a3ef76f7edf453005d0590f61a4077dfbd11d90953c126e6b2,CHALLENGES,CHALLENGES,challenges,325,335,"In the face of the challenges posed by climate change, food security is becoming an increasingly important concern for the UAE, and it has consequently defined a National Food Security Strategy which aims to improve food self-sufficiency by increasing local production of selected items by up to 15%, 107 among other strategies.",1.0,explorer
+UNFCCC.party.1731.0,d93c8a2d0aeb64feafa81f2f058f7ec5__613c3625182f294d1ce44f3a93741588519f37fbf0060b2c4c4795f236cb89c2,CHALLENGES,CHALLENGES,challenges,51,61,"The country's agricultural sector faces persistent challenges given the particularities of the region's arid, desert climate.",1.0,explorer
+UNFCCC.party.1731.0,a406d6322a9e4f38d847607c8c1c9141__15cd127ff0a0d9155941d94dbe4f8602bc399c26a46a685326ffdc9319e72b19,CHALLENGES,CHALLENGES,challenges,1330,1340,An R&D centre has been established to explore transformative ways to meet the challenges of integrating outdoor comfort.,1.0,explorer
+UNFCCC.party.1731.0,ec65a0d94189b498d1a6590fbc2721b0__39dd3cfa248910c5369b8e738d1195f82291bb4aef8aec05967810826d78be44,BARRIERS,BARRIERS,barriers,220,228,"Similarly, the Fujairah 2040 Plan developed to account for a significant increase in population - is also focusing on enhancing housing and transportation facilities with road improvements, and the construction of water barriers, ports, and additional healthcare facilities.",1.0,explorer
+UNFCCC.party.1731.0,229610069c1db83fe55f3a67990c049f__e8b972fd4fded84fbf57a349790746ad3e2575e31f9e63160d9ca0a55e05e212,CHALLENGES,CHALLENGES,challenge,364,373,Higher temperatures also pose a challenge to food safety as the contraction of water- and food-borne diseases may rise in frequency.,1.0,explorer
+UNFCCC.party.1731.0,695f8c57fe051dc4c899e31a48edf90d__a665bf45c2b3c09404815b1f9016a81d761b914bc930458c1b802bf421d8664d,CHALLENGES,CHALLENGES,challenges,87,97,"The UAE is already taking preventative actions to address these climate-related health challenges and has issued a ministerial decree that requires employers to provide outdoor workers with a break during the peak summer to avoid heat-related illnesses, 133",1.0,explorer
+UNFCCC.party.1731.0,7a7f86fa43aa4a6423c764ef5f3e0660__5caaaff5d6893567f7d8efdd7c1e229654cd0f08fc00b0d01b4e98f8f606b18d,BARRIERS,BARRIERS,barriers,874,882,Natural rock barriers and artificial caves are also being installed to recreate natural habitats and breeding grounds for marine species.,1.0,explorer
+UNFCCC.party.1731.0,4fcd0dc750216167ba518bccbb930130__ba73dade90b80f89bea22bc2ad74b450eb07ec26c764210e5e38da45cbd8ced1,BARRIERS,BARRIERS,barriers,95,103,"The capacity of mangroves, salt marshes, seagrass meadows and algal mats as carbon storage and barriers for sea level rise was assessed as part of the UAE National Blue Carbon Project.",1.0,explorer
+UNFCCC.party.1731.0,4fcd0dc750216167ba518bccbb930130__ba73dade90b80f89bea22bc2ad74b450eb07ec26c764210e5e38da45cbd8ced1,BARRIERS,PREVENT,prevent,1190,1197,"Mangroves sequester 57.67 grams¹44 of organic carbon per square meter per year, which is equivalent to carbon sequestration at a rate of 0.5 tons per hectare per year, in addition to the carbon stocks stored within mangrove tree biomass.¹45 Additionally, mangroves hold sediments in place, slow the pace of water, prevent erosion, and stabilise the coastline, providing adaptation-related benefits.",1.0,explorer
+UNFCCC.party.1731.0,0f77081287fe0331c4eadbb7bc92d832__9376091b5e4dcf5237c342e4d3e41985d5d6fef7c89e89613894902496f002fc,CHALLENGES,CHALLENGES,Challenge,40,49,"Among these initiatives is the FoodTech Challenge, a global competition that aims to catalyse partnership and innovation, seeking out the world's leading scientists, technologists, and innovators, and directing their efforts to the difficult challenges at hand in the UAE.",1.0,explorer
+UNFCCC.party.1731.0,0f77081287fe0331c4eadbb7bc92d832__9376091b5e4dcf5237c342e4d3e41985d5d6fef7c89e89613894902496f002fc,CHALLENGES,CHALLENGES,challenge,277,286,"The challenge focuses on the key issue of food availability and exploring nextgeneration, nutrient-rich alternatives.",1.0,explorer
+UNFCCC.party.1731.0,0f77081287fe0331c4eadbb7bc92d832__9376091b5e4dcf5237c342e4d3e41985d5d6fef7c89e89613894902496f002fc,CHALLENGES,CHALLENGES,challenges,242,252,"Among these initiatives is the FoodTech Challenge, a global competition that aims to catalyse partnership and innovation, seeking out the world's leading scientists, technologists, and innovators, and directing their efforts to the difficult challenges at hand in the UAE.",1.0,explorer
+UNFCCC.party.1731.0,0f77081287fe0331c4eadbb7bc92d832__9376091b5e4dcf5237c342e4d3e41985d5d6fef7c89e89613894902496f002fc,BARRIERS,DIFFICULT,difficult,232,241,"Among these initiatives is the FoodTech Challenge, a global competition that aims to catalyse partnership and innovation, seeking out the world's leading scientists, technologists, and innovators, and directing their efforts to the difficult challenges at hand in the UAE.",1.0,explorer
+UNFCCC.party.1731.0,6dfe5f3ed8dce2d4a88b9dcfc8c680bd__7770ce450125d65033ba798fc532a6944e0f52086861655b03762e08738b1488,CHALLENGES,CHALLENGES,challenges,0,10,challenges to food production and security as climate-related increases in temperatures and changes in rainfall patterns can affect crop yields and natural systems.,1.0,explorer
+UNFCCC.party.1731.0,074e0f5116dcf04da83725d3252bb893__6d18213da8cece6c1000a8118dd03d2003db495b2af20d5ddc48545545952878,CHALLENGES,CHALLENGES,challenges,212,222,The Council worked to launch several qualitative initiatives aimed at reducing the repercussions of existing challenges within the sector.,1.0,explorer
+UNFCCC.party.1731.0,8ffffdf1b71944375b0d72ef0b5496f4__b3f839972b2a8ab89c1521a3b8d25976aae94f59f29bf96db1b314d07c25304e,CHALLENGES,CHALLENGES,challenges,168,178,"As the regulatory body for the insurance sector, the Central Bank of the United Arab Emirates (CBUAE) is working with industry-wide stakeholders to explore threats and challenges emerging from climate change.",1.0,explorer
+UNFCCC.party.1731.0,ab629d77f0298a8cd30aeceaf60a2906__e31ae8a15d816a272833edc21ccee7f2583ec3e77d6fa3ea47705d00fd582557,CHALLENGES,CHALLENGES,challenges,411,421,"For example, its Space Data Centre is a digital platform which provides scientists, scholars, public and private entities, start-ups, and community members with access to space data to develop algorithms and solutions for addressing national and global challenges.",1.0,explorer
+UNFCCC.party.1731.0,ab629d77f0298a8cd30aeceaf60a2906__e31ae8a15d816a272833edc21ccee7f2583ec3e77d6fa3ea47705d00fd582557,CHALLENGES,CHALLENGES,challenges,146,156,The UAE Space Agency is also working on providing an innovative ecosystem to utilise space data and technologies to address global sustainability challenges.,1.0,explorer
+UNFCCC.party.1731.0,68c1dbb39cc6114f11b13dc821d30496__36f2072cd592e14d97af6a149446004fe622909a5fe34a3eb0067b4a1aafde05,CHALLENGES,CHALLENGES,challenges,789,799,"Those core areas of R&D are support by 3 enablers: Fourth Industrial Revolution including Al, loT, Robotics & Drones, 3D Printing & Advanced Materials, Energy System Analyses, and Other institutions, such as Khalifa University of Science and Technology and UAE University, propose research programs that address the entire range of strategic, scientific and industrial challenges facing the UAE's knowledge economy transformation, including clean and renewable energy and water and environment.162, 163",1.0,explorer
+UNFCCC.party.1731.0,7e2a6111d34b092dee194269cf142065__183040088c46ac1aac80f013c7f074a420fe37a27b5e3d233c0d873fc4e134f6,CHALLENGES,CHALLENGES,challenges,865,875,"The public-private partnership Solar Decathlon Middle East challenges students to design, build, and operate solar powered houses to address climate challenges characteristic of the Middle East, such as high temperatures, humidity, and dust.",1.0,explorer
+UNFCCC.party.1731.0,7e2a6111d34b092dee194269cf142065__183040088c46ac1aac80f013c7f074a420fe37a27b5e3d233c0d873fc4e134f6,CHALLENGES,CHALLENGES,challenges,1216,1226,"In Ras Al Khaimah, the RAK Energy Innovation Competition is providing a platform for SMEs and start-ups to showcase innovative solutions to the specific climate change challenges in the emirate and to receive support from participating public and private organisations.",1.0,explorer
+UNFCCC.party.1731.0,7e2a6111d34b092dee194269cf142065__183040088c46ac1aac80f013c7f074a420fe37a27b5e3d233c0d873fc4e134f6,CHALLENGES,CHALLENGES,challenges,955,965,"The public-private partnership Solar Decathlon Middle East challenges students to design, build, and operate solar powered houses to address climate challenges characteristic of the Middle East, such as high temperatures, humidity, and dust.",1.0,explorer
+UNFCCC.party.1731.0,716cab9f883ca29dbcb9ee72b9be05ff__ebbceef9ec5ec6ed542d2cb327c3eb902d731bda7f05bbdcc47cfcae50ccd9cf,CHALLENGES,CHALLENGES,challenges,91,101,Educators play a crucial role in shaping the future workforce and prepare them to face the challenges of a rapidly changing economy.,1.0,explorer
+UNFCCC.party.1731.0,ab81feb4728aff5dadf40ee1fa1fe617__1699f72cc11043594685634490982d23da36a3d5e83d345ce96bda859010ff37,CHALLENGES,CHALLENGES,challenges,444,454,"168 To highlight to global politicians and decision-makers the work of educators, the challenges they face, and the key role they play in the global climate response, the TeachersCOP event will bring the voice of primary and secondary teachers as well as school directors to COP28.",1.0,explorer
+UNFCCC.party.1731.0,a28bbc579e189fdee2931aff3d3c83eb__047457d7589218baba391d24d7bc8cc04d6e3d0ee0e2446c166e99a75b7aedec,CHALLENGES,CHALLENGES,challenges,478,488,"These included Theme Weeks addressing global challenges such as biodiversity, food, and agriculture but also other initiatives - such as World Majilis (detailed in Chapter 7.4 'Inclusivity for climate action: Youth, women and people of determination') which spark global dialogue and inspire new perspectives through public conversations, interactive science shows, as well as educational workshops introducing school groups to",1.0,explorer
+UNFCCC.party.1731.0,a8a0d69e73082d61f3b490ef654110bc__381c7c19e24dc30c503628a36b5c792c56fca2aa7c9453663ebc84107320fcae,CHALLENGES,CHALLENGES,challenges,46,56,Dubai Theme Weeks addressing global challenges,1.0,explorer
+UNFCCC.party.1731.0,64ab0c1450424d4fa5f9de0465aaf8aa__80e56a3402e2d30841338d1da2252ae6d162bd07105433fda47247a8a7594326,CHALLENGES,CHALLENGES,challenges,1066,1076,"Announced at the World Future Energy Summit (WFES) in 2008, the Zayed Sustainability Prize is the UAE's pioneering global award for high schools, small to medium-sized enterprises (SMEs), and non-profit organisations (NPOS) which have championed novel sustainability solutions.178 Additionally, the Youth Circles initiative overseen by the Federal Youth Authority promotes dialogue between youth and decision-makers, discussing topics such as leadership, entrepreneurship, innovation, technology, and sustainability, with the aim of crowdsourcing ideas to addr global challenges.",1.0,explorer
+UNFCCC.party.1731.0,d2ade62e8634840faf6d03745e77fbf1__38302c0c2cb2dbff16d75fa6f540b6ae1b93df88f8a2a0d7c108b013f83825b8,CHALLENGES,CHALLENGES,challenges,1732,1742,"Food and water security: Climate change poses numerous
+challenges to food production and security.",1.0,explorer
+UNFCCC.non-party.1738.0,f51f3e5ec817be14f1951eaf6bbd91f5__23d0008693048d626f813d25b62ae60ec01081eceedc517fd27af644d9c66273,CHALLENGES,CHALLENGES,challenges,710,720,"The Intergovernmental Panel on Climate Change reported that the inclusion of the knowledge of indigenous peoples and local communities can contribute to addressing the combined challenges of climate change, food security, biodiversity conservation, and combating desertification and land degradation, as well as increasing prospects for climate-resilient development.",1.0,explorer
+UNFCCC.non-party.1738.0,8dae9b334711fbe0862f0d5bc35ce738__f8143bd5c6441d764a15aac62f18bcd984b2a706a35d29618938aed0ea80e1d9,BARRIERS,BARRIERS,barriers,17,25,"In relation to barriers and challenges to means of implementation (36(f)), the need for multidirectional training and capacity building for sustained engagement, the lack of access to climate funds and language barriers persist and can prevent effective scaling up of mitigation and adaptation efforts needed to achieve the objectives of the Paris Agreement.",1.0,explorer
+UNFCCC.non-party.1738.0,8dae9b334711fbe0862f0d5bc35ce738__f8143bd5c6441d764a15aac62f18bcd984b2a706a35d29618938aed0ea80e1d9,BARRIERS,BARRIERS,barriers,213,221,"In relation to barriers and challenges to means of implementation (36(f)), the need for multidirectional training and capacity building for sustained engagement, the lack of access to climate funds and language barriers persist and can prevent effective scaling up of mitigation and adaptation efforts needed to achieve the objectives of the Paris Agreement.",1.0,explorer
+UNFCCC.non-party.1738.0,8dae9b334711fbe0862f0d5bc35ce738__f8143bd5c6441d764a15aac62f18bcd984b2a706a35d29618938aed0ea80e1d9,CHALLENGES,LACK_OF_ACCESS,lack of access,168,182,"In relation to barriers and challenges to means of implementation (36(f)), the need for multidirectional training and capacity building for sustained engagement, the lack of access to climate funds and language barriers persist and can prevent effective scaling up of mitigation and adaptation efforts needed to achieve the objectives of the Paris Agreement.",1.0,explorer
+UNFCCC.non-party.1738.0,8dae9b334711fbe0862f0d5bc35ce738__f8143bd5c6441d764a15aac62f18bcd984b2a706a35d29618938aed0ea80e1d9,BARRIERS,PREVENT,prevent,238,245,"In relation to barriers and challenges to means of implementation (36(f)), the need for multidirectional training and capacity building for sustained engagement, the lack of access to climate funds and language barriers persist and can prevent effective scaling up of mitigation and adaptation efforts needed to achieve the objectives of the Paris Agreement.",1.0,explorer
+UNFCCC.non-party.1738.0,8dae9b334711fbe0862f0d5bc35ce738__f8143bd5c6441d764a15aac62f18bcd984b2a706a35d29618938aed0ea80e1d9,CHALLENGES,CHALLENGES,challenges,30,40,"In relation to barriers and challenges to means of implementation (36(f)), the need for multidirectional training and capacity building for sustained engagement, the lack of access to climate funds and language barriers persist and can prevent effective scaling up of mitigation and adaptation efforts needed to achieve the objectives of the Paris Agreement.",1.0,explorer
+UNFCCC.non-party.1738.0,1a356e51e648985fc3d05a455d908df1__46608a6710488173412a0e21e3b80fc5e6dc8e3f94c24f243017ad190a31a023,BARRIERS,BARRIERS,Barriers,0,8,Barriers and challenges to means of implementation (19/CMA.1 paragraph 36(e)).,1.0,explorer
+UNFCCC.non-party.1738.0,1a356e51e648985fc3d05a455d908df1__46608a6710488173412a0e21e3b80fc5e6dc8e3f94c24f243017ad190a31a023,CHALLENGES,CHALLENGES,challenges,13,23,Barriers and challenges to means of implementation (19/CMA.1 paragraph 36(e)).,1.0,explorer
+UNFCCC.non-party.1738.0,11413cdebd85038d90401bf99909627d__36611b4a714b24a11044a1dfdaf46b71269cffa6c5e941accd35d96ee56ee062,CHALLENGES,CHALLENGES,challenges,520,530,"Responding to decision 19/CMA.1 paragraphs 24 and 36, the FWG offers insights about collective progress related to the overall effect of nationally determined contributions (36(b)), the state of adaptation efforts (36(c)), efforts to avert, minimize and address the adverse impacts of climate change (36(e)), barriers and challenges to means of implementation (36(f)), and good practices, experience, and potential opportunities to enhance relevant international cooperation (36(g)).",1.0,explorer
+UNFCCC.non-party.1738.0,11413cdebd85038d90401bf99909627d__36611b4a714b24a11044a1dfdaf46b71269cffa6c5e941accd35d96ee56ee062,BARRIERS,BARRIERS,barriers,507,515,"Responding to decision 19/CMA.1 paragraphs 24 and 36, the FWG offers insights about collective progress related to the overall effect of nationally determined contributions (36(b)), the state of adaptation efforts (36(c)), efforts to avert, minimize and address the adverse impacts of climate change (36(e)), barriers and challenges to means of implementation (36(f)), and good practices, experience, and potential opportunities to enhance relevant international cooperation (36(g)).",1.0,explorer
+UNFCCC.non-party.1738.0,48dd799acb67c796e09f2ecc15e86b9c__d295ee05d82c560131335048b2cdafa0d16357f755cdd2b2d93f33f1336722c8,BARRIERS,PREVENT,prevent,552,559,"The IPCC Special Report on Land and Climate change noted that the inclusion of the knowledge of indigenous peoples and local communities can contribute to overcoming the combined challenges of climate change, food security, biodiversity conservation, and combating desertification and land degradation.¹² In its subsequent reports, the IPCC also reported with high confidence that the inclusion of indigenous knowledge and local knowledge has benefited climate adaptation efforts, ¹3 increases prospects of climate-resilient development, and helps prevent maladaptation.¹4 11.",1.0,explorer
+UNFCCC.non-party.1738.0,48dd799acb67c796e09f2ecc15e86b9c__d295ee05d82c560131335048b2cdafa0d16357f755cdd2b2d93f33f1336722c8,CHALLENGES,CHALLENGES,challenges,183,193,"The IPCC Special Report on Land and Climate change noted that the inclusion of the knowledge of indigenous peoples and local communities can contribute to overcoming the combined challenges of climate change, food security, biodiversity conservation, and combating desertification and land degradation.¹² In its subsequent reports, the IPCC also reported with high confidence that the inclusion of indigenous knowledge and local knowledge has benefited climate adaptation efforts, ¹3 increases prospects of climate-resilient development, and helps prevent maladaptation.¹4 11.",1.0,explorer
+UNFCCC.non-party.1738.0,e961ec2ce16373a491df4c1bc2b5dac4__60c8aa18ec56fedd8696223e9da7513a739067f65ad955df33ac7a17d0e0076e,CHALLENGES,CHALLENGES,challenges,13,23,Barriers and challenges to means of implementation (19/CMA.1 paragraph 36(f)),1.0,explorer
+UNFCCC.non-party.1738.0,e961ec2ce16373a491df4c1bc2b5dac4__60c8aa18ec56fedd8696223e9da7513a739067f65ad955df33ac7a17d0e0076e,BARRIERS,BARRIERS,Barriers,0,8,Barriers and challenges to means of implementation (19/CMA.1 paragraph 36(f)),1.0,explorer
+UNFCCC.non-party.1738.0,4cb3c1fc4e27f2adc5251755dfc13f4f__62c7e78ad099a9de65da933f2ae323901b9e8c7a95bd8c862cdd040007f2cfb1,BARRIERS,BARRIERS,barriers,366,374,"The exercise provided a snapshot of the current situation, and may not be comprehensive, and also indicated barriers related to access, including direct access to existing climate funds for mitigation and adaptation action by indigenous peoples and local communities.",1.0,explorer
+UNFCCC.non-party.1738.0,4cb3c1fc4e27f2adc5251755dfc13f4f__62c7e78ad099a9de65da933f2ae323901b9e8c7a95bd8c862cdd040007f2cfb1,CHALLENGES,CHALLENGES,challenging,679,690,The funding landscape can be challenging for indigenous peoples organizations and representatives from local communities to navigate.,1.0,explorer
+UNFCCC.non-party.1738.0,f53930a75df451a2d96d8e56506c7442__8d544ca5da50fb9a27aad07168afaca983da07000cb10cc4ffca560cc36dde71,BARRIERS,RESTRICT,restricts,95,104,"The distinction between developing and developed countries in funding eligibility criteria restricts access for indigenous peoples living in developed countries, though often in circumstances and facing socioeconomic situations similar to some developing countries.",1.0,explorer
+UNFCCC.non-party.1738.0,6142b345f55592915afa2f2eebece16b__e772d87049dd9ca3fbacfec44e77d8e11fac9aef917648271fb90ef8dd7fd8e6,CHALLENGES,CHALLENGES,challenges,233,243,"Further, the mapping of how existing policies, actions and communications under the Convention incorporate the consideration and engagement of indigenous peoples and local communities in the climate policymaking process revealed challenges, which included:",1.0,explorer
+UNFCCC.non-party.1738.0,a18f94932e57c2bbdb6193a84a0a68cb__43cefb6c1b9a15a3c51ea2ce078d8add3d71f6235dbc042faa0dcc4c186b25b5,CHALLENGES,CHALLENGES,challenge,92,101,"conceptualized as a resource, rather than as a process of partnership which is considered a challenge to meaningful engagement;",1.0,explorer
+UNFCCC.non-party.1738.0,7885dd2e742b54d8a9323a1c5b371a18__c7476f4ae0d14ffa20f2e0739ba01825e23abd3eb610e66902ccdc9c5b51481c,LESSONS_LEARNED,LESSONS_LEARNED,lessons learned,33,48,"Building on the insights and lessons learned from implementing the initial two-year workplan of the LCIPP, the FWG made recommendations in its fifth meeting report on enhancing the engagement of indigenous peoples and local communities across the UNFCCC processes.",1.0,explorer
+UNFCCC.non-party.1738.0,2eed77e11ee671611518377436f70c0d__c412d349ef56b9b77c7704b631a3f72139791cede1a8c48831b9f6dac0076236,BARRIERS,BARRIERS,barriers,375,383,"The use of diverse communication channels and different formats of communications such as storytelling, photo stories, and videos can help overcome language barriers and contribute towards collective progress through hamessing the power of diverse ways of knowing.",1.0,explorer
+UNFCCC.non-party.1738.0,a7d3fe82152b6db0051548224c8d2116__2e4108d499b39051a1e9e51ddf73d2bfd3d378d286dd96e5bed711ac1e8722a0,CHALLENGES,CHALLENGES,challenging,555,566,"However, the escalating loss and damage associated with climate impacts, including extreme weather events, altered landscapes, and disrupted ecosystems, are challenging their ability to adapt and maintain their traditional livelihoods.",1.0,explorer
+UNFCCC.non-party.1738.0,20633093360f39f349d7af3fc184506c__40bf3d9c4e91487da44e565939e09456fe618a73c278eafe0f50e8f23931c223,BARRIERS,BARRIERS,barriers,468,476,"However, the Sámi face ongoing land loss and socio-political barriers, which undermine their participation in land use planning and integration of their indigenous knowledge for effective climate adaptation.",1.0,explorer
+UNFCCC.non-party.1738.0,829167e76fb3f8cedebf9f8473a4a9e8__4ede190b188152ecc1a5569bb84dd6ca7a62995e02c3ee5e19dcaff88c84a51d,BARRIERS,PREVENT,prevent,203,210,This practice also helps prevent contamination of waterways from the accumulation of sediment.,1.0,explorer
+UNFCCC.non-party.1738.0,b7745a87c28c680d47b72d2eec827ec3__4e20aac89f259deecbf93ad7ce16680755b0436a1dfcef8f82f2413e5c5a2942,BARRIERS,DIFFICULT,difficult,343,352,"Indigenous elders find it difficult to predict weather using traditional knowledge as practiced traditionally, especially long-term forecasts.",1.0,explorer
+UNFCCC.party.1742.0,1568ce5d93ac5ecac1b11565e6746c15__64a1852e759cf9527421c7820bacf031cf8449ef9834b80de72b88725e086912,BARRIERS,LIMIT,LIMITATION,179,189,"1.1 INTRODUCTION...........
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+QUANTIFIED ECONOMY-WIDE EMISSION REDUCTION TARGET.....
+EMISSION REDUCTION OR LIMITATION COMMITMENTS APPLICABLE TO MALTA...
+GREENHOUSE GAS EMISSIONS
+..III
+1.8
+1.9
+GHG MITIGATION POLICIES AND MEASURES AND THEIR AGGREGATE EFFECT.....
+VULNERABILITY ASSESSMENT, CLIMATE CHANGE IMPACTS AND ADAPTATION MEASURES
+1.10 FINANCIAL RESOURCES AND TRANSFER OF TECHNOLOGY..........
+1.11 RESEARCH AND SYSTEMATIC OBSERVATION......
+1.12
+EDUCATION, TRAINING AND PUBLIC AWARENESS...
+19
+19
+THE SUBMISSION OF A NATIONAL COMMUNICATION
+..19
+MALTA AND THE PARIS AGREEMENT......……...
+...... 19
+MALTA'S STATUS AND OBLIGATIONS UNDER INTERNATIONAL CLIMATE TREATIES AND EU CLIMATE POLICY
+21
+********
+23
+.23
+.24
+...26
+29
+29
+...30
+.30",1.0,explorer
+UNFCCC.party.1742.0,8634eb2abfd2c222c94b67c7afaee1aa__1fd0aec460046cfc1a83cb23329b28fdec7767abc4a637c837cb20ccba2f9514,BARRIERS,LIMIT,limitation,332,342,"To this effect, Malta did not immediately take on any quantified emission limitation or reduction obligations under these international instruments; thus, it did not have a quantified target for the limitation or reduction of greenhouse gas emissions for the first Kyoto Protocol Commitment Period (CP1; 20082012).",1.0,explorer
+UNFCCC.party.1742.0,8634eb2abfd2c222c94b67c7afaee1aa__1fd0aec460046cfc1a83cb23329b28fdec7767abc4a637c837cb20ccba2f9514,BARRIERS,LIMIT,limitation,207,217,"To this effect, Malta did not immediately take on any quantified emission limitation or reduction obligations under these international instruments; thus, it did not have a quantified target for the limitation or reduction of greenhouse gas emissions for the first Kyoto Protocol Commitment Period (CP1; 20082012).",1.0,explorer
+UNFCCC.party.1742.0,9dff8b2aa52d98d490476d31c34dbf72__1432212921e93e4d96792e8b1a9164aba7bd403339d15df042685d4aa1d99483,BARRIERS,LIMIT,limitation,310,320,"These three instruments are further complemented by other sector-specific legislation that either directly address emissions of greenhouse gases from specific sectors, products or activities (e.g., legislation that sets limits on the rate of emissions of CO₂ from new vehicles) or indirectly contribute to the limitation or reduction of such emissions as a co-benefit to their primary objective (e.g., renewable energy sources directive).",1.0,explorer
+UNFCCC.party.1742.0,d9ba2550e4400f9dc4cdf09602c76fbc__cfcc21927443fd16e7a633100b67b5f0f067eedc17043ba6130566fa4ce9f8e6,BARRIERS,LIMIT,limitation,77,87,"The Effort-Sharing Decision: Decision 406/2009/EC12 sets quantified emission limitation or reduction targets for individual Member States, applied to those emissions not covered by the EU Emissions Trading Scheme, apart from certain exceptions.",1.0,explorer
+UNFCCC.party.1742.0,61873e4c256a7e71d7b388fc6b34fdf6__9a66c97414c6e4392973d81eef51c6a814d638b98e001ab724cfb3da1eb3b1ff,BARRIERS,LIMIT,limitation,306,316,The accession to Annex I status meant that Malta was inscribed in the list of parties to the Kyoto Protocol that intend to take on a quantified emission limitation or reduction commitment (QELRC) for the second Commitment Period of the Kyoto Protocol (CP2: 2013-2020).,1.0,explorer
+UNFCCC.party.1742.0,f391a97de0653a8b2529e36403524490__8075b151911f342a328d3b4cb3306741028c74fdfb636a774725dced6b7cb1d2,BARRIERS,LIMIT,limitation,167,177,"Malta's status under the Convention up to the time it applied for accession to Annex I, and with that accession being conditional to not taking on quantified emission limitation or reduction targets for the first commitment period of the Kyoto Protocol, meant that until 2012 Malta was not subject to an economy-wide greenhouse gas related obligation",1.0,explorer
+UNFCCC.party.1742.0,d2c83a773e92ba48aff63c914c5cbeb9__37d8ba442164783a19ebfec3ea3f9abfd123411c4a407a3ec1b70549efba44c0,BARRIERS,LIMIT,LIMITATION,26,36,1.6 EMISSION REDUCTION OR LIMITATION COMMITMENTS APPLICABLE TO MALTA,1.0,explorer
+UNFCCC.party.1742.0,97456f6f4d0cc42be6ddc84b7c676f3b__025b9755b74ba19793489f9ea96f1826ca27dd418eb2cf6abbf7bde0d9daba8e,BARRIERS,DIFFICULT,difficult,1009,1018,"Meantime, grazing by domestic animals made it extremely difficult for young tree growth to survive, with these factors resulting in a near complete loss of Maltese forests.",1.0,explorer
+UNFCCC.party.1742.0,ee1f5dbcce85920617b417c8640fbd10__d43015e55a38ac5ad5217ef56e33d6eefbd3b854fc683cfcb3d5a71e1ef00542,BARRIERS,LIMIT,limitation,342,352,"With emissions from anthropogenic sources being considered as a prime culprit in observed changes in climatic conditions, climate change mitigation policy will not effectively deliver on its goals unless a system is available to determine where we are with respect to emissions and removals, and to measure progress towards reaching emission limitation or reduction targets, in a quantified manner and on an ongoing basis - the national inventory is a crucial tool in this respect.",1.0,explorer
+UNFCCC.party.1742.0,07681b065403bfd49d2ddeaf078febb4__42d26bef470c38fd7039f05af1fa7298ad7210756d5f29091fd671b8bc106ac2,BARRIERS,LIMIT,limitation,731,741,"The Act sets the development, updating and publication of national greenhouse gas inventories as an obligation on the Maltese Government (Article 5, sub-article (2), point (a) (""In fulfilling its duties [to protect the climate for the present and future generations] the Government shall, inter alia: (a) develop, periodically update and publish national inventories of anthropogenic emissions by sources and removals by sinks of greenhouse gases in order to monitor progress towards achieving its quantified emission limitation or reduction commitments pursuant to international treaties ad its obligations as a Member State of the European Union",1.0,explorer
+UNFCCC.party.1742.0,6787d4b90cc4e310a7401a7d2cbfb1fc__9078c3dd9f59b74407be77e9a77915ad40b47bf9146bf376acdf0b24091a96fe,BARRIERS,LIMIT,limitation,134,144,The overarching policy context up to 2012 has to be seen in light of the fact that Malta had not taken on any greenhouse gas emission limitation or reduction obligations in the context of the UNFCCC or the Kyoto Protocol.,1.0,explorer
+UNFCCC.party.1742.0,562f3c5e1e9d89d3b35bc6d5f49228fb__d96027d10c5af800bf9f6c0efc0da29c99b21ec86d2530dae5b3d3db40ab133a,BARRIERS,LIMIT,limitation,518,528,"This package included legislation enhancing the already existing Emissions Trading Scheme of the EU, the adoption, for the first time, of binding emission limitation or reduction targets for each Member State in the Effort-Sharing Decision, legislation enhancing the EU's ambitions with regards to renewable energy sources, and, subsequently, on energy efficiency, and the adoption of a legislative framework for carbon capture and storage in geological formations.",1.0,explorer
+UNFCCC.party.1742.0,b35c57f6d5e65fd42c869216da78b8df__00dc262a9040631c7ea1191f6ce827953b9873c8c7243a982437b0664d5684b2,BARRIERS,DIFFICULT,difficult,714,723,"This, together with an ever-growing population and GDP, has made limiting the consumption of energy and the formulation of measures to meet energy savings, difficult.",1.0,explorer
+UNFCCC.party.1742.0,3d608bd65072a1e46dd433c61f143b6c__689b89a20012dc54eb72dcaabfca86c26d56d5af5c1399723bd89583dc6351a8,LESSONS_LEARNED,LESSONS_LEARNED,lessons learnt,351,365,"For the future, the lessons learnt from the structures adopted for the preparation of Malta's NECP, the comprehensive approach used for the ongoing preparation of such policy documents and the LCDS and the national environment strategy, and the experience gained with the establishment and maintaining of a national system for the reporting of national greenhouse gas inventories, should provide the building blocks for a sound national system for reporting on policies and measures and on projections.",1.0,explorer
+UNFCCC.party.1742.0,6d5593b04a6bbb554f023e153a5912e8__4b32846df1cd74ee3859798dc8f7a2661f4406676d3b2007d04092b033637f3f,BARRIERS,LIMIT,limitation,184,194,"For the Kyoto Protocol second commitment period (2013-2020), the EU and its Member States, and also including the UK31 and Iceland, agreed to jointly fulfil their quantified emissions limitation and reduction commitments pursuant to Article 3 of the Kyoto Protocol.",1.0,explorer
+UNFCCC.party.1742.0,87b88c49b554626436fb78c10a4361cb__011af6c3290846306bba40923ca8884b05580008c12d9c14a9dd70ff6c57c089,BARRIERS,PREVENT,prevent,575,582,"The Act sets out duties and obligations on the Government, including to periodically compile national inventories of anthropogenic emissions by sources and removals by sinks, to formulate and implement policies regarding measures tom mitigate climate change and measures to prevent, avoid, reduce adverse impacts of climate change, to reduce vulnerability and enhance resilience to adverse impacts of climate change and to facilitate adaptation to climate change, among others.",1.0,explorer
+UNFCCC.party.1742.0,b5147a55ab698715549f971acbe58318__606b6a92f6902f29c66ec331f993b35f76e93de40839093874768f87dcaa7692,CHALLENGES,CHALLENGES,challenges,492,502,"If a vaccine is to be developed and obtain the necessary regulatory approval, it will need to overcome practical challenges such as ensuring the vaccine has no unintended adverse effects (e.g. reduced productivity, different product taste, compromised food safety).",1.0,explorer
+UNFCCC.party.1742.0,b5147a55ab698715549f971acbe58318__606b6a92f6902f29c66ec331f993b35f76e93de40839093874768f87dcaa7692,BARRIERS,PREVENT,prevent,992,999,"Regarding implementation, the cost to farmers is expected to be low - given that farmers already vaccinate livestock to prevent disease, adding another vaccine would be simple and cheap to administer.",1.0,explorer
+UNFCCC.party.1742.0,5d945d8e8fc134888d2e29727fa0c4f3__5286a21cdf2a70646fd9276656b89e215296728feef9de13738e37caa909cb18,BARRIERS,PREVENT,preventing,141,151,"The regulation focuses on limiting the number of F-gases sold in equipment, banning use of Fgases where less harmful alternatives exist, and preventing emissions of F-gases from existing equipment.",1.0,explorer
+UNFCCC.party.1742.0,0ee96782ed1d93b3762725d0fc21dec4__75a00ec5ca8f8da2eb32562e9f9b7e0a8e8a315bad6354dc11e175acfe3e8122,CHALLENGES,CONSTRAINT,constraints,1078,1089,"Positive Impacts
+Measures
+Sorting of Residual Waste atSocial
+incinerators
+80% Capture of Municipal
+Biowaste
+and Biogas
+Upgrade
+Household waste prevention
+measures
+Creation of additional
+green jobs
+Increased public
+awareness on waste
+management issues and
+facilitated responsible
+participation, Increased
+awareness in homes
+enables food cost
+savings
+Improved public health
+Improved security for
+incinerator workers &
+neighborhoods
+Better job conditions for
+EfW plant workers
+Lower nuisance effects
+on individuals residing
+near the EfW facility
+Economic
+Cost savings for
+commercial businesses
+and more customer
+profile insights for tailored
+offerings
+Potential reduction in
+costs, capacity issues
+and adverse extemalities
+experienced in the
+sector
+Economic efficiency and
+resiliency gains from a
+more circular economy
+Creation of additional
+raw material input into
+secondary economic
+markets
+R&I in connection with
+change in biogas use
+and development of
+affinient wa
+Negative impacts
+Social
+Change in household
+behavior requires more
+attention and effort,
+against time and space
+constraints
+Potential disincentive for
+households to sort
+recyclable waste at
+source (from semi-mixed
+waste separation
+measure
+Economic
+Higher administrative
+burden on Local
+Councils
+Higher cost of collection
+Administrative burden on
+entities such as
+WasteServ and ERA
+Change in demand for
+printing houses
+Macroeconomic impacts
+from household behavior
+changes (e.g. purchases,
+saving)",1.0,explorer
+UNFCCC.party.1742.0,d2a769d197baf6c31dd7ff02ea0a3893__0bbfdd952547aae33e46a705dc484e43d3d5432d26d02446d07f13542fb6da7c,BARRIERS,LIMIT,limitation,1624,1634,"The reduction of
+emissions of F-gases
+through the limitation of
+emission of F-gases,
+especially
+from
+refrigeration and air-
+conditioning systems,
+including through
+training and certification
+of technical personnel,
+improved reporting, and
+eventual bans of high
+GWP
+gases in
+accordance
+with
+timeframes established
+in the Regulation.
+",1.0,explorer
+UNFCCC.party.1742.0,9efaed2c1acccb39d650efac208a9068__044ef6c1d8e6d1a7a359e802131c76dc1ef856a14cb6d9b9b10fdcdf1345fdaf,BARRIERS,PREVENT,prevent,1001,1008,"such vaccines are currently in the early stages of development and fully developed vaccine is not expected before 2030
+Given that farmers already vaccinate livestock to prevent disease, implementation would be simple and cost would be low.
+",1.0,explorer
+UNFCCC.party.1742.0,559dc334bf41792a5ee76878c57736c8__a967dba7d41977cb68705c13b036fb8b11ae2bc01cbc36869c7068ab3b332ab1,BARRIERS,LIMIT,limitation,1254,1264,"The technical limitation should be reviewed every 5 years to assess if further expansion is possible.
+",1.0,explorer
+UNFCCC.party.1742.0,559dc334bf41792a5ee76878c57736c8__a967dba7d41977cb68705c13b036fb8b11ae2bc01cbc36869c7068ab3b332ab1,BARRIERS,LIMIT,limitation,1082,1092,"The technical limitation of solar PV will be reached by 2030 where circa 9,127 new PV systems will enable M
+he 11.5% target share of RES in gross final energy consumption.",1.0,explorer
+UNFCCC.party.1742.0,eca8b3033f396ee2076009fafb6424e7__05f0037f8d38d4ecae0e8e49332cea880d32ce997357991e58e66dedf841903a,BARRIERS,LIMIT,limitation,453,463,Malta is an Annex I Party to the UNFCCC and thus has taken on emission limitation obligations under the Protocol as part of the joint fulfilment of the European Union's overall commitments.,1.0,explorer
+UNFCCC.party.1742.0,eca8b3033f396ee2076009fafb6424e7__05f0037f8d38d4ecae0e8e49332cea880d32ce997357991e58e66dedf841903a,BARRIERS,LIMIT,limitation,243,253,"The Kyoto Protocol, in its very nature, aims at addressing in tangible terms the anthropogenic causes of observed climate change, through emission reduction or limitation efforts that contribute towards alleviating the harmful consequences of climate change for, among others, developing countries.",1.0,explorer
+UNFCCC.party.1742.0,3cfda45764dca2c30d537103f0bbbe1c__3cc63b7d16ec8116bb6fcf5dd18074347259c69824d6d26bc477100bf0bcd371,CHALLENGES,CONSTRAINT,constraints,280,291,"As of 2021, the fulfilment of entities' obligations is only possible within the constraints of the cap on emissions set by law and use of international credits is no longer allowed - this therefore means that the reduction in emissions covered by the EU ETS is domestic (EU-level) in nature.",1.0,explorer
+UNFCCC.party.1742.0,f22e50febc6af71050bf3c1b4704b34e__5a6457ce22916026b185bb74c264349515142485a1e716199afe4d261c999a5f,CHALLENGES,CONSTRAINT,constraints,127,138,"- the low-carbon processes: the maximum technical potential that the processes can achieve over time, accounting for technical constraints such as availability of space or demand levels.",1.0,explorer
+UNFCCC.party.1742.0,2b8d2b04438013fd6c66624645fc8211__1887d5b906ecc8de9219a02060bdff5cfe7965a6b1dea57fb44d8ae44dff3318,CHALLENGES,CHALLENGES,challenging,57,68,Performing climate projections of the nation have proven challenging in the past.,1.0,explorer
+UNFCCC.party.1742.0,7f8c1be5955a15d997e1028fe39174ea__8476c0d7e17fcca1fab2345f2e18cc96f69ac5a34cc36e9fa37be3db523153d9,CHALLENGES,FAIL,fail,238,242,"The Second National Communication and the 2012 National Adaptation Strategy stressed that any efforts to address the sectoral vulnerabilities may fail, if these are not supported by the appropriate framework required for good governance of adaptation to climate change namely, a robust institutional, regulatory, methodological and technological set up that is administered by highly-skilled human resources and supported by the required funding for research and innovation that focus primarily on the local scenario.",1.0,explorer
+UNFCCC.party.1742.0,7f8c1be5955a15d997e1028fe39174ea__8476c0d7e17fcca1fab2345f2e18cc96f69ac5a34cc36e9fa37be3db523153d9,CHALLENGES,CONSTRAINT,constraints,975,986,The cross-sectoral vulnerability assessments in the 2012 National Adaptation Strategy and the 2021 Low Carbon Development Strategy identified also any existing gaps and constraints that are obstructing the implementation of adaptation measures to climate change.,1.0,explorer
+UNFCCC.party.1742.0,a60fecfd0e39eb87284ca62e78e9446a__36d4d373b36152127918eddd183a914f653408b67a2ee0b76efe099c75d76d47,CHALLENGES,INADEQUATE,Inadequate,616,626,"Sector
+Water
+Resources
+Infrastructure
+and transport
+Natural
+Ecosystems,
+Agriculture and
+Fisheries
+Risks
+Changing rainfall patterns resulting in flooding, decrease in aquifer
+recharge and increase in rainwater runoff
+Land use and Coastal erosion leading to more hazardous rocky coastal zones
+buildings
+Loss of sandy beaches
+Low-lying coastal areas affected by sea level rise and storm surges
+Changes in land use patterns
+Increased discomfort in homes due to climatic conditions
+Tourism
+Disruption to air and sea transport and maritime activities
+Damaged infrastructure
+Cross Sectoral
+Discomfort during road transport
+Inadequate current infrastructure
+Damage to production resources such as farming equipment,
+glasshouses and buildings
+Increased soil salinisation, and negative impact on most soil
+parameters
+Increased water-use for agriculture
+Health and Civil Increase in illnesses (including mental health illnesses) / infectious and
+Protection
+vector-borne diseases and expansion of their habitats
+Increase in physical ailments such as respiratory diseases, increased
+risk of developing cancer and chronic diseases such as
+cardiovascular diseases
+Soil erosion leading to reduced carbon stocks or carbon
+sequestration in soil
+Deterioration/loss of biodiversity, native species, ecosystem and
+habitats
+Thermal stress for livestock
+Impacts on post-production and post-harvest processes and
+profitability
+Increase in abandoned land by farmers as higher temperatures
+makes farming unattractive
+Difficulties in pollination
+Dehydration risks, especially in elderly, infants and young children
+Increased risk of morbidity and death, more hospital admissions, and
+greater pressure on emergency services
+",1.0,explorer
+UNFCCC.party.1742.0,f6df4abb682217272c1450431608930b__0a3531bde5295cfdfb6daaaee827590bd13e5d947101fd9efb1060355b1052f1,BARRIERS,PREVENT,prevent,855,862,"Government is also bound to formulate, implement, publish and update policies regarding measures to prevent, avoid, reduce, and reduce vulnerability and enhance resilience to the adverse impacts of climate change, and to facilitate adaptation to climate change.",1.0,explorer
+UNFCCC.party.1742.0,f6df4abb682217272c1450431608930b__0a3531bde5295cfdfb6daaaee827590bd13e5d947101fd9efb1060355b1052f1,BARRIERS,LIMIT,limitation,337,347,"Under the Climate Action Act the Government has a duty to protect climate for the present and future generations by developing periodically, updating and publishing national inventories of anthropogenic emissions by sources and removals by sinks of greenhouse gases in order to monitor progress towards achieving its quantified emission limitation or reduction commitments pursuant to international treaties and its obligations as a Member State of the European Union.",1.0,explorer
+UNFCCC.party.1742.0,6f5841a3eee45e9be3e55c6d2e57bf58__6b33f78993b791dce7f509e5c89b7decdddb8ec3179ddaf0b0cc57e68886d97a,CHALLENGES,CHALLENGES,challenges,856,866,It could support the multilateral negotiating process to meet the emerging challenges that climate change presents.,1.0,explorer
+UNFCCC.party.1742.0,e8f8ae6f94b2f156a3c4dbece786f9bb__f23527710bf6b9bdddff720061273c8ea7a3e2a3035e1c81b4369b3c213624a6,CHALLENGES,CHALLENGES,challenge,90,99,"Dependence on groundwater, in particular by the agricultural sector is still an important challenge for the future security of both the sector and water resources.",1.0,explorer
+UNFCCC.party.1742.0,1a1ef40ea4b67954245c7e91ff092b72__8a49c4513d357a6459d265b5274b9f71ef16f59ba74878c52fda1b78f2b28630,BARRIERS,PREVENT,prevent,0,7,prevent the deterioration of the status of all the bodies of water which is closely linked to the above and,1.0,explorer
+UNFCCC.party.1742.0,79992d0141b8c72ad945393d1ba0db26__aac4b7a9e0084e65f3e52657b21028bcbd394d95a7b239999181698512859bf2,CHALLENGES,FAILURE,failure,475,482,"As reported previously this impact will shorten the life of infrastructure,
+increasing cost and potential structural failure during extreme events.",1.0,explorer
+UNFCCC.party.1742.0,7af7c674895a8058884060493ab5f23e__91acf3a508495abdd1834ff2ba2806a350269c11078bd294c467a23ab7043551,CHALLENGES,CHALLENGES,challenges,317,327,"The SPED identifies the challenges of climate change and climate change adaptation, particularly related to changes in weather patterns and the rise in sea level, and the subsequent threats to water sources, vulnerable ecosystems and emissions.",1.0,explorer
+UNFCCC.party.1742.0,0b607a2560c7994b160dcb1dbeaea214__9b4b6529ebfa31876a5ba5e6521ee0bf05825a971f3df0c6d4840669839c627f,CHALLENGES,CHALLENGES,challenges,79,89,"The pressures of the different activities on the land are very evident and the challenges
+for planners require a structured approach to ensure sustainability.",1.0,explorer
+UNFCCC.party.1742.0,56215fe65193c152254c3da7b1be0526__12fa17c1eb4d60960f9b1acbb0b860249cba70ebfbbc6d9a09f02accbcb4a235,BARRIERS,PREVENT,prevent,320,327,"Although the first priority is to eliminate proneness to flooding and prevent loss of life and property by revising building policies in flood prone areas, the required financial instruments must be available to compensate for losses incurred on the part of the private and public sectors.",1.0,explorer
+UNFCCC.party.1742.0,56dcc60f37c38ff24c36abd93dc3d5bf__d306362a684e2ac10c1ef3e95a5a04256160adfd7bd5108e45d2667c8099cf00,CHALLENGES,INSUFFICIENT,insufficient,385,397,"Other factors include pressure to develop agricultural land, an aging farming community and insufficient capital investment.",1.0,explorer
+UNFCCC.party.1742.0,ac9852092cb6d0b9a95c07e2d4b706eb__ec8aabbd274d0093be93c3bc393934c72aee92b33b84280a913cf4661b18e45f,CHALLENGES,CHALLENGES,challenging,104,115,"Adaptation measures addressing and conserving natural ecosystems, such as nature-based solutions may be challenging to devise.",1.0,explorer
+UNFCCC.party.1742.0,bbf6b57e0b0442374b6cd374e94ea25f__0d037d97a33fa1ad144d1f1e175eb2678a7d8634f9575ec4a43eb93070221177,CHALLENGES,FAILURE,failure,222,229,"Ischaemic heart disease, other heart diseases (including heart failure) and cerebrovascular diseases were the leading causes of death.",1.0,explorer
+UNFCCC.party.1742.0,81ef340ac3087626feb7ee25dd843a99__8fb443973ecff0e1139f49194c0b734e9d888c67e32cf175e89ef8e8fdd1625f,CHALLENGES,CHALLENGES,challenges,20,30,Malta has also some challenges with respect to migration primarily because of is the limited land and space resources.,1.0,explorer
+UNFCCC.party.1742.0,31662715ac0a9d397b74314b30534ec9__c6cb49a9282ba9adf9c4cf1415f99d7bf38a54bbdc658fba33dc19cd3af05878,BARRIERS,BARRIERS,barriers,611,619,"The lack of institutional set up (at the University
+of Malta (UM) or elsewhere), the lack of direct funding for systematic observation, and the
+lack of a repository for climate change data and information are main barriers to free and
+open international exchange of data and information.",1.0,explorer
+UNFCCC.party.1742.0,c3d2c8edd99c311eab6e184424a36b3d__d00a075f231f7dbe4d342cb695a7c915c8b4ef3b7c50916f4fafa795b8d7a165,CHALLENGES,CHALLENGES,challenge,500,509,Malta has taken salient preventive and precautionary measures to address this challenge by adopting policy and legal measures that promote a low carbon economy.,1.0,explorer
+UNFCCC.party.1742.0,76662987948e1a4bcbbbfab0ae616e32__f7c6eaa0217f4fbb560a5771672becd30c900579badfbc4cc0b876fb43e085cf,CHALLENGES,FAILURE,failures,205,213,Another one uses a similar method to evaluate cliff failures.,1.0,explorer
+UNFCCC.party.1742.0,335e8bd696436053127c5d3d9fb3bccc__ffd118c1e423b80049e94a236aa4c4e70543751cbe28e7831e295bc9502ddbca,CHALLENGES,CHALLENGES,challenges,81,91,• BlueSchoolsMed - aims to increase the awareness of the community towards ocean challenges including links to climate change.,1.0,explorer
+UNFCCC.party.1742.0,2e062d3fffabb14b3daa208fe7094d7f__c932fe089874de67745009c4d5ad512dd798e3ec29520c14844796a23e780ff3,BARRIERS,BARRIERS,barriers,146,154,"targets at national level, specifically looking at Malta's aims in the area of renewable energy targets, highlighting institutional and financial barriers to respect the targets.",1.0,explorer
+UNFCCC.party.1742.0,02e37150e730b4836487755e812965fd__bec2db54115efe3307ecc24e94086bd290c0f75b97844308aa7487e34bf96f9a,CHALLENGES,CHALLENGES,challenges,208,218,"• The Water Research and Training Centre focuses on water enterprise, as it aims to embody the application of creative ideas and innovations to practical situations in the water field, as well as solving the challenges that are encountered locally.",1.0,explorer
+UNFCCC.party.1742.0,cb5d296bc0af2e9df7b0871b58f899b5__8c90054bb5071e39f1dcc96ab38b09faa162840af9c2ef60ad6555f173d26661,CHALLENGES,CHALLENGES,challenge,330,339,These audits provide students with an opportunity to practice their environmental auditing skills (developed during EkoSkola) by facing real-life sustainability issues/dilemmas that challenge the 'textbook' approach to sustainable development.,1.0,explorer
+UNFCCC.party.1742.0,eb1ffa95f3f903e08df5afbeac4d5961__36b59f296348dd9a54aaf13cc9917a2f770c374c5103d44b89bdcb75945e215f,CHALLENGES,CHALLENGES,challenge,67,76,"b. Climate Leadership Journey Summer School: is an extracurricular challenge-based programme that prepares master students, post-graduates, and young professionals to lead the transformation that society needs.",1.0,explorer
+UNFCCC.party.1742.0,4344a4741ad51a2c647d30bb6a4a44d3__a2be58a1db02c65cd6bf671d45db90a0a820fa929e6a25684a425374331f61f5,CHALLENGES,CHALLENGES,challenge,258,267,"The programme aims to challenge current paradigms in the education system, mainstream climate change education and embed systems thinking and challengebased learning into curricula.",1.0,explorer
+UNFCCC.party.1742.0,4344a4741ad51a2c647d30bb6a4a44d3__a2be58a1db02c65cd6bf671d45db90a0a820fa929e6a25684a425374331f61f5,CHALLENGES,CHALLENGES,challenge,155,164,Educators use challenge-led learning to empower teenagers to strive for a zero-carbon economy.,1.0,explorer
+UNFCCC.party.1742.0,961b1f8e7594b702982c0df94cd4ea8b__830767ad8c41fa76c94af871b6914bd43e18cdbed14dd4dbb6d707f383c5d651,CHALLENGES,CHALLENGES,challenges,448,458,"The programme is structured around local climate mitigation and adaptation needs, allowing participants to work on relevant challenges in their locations while connecting to a broader, European community of changemakers.",1.0,explorer
+UNFCCC.party.1742.0,eaf2163f8010faedc60bc38bb97fc492__3f1c94edcdc27fd6068becc684e078130bc71828c11c19f12103b3de692c000b,BARRIERS,HURDLE,hurdles,432,439,"This report reiterates the main hurdles to climate change education, training and public awareness:",1.0,explorer
+UNFCCC.party.1742.0,d73035f83e9e1ebb14ea9f7c8d4f5b32__5537cb5a3ebea1d30f59cc1e9286eac9e03de47b12eea4c041c43fe313ed5229,BARRIERS,HURDLE,HURDLES,4,11,9.2 HURDLES TO EDUCATION TARGETING CLIMATE CHANGE,1.0,explorer
+UNFCCC.party.1742.0,3ef62f16e124a5fbc9307f380797739d__ca90e6c1b09174f949739d93dcd452c1af9648dc36b9dc81bf131a11cb6c6e0d,CHALLENGES,LACKING,lacking,180,187,Adult education programmes are noticeably lacking:,1.0,explorer
+UNFCCC.party.1742.0,f10c1283bd476e241305e4a01d04aec1__4bfdc03a8bd5aa233827c70e7062752fb5fc9fd2f5cd49519c95514735e9c6c5,CHALLENGES,FAIL,failing,58,65,"• treating the ""public"" as one homogeneous audience, thus failing to identify the diversity and complexity of roles within society; and",1.0,explorer
+UNFCCC.party.1742.0,feb1d9bb49e2f0b1b61f9eae4a439439__559162a67d8459344b961fb883592b8bf536356b725871f2582b4a80c0e0870d,CHALLENGES,FAIL,fails,97,102,adopting a one-size-fits-all methodology that does not address the diverse needs of citizens and fails to engage them in the issue at different levels.,1.0,explorer
