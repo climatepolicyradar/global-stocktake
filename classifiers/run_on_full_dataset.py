@@ -28,7 +28,13 @@ LOGGER = logging.getLogger(__name__)
     type=click.Path(file_okay=False, path_type=Path),
     help="Output directory for the spans.csv file.",
 )
-def cli(wandb_artifact_name: str, output_dir: Path) -> None:
+@click.option(
+    "--spans-csv-filename",
+    type=str,
+    default="spans.csv",
+    help="The filename to use for the spans CSV output file, including the .csv extension",
+)
+def cli(wandb_artifact_name: str, output_dir: Path, spans_csv_filename: str) -> None:
     """
     Run a classifier from weights and biases on the full dataset.
 
@@ -79,7 +85,7 @@ def cli(wandb_artifact_name: str, output_dir: Path) -> None:
 
     spans_df = pd.DataFrame.from_records([s.dict() for s in spans])
 
-    spans_output_path = output_dir / "spans.csv"
+    spans_output_path = output_dir / spans_csv_filename
 
     if not spans_output_path.parent.exists():
         spans_output_path.parent.mkdir(parents=True)
