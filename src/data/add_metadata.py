@@ -41,6 +41,8 @@ def base_document_to_gst_document(
     new_metadata_dict["link"] = new_metadata_dict.pop("Documents")
     new_metadata_dict["document_variant"] = new_metadata_dict.pop("Document Variant")
     new_metadata_dict["author_is_party"] = new_metadata_dict["Author Type"] == "Party"
+    new_metadata_dict["document_family_id"] = new_metadata_dict.pop("CPR Family ID")
+    new_metadata_dict["document_family_slug"] = new_metadata_dict.pop("CPR Family Slug")
 
     new_metadata = GSTDocumentMetadata.parse_obj(new_metadata_dict)
 
