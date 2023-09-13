@@ -31,7 +31,6 @@ def base_document_to_gst_document(
     new_metadata_dict["types"] = [
         s.strip() for s in new_metadata_dict.pop("Submission Type").split(",")
     ]
-    new_metadata_dict["themes"] = None
     new_metadata_dict["author"] = [
         s.strip() for s in new_metadata_dict.pop("Author").split(",")
     ]
@@ -41,8 +40,11 @@ def base_document_to_gst_document(
     new_metadata_dict["link"] = new_metadata_dict.pop("Documents")
     new_metadata_dict["document_variant"] = new_metadata_dict.pop("Document Variant")
     new_metadata_dict["author_is_party"] = new_metadata_dict["Author Type"] == "Party"
-    new_metadata_dict["document_family_id"] = new_metadata_dict.pop("CPR Family ID")
-    new_metadata_dict["document_family_slug"] = new_metadata_dict.pop("CPR Family Slug")
+    new_metadata_dict["family_id"] = new_metadata_dict.pop("CPR Family ID")
+    new_metadata_dict["family_slug"] = new_metadata_dict.pop("CPR Family Slug")
+    new_metadata_dict["family_name"] = new_metadata_dict.pop("Family Name")
+    new_metadata_dict["geography_iso"] = new_metadata_dict.pop("Geography ISO")
+    new_metadata_dict["status"] = ""
 
     new_metadata = GSTDocumentMetadata.parse_obj(new_metadata_dict)
 
