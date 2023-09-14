@@ -845,8 +845,8 @@ tqdm = "^4.64.1"
 [package.source]
 type = "git"
 url = "https://github.com/climatepolicyradar/data-access.git"
-reference = "75b1a890388141c7369c393a16ca76fdb2ee67ac"
-resolved_reference = "75b1a890388141c7369c393a16ca76fdb2ee67ac"
+reference = "v0.1.5"
+resolved_reference = "ab8e5100bf06db81e58efeaaa7fdb7d46e273861"
 
 [[package]]
 name = "cycler"
@@ -5256,4 +5256,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "fce28901d2991ea873ff5593ba13e04a8f66adb4f7749eed4235b7b0ade8bd98"
+content-hash = "f4f6dd384de30e92f7b885893635874c4aecc2647d8b82784fed545d3380f04f"
