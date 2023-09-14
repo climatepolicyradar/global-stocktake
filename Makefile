@@ -87,25 +87,6 @@ train_sector_classifier:
 train_instruments_classifier:
 	poetry run python classifiers/trainer.py --argilla-dataset-name policy-instrument-text-classifier
 
-merge_metadata:
-	explorer_merge GST -e ./concepts/adaptation/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/barriers-and-challenges/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/capacity-building/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/climate-related-hazards/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/deforestation/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/equity-and-just-transition/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/financial-flows/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/fossil-fuels/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/good-practice-and-opportunities/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/greenhouse-gases/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/international-cooperation/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/loss-and-damage/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/mitigation/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/renewables/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/technologies-br-adaptation-br/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/technologies-br-mitigation-br/output.xlsx -m ${SCRAPER_CSV_PATH}
-	explorer_merge GST -e ./concepts/vulnerable-groups/output.xlsx -m ${SCRAPER_CSV_PATH}
-
 # NOTE: these should be run against the *best* model artifact, not the latest
 run_sector_classifier:
 	poetry run python classifiers/run_on_full_dataset.py --spans-csv-filename ${SPANS_CSV_FILENAME} --wandb-artifact-name climatepolicyradar/sector-text-classifier/sector-text-classifier:latest --output-dir ./concepts/sectors
