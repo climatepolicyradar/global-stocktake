@@ -44,6 +44,8 @@ def base_document_to_gst_document(
     new_metadata_dict["family_slug"] = new_metadata_dict.pop("CPR Family Slug")
     new_metadata_dict["family_name"] = new_metadata_dict.pop("Family Name")
     new_metadata_dict["geography_iso"] = new_metadata_dict.pop("Geography ISO")
+    # NOTE: the document URL is also stored in the JSON, but is populated with "https://example.com" when the standalone parser is used to process just a PDF
+    new_metadata_dict["document_source_url"] = new_metadata_dict.pop("Documents")
     new_metadata_dict["status"] = ""
 
     new_metadata = GSTDocumentMetadata.parse_obj(new_metadata_dict)
