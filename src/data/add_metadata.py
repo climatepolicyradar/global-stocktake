@@ -37,7 +37,7 @@ def base_document_to_gst_document(
     new_metadata_dict["validation_status"] = "validated"
     new_metadata_dict["version"] = new_metadata_dict.pop("Document Role")
     new_metadata_dict["date"] = new_metadata_dict.pop("Date")
-    new_metadata_dict["link"] = new_metadata_dict.pop("Documents")
+    new_metadata_dict["link"] = new_metadata_dict.get("Documents")
     new_metadata_dict["document_variant"] = new_metadata_dict.pop("Document Variant")
     new_metadata_dict["author_is_party"] = new_metadata_dict["Author Type"] == "Party"
     new_metadata_dict["family_id"] = new_metadata_dict.pop("CPR Family ID")
