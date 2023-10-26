@@ -44,7 +44,7 @@ def base_document_to_gst_document(
     new_metadata_dict["family_slug"] = new_metadata_dict.pop("CPR Family Slug")
     new_metadata_dict["family_name"] = new_metadata_dict.pop("Family Name")
     new_metadata_dict["geography_iso"] = new_metadata_dict.pop("Geography ISO")
-    # NOTE: the document URL is also stored in the JSON, but is populated with "https://example.com" when the standalone parser is used to process just a PDF
+    # Pull the source URL from the CSV rather than the ParserOutput object
     new_metadata_dict["document_source_url"] = new_metadata_dict.pop("Documents")
     new_metadata_dict["status"] = ""
 
