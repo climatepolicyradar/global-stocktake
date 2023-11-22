@@ -89,10 +89,10 @@ train_instruments_classifier:
 
 # NOTE: these should be run against the *best* model artifact, not the latest
 run_sector_classifier:
-	poetry run python classifiers/run_on_full_dataset.py --spans-csv-filename ${SPANS_CSV_FILENAME} --wandb-artifact-name climatepolicyradar/sector-text-classifier/sector-text-classifier:latest --output-dir ./concepts/sectors
+	poetry run python classifiers/run_on_full_dataset.py --spans-csv-filename ${SPANS_CSV_FILENAME} --wandb-artifact-name climatepolicyradar/sector-text-classifier/sector-text-classifier:latest --output-dir ./concepts/sectors --extra-output
 
 run_instruments_classifier:
-	poetry run python classifiers/run_on_full_dataset.py --spans-csv-filename ${SPANS_CSV_FILENAME} --wandb-artifact-name climatepolicyradar/policy-instrument-text-classifier/policy-instrument-text-classifier:latest --output-dir ./concepts/policy-instruments
+	poetry run python classifiers/run_on_full_dataset.py --spans-csv-filename ${SPANS_CSV_FILENAME} --wandb-artifact-name climatepolicyradar/policy-instrument-text-classifier/policy-instrument-text-classifier:latest --output-dir ./concepts/policy-instruments --extra-output
 
 # split spans csvs into smaller chunks that can be pushed to git
 split_spans_csvs:
