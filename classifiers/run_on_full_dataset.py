@@ -34,7 +34,17 @@ LOGGER = logging.getLogger(__name__)
     default="spans.csv",
     help="The filename to use for the spans CSV output file, including the .csv extension",
 )
-def cli(wandb_artifact_name: str, output_dir: Path, spans_csv_filename: str) -> None:
+@click.option(
+    "--extra-output",
+    is_flag=True,
+    help="Whether to output an extra predictions.csv file. Output filename will use the same sufix as the spans CSV file.",
+)
+def cli(
+    wandb_artifact_name: str,
+    output_dir: Path,
+    spans_csv_filename: str,
+    extra_output: bool,
+) -> None:
     """
     Run a classifier from weights and biases on the full dataset.
 
@@ -92,6 +102,19 @@ def cli(wandb_artifact_name: str, output_dir: Path, spans_csv_filename: str) -> 
 
     spans_output_path.write_text(spans_df.to_csv(index=False))
     LOGGER.info(f"Spans written to {spans_output_path}")
+
+    if extra_output:
+        predictions_df.columns = [
+            f"pred_{col}" if col in class_names else col
+            for col in predictions_df.columns
+        ]
+
+        stem_suffix = spans_output_path.stem[len("spans") :]
+        predictions_output_path = output_dir / f"predictions{stem_suffix}.csv"
+        predictions_df.to_csv(predictions_output_path, index=False)
+        LOGGER.info(
+            f"Predictions in alternative format written to {predictions_output_path}"
+        )
 
 
 if __name__ == "__main__":
