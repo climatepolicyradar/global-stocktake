@@ -25,8 +25,8 @@ EXPLORER_CONCEPTS_NON_ML = [
     "mitigation",
     "renewables",
     "response-measures",
-    "technologies-adaptation",
-    "technologies-mitigation",
+    "technologies-br-adaptation-br",
+    "technologies-br-mitigation-br",
     "vulnerable-groups",
 ]
 
