@@ -1219,8 +1219,8 @@ tqdm = "^4.64.1"
 [package.source]
 type = "git"
 url = "https://github.com/climatepolicyradar/explorer.git"
-reference = "263223b2dcbd50d0e6f9fb008745d06c1a6f12a1"
-resolved_reference = "263223b2dcbd50d0e6f9fb008745d06c1a6f12a1"
+reference = "7a9d7474d98e56cb87b358bcf773cb729ebcaac2"
+resolved_reference = "7a9d7474d98e56cb87b358bcf773cb729ebcaac2"
 
 [[package]]
 name = "fastapi"
@@ -5488,4 +5488,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.12"
-content-hash = "11b44b75c84c5887a0b91dbca93565d267f2e1d3694a72c6915b0b8f8ce95405"
+content-hash = "c92107ff3a41ccb3b87190edd28c18aead9421a9d0a77dbf01bac46b35e886d5"

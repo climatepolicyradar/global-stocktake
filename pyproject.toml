@@ -28,7 +28,7 @@ beautifulsoup4 = "^4.12.2"
 spacy = "^3.5.3"
 rich = "^13.7.0"
 awscli = "^1.29.28"
-explorer = {git = "https://github.com/climatepolicyradar/explorer.git", rev = "263223b2dcbd50d0e6f9fb008745d06c1a6f12a1"}
+explorer = {git = "https://github.com/climatepolicyradar/explorer.git", rev = "7a9d7474d98e56cb87b358bcf773cb729ebcaac2"}
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.0.247"
