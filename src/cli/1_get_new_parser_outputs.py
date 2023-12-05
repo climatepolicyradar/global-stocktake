@@ -9,21 +9,18 @@ Tasks:
 
 from pathlib import Path
 from typing import Optional
-import logging
 import os
 import json
 
 from cloudpathlib import S3Path
 import pandas as pd
 from tqdm.auto import tqdm
-from rich.logging import RichHandler
 from dotenv import load_dotenv, find_dotenv
 import click
 
+from src.cli.utils import get_logger
 
-LOGGER = logging.getLogger(__name__)
-LOGGER.setLevel(logging.INFO)
-LOGGER.addHandler(RichHandler(rich_tracebacks=True))
+LOGGER = get_logger(__name__)
 
 
 def get_new_document_ids_from_csv(old_csv_path: Path, new_csv_path: Path) -> list[str]:
