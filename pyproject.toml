@@ -5,7 +5,7 @@ description = ""
 authors = ["CPR-tech-team <tech@climatepolicyradar.org>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.12"
 uvicorn = {extras = ["standard"], version = "^0.20.0"}
 fastapi = "^0.92.0"
 cpr-data-access = {git = "https://github.com/climatepolicyradar/data-access.git", rev = "v0.1.5"}
@@ -26,6 +26,7 @@ argilla = "^1.7.0"
 setfit = "^0.7.0"
 beautifulsoup4 = "^4.12.2"
 spacy = "^3.5.3"
+rich = "^13.7.0"
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.0.247"
