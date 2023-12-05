@@ -8,7 +8,7 @@ authors = ["CPR-tech-team <tech@climatepolicyradar.org>"]
 python = ">=3.9,<3.12"
 uvicorn = {extras = ["standard"], version = "^0.20.0"}
 fastapi = "^0.92.0"
-cpr-data-access = {git = "https://github.com/climatepolicyradar/data-access.git", rev = "v0.1.5"}
+cpr-data-access = {git = "https://github.com/climatepolicyradar/data-access.git", rev = "v0.2.9"}
 openpyxl = "^3.1.1"
 cloudpathlib = {version = "^0.13.0", extras = ["s3"]}
 requests = "^2.28.2"
@@ -28,7 +28,7 @@ beautifulsoup4 = "^4.12.2"
 spacy = "^3.5.3"
 rich = "^13.7.0"
 awscli = "^1.29.28"
-explorer = {git = "https://github.com/climatepolicyradar/explorer.git", rev = "7a9d7474d98e56cb87b358bcf773cb729ebcaac2"}
+explorer = {git = "https://github.com/climatepolicyradar/explorer.git", rev = "96d2a244f4a0e3298a080f71edee6c4b96e5bd37"}
 
 [tool.poetry.dev-dependencies]
 ruff = "^0.0.247"

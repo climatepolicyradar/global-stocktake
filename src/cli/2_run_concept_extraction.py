@@ -4,6 +4,7 @@ from datetime import datetime
 
 import click
 from explorer.main import run_explorer
+from classifiers.run_on_full_dataset import run_on_full_dataset
 
 from src.cli.utils import get_logger
 
@@ -31,7 +32,10 @@ EXPLORER_CONCEPTS_NON_ML = [
 
 EXPLORER_CONCEPTS_ML = ["financial-flows"]
 
-CLASSIFIER_CONCEPTS = ["sectors", "policy-instruments"]
+CLASSIFIER_CONCEPTS = {
+    "sectors": "climatepolicyradar/sector-text-classifier/sector-text-classifier:latest",
+    "policy-instruments": "climatepolicyradar/policy-instrument-text-classifier/policy-instrument-text-classifier:latest",
+}
 
 
 @click.command()
@@ -73,6 +77,13 @@ def main(docs_dir: Path, spans_csv_filename: Optional[str] = None):
         )
 
     # TODO: classifier concepts
+    for concept, wandb_artifact_name in CLASSIFIER_CONCEPTS.items():
+        run_on_full_dataset(
+            wandb_artifact_name=wandb_artifact_name,
+            output_dir=Path(f"./concepts/{concept}"),
+            spans_csv_filename=spans_csv_filename,
+            extra_output=True,
+        )
 
 
 if __name__ == "__main__":
