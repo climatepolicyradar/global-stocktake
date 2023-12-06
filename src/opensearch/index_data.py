@@ -34,6 +34,11 @@ def load_spans_csv(path: Path) -> list[Span]:
     :return list[Span]: list of spans
     """
     df = pd.read_csv(path)
+
+    # KB IDs are empty, so loaded in as NaNs which pydantic doesn't see as None. This
+    # means that `Span.parse_obj` below fails.
+    df["kb_ids"] = None
+
     return [Span.parse_obj(row) for row in df.to_dict(orient="records")]
 
 
