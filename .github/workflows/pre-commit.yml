@@ -21,11 +21,9 @@ jobs:
         with:
           python-version: "3.9"
 
-      - name: Set github token for pip install
+      - name: Set git config to use personal access token in secrets
         run: |
-          echo "[github]" >> $HOME/.pypirc
-          echo "username = kdutia" >> $HOME/.pypirc
-          echo "password = ${{ secrets.PERSONAL_ACCESS_TOKEN }}" >> $HOME/.pypirc
+          git config --global url."https://${secrets.PERSONAL_ACCESS_TOKEN}@github.com/Organization/repo-name".insteadOf "https://github.com/Organization/repo-name"
 
       - name: Install dependencies
         run: |
