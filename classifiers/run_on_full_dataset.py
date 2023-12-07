@@ -10,7 +10,7 @@ import click
 from cpr_data_access.models import Span
 from dotenv import load_dotenv, find_dotenv
 
-from utils import load_text_block_sample, predict_from_text_blocks
+from classifiers.utils import load_text_block_sample, predict_from_text_blocks
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO
@@ -18,28 +18,7 @@ logging.basicConfig(
 LOGGER = logging.getLogger(__name__)
 
 
-@click.command()
-@click.option(
-    "--wandb-artifact-name",
-    help="Weights and Biases artifact name. Should start with climatepolicyradar/. E.g. climatepolicyradar/sector-text-classifier/sector-text-classifier:v0",
-)
-@click.option(
-    "--output-dir",
-    type=click.Path(file_okay=False, path_type=Path),
-    help="Output directory for the spans.csv file.",
-)
-@click.option(
-    "--spans-csv-filename",
-    type=str,
-    default="spans.csv",
-    help="The filename to use for the spans CSV output file, including the .csv extension",
-)
-@click.option(
-    "--extra-output",
-    is_flag=True,
-    help="Whether to output an extra predictions.csv file. Output filename will use the same sufix as the spans CSV file.",
-)
-def cli(
+def run_on_full_dataset(
     wandb_artifact_name: str,
     output_dir: Path,
     spans_csv_filename: str,
@@ -115,6 +94,41 @@ def cli(
         LOGGER.info(
             f"Predictions in alternative format written to {predictions_output_path}"
         )
+
+
+@click.command()
+@click.option(
+    "--wandb-artifact-name",
+    help="Weights and Biases artifact name. Should start with climatepolicyradar/. E.g. climatepolicyradar/sector-text-classifier/sector-text-classifier:v0",
+)
+@click.option(
+    "--output-dir",
+    type=click.Path(file_okay=False, path_type=Path),
+    help="Output directory for the spans.csv file.",
+)
+@click.option(
+    "--spans-csv-filename",
+    type=str,
+    default="spans.csv",
+    help="The filename to use for the spans CSV output file, including the .csv extension",
+)
+@click.option(
+    "--extra-output",
+    is_flag=True,
+    help="Whether to output an extra predictions.csv file. Output filename will use the same sufix as the spans CSV file.",
+)
+def cli(
+    wandb_artifact_name: str,
+    output_dir: Path,
+    spans_csv_filename: str,
+    extra_output: bool,
+) -> None:
+    return run_on_full_dataset(
+        wandb_artifact_name=wandb_artifact_name,
+        output_dir=output_dir,
+        spans_csv_filename=spans_csv_filename,
+        extra_output=extra_output,
+    )
 
 
 if __name__ == "__main__":
