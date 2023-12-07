@@ -32,6 +32,5 @@ jobs:
       - name: Run test suite
         run: |
           poetry run python -m pytest \
-          --nbmake \
           --nbmake-find-import-errors \
           --nbmake-timeout=20 -vvv
