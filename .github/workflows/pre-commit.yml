@@ -23,7 +23,7 @@ jobs:
 
       - name: Set git config to use personal access token in secrets
         run: |
-          git config --global url."https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/Organization/repo-name".insteadOf "https://github.com/Organization/repo-name"
+          git config --global url."https://${{secrets.PERSONAL_ACCESS_TOKEN}}@github.com/climatepolicyradar/explorer.git".insteadOf "https://github.com/climatepolicyradar/explorer.git"
 
       - name: Install dependencies
         run: |
