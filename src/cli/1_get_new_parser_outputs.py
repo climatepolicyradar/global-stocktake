@@ -117,9 +117,6 @@ def run_cli(old_csv_path: Path, new_csv_path: Path, output_dir: Path):
     doc_id_json_map = get_parser_outputs_from_s3(s3_dir, doc_ids)
 
     LOGGER.info(f"Found {len(doc_id_json_map)} parser outputs.")
-    breakpoint()
-
-    # _continue = Confirm.ask("Continue?")
 
     LOGGER.info("Writing parser outputs to disk...")
     for doc_id, json_obj in doc_id_json_map.items():
