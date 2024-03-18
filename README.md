@@ -13,6 +13,8 @@ This repository contains the following documentation:
 - [Main documentation](./docs/README.md)
 - [Methodologies and metrics for each concept](./docs/concept-specific-methodologies/)
 
+_Note: The notebooks may not work as they are only compatible with pydantic version 1.x._
+
 ## About Climate Policy Radar
 
 Climate Policy Radar is a not-for-profit climate startup on a mission to organise, analyse and democratise data on climate law and policy using augmented intelligence – a human-centered partnership model of people and AI.
