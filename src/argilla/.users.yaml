@@ -21,4 +21,4 @@
 - username: matyas
   hashed_password: $2y$05$9Jh6G16GziSfTo8i9vCC9e83Up.s3q1JNcS7vEC3JZ2vDlmmluRv6
   api_key: "matyas_api_key"
-  workspaces: [] # has access to all workspaces and datasets
+  # No workspaces attribute and thus an Owner
