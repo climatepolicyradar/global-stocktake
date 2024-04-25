@@ -23,7 +23,7 @@ pytest-dotenv = "^0.5.2"
 nbmake = "^1.4.1"
 httpx = "^0.23.3"
 
-[tool.poetry.group.extra.dependencies]
+[tool.poetry.group.other.dependencies]
 cpr-data-access = {git = "https://github.com/climatepolicyradar/data-access.git", rev = "v0.2.9"}
 openpyxl = "^3.1.1"
 cloudpathlib = {version = "^0.13.0", extras = ["s3"]}

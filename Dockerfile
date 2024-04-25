@@ -11,8 +11,8 @@ RUN pip install --no-cache "poetry>=1.2.2,<1.3.0"
 COPY poetry.lock pyproject.toml ./
 
 # Install python dependencies
-RUN poetry config virtualenvs.create false
-RUN poetry install --with dev
+RUN poetry export --with dev > requirements.txt
+RUN pip install --no-cache -r requirements.txt
 
 # Copy files to image
 COPY data ./data
